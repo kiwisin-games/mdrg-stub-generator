@@ -1,0 +1,19 @@
+{
+  "name": "MDRG Callback Debug Mod",
+  "description": "Opt-in callback/lifetime probe harness. Disabled by default.",
+  "modVersion": "0.1.0",
+  "OnGameStart": {
+    "luaFiles": [
+      "mdrg_callback_context_probe.lua",
+      "script.lua"
+    ]
+  },
+  "targetVersion": "0.96.6",
+  "languageCode": "en",
+  "doNotChangeVariablesBelowThis": {
+    "timeCreated": 639139000000000000,
+    "guid": {
+      "serializedGuid": "0d4e8be8-4f8f-4f76-a5ec-67a120215d5a"
+    }
+  }
+}

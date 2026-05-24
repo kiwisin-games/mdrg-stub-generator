@@ -1,0 +1,86 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 6 - shower_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "EyeWhiteL2",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 152,
+                        "height": 154
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "PupilL3",
+                    "RectInt": {
+                        "x": 167,
+                        "y": 5,
+                        "width": 122,
+                        "height": 130
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "PupilR",
+                    "RectInt": {
+                        "x": 167,
+                        "y": 145,
+                        "width": 122,
+                        "height": 130
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "EyeWhiteR2",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 169,
+                        "width": 80,
+                        "height": 136
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "Iris1L",
+                    "RectInt": {
+                        "x": 95,
+                        "y": 169,
+                        "width": 57,
+                        "height": 60
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "Iris1R",
+                    "RectInt": {
+                        "x": 95,
+                        "y": 239,
+                        "width": 57,
+                        "height": 60
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "shower"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

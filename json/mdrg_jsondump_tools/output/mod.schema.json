@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MDRG mod.json schema (inferred, tolerant)",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "name",
+    "description",
+    "OnGameStart",
+    "targetVersion",
+    "doNotChangeVariablesBelowThis"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "modVersion": {
+      "type": "string"
+    },
+    "languageCode": {
+      "type": "string"
+    },
+    "targetVersion": {
+      "type": "string"
+    },
+    "OnGameStart": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "luaFiles"
+      ],
+      "properties": {
+        "luaFiles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "luaScript": {
+          "type": "string",
+          "description": "Observed in many older mods, often empty. Keep optional."
+        }
+      }
+    },
+    "doNotChangeVariablesBelowThis": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "timeCreated",
+        "guid"
+      ],
+      "properties": {
+        "timeCreated": {
+          "type": "integer"
+        },
+        "guid": {
+          "type": "object",
+          "additionalProperties": true,
+          "required": [
+            "serializedGuid"
+          ],
+          "properties": {
+            "serializedGuid": {
+              "type": "string",
+              "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+            }
+          }
+        }
+      }
+    }
+  },
+  "description": "Generated from mod_json_dump.txt. Kept tolerant because older mods exist in the corpus."
+}

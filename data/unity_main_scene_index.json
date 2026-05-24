@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "source_txt": "unity\\mainScene.txt",
+  "source_md": "unity\\mainScene.md",
+  "script_entries": 113,
+  "compare_entries": 256,
+  "call_counts": {
+    "BotStatusAppPopup.CloseFromUIOverlay": 1,
+    "BotStatusAppPopup.ForceSubmitPlayerInput": 2,
+    "BotStatusAppPopup.ShowFile": 4,
+    "BotStatusAppPopup.WaitTillPlayerInputNeeded": 3,
+    "BrowserPopup.ChangeWebsite": 7,
+    "BrowserPopup.CloseFromUIOverlay": 1,
+    "BrowserPopup.JoinUsLogin_Enumerator": 9,
+    "BrowserPopup.JoinUsOpenBlogLoginPage": 9,
+    "BrowserPopup.Refresh": 1,
+    "BrowserPopup.SelectEmail": 7,
+    "Flowchart.SetBooleanVariable": 1,
+    "Flowchart.SetIntegerVariable": 3,
+    "GameId.CreateVanilla": 5,
+    "GameUtilities.WaitForSecondsYield": 23,
+    "GameVariables.BotCleanWithRagEffect": 7,
+    "GameVariables.BotShowerEffect": 1,
+    "GameVariables.CheckFlag": 123,
+    "GameVariables.CheckFlagAfterRelative": 4,
+    "GameVariables.CheckFlagBeforeRelative": 1,
+    "GameVariables.ClearMood": 3,
+    "GameVariables.ForceTakeMoney": 26,
+    "GameVariables.GetFlagSetCount": 1,
+    "GameVariables.RemoveAllEmailsWithId": 2,
+    "GameVariables.ReportSleepEnd": 1,
+    "GameVariables.TimeInDay": 1,
+    "GameVariables.TryTakeMoney": 2,
+    "NewsDataManager.Force": 5,
+    "SaveContainer.AddGlobalFlag": 1,
+    "SaveContainer.HasGlobalFlag": 1,
+    "SaveSingleton.SaveAllChanges": 1,
+    "ShopManager.GetShop": 3,
+    "UiOverlay.GetCurrentlyOpenedBotStatusApp": 4,
+    "UiOverlay.GetCurrentlyOpenedBrowser": 19,
+    "UiOverlay.OpenBotStatusApp": 1,
+    "UiOverlay.OpenBotStatusAppPrologue": 1,
+    "UiOverlay.OpenBrowser": 8,
+    "coroutine.yield": 35
+  },
+  "field_counts": {
+    "GameUtilities.Save": 2,
+    "GameVariables.AwakeFor": 1,
+    "GameVariables.BotSaidSheCanTasteOnlyCum": 1,
+    "GameVariables.CanStartStream": 1,
+    "GameVariables.CumInside": 1,
+    "GameVariables.CumInsideAnal": 1,
+    "GameVariables.CumInsideStomach": 1,
+    "GameVariables.DayOfTheWeek": 4,
+    "GameVariables.DispenserLevel": 2,
+    "GameVariables.EverCameInBot": 2,
+    "GameVariables.EverFuckedBot": 2,
+    "GameVariables.EverStartedStream": 10,
+    "GameVariables.FishesCaught": 1,
+    "GameVariables.HalloweenActive": 8,
+    "GameVariables.HasAnySoap": 1,
+    "GameVariables.HasBothLegsAndAtLeastOneArm": 1,
+    "GameVariables.HasHalloweenCostume": 1,
+    "GameVariables.HasPointyEars": 2,
+    "GameVariables.HasToldBotAHorrorStory": 1,
+    "GameVariables.HasWitchHat": 2,
+    "GameVariables.Health": 2,
+    "GameVariables.Hour": 39,
+    "GameVariables.IsAnnalieOnIslandEnding": 2,
+    "GameVariables.IsBotSmart": 2,
+    "GameVariables.IsBritanniaOnIslandEnding": 6,
+    "GameVariables.IsEveryoneOnTheIsland": 1,
+    "GameVariables.IsLandlordOnIslandEnding": 3,
+    "GameVariables.IsNaked": 2,
+    "GameVariables.IsShaniceAndPriestbotOnIslandEnding": 2,
+    "GameVariables.IsThereCumOnHer": 2,
+    "GameVariables.IsWearingPanties": 1,
+    "GameVariables.LandlordDecorationsUp": 1,
+    "GameVariables.Longing": 3,
+    "GameVariables.MadeNoiseLastSexScene": 1,
+    "GameVariables.MaxCum": 14,
+    "GameVariables.MentalHealth": 28,
+    "GameVariables.Minute": 1,
+    "GameVariables.Random01": 1,
+    "GameVariables.RiotsActive": 10,
+    "GameVariables.RiotsAfter": 5,
+    "GameVariables.Satiation": 21,
+    "GameVariables.Stamina": 1,
+    "GameVariables.StartedStreamingAfterPrologue": 1,
+    "GameVariables.TimeDay": 1,
+    "GameVariables.TimeSinceLastSawBot": 1,
+    "GameVariables.TimeSinceLastStream": 1,
+    "GameVariables.TimesCameAll": 2,
+    "GameVariables.WorkedTodayAlready": 1,
+    "GameVariables.bathroomLightOn": 2,
+    "GameVariables.followers": 1,
+    "GameVariables.isFisherOnIslandEnding": 2,
+    "GameVariables.itemManager": 3,
+    "GameVariables.lastSleptWithBot": 1,
+    "GameVariables.lightSwitchOn": 4,
+    "GameVariables.lust": 1,
+    "GameVariables.money": 23,
+    "GameVariables.newsDataManager": 5,
+    "GameVariables.search": 4,
+    "GameVariables.stamina": 20,
+    "GameVariables.sus": 2,
+    "GameVariables.sympathy": 4
+  },
+  "aliases": [
+    {
+      "name": "MdrgKnownBotStatusFileId",
+      "description": "Internal BotStatusApp file ids observed in mainScene Lua snippets.",
+      "values": [
+        "boobs",
+        "mouth"
+      ],
+      "evidence": "unity/mainScene.txt"
+    },
+    {
+      "name": "MdrgKnownGlobalFlagId",
+      "description": "Global save flag ids observed in mainScene Lua snippets.",
+      "values": [
+        "prologueseen"
+      ],
+      "evidence": "unity/mainScene.txt"
+    },
+    {
+      "name": "MdrgKnownJoinUsBlogId",
+      "description": "Internal JoinUs blog ids observed in mainScene Lua snippets.",
+      "values": [
+        "Blog1",
+        "Blog2",
+        "Blog3",
+        "Blog4",
+        "BlogBigDaddy1",
+        "BlogBigDaddy2",
+        "BlogBigDaddy3",
+        "BlogRichard1",
+        "BlogRichard2"
+      ],
+      "evidence": "unity/mainScene.txt"
+    },
+    {
+      "name": "MdrgKnownStoryFlagId",
+      "description": "Story/save flag ids observed in mainScene Lua conditions.",
+      "values": [
+        "Annalie_ending9",
+        "Annalie_gave_money",
+        "artgallery1",
+        "basketball_failure",
+        "Bathroom1_haggle",
+        "Bathroom2_notyet",
+        "BestClient",
+        "bigDaddysAdvice",
+        "bigDaddysAdviceBeforePart2",
+        "bigDaddysAdviceFinished",
+        "bigDaddysAdvicePart2",
+        "bigdaddystoryline1",
+        "bigdaddystoryline3",
+        "bigdaddystoryline4",
+        "Britannia_island",
+        "BritanniaSL1",
+        "church-Big_Daddy_Knows",
+        "church-bigdaddystorylinepart1",
+        "church-endJustGoThereGood",
+        "church-MeetingNunWithTheBot",
+        "church-nun_back1",
+        "church-nun_back4",
+        "church-nun_back7",
+        "church-priestbot_lie",
+        "church-priestbot_truth",
+        "church-shaniceFoundCumInBot",
+        "ClothierHalloweenAlone",
+        "ClothierHalloweenWithBot",
+        "ClothierHalloweenWithBot2",
+        "clothiervisit",
+        "dispenserempty24hours",
+        "exposure",
+        "exposure_day",
+        "exposure_night",
+        "fishing4",
+        "GoingOutside2",
+        "GoingOutside3",
+        "good_soul",
+        "helpedlandlord",
+        "hobo",
+        "hobo1",
+        "hobo_beaten",
+        "hobo_failed",
+        "ice_skating1",
+        "interactr8",
+        "interactr9",
+        "JoinUs2",
+        "joinus7_richard2_BotDAK",
+        "joinusBigDaddy",
+        "Karaoke2",
+        "karaoke_idol",
+        "LabourOffice_Riots_FirstTime",
+        "LabourOffice_Riots_Landlord",
+        "Landlord_ending3_strongarmedHobos",
+        "LandlordConspiracy2",
+        "LandlordConspiracy3",
+        "LandlordStaircase",
+        "LastChance",
+        "lastdate",
+        "Melissa14_StillFriends",
+        "Melissa21",
+        "Melissa22",
+        "Melissa4bot",
+        "Melissa9",
+        "Melissa_dead",
+        "Melissa_leaves",
+        "restaurant1",
+        "riots_beaten_up",
+        "shooting_failure"
+      ],
+      "evidence": "unity/mainScene.txt"
+    },
+    {
+      "name": "MdrgKnownWebsiteId",
+      "description": "Internal browser website ids observed in Lua/mainScene/browser scripts.",
+      "values": [
+        "adredirect.ic",
+        "bang.ic",
+        "bang.ic/email",
+        "blackjack.casino.ic",
+        "casino.ic",
+        "casino.ic/tokens",
+        "cockcockcockcockcock.ic",
+        "cocktracts.ic",
+        "cocktracts.ic/available",
+        "cocktracts.ic/contract",
+        "cocktracts.ic/help",
+        "cocktracts.ic/history",
+        "cocktracts.ic/partner",
+        "cocktracts.ic/partner?Id=666",
+        "cocktracts.ic/partners",
+        "cocktwitch.ic",
+        "cocktwitch.ic/leaderboard",
+        "cocktwitch.ic/stats",
+        "dickcheese.ic",
+        "dickcheese.ic/1",
+        "dickcheese.ic/2",
+        "duck.ic",
+        "fedup.ic",
+        "hotanimebabes.ic",
+        "iamacheater",
+        "ladyparts.ic",
+        "losefatquickly.ic",
+        "patriciascookingblog.food/blog",
+        "patriciascookingblog.food/login",
+        "patriciascookingblog.food/main",
+        "peepee.ic",
+        "pixelglasses.ic",
+        "realmenfishing.ic",
+        "slots.casino.ic",
+        "stonks.ic"
+      ],
+      "evidence": "unity/mainScene.txt; browser scripts"
+    }
+  ],
+  "class_docs": [
+    {
+      "class": "BotStatusAppPopup",
+      "description": "Popup interno do BotStatusApp observado em scripts de flowchart/Fungus extraidos da cena principal.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "BrowserPopup",
+      "description": "Browser UI interno observado em scripts de flowchart/Fungus extraidos da cena principal.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "NewsDataManager",
+      "description": "Gerenciador de noticias usado por scripts internos para escolher ou forcar noticias.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    }
+  ],
+  "method_docs": [
+    {
+      "class": "BotStatusAppPopup",
+      "method": "ForceSubmitPlayerInput",
+      "description": "Forca o envio de input do jogador no BotStatusApp.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "BotStatusAppPopup",
+      "method": "ShowFile",
+      "description": "Mostra um arquivo/pagina interna do BotStatusApp.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "BotStatusAppPopup",
+      "method": "WaitTillPlayerInputNeeded",
+      "description": "Coroutine que espera ate o BotStatusApp precisar de input do jogador.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "BrowserPopup",
+      "method": "ChangeWebsite",
+      "description": "Navega o browser interno para um website do jogo.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "BrowserPopup",
+      "method": "JoinUsLogin_Enumerator",
+      "description": "Coroutine interna de login do JoinUs.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "BrowserPopup",
+      "method": "JoinUsOpenBlogLoginPage",
+      "description": "Abre a pagina de login de blog JoinUs por id interno.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "BrowserPopup",
+      "method": "SelectEmail",
+      "description": "Seleciona um email pelo indice no browser interno.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "Flowchart",
+      "method": "SetBooleanVariable",
+      "description": "Define uma variavel booleana em um flowchart Fungus.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "Flowchart",
+      "method": "SetIntegerVariable",
+      "description": "Define uma variavel inteira em um flowchart Fungus.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "BotCleanWithRagEffect",
+      "description": "Aplica o efeito interno de limpeza do bot com pano.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "CheckFlag",
+      "description": "Verifica uma flag de historia/save.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "CheckFlagAfterRelative",
+      "description": "Verifica se uma flag existe ha pelo menos certo tempo relativo.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "CheckFlagBeforeRelative",
+      "description": "Verifica uma flag considerando limite relativo de tempo.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "ClearMood",
+      "description": "Limpa ou reseta o estado de humor atual.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "ForceTakeMoney",
+      "description": "Remove dinheiro diretamente e retorna se a operacao foi aplicada.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "GetFlagSetCount",
+      "description": "Conta flags/estados relacionados a um identificador ou prefixo.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "RemoveAllEmailsWithId",
+      "description": "Remove emails do save pelo id informado.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "ReportSleepEnd",
+      "description": "Registra o fim de uma rotina de sono.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "TimeInDay",
+      "description": "Calcula uma posicao de tempo no dia a partir de hora e minuto.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "method": "TryTakeMoney",
+      "description": "Tenta remover dinheiro e retorna sucesso ou falha.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "NewsDataManager",
+      "method": "Force",
+      "description": "Forca uma noticia especifica usando NewsId e GameId.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "SaveContainer",
+      "method": "AddGlobalFlag",
+      "description": "Adiciona uma global flag ao save atual.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "SaveContainer",
+      "method": "HasGlobalFlag",
+      "description": "Retorna se o save atual possui uma global flag.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "UiOverlay",
+      "method": "GetCurrentlyOpenedBotStatusApp",
+      "description": "Retorna o BotStatusApp atualmente aberto, quando existir.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "UiOverlay",
+      "method": "GetCurrentlyOpenedBrowser",
+      "description": "Retorna o browser interno atualmente aberto, quando existir.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "UiOverlay",
+      "method": "OpenBotStatusApp",
+      "description": "Abre o BotStatusApp interno.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "UiOverlay",
+      "method": "OpenBotStatusAppPrologue",
+      "description": "Abre o BotStatusApp em modo/prologo interno.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "UiOverlay",
+      "method": "OpenBrowser",
+      "description": "Abre o browser interno; scripts de cena usam para navegar em websites do jogo.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    }
+  ],
+  "field_docs": [
+    {
+      "class": "GameUtilities",
+      "field": "Save",
+      "description": "SaveContainer atual usado por scripts internos para global flags.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    },
+    {
+      "class": "GameVariables",
+      "field": "newsDataManager",
+      "description": "Gerenciador de noticias acessado por scripts internos de cena.",
+      "evidence": [
+        "unity/mainScene.txt"
+      ]
+    }
+  ],
+  "method_param_type_overrides": [
+    {
+      "class": "BotStatusAppPopup",
+      "method": "ShowFile",
+      "param": "text",
+      "type": "MdrgKnownBotStatusFileId|string"
+    },
+    {
+      "class": "BrowserPopup",
+      "method": "ChangeWebsite",
+      "param": "address",
+      "type": "MdrgKnownWebsiteId|string"
+    },
+    {
+      "class": "BrowserPopup",
+      "method": "JoinUsOpenBlogLoginPage",
+      "param": "key",
+      "type": "MdrgKnownJoinUsBlogId|string"
+    },
+    {
+      "class": "BrowserPopup",
+      "method": "JoinUsOpenBlog_Enumerator",
+      "param": "key",
+      "type": "MdrgKnownJoinUsBlogId|string"
+    },
+    {
+      "class": "GameVariables",
+      "method": "CheckFlag",
+      "param": "flag",
+      "type": "MdrgKnownStoryFlagId|string"
+    },
+    {
+      "class": "GameVariables",
+      "method": "CheckFlagAfterRelative",
+      "param": "flag",
+      "type": "MdrgKnownStoryFlagId|string"
+    },
+    {
+      "class": "GameVariables",
+      "method": "CheckFlagBeforeRelative",
+      "param": "flag",
+      "type": "MdrgKnownStoryFlagId|string"
+    },
+    {
+      "class": "GameVariables",
+      "method": "CheckFlagSpecial",
+      "param": "flag",
+      "type": "MdrgKnownStoryFlagId|string"
+    },
+    {
+      "class": "GameVariables",
+      "method": "CheckFlagSpecialWithTime",
+      "param": "flag",
+      "type": "MdrgKnownStoryFlagId|string"
+    },
+    {
+      "class": "GameVariables",
+      "method": "CheckFlagWithTime",
+      "param": "flag",
+      "type": "MdrgKnownStoryFlagId|string"
+    },
+    {
+      "class": "GameVariables",
+      "method": "GetFlagSetCount",
+      "param": "flag",
+      "type": "MdrgKnownStoryFlagId|string"
+    },
+    {
+      "class": "SaveContainer",
+      "method": "AddGlobalFlag",
+      "param": "flagName",
+      "type": "MdrgKnownGlobalFlagId|string"
+    },
+    {
+      "class": "SaveContainer",
+      "method": "HasGlobalFlag",
+      "param": "flagName",
+      "type": "MdrgKnownGlobalFlagId|string"
+    },
+    {
+      "class": "SaveContainer",
+      "method": "TryGetGlobalFlag",
+      "param": "flagName",
+      "type": "MdrgKnownGlobalFlagId|string"
+    },
+    {
+      "class": "UiOverlay",
+      "method": "OpenBrowser",
+      "param": "website",
+      "type": "MdrgKnownWebsiteId|string"
+    }
+  ],
+  "field_type_overrides": [],
+  "raw_story_flags": {
+    "Annalie_ending9": 2,
+    "Annalie_gave_money": 5,
+    "Bathroom1_haggle": 2,
+    "Bathroom2_notyet": 1,
+    "BestClient": 2,
+    "BritanniaSL1": 1,
+    "Britannia_island": 1,
+    "ClothierHalloweenAlone": 1,
+    "ClothierHalloweenWithBot": 1,
+    "ClothierHalloweenWithBot2": 4,
+    "GoingOutside2": 1,
+    "GoingOutside3": 2,
+    "JoinUs2": 2,
+    "Karaoke2": 3,
+    "LabourOffice_Riots_FirstTime": 1,
+    "LabourOffice_Riots_Landlord": 1,
+    "LandlordConspiracy2": 1,
+    "LandlordConspiracy3": 2,
+    "LandlordStaircase": 1,
+    "Landlord_ending3_strongarmedHobos": 1,
+    "LastChance": 1,
+    "Melissa14_StillFriends": 1,
+    "Melissa21": 1,
+    "Melissa22": 7,
+    "Melissa4bot": 2,
+    "Melissa9": 1,
+    "Melissa_dead": 6,
+    "Melissa_leaves": 2,
+    "artgallery1": 2,
+    "basketball_failure": 2,
+    "bigDaddysAdvice": 1,
+    "bigDaddysAdviceBeforePart2": 1,
+    "bigDaddysAdviceFinished": 2,
+    "bigDaddysAdvicePart2": 2,
+    "bigdaddystoryline1": 1,
+    "bigdaddystoryline3": 1,
+    "bigdaddystoryline4": 1,
+    "church-Big_Daddy_Knows": 1,
+    "church-MeetingNunWithTheBot": 1,
+    "church-bigdaddystorylinepart1": 3,
+    "church-endJustGoThereGood": 2,
+    "church-nun_back1": 3,
+    "church-nun_back4": 1,
+    "church-nun_back7": 2,
+    "church-priestbot_lie": 2,
+    "church-priestbot_truth": 1,
+    "church-shaniceFoundCumInBot": 1,
+    "clothiervisit": 3,
+    "dispenserempty24hours": 1,
+    "exposure": 1,
+    "exposure_day": 1,
+    "exposure_night": 1,
+    "fishing4": 1,
+    "good_soul": 3,
+    "helpedlandlord": 1,
+    "hobo": 2,
+    "hobo1": 1,
+    "hobo_beaten": 2,
+    "hobo_failed": 2,
+    "ice_skating1": 2,
+    "interactr8": 1,
+    "interactr9": 1,
+    "joinus7_richard2_BotDAK": 1,
+    "joinusBigDaddy": 2,
+    "karaoke_idol": 1,
+    "lastdate": 2,
+    "restaurant1": 2,
+    "riots_beaten_up": 10,
+    "shooting_failure": 2
+  },
+  "raw_global_flags": {
+    "prologueseen": 2
+  }
+}

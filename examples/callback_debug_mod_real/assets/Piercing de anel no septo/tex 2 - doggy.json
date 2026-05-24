@@ -1,0 +1,26 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 2 - doggy_texture0_layer100.png",
+            "Layer": 100,
+            "PackedDrawables": [
+                {
+                    "Name": "SkinHeadBase",
+                    "RectInt": {
+                        "x": 1,
+                        "y": 1,
+                        "width": 249,
+                        "height": 266
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "doggy"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 5 - cowgirl_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "BraChest",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 573,
+                        "height": 267
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "BraBottom",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 282,
+                        "width": 474,
+                        "height": 210
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "BraTop",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 502,
+                        "width": 406,
+                        "height": 144
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "cowgirl"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

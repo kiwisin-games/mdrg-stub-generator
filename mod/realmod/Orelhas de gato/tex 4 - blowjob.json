@@ -1,0 +1,86 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 4 - blowjob_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "CatearFrontL",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 236,
+                        "height": 211
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "CatearFrontR",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 226,
+                        "width": 236,
+                        "height": 211
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "CatearMidR",
+                    "RectInt": {
+                        "x": 251,
+                        "y": 5,
+                        "width": 236,
+                        "height": 180
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "CatearMidL",
+                    "RectInt": {
+                        "x": 251,
+                        "y": 226,
+                        "width": 234,
+                        "height": 180
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "CatearBackL",
+                    "RectInt": {
+                        "x": 251,
+                        "y": 416,
+                        "width": 225,
+                        "height": 242
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "CatearBackR",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 447,
+                        "width": 225,
+                        "height": 242
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "blowjob"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

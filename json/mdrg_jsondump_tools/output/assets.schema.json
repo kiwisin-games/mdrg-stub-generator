@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MDRG PackedTextures asset schema (inferred, tolerant)",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "PackedTextures"
+  ],
+  "properties": {
+    "PackedTextures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "TextureName",
+          "Layer",
+          "PackedDrawables"
+        ],
+        "properties": {
+          "TextureName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "Layer": {
+            "type": "integer"
+          },
+          "PackedDrawables": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "required": [
+                "Name",
+                "RectInt",
+                "ColorIndex"
+              ],
+              "properties": {
+                "Name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "RectInt": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "required": [
+                    "x",
+                    "y",
+                    "width",
+                    "height"
+                  ],
+                  "properties": {
+                    "x": {
+                      "type": "integer"
+                    },
+                    "y": {
+                      "type": "integer"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "height": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "ColorIndex": {
+                  "type": "integer"
+                },
+                "DrawableType": {
+                  "type": "integer"
+                },
+                "BypassColorScaler": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "Targets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Observed values include doggy, missionary, interaction, blowjob, cowgirl. Kept open for older/future mods."
+          },
+          "DontIncludeVanillaLayers": {
+            "type": "boolean"
+          },
+          "Texture": {
+            "type": "object",
+            "additionalProperties": true,
+            "description": "Observed in older mods as a Unity object reference. Do not require in new assets."
+          }
+        }
+      }
+    }
+  },
+  "description": "Generated from dumps. Mods from older game versions may omit Targets/DrawableType/BypassColorScaler/DontIncludeVanillaLayers and may include Texture object refs."
+}

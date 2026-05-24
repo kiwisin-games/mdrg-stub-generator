@@ -1,0 +1,65 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 1 - blowjob, cowgirl, interaction, missionary_texture0_layer10.png",
+            "Layer": 10,
+            "PackedDrawables": [
+                {
+                    "Name": "SkinLipUpper",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 178,
+                        "height": 71
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "SkinLipLower",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 86,
+                        "width": 168,
+                        "height": 75
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "SkinLipLowerToungeOut",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 171,
+                        "width": 142,
+                        "height": 81
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "SkinLipUpperToungeOut",
+                    "RectInt": {
+                        "x": 157,
+                        "y": 171,
+                        "width": 139,
+                        "height": 60
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "blowjob",
+                "cowgirl",
+                "interaction",
+                "missionary"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

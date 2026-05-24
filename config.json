@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/LLS-Addons/main/schemas/addon_config.schema.json",
+  "name": "mdrg",
+  "description": "LuaLS definitions for the MDRG MoonSharp Lua API.",
+  "words": [
+    "ModUtilities",
+    "GameUtilities",
+    "GameId",
+    "ItemPrefab",
+    "CurrentModGuid"
+  ],
+  "settings": {
+    "Lua.runtime.version": "Lua 5.2",
+    "Lua.diagnostics.globals": [
+      "_MOONSHARP",
+      "CurrentModGuid",
+      "ModUtilities",
+      "GameUtilities",
+      "Item",
+      "ItemPrefab",
+      "ItemPrefabManager",
+      "GameId",
+      "StorySingleton",
+      "SaveSingleton",
+      "SoundSingleton",
+      "UiOverlay",
+      "ViewSingleton",
+      "json"
+    ]
+  }
+}

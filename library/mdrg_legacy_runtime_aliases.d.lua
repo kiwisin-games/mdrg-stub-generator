@@ -1,0 +1,152 @@
+---@meta
+
+-- MDRG MoonSharp Lua API definitions for LuaLS.
+-- Generated from docs.txt and curated data/*.json.
+-- These files describe exposed types and signatures only; comments avoid undocumented runtime behavior.
+
+-- Legacy/internal runtime helpers observed in Unity mainScene Lua snippets.
+-- These symbols are documented separately from regular modding APIs.
+
+---Legacy/internal alias observed in flowchart/Fungus Lua snippets.
+---Prefer GameVariables in new mod scripts.
+---Runtime probe confirmed `gv` as <userdata: GameVariables>.
+---@deprecated Use GameVariables instead.
+---@type GameVariables
+gv = GameVariables
+
+---Flowchart object injected into internal Fungus Lua snippets.
+---This is not confirmed as a normal mod-script global.
+---Runtime probe confirmed `flowchart` as <userdata: Main Flowchart (Fungus.Flowchart)>.
+---@type Flowchart
+flowchart = flowchart
+
+---Internal BotStatusApp file ids observed in mainScene Lua snippets.
+---@alias MdrgKnownBotStatusFileId
+---| '"boobs"'
+---| '"mouth"'
+
+---Global save flag ids observed in mainScene Lua snippets.
+---@alias MdrgKnownGlobalFlagId
+---| '"prologueseen"'
+
+---Internal JoinUs blog ids observed in mainScene Lua snippets.
+---@alias MdrgKnownJoinUsBlogId
+---| '"Blog1"'
+---| '"Blog2"'
+---| '"Blog3"'
+---| '"Blog4"'
+---| '"BlogBigDaddy1"'
+---| '"BlogBigDaddy2"'
+---| '"BlogBigDaddy3"'
+---| '"BlogRichard1"'
+---| '"BlogRichard2"'
+
+---Story/save flag ids observed in mainScene Lua conditions.
+---@alias MdrgKnownStoryFlagId
+---| '"Annalie_ending9"'
+---| '"Annalie_gave_money"'
+---| '"artgallery1"'
+---| '"basketball_failure"'
+---| '"Bathroom1_haggle"'
+---| '"Bathroom2_notyet"'
+---| '"BestClient"'
+---| '"bigDaddysAdvice"'
+---| '"bigDaddysAdviceBeforePart2"'
+---| '"bigDaddysAdviceFinished"'
+---| '"bigDaddysAdvicePart2"'
+---| '"bigdaddystoryline1"'
+---| '"bigdaddystoryline3"'
+---| '"bigdaddystoryline4"'
+---| '"Britannia_island"'
+---| '"BritanniaSL1"'
+---| '"church-Big_Daddy_Knows"'
+---| '"church-bigdaddystorylinepart1"'
+---| '"church-endJustGoThereGood"'
+---| '"church-MeetingNunWithTheBot"'
+---| '"church-nun_back1"'
+---| '"church-nun_back4"'
+---| '"church-nun_back7"'
+---| '"church-priestbot_lie"'
+---| '"church-priestbot_truth"'
+---| '"church-shaniceFoundCumInBot"'
+---| '"ClothierHalloweenAlone"'
+---| '"ClothierHalloweenWithBot"'
+---| '"ClothierHalloweenWithBot2"'
+---| '"clothiervisit"'
+---| '"dispenserempty24hours"'
+---| '"exposure"'
+---| '"exposure_day"'
+---| '"exposure_night"'
+---| '"fishing4"'
+---| '"GoingOutside2"'
+---| '"GoingOutside3"'
+---| '"good_soul"'
+---| '"helpedlandlord"'
+---| '"hobo"'
+---| '"hobo1"'
+---| '"hobo_beaten"'
+---| '"hobo_failed"'
+---| '"ice_skating1"'
+---| '"interactr8"'
+---| '"interactr9"'
+---| '"JoinUs2"'
+---| '"joinus7_richard2_BotDAK"'
+---| '"joinusBigDaddy"'
+---| '"Karaoke2"'
+---| '"karaoke_idol"'
+---| '"LabourOffice_Riots_FirstTime"'
+---| '"LabourOffice_Riots_Landlord"'
+---| '"Landlord_ending3_strongarmedHobos"'
+---| '"LandlordConspiracy2"'
+---| '"LandlordConspiracy3"'
+---| '"LandlordStaircase"'
+---| '"LastChance"'
+---| '"lastdate"'
+---| '"Melissa14_StillFriends"'
+---| '"Melissa21"'
+---| '"Melissa22"'
+---| '"Melissa4bot"'
+---| '"Melissa9"'
+---| '"Melissa_dead"'
+---| '"Melissa_leaves"'
+---| '"restaurant1"'
+---| '"riots_beaten_up"'
+---| '"shooting_failure"'
+
+---Internal browser website ids observed in Lua/mainScene/browser scripts.
+---@alias MdrgKnownWebsiteId
+---| '"adredirect.ic"'
+---| '"bang.ic"'
+---| '"bang.ic/email"'
+---| '"blackjack.casino.ic"'
+---| '"casino.ic"'
+---| '"casino.ic/tokens"'
+---| '"cockcockcockcockcock.ic"'
+---| '"cocktracts.ic"'
+---| '"cocktracts.ic/available"'
+---| '"cocktracts.ic/contract"'
+---| '"cocktracts.ic/help"'
+---| '"cocktracts.ic/history"'
+---| '"cocktracts.ic/partner"'
+---| '"cocktracts.ic/partner?Id=666"'
+---| '"cocktracts.ic/partners"'
+---| '"cocktwitch.ic"'
+---| '"cocktwitch.ic/leaderboard"'
+---| '"cocktwitch.ic/stats"'
+---| '"dickcheese.ic"'
+---| '"dickcheese.ic/1"'
+---| '"dickcheese.ic/2"'
+---| '"duck.ic"'
+---| '"fedup.ic"'
+---| '"hotanimebabes.ic"'
+---| '"iamacheater"'
+---| '"ladyparts.ic"'
+---| '"losefatquickly.ic"'
+---| '"patriciascookingblog.food/blog"'
+---| '"patriciascookingblog.food/login"'
+---| '"patriciascookingblog.food/main"'
+---| '"peepee.ic"'
+---| '"pixelglasses.ic"'
+---| '"realmenfishing.ic"'
+---| '"slots.casino.ic"'
+---| '"stonks.ic"'

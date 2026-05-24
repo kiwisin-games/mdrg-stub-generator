@@ -1,0 +1,4056 @@
+﻿===== BEGIN FILE: Mods\[MDRG]Kz Femboy bot(Beta5)\mod.json =====
+{
+    "name": "[MDRG]Kz Fomboy bot(Beta5)",
+    "description": "All pose success",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638685738269403100,
+        "guid": {
+            "serializedGuid": "0568a5fb-7fc7-47be-940d-1055d2a949c4"
+        }
+    }
+}
+===== END FILE: Mods\[MDRG]Kz Femboy bot(Beta5)\mod.json =====
+
+===== BEGIN FILE: Mods\[MDRG]Kz Futanari Bot_Modv.01\mod.json =====
+{
+    "name": "Kz Futanari Mod",
+    "description": "Turn your bot into a Futanari. Mod by:Kz (@rimuru013)",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638657832769614980,
+        "guid": {
+            "serializedGuid": "4512037d-c160-4480-9dc4-f3d68d922b1b"
+        }
+    }
+}
+===== END FILE: Mods\[MDRG]Kz Futanari Bot_Modv.01\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]AdditionalFurryparts\mod.json =====
+{
+    "name": "[Sosigs] Additional Furry Parts",
+    "description": "Please Have FurryPackV4 insta",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638739319963710860,
+        "guid": {
+            "serializedGuid": "fc7bc4b4-44a1-4d06-ab29-88cc37867875"
+        }
+    }
+}
+===== END FILE: Mods\[Sosigs]AdditionalFurryparts\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]AnnalieSocket\mod.json =====
+{
+    "name": "Sosigs Annalie Sockets",
+    "description": "Goth Girl Energy",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.6",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638709734569365690,
+        "guid": {
+            "serializedGuid": "65e29ce1-419b-4d27-984d-73a73556abd1"
+        }
+    }
+}
+===== END FILE: Mods\[Sosigs]AnnalieSocket\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]CyberFutura\mod.json =====
+{
+    "name": "CyberFutura",
+    "description": "truly dystopian!!!",
+    "OnGameStart": {
+        "luaFiles": [
+            "scriptplushy.lua",
+            "scriptrug.lua",
+            "scriptcupboard.lua",
+            "scriptcouch.lua",
+            "scriptdesk.lua",
+            "scriptPC.lua",
+            "scriptTV.lua",
+            "scriptwindow.lua",
+            "scriptdoor.lua",
+            "scriptbat.lua",
+            "scriptpcscreen.lua",
+            "scriptwallpaper.lua",
+            "scriptwallpaper2.lua",
+            "scriptbed.lua",
+            "scriptbg.lua"
+        ]
+    },
+    "targetVersion": "0.90.6",
+    "doNotChangeVariablesBelowThis": {
+         "timeCreated": 638838286098002140,
+        "guid": {
+            "serializedGuid": "d0f815f9-d19a-479f-8f61-1b2644e78b7b"
+         }
+    }
+}
+===== END FILE: Mods\[Sosigs]CyberFutura\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]DLC Mita\mod.json =====
+{
+    "name": "[Sosigs]Miiside DLC Addon",
+    "description": "hair textures made with Laby",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638754752986970300,
+        "guid": {
+            "serializedGuid": "8e2a63cb-b716-4c5b-90d0-7fdad7050938"
+        }
+    }
+}
+===== END FILE: Mods\[Sosigs]DLC Mita\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]FURSONA_Pack_V4\mod.json =====
+{
+    "name": "JunsFursona:Version4",
+    "description": "with the help of Nekolina and 王司徒 ",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638716939946692500,
+        "guid": {
+            "serializedGuid": "c3e6c29e-96f8-4844-afe6-edb783f7ed28"
+         }
+    }
+}
+===== END FILE: Mods\[Sosigs]FURSONA_Pack_V4\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]FursonaPackV3\mod.json =====
+{
+    "name": "JunsFursona:Version3",
+    "description": "with the help of Nekolina and 王司徒 ",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638716939946692500,
+        "guid": {
+            "serializedGuid": "c3e6c29e-96f8-4844-afe6-edb783f7ed28"
+         }
+    }
+}
+===== END FILE: Mods\[Sosigs]FursonaPackV3\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]FuturaModern\mod.json =====
+{
+    "name": "FuturaModern",
+    "description": "celebrate the new year by looking forward",
+    "OnGameStart": {
+        "luaFiles": [
+            "scriptbg.lua",
+            "scriptplushy.lua",
+            "scriptrug.lua",
+            "scriptcupboard.lua",
+            "scriptcouch.lua",
+            "scriptdesk.lua",
+            "scriptPC.lua",
+            "scriptTV.lua",
+            "scriptwindow.lua",
+            "scriptdoor.lua",
+            "scriptbat.lua",
+            "scriptbed.lua"
+        ]
+    },
+    "targetVersion": "0.90.6",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638711331812207670,
+        "guid": {
+            "serializedGuid": "dd7687c4-6819-463f-9c51-62b0e5c9e456"
+         }
+    }
+}
+===== END FILE: Mods\[Sosigs]FuturaModern\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]Miiside (1)\mod.json =====
+{
+    "name": "Sosiide",
+    "description": "with help from refrences of Nekolinas textures and Laby",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638750909395791940,
+        "guid": {
+            "serializedGuid": "542842a7-602e-4802-a67c-2fc0dcb342d6"
+        }
+    }
+}
+===== END FILE: Mods\[Sosigs]Miiside (1)\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]Miiside\mod.json =====
+{
+    "name": "Sosiide",
+    "description": "with help from refrences of Nekolinas textures and Laby",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638750909395791940,
+        "guid": {
+            "serializedGuid": "542842a7-602e-4802-a67c-2fc0dcb342d6"
+        }
+    }
+}
+===== END FILE: Mods\[Sosigs]Miiside\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]Miside_Pack\mod.json =====
+{
+    "name": "Sosiide",
+    "description": "with help from refrences of Nekolinas textures and Laby",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638750909395791940,
+        "guid": {
+            "serializedGuid": "542842a7-602e-4802-a67c-2fc0dcb342d6"
+        }
+    }
+}
+===== END FILE: Mods\[Sosigs]Miside_Pack\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]NunYaBusiness\mod.json =====
+{
+    "name": "Sosigs Nun Outfit",
+    "description": "This is HERESY brother, The Codex does not approve",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.6",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638713954306979160,
+        "guid": {
+            "serializedGuid": "00f85aa2-3231-4144-bb28-7ee55a264f8d"
+        }
+    }
+}
+===== END FILE: Mods\[Sosigs]NunYaBusiness\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]ShoeGlove\mod.json =====
+{
+    "name": "[Sosigs] Gloves and Shoes",
+    "description": "a remake of an old mod",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638850580176516270,
+        "guid": {
+            "serializedGuid": "0c382763-6243-415f-99e5-688b2d17c07d"
+        }
+    }
+}
+===== END FILE: Mods\[Sosigs]ShoeGlove\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]SpiderJun\mod.json =====
+{
+    "name": "SPIDER Jun",
+    "description": "Mod With Help of Nekolina,For all the Arachnophiliacs out there",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638379580834076860,
+        "guid": {
+            "serializedGuid": "53409766-a227-4e31-92e0-92b01c3547d8"
+        }
+    }
+}
+
+===== END FILE: Mods\[Sosigs]SpiderJun\mod.json =====
+
+===== BEGIN FILE: Mods\[Sosigs]Swimsuit\mod.json =====
+{
+    "name": "[Sosigs] Swimsuit Mod",
+    "description": "with help of Burning1 and Nekolina",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638863401045368210,
+        "guid": {
+            "serializedGuid": "a96bd387-8390-4120-9b40-c81a3f7ab63d"
+        }
+    }
+}
+===== END FILE: Mods\[Sosigs]Swimsuit\mod.json =====
+
+===== BEGIN FILE: Mods\[WhiteSpaceRoom]\mod.json =====
+{
+    "name": "White Space Room",
+    "description": "More Space",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "scriptwsbg.lua", 
+            "scriptwsplushy.lua", 
+            "scriptwsrug.lua", 
+            "scriptwscupboard.lua", 
+            "scriptwscouch.lua", 
+            "scriptwsdesk.lua", 
+            "scriptwsPC.lua", 
+            "scriptwsTV.lua", 
+            "scriptwswindow.lua", 
+            "scriptwsdoor.lua", 
+            "scriptwsbed.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638840282339068810,
+        "guid": {
+            "serializedGuid": "c672354b-c5f3-46d8-baf9-bd7a087a3ee0"
+        }
+    }
+}
+===== END FILE: Mods\[WhiteSpaceRoom]\mod.json =====
+
+===== BEGIN FILE: Mods\2B_eye_mask\mod.json =====
+{
+    "name": "2B eye mask",
+    "description": "Hope Jun can fight like 2B one day.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.0",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638081789922107650,
+        "guid": {
+            "serializedGuid": "5024beee-94d5-41c2-9517-3a2c82d493da"
+        }
+    }
+}
+===== END FILE: Mods\2B_eye_mask\mod.json =====
+
+===== BEGIN FILE: Mods\Adderall-Mod\mod.json =====
+{
+    "name": "Adderall Mod By Spore",
+    "description": "Who says drugs are bad? With one of these bad boys you'll feel like you got a full nights rest. Adds medical adderall to the game. Ver 1.0 by Spore'",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.10",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638727910622565,
+        "guid": {
+            "serializedGuid": "a77fa6c5-90b5-4aa8-a37a-82b289bd6db5"
+        }
+    }
+}
+===== END FILE: Mods\Adderall-Mod\mod.json =====
+
+===== BEGIN FILE: Mods\animal_ears_for_the_bot\mod.json =====
+{
+    "name": "Animal themed ears",
+    "description": "Various animal inspired ears to put on the bot. Not made with original cat ears so these ears do not move. Cosmetic only. \n\nMade by nekolina. \nSpecial thanks to Sheep and Charade for coding guidance on custom sprites. \nSpecial thanks to GorkedPotato for early testing.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638244679282356055,
+        "guid": {
+            "serializedGuid": "b47d76d7-be66-4cb3-9657-e7c0a762efc0"
+        }
+    }
+}
+===== END FILE: Mods\animal_ears_for_the_bot\mod.json =====
+
+===== BEGIN FILE: Mods\Anime-ish_Eyes\mod.json =====
+{
+    "name": "Anime-ish Eyes for 87.10",
+    "description": "My first mod :) ",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.10",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638471528475054292,
+        "guid": {
+            "serializedGuid": "e80e8deb-3aa7-4615-8fa0-52dd32b17f61"
+        }
+    }
+}
+===== END FILE: Mods\Anime-ish_Eyes\mod.json =====
+
+===== BEGIN FILE: Mods\Armpit Hair\mod.json =====
+{
+    "name": "Armpit Hair",
+    "description": "Adds armpit hair as a bot part. Armpit hair only on doggy due to low armpit visibility durring other positions.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638801898819419148,
+        "guid": {
+            "serializedGuid": "e7cd835a-e8c3-46e5-9467-196306794e77"
+        }
+    }
+}
+===== END FILE: Mods\Armpit Hair\mod.json =====
+
+===== BEGIN FILE: Mods\Big Sister Personality Module\mod.json =====
+{
+    "name": "Big Sister Personality Module",
+    "description": "This is a mod for incest enjoyers and Thank you to Ragnarok for the help creating this",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+            ]
+    },
+    "targetVersion": "0.90.16",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638430607656853010,
+        "guid": {
+            "serializedGuid": "70e706f3-60c1-40a0-9055-812d7bdbcc48"
+        }
+    }
+}
+
+===== END FILE: Mods\Big Sister Personality Module\mod.json =====
+
+===== BEGIN FILE: Mods\bigbush\mod.json =====
+{
+    "name": "BigBush",
+    "description": "No Need To Shave",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638652135160536870,
+        "guid": {
+            "serializedGuid": "4df41fea-eac5-40cb-808a-f8dafce508fe"
+        }
+    }
+}
+===== END FILE: Mods\bigbush\mod.json =====
+
+===== BEGIN FILE: Mods\boobs-enlarge\mod.json =====
+{
+  "name": "Jun Breast Enlargement",
+  "description": "This mod increases Jun's breast size",
+  "OnGameStart": {
+    "luaFiles": [
+      "main.lua"
+    ]
+  },
+  "targetVersion": "0.90.16",
+  "doNotChangeVariablesBelowThis": {
+    "timeCreated": 639060108369556875,
+    "guid": {
+      "serializedGuid": "19aaf8cc-358a-4919-98e9-a3e83a7d6ca2"
+    }
+  }
+}
+
+===== END FILE: Mods\boobs-enlarge\mod.json =====
+
+===== BEGIN FILE: Mods\Bots_lollipop\mod.json =====
+{
+    "name": "Bot's lollipop",
+    "description": "Inspired by Twitter@zh3uo0",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638394696294681670,
+        "guid": {
+            "serializedGuid": "03e91901-2a8a-4d79-a00c-f8833da8ab85"
+        }
+    }
+}
+===== END FILE: Mods\Bots_lollipop\mod.json =====
+
+===== BEGIN FILE: Mods\browpack\mod.json =====
+{
+    "name": "A collection of brows",
+    "description": "A pack containing five eyebrows, all hypercamo! How neat is that.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638240991405410000,
+        "guid": {
+            "serializedGuid": "5654ad94-3d50-4810-b6ba-17455d79a0d1"
+        }
+    }
+}
+===== END FILE: Mods\browpack\mod.json =====
+
+===== BEGIN FILE: Mods\brunchly\mod.json =====
+{
+    "name": "Brunchly",
+    "description": "I like my cheese drippy bruh (By PollitoConPapas)",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+            ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638676365093276490,
+        "guid": {
+            "serializedGuid": "7affbc35-599f-45b4-8117-c1dcbec18e13"
+        }
+    }
+}
+===== END FILE: Mods\brunchly\mod.json =====
+
+===== BEGIN FILE: Mods\Caotic meals Eng\mod.json =====
+{
+    "name": "Food pack: Caotic Foods",
+    "description": "Adds more than 20 dystopic items to the game: Food, drinks and snacks with unique effects (good and terrible). From radioactive drinks to mutant dishes, Every item have a color, effects and unexpected consequences. Watch what you consume!\n\nAuthor: GreadEden//Translated by PollitoConPapas",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638764879600820444,
+        "guid": {
+            "serializedGuid": "5c3d0f5a-1afe-446c-98ab-52a139f33435"
+        }
+    }
+}
+===== END FILE: Mods\Caotic meals Eng\mod.json =====
+
+===== BEGIN FILE: Mods\Cheese_slices\mod.json =====
+{
+    "name": "Cheese slices",
+    "description": "Inspired by like_to_be_an_moon, put a piece of cheese on juns head.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638456715749742250,
+        "guid": {
+            "serializedGuid": "29ebef62-6ee0-43b4-83d7-cb8d8f8235b4"
+        }
+    }
+}
+===== END FILE: Mods\Cheese_slices\mod.json =====
+
+===== BEGIN FILE: Mods\Cheongsam_ Yi Qingchen\mod.json =====
+{
+    "name": "Cheongsam: Yi Qingchen",
+    "description": "Cheongsam: Yi Qingchen",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638704695037126730,
+        "guid": {
+            "serializedGuid": "a55e75fb-7f82-47da-922b-f26d9f646ae3"
+        }
+    }
+}
+===== END FILE: Mods\Cheongsam_ Yi Qingchen\mod.json =====
+
+===== BEGIN FILE: Mods\Chieri_kakyoin dress\mod.json =====
+{
+    "name": "Chieri_kakyoin dress",
+    "description": "From chieri_kakyoin, secondary modification: 可乐面包",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638863542763044360,
+        "guid": {
+            "serializedGuid": "9e5d0ad8-3694-473c-aaae-80a579c0684a"
+        }
+    }
+}
+===== END FILE: Mods\Chieri_kakyoin dress\mod.json =====
+
+===== BEGIN FILE: Mods\circuit_lewd_tattoo\mod.json =====
+{
+    "name": "Tattoo",
+    "description": "by function main",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.0",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638050648163887350,
+        "guid": {
+            "serializedGuid": "409772c5-f084-41a5-a470-d3cc3a9f6a41"
+        }
+    }
+}
+===== END FILE: Mods\circuit_lewd_tattoo\mod.json =====
+
+===== BEGIN FILE: Mods\Color_Contact_Lens\mod.json =====
+{
+    "name": "Color Contact Lens",
+    "description": "include ponx Miku, Hella, Hu Tao, Yanfei, Barbara, Kiana, Layla, Faruzan",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638137706130543180,
+        "guid": {
+            "serializedGuid": "816bebc6-e275-4c6b-b3ba-c90abb2f3c62"
+        }
+    }
+}
+===== END FILE: Mods\Color_Contact_Lens\mod.json =====
+
+===== BEGIN FILE: Mods\Colored_Nails\mod.json =====
+{
+    "name": "Colored Nails",
+    "description": "With this mod you can change the nails color of your bot",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638253409536539090,
+        "guid": {
+            "serializedGuid": "3efa844a-0e9e-4f7a-8e0e-1ec045d31a55"
+        }
+    }
+}
+===== END FILE: Mods\Colored_Nails\mod.json =====
+
+===== BEGIN FILE: Mods\Cow_print_bikini_0.87.11-b\mod.json =====
+{
+    "name": "Cow bikini mod",
+    "description": "Cow bikini mod by peacelights, adjusted for cowgirl by k.o.k.k.o.a",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "cowbrascript.lua",
+			"cowhornscript.lua",
+			"cowlstockingscript.lua",
+			"cowpantiesscript.lua",
+			"cowrstockingscript.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638015135350281333,
+        "guid": {
+            "serializedGuid": "24e79094-2ac6-4eb1-baec-c8ba3c25d5a0"
+        }
+    }
+}
+===== END FILE: Mods\Cow_print_bikini_0.87.11-b\mod.json =====
+
+===== BEGIN FILE: Mods\Cozy Room\mod.json =====
+{
+    "name": "Cozy Room",
+    "description": "hope this works",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "scriptczbg.lua", 
+            "scriptczplushy.lua", 
+            "scriptczrug.lua", 
+            "scriptczcupboard.lua", 
+            "scriptczcouch.lua", 
+            "scriptczdesk.lua", 
+            "scriptczPC.lua", 
+            "scriptczTV.lua", 
+            "scriptczwindow.lua", 
+            "scriptczdoor.lua", 
+            "scriptczbed.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638840477597912700,
+        "guid": {
+            "serializedGuid": "341fdb54-992b-4b66-a03f-2eaf3d38daac"
+        }
+    }
+}
+===== END FILE: Mods\Cozy Room\mod.json =====
+
+===== BEGIN FILE: Mods\Custom eyes Eng\mod.json =====
+{
+    "name": "Custom eyes Pack",
+    "description": "Contain new eyes styles for your Bot\nItems sold individually on BDH's store\n\nAuthor: GreadEden//Translated by PollitoConPapas",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638764879031513368,
+        "guid": {
+            "serializedGuid": "7aee87d3-3508-4e79-8428-da116685cc4f"
+        }
+    }
+}
+===== END FILE: Mods\Custom eyes Eng\mod.json =====
+
+===== BEGIN FILE: Mods\Cute_Nose\mod.json =====
+{
+    "name": "Cute Nose",
+    "description": "A Nose Surgery Job",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638276743461546693,
+        "guid": {
+            "serializedGuid": "2e0440c7-6fe4-4944-9226-4fd8ad39c74f"
+        }
+    }
+}
+===== END FILE: Mods\Cute_Nose\mod.json =====
+
+===== BEGIN FILE: Mods\DDLC module pack\mod.json =====
+{
+    "name": "Doki doki module pack",
+    "description": "Enjoy an NSFW form of your beloved doki girls with this module pack! made by Pollito con Papas",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638714669277190141,
+        "guid": {
+            "serializedGuid": "7cfe3131-dd86-4d36-924b-780dff6a4e94"
+        }
+    }
+}
+===== END FILE: Mods\DDLC module pack\mod.json =====
+
+===== BEGIN FILE: Mods\Deer\mod.json =====
+{
+    "name": "Deer pack",
+    "description": "Antlers + tail + nose.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638172306585721327,
+        "guid": {
+            "serializedGuid": "af749038-44dd-40f5-908b-2c5a4182be7b"
+        }
+    }
+}
+===== END FILE: Mods\Deer\mod.json =====
+
+===== BEGIN FILE: Mods\Denim_shorts\mod.json =====
+{
+    "name": "Denim shorts",
+    "description": "Sexy denim shorts",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638293533709292270,
+        "guid": {
+            "serializedGuid": "e0ad4ac4-a53e-4ffe-b3e6-b4c6d751e18e"
+        }
+    }
+}
+===== END FILE: Mods\Denim_shorts\mod.json =====
+
+===== BEGIN FILE: Mods\Die Mensch-Maschine Mod\mod.json =====
+{
+    "name": "Die Mensche-Maschine Mod 1.0",
+    "description": "Want a sexBOT? You got a sex BOT. Give Jun the personality of an overly-clinical IoT appliance. May awaken something in you.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.95.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 639081920628717735,
+        "guid": {
+            "serializedGuid": "829cdcf2-dcf6-407f-9846-e67aafc0149c"
+        }
+    }
+}
+===== END FILE: Mods\Die Mensch-Maschine Mod\mod.json =====
+
+===== BEGIN FILE: Mods\Different_Lips_Mod\mod.json =====
+{
+    "name": "Different_Lips_Mod",
+    "description": "Put your mod's description here",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638730847906285766,
+        "guid": {
+            "serializedGuid": "3cdfca95-2e6e-4cab-bd45-e13f6f59de3d"
+        }
+    }
+}
+===== END FILE: Mods\Different_Lips_Mod\mod.json =====
+
+===== BEGIN FILE: Mods\DimCityLight Corner Eng 2.0\mod.json =====
+{
+    "name": "DimCityLightCorner",
+    "description": "This mod contains wallpaper, a new PC, a black coffee machine, a white sofa, a black-and-white gradient carpet, a colorful fluorescent door, and a black cabinet along with other stuff.//Enhanced translation handmaded by PollitoConPapas",
+    "OnGameStart": {
+        "luaFiles": [
+            "scriptbg.lua", 
+            "scriptplushy.lua", 
+            "scriptrug.lua", 
+            "scriptcupboard.lua", 
+            "scriptcouch.lua", 
+            "scriptdesk.lua", 
+            "scriptPC.lua", 
+            "scriptTV.lua", 
+            "scriptwindow.lua", 
+            "scriptdoor.lua", 
+            "scriptbed.lua",
+            "scriptwindowLight.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638772698619412806,
+        "guid": {
+            "serializedGuid": "2e4018f7-59ca-4b06-b0c5-d7decd74f150"
+        }
+    }
+}
+===== END FILE: Mods\DimCityLight Corner Eng 2.0\mod.json =====
+
+===== BEGIN FILE: Mods\Dress1\mod.json =====
+{
+    "name": "Dress",
+    "description": "Pretty For Date Night",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638672912346028540,
+        "guid": {
+            "serializedGuid": "8520643d-eafe-4f53-b025-025d3fbdad87"
+        }
+    }
+}
+===== END FILE: Mods\Dress1\mod.json =====
+
+===== BEGIN FILE: Mods\Emotion_Control_Module\mod.json =====
+{
+    "name": "Emotion Control Module",
+    "description": "Makes you able to control your bot's feelings! \nAdds a few types of pills to the pharmacy to change the mood of the bot.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "scripteng.lua"
+            ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638265593230583340,
+        "guid": {
+            "serializedGuid": "99463f10-cd27-44f6-8e80-7dac89a5ce6d"
+        }
+    }
+}
+===== END FILE: Mods\Emotion_Control_Module\mod.json =====
+
+===== BEGIN FILE: Mods\English_MoreObjects_v2\mod.json =====
+{
+    "name": "More items",
+    "description": "Made by Aszelt, This mod adds new items in the stores, from food to medicine and some extra interactive items you must experience on your own. since it would be very time consuming to explain what each one does, CREDITS IN MODINFO INSIDE THE FILE",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+			"script.lua",
+            "/items/skin/pigmen.lua",
+            "/items/skin/pigmenpremium.lua",
+            "/items/scanner.lua",
+            "/items/mirror.lua"
+			]
+
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638461027510381535,
+        "guid": {
+            "serializedGuid": "247f263c-e3c3-4dad-a579-3f8eefd55123"
+        }
+    }
+}
+===== END FILE: Mods\English_MoreObjects_v2\mod.json =====
+
+===== BEGIN FILE: Mods\Eternal love dress\mod.json =====
+{
+    "name": "Eternal love dress",
+    "description": "From Vespa/GladosSenpai",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638741657608967290,
+        "guid": {
+            "serializedGuid": "b43418a2-ae23-43ee-911c-230025f907b7"
+        }
+    }
+}
+===== END FILE: Mods\Eternal love dress\mod.json =====
+
+===== BEGIN FILE: Mods\Extra_Eyeshadows\mod.json =====
+{
+    "name": "Extra Eyeshadows",
+    "description": "Adds two variations of eyeshadows and Eye glow gone",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638258251566617500,
+        "guid": {
+            "serializedGuid": "007a2dce-e4d1-4798-a162-df829a081946"
+        }
+    }
+}
+===== END FILE: Mods\Extra_Eyeshadows\mod.json =====
+
+===== BEGIN FILE: Mods\eyeglasses\mod.json =====
+{
+    "name": "EyeGlasses",
+    "description": "Add more glasses",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638229601450022370,
+        "guid": {
+            "serializedGuid": "2ec3ff0f-ade4-41e2-a6e8-e2a4482a11cd"
+        }
+    }
+}
+===== END FILE: Mods\eyeglasses\mod.json =====
+
+===== BEGIN FILE: Mods\eyeliners\mod.json =====
+{
+    "name": "Eyeliners",
+    "description": "different types of eyeliners",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638148819165191360,
+        "guid": {
+            "serializedGuid": "b1c79439-d8ea-447b-960a-979df1d1cbc6"
+        }
+    }
+}
+===== END FILE: Mods\eyeliners\mod.json =====
+
+===== BEGIN FILE: Mods\Eyesocket_ Ellen Joe\mod.json =====
+{
+    "name": "艾莲·乔眼眶(绑定无缝部件)",
+    "description": "以后会有更多眼眶mod，我也会想办法避免瞳孔的问题",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.7",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638487859689375750,
+        "guid": {
+            "serializedGuid": "8f598ed2-6a53-4815-9e2c-b1fcb3b880f7"
+        }
+    }
+}
+===== END FILE: Mods\Eyesocket_ Ellen Joe\mod.json =====
+
+===== BEGIN FILE: Mods\Eyesocket_ Yunjin\mod.json =====
+{
+    "name": "Eyesocket: Yunjin",
+    "description": "Add the eye socket of Yunjin and bind the seamless skin mod of ⃝ ⃝#6545",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.7",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638354378384577590,
+        "guid": {
+            "serializedGuid": "07cf83e9-da61-4c66-baf3-1e7de7faa4cf"
+        }
+    }
+}
+===== END FILE: Mods\Eyesocket_ Yunjin\mod.json =====
+
+===== BEGIN FILE: Mods\Eyesocket_Ellen_Joe\mod.json =====
+{
+    "name": "Eyesocket: Ellen Joe",
+    "description": "There will be more eye socket mods in the future, and I will try to avoid pupil problems.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638487859689375750,
+        "guid": {
+            "serializedGuid": "8f598ed2-6a53-4815-9e2c-b1fcb3b880f7"
+        }
+    }
+}
+===== END FILE: Mods\Eyesocket_Ellen_Joe\mod.json =====
+
+===== BEGIN FILE: Mods\festive\mod.json =====
+{
+    "name": "Festive outfit",
+    "description": "Festive outfit for someome very special. Art by zv, put together by UnderachievingPotato.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638388364903171405,
+        "guid": {
+            "serializedGuid": "5d12f5a5-ac39-48dd-a004-9f741eff54be"
+        }
+    }
+}
+===== END FILE: Mods\festive\mod.json =====
+
+===== BEGIN FILE: Mods\flatchest\mod.json =====
+{
+    "name": "Flatchest",
+    "description": "Give your bot a flat chest! Comes with compatible shirts and a few adjacent bot parts.<br><br>Features edited items from:<br><color=#00A2E8>Potatopack v3 by UnderachievingPotato</color><br><color=#EC2A5C>Pigmentate! by AndreWharn</color><br><color=#25FF00>Seamless components by Wangsitu, That guy, Wibiz, Anon.jun, Gear, and Nemo</color><br><br>Creator:<br>Tensorsensors<br><br>Additional notes:<br>Thank you to Nekolina and Tieubach for testing!<br><br>Also thank you to Nekolina for help, advice, and support during development!<br><br>Feel free to edit and/or redesribute any of my texture work! (Emphasis on mine, ask permision from the original creator for any items edited from other mods!)<br><br>A text file item list is included in the zip, <b>DO NOT UNZIP</b> you can view the text file without unzipping.",
+    "OnGameStart": {
+        "luaFiles": [
+            "ladyparts/script.lua",
+			"clothing/script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638646572823398541,
+        "guid": {
+            "serializedGuid": "cd37cbd1-c9bf-4b31-a282-e71402a1321e"
+        }
+    }
+}
+===== END FILE: Mods\flatchest\mod.json =====
+
+===== BEGIN FILE: Mods\FoodPack_NightOngoing\mod.json =====
+{
+    "name": "FoodPack: NightOngoing",
+    "description": "A simple pack that adds food and energy drinks\n\nAuthor: GreadEden",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638760410127311748,
+        "guid": {
+            "serializedGuid": "a07c71f5-65e1-44fe-8d0b-4d3054d7ad8c"
+        }
+    }
+}
+===== END FILE: Mods\FoodPack_NightOngoing\mod.json =====
+
+===== BEGIN FILE: Mods\Foxs_Leather_Blindfold\mod.json =====
+{
+    "name": "Leather Blindfold",
+    "description": "Leather Blindfold",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638024984011490548,
+        "guid": {
+            "serializedGuid": "b79dc53b-beba-4a81-8adf-99609d580e52"
+        }
+    }
+}
+===== END FILE: Mods\Foxs_Leather_Blindfold\mod.json =====
+
+===== BEGIN FILE: Mods\FPnB - Furry Penis and Body PR 0.9\mod.json =====
+{
+    "name": "FPnB - Furry Penis and Skin",
+    "description": "Make Anon's body to furry, and adds full body in the \"ladyparts.ic\" site that allows you to chamge Anon's skin/penis colors in to furry body\n\nAuthor: <color=#DC143C>xllrvrdn</color> (on 02/06/25)\nVersion: 0.9PR",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638844411532687880,
+        "guid": {
+            "serializedGuid": "55bba648-5553-48e0-b37c-a1615022a400"
+        }
+    }
+}
+===== END FILE: Mods\FPnB - Furry Penis and Body PR 0.9\mod.json =====
+
+===== BEGIN FILE: Mods\Freckles_Mod\mod.json =====
+{"name":"Face Freckles Mod","description":"Cute freckles for your bot.","OnGameStart":{"luaScript":"","luaFiles":["script.lua"]},"targetVersion":"0.86.3","doNotChangeVariablesBelowThis":{"timeCreated":638278383543788380,"guid":{"serializedGuid":"6e714bff-99c0-4483-910e-749b1ec2b1b4"}}}
+===== END FILE: Mods\Freckles_Mod\mod.json =====
+
+===== BEGIN FILE: Mods\Full Pubic Hair\mod.json =====
+{
+    "name": "Full Pubic Hair",
+    "description": "The Bush. Burning, Green or Barren—you decide the color and style.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638279937327478047,
+        "guid": {
+            "serializedGuid": "05a35ca8-fb12-4b64-bf19-10a0f131ffe3"
+        }
+    }
+}
+
+===== END FILE: Mods\Full Pubic Hair\mod.json =====
+
+===== BEGIN FILE: Mods\FuzeeT lolita dress\mod.json =====
+{
+    "name": "FuzeeT lolita dress",
+    "description": "FuzeeT lolita dress",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638706320970173720,
+        "guid": {
+            "serializedGuid": "d942f3e1-1d96-4635-9d44-dbe94ac8ae91"
+        }
+    }
+}
+===== END FILE: Mods\FuzeeT lolita dress\mod.json =====
+
+===== BEGIN FILE: Mods\Game_character_stickers_for_shirts\mod.json =====
+{
+    "name": "Game shirt stickers",
+    "description": "Some characters stickers",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+	"script.lua"
+	]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638158515881692527,
+        "guid": {
+            "serializedGuid": "3bb87b13-2460-47b1-99e8-7e8f3a7d379e"
+        }
+    }
+}
+===== END FILE: Mods\Game_character_stickers_for_shirts\mod.json =====
+
+===== BEGIN FILE: Mods\Glass Desk\mod.json =====
+{
+    "name": "Glass Desk",
+    "description": "Elegant desk made from glass.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [ 
+            "scriptglassdesk.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638839602686841340,
+        "guid": {
+            "serializedGuid": "ee621bfd-032d-490a-81b2-75001fafa493"
+        }
+    }
+}
+===== END FILE: Mods\Glass Desk\mod.json =====
+
+===== BEGIN FILE: Mods\Glowing_Heart_Eyes\mod.json =====
+{
+    "name": "Glowing Heart Eyes",
+    "description": "Feel her LOVE!",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638275068901089318,
+        "guid": {
+            "serializedGuid": "a33f56c9-f6ff-4fac-ab6a-d253bde2a899"
+        }
+    }
+}
+===== END FILE: Mods\Glowing_Heart_Eyes\mod.json =====
+
+===== BEGIN FILE: Mods\GnBCopModule\mod.json =====
+{
+    "name": "Good and Bad Cop Module",
+    "description": "Do you want to know your rights?//Made by PollitoConPapas",
+    "OnGameStart": {
+        "luaFiles": [
+            "ven.lua"
+            ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638781337471163111,
+        "guid": {
+            "serializedGuid": "fe4c7a19-1bdd-444f-8df4-ee78c44a73e9"
+        }
+    }
+}
+===== END FILE: Mods\GnBCopModule\mod.json =====
+
+===== BEGIN FILE: Mods\Hair_accessories_for_bot_updated\Headwings and halos for bot\mod.json =====
+{
+    "name": "Halos and headwings",
+    "description": "Halos and headwings for your bot to wear. \nMod adds two separate boxes of headwings and one box of halos. \nBox of Headwings suits most but Box of Headwings v2 best suits hair mods by nekolina. \n\nMod by nekolina. \nSpecial thanks to Sheep and Charade for coding guidance on custom sprites. \nSpecial thanks to GorkedPotato for early testing.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638245611739961124,
+        "guid": {
+            "serializedGuid": "8e1a82b8-b1e4-4a92-8aa4-59393c235e55"
+        }
+    }
+}
+===== END FILE: Mods\Hair_accessories_for_bot_updated\Headwings and halos for bot\mod.json =====
+
+===== BEGIN FILE: Mods\Hair_accessories_for_bot_updated\mod.json =====
+{
+    "name": "Hair accessories for bot",
+    "description": "Hairclips headbands and bows. \n\nMade by nekolina and GorkedPotato. Updated by nekolina. \nSpecial thanks to Sheep and Charade for coding guidance on custom sprites. \nSpecial thanks to GorkedPotato for early testing.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638242975648783480,
+        "guid": {
+            "serializedGuid": "ac87e623-c3fe-47c7-b1da-3a2a26f3357e"
+        }
+    }
+}
+===== END FILE: Mods\Hair_accessories_for_bot_updated\mod.json =====
+
+===== BEGIN FILE: Mods\hairpins\mod.json =====
+{
+    "name": "Hair pins and garments",
+    "description": "An assortment of 22 unique hair pins and garments. Art by nekolina, put together by GorkedPotato",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638024905651694054,
+        "guid": {
+            "serializedGuid": "92870482-49a0-4148-aa04-f42b609a3c58"
+        }
+    }
+}
+===== END FILE: Mods\hairpins\mod.json =====
+
+===== BEGIN FILE: Mods\Hairstyle 10\mod.json =====
+{
+    "name": "Hairstyle 10",
+    "description": "Altria, Fuchsia, 2B",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638502762711294750,
+        "guid": {
+            "serializedGuid": "4f40f2e6-b3c8-4bb9-b467-7fa104fc7e5d"
+        }
+    }
+}
+===== END FILE: Mods\Hairstyle 10\mod.json =====
+
+===== BEGIN FILE: Mods\Hairstyle_0\mod.json =====
+{
+    "name": "Hairstyle 0",
+    "description": "include Hide",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "hair0.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638085863694076180,
+        "guid": {
+            "serializedGuid": "2a63ed2b-3e0a-41bf-9bc0-3b84cb75089c"
+        }
+    }
+}
+===== END FILE: Mods\Hairstyle_0\mod.json =====
+
+===== BEGIN FILE: Mods\Hairstyle_1\mod.json =====
+{
+    "name": "Hairstyle 1",
+    "description": "include XinTong, Faruzan, Barbara",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "hair1.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638107476564735340,
+        "guid": {
+            "serializedGuid": "bc8404a7-015e-4bbe-81ab-d711e75db1c0"
+        }
+    }
+}
+===== END FILE: Mods\Hairstyle_1\mod.json =====
+
+===== BEGIN FILE: Mods\Hairstyle_2\mod.json =====
+{
+    "name": "Hairstyle 2",
+    "description": "include Yae Miko, March 7th, △",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "hair2.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638107476734227750,
+        "guid": {
+            "serializedGuid": "bd666af7-3488-4b61-8548-5acbbb20d266"
+        }
+    }
+}
+===== END FILE: Mods\Hairstyle_2\mod.json =====
+
+===== BEGIN FILE: Mods\Hairstyle_3\mod.json =====
+{
+    "name": "Hairstyle 3",
+    "description": "include Phosphophyllite, Ganyu, Ruby",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "hair3.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638107476665873770,
+        "guid": {
+            "serializedGuid": "bdd1f1f4-f3f0-4ebe-866f-2f81a6f53221"
+        }
+    }
+}
+===== END FILE: Mods\Hairstyle_3\mod.json =====
+
+===== BEGIN FILE: Mods\Hairstyle_4\mod.json =====
+{
+    "name": "Hairstyle 4",
+    "description": "include Eula, Icarus, Skuld",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "hair4.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638107696692023640,
+        "guid": {
+            "serializedGuid": "e9889626-9b9a-4131-92f5-c2fad183bd55"
+        }
+    }
+}
+===== END FILE: Mods\Hairstyle_4\mod.json =====
+
+===== BEGIN FILE: Mods\Hairstyle_5\mod.json =====
+{
+    "name": "Hairstyle 5",
+    "description": "include UN,Loremaster, Bronya",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "hair5.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638129044255693560,
+        "guid": {
+            "serializedGuid": "0fa79f76-4b0b-4eb9-a700-cfb66e82c00c"
+        }
+    }
+}
+===== END FILE: Mods\Hairstyle_5\mod.json =====
+
+===== BEGIN FILE: Mods\Hairstyle_6\mod.json =====
+{
+    "name": "Hairstyle 6",
+    "description": "Including Moxi, Ye Heli, Jean",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638142267174907490,
+        "guid": {
+            "serializedGuid": "a15623ac-a0f0-4add-bb66-b28ec485aeed"
+        }
+    }
+}
+===== END FILE: Mods\Hairstyle_6\mod.json =====
+
+===== BEGIN FILE: Mods\Hairstyle_7\mod.json =====
+{
+    "name": "Hairstyle 7",
+    "description": "include:あずませれん, Seele and Clara",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "hair7.lua"
+        ]
+    },
+    "targetVersion": "0.86.0",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638182894950406750,
+        "guid": {
+            "serializedGuid": "edf5b086-6406-460b-9c59-989a4ad6efd3"
+        }
+    }
+}
+===== END FILE: Mods\Hairstyle_7\mod.json =====
+
+===== BEGIN FILE: Mods\Hairstyle_8\mod.json =====
+{
+    "name": "Hairstyle 8",
+    "description": "Including Jingliu, Freminet, Lui",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "hair8.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638234698413442960,
+        "guid": {
+            "serializedGuid": "bb7a3444-2f9a-4fed-8e13-bc9cdc7ae559"
+        }
+    }
+}
+===== END FILE: Mods\Hairstyle_8\mod.json =====
+
+===== BEGIN FILE: Mods\Halloweenbattypack\mod.json =====
+{
+    "name": "Batwing lingerie pack",
+    "description": "Credit: Nekolina, Charade",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638660194599871431,
+        "guid": {
+            "serializedGuid": "7afce943-016e-4d32-96ed-ee7167043719"
+        }
+    }
+}
+===== END FILE: Mods\Halloweenbattypack\mod.json =====
+
+===== BEGIN FILE: Mods\halloweenpackage\mod.json =====
+{
+    "name": "Halloween Care Package",
+    "description": "For those who missed the halloween event. Made by GorkedPotato",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638090625596872355,
+        "guid": {
+            "serializedGuid": "f8069efd-8d90-433a-a799-45260a2a8ff0"
+        }
+    }
+}
+===== END FILE: Mods\halloweenpackage\mod.json =====
+
+===== BEGIN FILE: Mods\Halos_and_headwings_for_bot\mod.json =====
+{
+    "name": "Halos and headwings",
+    "description": "Halos and headwings for your bot to wear. \nMod adds two separate boxes of headwings and one box of halos. \nBox of Headwings suits most but Box of Headwings v2 best suits hair mods by nekolina. \n\nMod by nekolina. \nSpecial thanks to Sheep and Charade for coding guidance on custom sprites. \nSpecial thanks to GorkedPotato for early testing.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638245611739961124,
+        "guid": {
+            "serializedGuid": "8e1a82b8-b1e4-4a92-8aa4-59393c235e55"
+        }
+    }
+}
+===== END FILE: Mods\Halos_and_headwings_for_bot\mod.json =====
+
+===== BEGIN FILE: Mods\haloweenpackv3\mod.json =====
+{
+    "name": "Halloween package",
+    "description": "A package containing all the halloween event items. Ultra light. Made by UnderachievingPotato",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638218338085958154,
+        "guid": {
+            "serializedGuid": "2ce0e5a6-7fc8-4b39-8e74-6d3736c99d84"
+        }
+    }
+}
+===== END FILE: Mods\haloweenpackv3\mod.json =====
+
+===== BEGIN FILE: Mods\Hats_for_the_bot\mod.json =====
+{
+    "name": "Hats for the bot",
+    "description": "Eight hats for your robot girlfriend. Note that many of the hats do not work nicely with ears or horns on the top of the head. \n\nMade by nekolina. \nSpecial thanks to Sheep and Charade for coding guidance on custom sprites. \nSpecial thanks to GorkedPotato for early testing.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638240396872553004,
+        "guid": {
+            "serializedGuid": "5ec18cc6-ea36-44ae-8657-7025f289791f"
+        }
+    }
+}
+===== END FILE: Mods\Hats_for_the_bot\mod.json =====
+
+===== BEGIN FILE: Mods\hentaiheavenshirt\mod.json =====
+{
+    "name": "Hentai heaven shirt",
+    "description": "Adds a Hentai Haven-chan shirt to the clothes shop. Originally created by cannedsoap#9200, ported to 0.80 by peacelights, ported to 0.85.69 by GorkedPotato",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638155268626715544,
+        "guid": {
+            "serializedGuid": "04a5a806-4539-4644-b78a-cce7e485b431"
+        }
+    }
+}
+===== END FILE: Mods\hentaiheavenshirt\mod.json =====
+
+===== BEGIN FILE: Mods\Hide chargehole and hairband\mod.json =====
+{
+    "name": "Hide chargehole and hairband",
+    "description": "Hide them in the doggy scene",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638620120100560250,
+        "guid": {
+            "serializedGuid": "6fde18f1-1124-479e-befc-3a71628f47c2"
+        }
+    }
+}
+===== END FILE: Mods\Hide chargehole and hairband\mod.json =====
+
+===== BEGIN FILE: Mods\Hide Hairstyle\mod.json =====
+{
+    "name": "Hide Hairstyle",
+    "description": "Necessary conditions for using the hairstyle mod I made before.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.7",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638085863694076180,
+        "guid": {
+            "serializedGuid": "2a63ed2b-3e0a-41bf-9bc0-3b84cb75089c"
+        }
+    }
+}
+===== END FILE: Mods\Hide Hairstyle\mod.json =====
+
+===== BEGIN FILE: Mods\High-tech_Exposed_Hypercamo\mod.json =====
+{
+    "name": "High-tech Exposed Hypercamo skin",
+    "description": "Feel free to edit n perfected it, Cheers",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638232900341649480,
+        "guid": {
+            "serializedGuid": "752fb71e-e813-4802-9663-ec6ef1d00c2e"
+        }
+    }
+}
+===== END FILE: Mods\High-tech_Exposed_Hypercamo\mod.json =====
+
+===== BEGIN FILE: Mods\Horns_updated_for_bot\mod.json =====
+{
+    "name": "Horns for the bot",
+    "description": "Horns for your bot to wear. Four new glowing horns added. \n\nMade by nekolina. \nSpecial thanks to Sheep and Charade for coding guidance on custom sprites. \nSpecial thanks to GorkedPotato for early testing.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638244649885725629,
+        "guid": {
+            "serializedGuid": "27afabf8-5d53-45c6-87ca-c7118101d24c"
+        }
+    }
+}
+===== END FILE: Mods\Horns_updated_for_bot\mod.json =====
+
+===== BEGIN FILE: Mods\Hornsforbot\mod.json =====
+{
+    "name": "Horns",
+    "description": "Variety of horns for the bot",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638173084355800856,
+        "guid": {
+            "serializedGuid": "22e8b847-d2c7-4058-968f-0d6ff1d50bbf"
+        }
+    }
+}
+===== END FILE: Mods\Hornsforbot\mod.json =====
+
+===== BEGIN FILE: Mods\Hypercamo_Bikini\mod.json =====
+{
+    "name": "Hypercamo Bikini",
+    "description": "",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+        "brascript.lua",
+        "pantyscript.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638223520256332610,
+        "guid": {
+            "serializedGuid": "30dd1a5e-7de7-4feb-8542-527b1d7f886f"
+        }
+    }
+}
+===== END FILE: Mods\Hypercamo_Bikini\mod.json =====
+
+===== BEGIN FILE: Mods\Hypercamo_fishnet_thigh_highs\mod.json =====
+{
+    "name": "Hypercamo fishnet thigh highs",
+    "description": "",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.2",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638219130775954680,
+        "guid": {
+            "serializedGuid": "2321e589-4f3b-46c4-9afa-cb42c6207eb1"
+        }
+    }
+}
+===== END FILE: Mods\Hypercamo_fishnet_thigh_highs\mod.json =====
+
+===== BEGIN FILE: Mods\Hypercamo_Sportswear_V2\mod.json =====
+{
+    "name": "Hypercamo Sportswear V2",
+    "description": "Colorable sports panty and bra, for some good workouts.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.80 beta",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 637921554895543359,
+        "guid": {
+            "serializedGuid": "c63e43e8-9a16-4ec6-b5d3-339927dc5b80"
+        }
+    }
+}
+===== END FILE: Mods\Hypercamo_Sportswear_V2\mod.json =====
+
+===== BEGIN FILE: Mods\hyprcmblanket\mod.json =====
+{
+    "name": "Hypercamo Blanket",
+    "description": "Colorable blanket. Made by GorkedPotato",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638091567803861380,
+        "guid": {
+            "serializedGuid": "bbaf6d3a-01aa-42dd-82fb-e7dc0ad4d4f3"
+        }
+    }
+}
+===== END FILE: Mods\hyprcmblanket\mod.json =====
+
+===== BEGIN FILE: Mods\Items_for_Needs\mod.json =====
+{
+    "name": "Items for Needs",
+    "description": "",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+            ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638256052408284220,
+        "guid": {
+            "serializedGuid": "7a03cab9-214a-4adb-863c-cd51d7fa58ca"
+        }
+    }
+}
+===== END FILE: Mods\Items_for_Needs\mod.json =====
+
+===== BEGIN FILE: Mods\japanese_room\mod.json =====
+{
+    "name": "Jap room",
+    "description": "Pick the parts you like and modify. You are modder.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "scriptjapbg.lua",
+            "scriptjaprug.lua",
+            "scriptjapcupboard.lua",
+            "scriptjapwindow.lua",
+            "scriptjapdoor.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638220816294333740,
+        "guid": {
+            "serializedGuid": "6442651f-1251-4a16-88ea-b3581bb00263"
+        }
+    }
+}
+===== END FILE: Mods\japanese_room\mod.json =====
+
+===== BEGIN FILE: Mods\Japanese_school_uniform\mod.json =====
+{
+    "name": "Japanese School Uniform",
+    "description": "Feel free to edit n perfected it, Cheers",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638227695084647390,
+        "guid": {
+            "serializedGuid": "a7a91ba7-f4fb-435b-b94c-12d996fe2c9e"
+        }
+    }
+}
+===== END FILE: Mods\Japanese_school_uniform\mod.json =====
+
+===== BEGIN FILE: Mods\KazyMod\mod.json =====
+{
+    "name": "Kazy mod",
+    "description": "Food mod that I made because of a russian dude/ Made by Pollito con Papas, requested by KoshLibertaris",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638714674503834570,
+        "guid": {
+            "serializedGuid": "1ff6e5f0-6a17-498f-b93a-cb63a68e81f8"
+        }
+    }
+}
+===== END FILE: Mods\KazyMod\mod.json =====
+
+===== BEGIN FILE: Mods\KorsModernV2\mod.json =====
+{
+    "name": "KorsModernV2",
+    "description": "Looking for a room makeover?",
+    "OnGameStart": {
+        "luaFiles": [
+            "scriptbg.lua",
+            "scriptplushy.lua",
+            "scriptrug.lua",
+            "scriptcupboard.lua",
+            "scriptcouch.lua",
+            "scriptdesk.lua",
+            "scriptPC.lua",
+            "scriptTV.lua",
+            "scriptwindow.lua",
+            "scriptdoor.lua",
+            "scriptbed.lua"
+        ]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638437127677282110,
+        "guid": {
+            "serializedGuid": "5bc5b141-7006-4414-adf6-df35c8b1980e"
+        }
+    }
+}
+===== END FILE: Mods\KorsModernV2\mod.json =====
+
+===== BEGIN FILE: Mods\Kz eye makeup 01 (v0.87.11)\mod.json =====
+{
+    "name": "Kz eye makeup 01",
+    "description": "Eye makeup style by Kz",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638650355158640660,
+        "guid": {
+            "serializedGuid": "f5a3d7a9-91fe-4942-8601-f1887329ba51"
+        }
+    }
+}
+===== END FILE: Mods\Kz eye makeup 01 (v0.87.11)\mod.json =====
+
+===== BEGIN FILE: Mods\Lace Set Underwear\mod.json =====
+{
+    "name": "Lace Set",
+    "description": "Hail the seamtress",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638841163065553960,
+        "guid": {
+            "serializedGuid": "8e4975cc-1214-442f-9a87-90d66b8d617d"
+        }
+    }
+}
+===== END FILE: Mods\Lace Set Underwear\mod.json =====
+
+===== BEGIN FILE: Mods\leftovers\mod.json =====
+{
+    "name": "Leftovers",
+    "description": "Miscellaneous items(mostly clothing) that needed somewhere to be, I'll be putting any future items I make that don't have a place of their own here.<br><br>Creator:<br>Tensorsensors<br><br>Additional notes:<br>Thank you to Nekolina and Tieubach for testing!<br><br>Also thank you to Nekolina for help, advice, and support during development!<br><br>Feel free to edit and/or redesribute any of my texture work!<br><br>A text file item list is included in the zip, <b>DO NOT UNZIP</b> you can view the text file without unzipping.",
+    "OnGameStart": {
+        "luaFiles": [
+			"clothing/script.lua",
+			"collar/script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638646572939353761,
+        "guid": {
+            "serializedGuid": "6ef64dce-963a-479e-a0a7-c748bd0475c0"
+        }
+    }
+}
+===== END FILE: Mods\leftovers\mod.json =====
+
+===== BEGIN FILE: Mods\LeftoverSosig\mod.json =====
+{
+    "name": "Sosigs LeftOvers",
+    "description": "Some items that aren't fully articulated due to game restrictions",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.7",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638714850283308440,
+        "guid": {
+            "serializedGuid": "e3274c20-8fbf-4012-81c4-2bb1983a3795"
+        }
+    }
+}
+===== END FILE: Mods\LeftoverSosig\mod.json =====
+
+===== BEGIN FILE: Mods\lewd_tattoo\mod.json =====
+{
+    "name": "15 kinds of tattoos",
+    "description": "lewd tattoos",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638050648163887350,
+        "guid": {
+            "serializedGuid": "409772c5-f084-41a5-a470-d3cc3a9f6a40"
+        }
+    }
+}
+===== END FILE: Mods\lewd_tattoo\mod.json =====
+
+===== BEGIN FILE: Mods\Light_Control\mod.json =====
+{
+    "name": "Light control",
+    "description": "Light control in room",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "scriptmorning.lua",
+            "scriptmultiply.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638234666530022830,
+        "guid": {
+            "serializedGuid": "b065fa3d-26d1-4953-a36d-a2f0335b5fee"
+        }
+    }
+}
+===== END FILE: Mods\Light_Control\mod.json =====
+
+===== BEGIN FILE: Mods\Lingerie_pack\mod.json =====
+{
+    "name": "Lingerie pack",
+    "description": "Just some more lingerie options",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.1",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638020735710857750,
+        "guid": {
+            "serializedGuid": "2d4edfa9-0d75-48d6-b5a8-6cd3db81f0db"
+        }
+    }
+}
+===== END FILE: Mods\Lingerie_pack\mod.json =====
+
+===== BEGIN FILE: Mods\lippiercinglower\mod.json =====
+{
+    "name": "Lower lip piercing",
+    "description": "Simple lower lip piercing. Art by Ladscheißeposter, put together by UnderachievingPotato. In honour of Ladscheißeposter.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638266904676687964,
+        "guid": {
+            "serializedGuid": "5b7b5f36-668a-41c8-9376-ae4049c43eb0"
+        }
+    }
+}
+===== END FILE: Mods\lippiercinglower\mod.json =====
+
+===== BEGIN FILE: Mods\longshirt\mod.json =====
+{
+    "name": "Long sleeved shirt",
+    "description": "Adds a shirt with long sleeves. Art by magentasoap, assembled by GorkedPotato",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.1",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 637909651527548746,
+        "guid": {
+            "serializedGuid": "5da54735-1d20-4981-9b81-183188912b69"
+        }
+    }
+}
+===== END FILE: Mods\longshirt\mod.json =====
+
+===== BEGIN FILE: Mods\Luxe Crotchless Lace Panties\mod.json =====
+{
+    "name": "Luxe Crotchless Lace Panties",
+    "description": "Celana dalam menggoda. Diproduksi oleh Luxe.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638842736711748820,
+        "guid": {
+            "serializedGuid": "f568a297-6299-4536-9480-1d8157177027"
+        }
+    }
+}
+===== END FILE: Mods\Luxe Crotchless Lace Panties\mod.json =====
+
+===== BEGIN FILE: Mods\MadameSavage\mod.json =====
+{
+    "name": "Madame Savage pack",
+    "description": "Pack of products from Madame Savage's brand (Made by Pollito Con Papas)",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+            ]
+    },
+    "targetVersion": "0.90.10",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638722541539197827,
+        "guid": {
+            "serializedGuid": "ae8187b5-b2be-480f-888a-ef0ab99b0564"
+        }
+    }
+}
+===== END FILE: Mods\MadameSavage\mod.json =====
+
+===== BEGIN FILE: Mods\Maid_outfit\mod.json =====
+{
+    "name": "Maid outfit mod",
+    "description": "Put your mod's description here",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+			"skirtscript.lua",
+			"shoesscript.lua",
+			"chokerscript.lua",
+			"stockingscript.lua",
+			"pantiesscript.lua",
+			"shirtscript.lua",
+			"chokerscript.lua",
+			"brascript.lua",
+			"headbandscript.lua"
+        ]
+    },
+    "targetVersion": "0.86.0",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638209024886956343,
+        "guid": {
+            "serializedGuid": "95b72ea4-011e-4ca1-a99a-2c8e3f1e3f50"
+        }
+    }
+}
+===== END FILE: Mods\Maid_outfit\mod.json =====
+
+===== BEGIN FILE: Mods\Mesugaki_PersonalityEN_test_version\mod.json =====
+{
+    "name": "Mesugaki Personality v1.0",
+    "description": "Make sure that the game version is above 0.87.6, and it will be updated later.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.6",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638423551353670180,
+        "guid": {
+            "serializedGuid": "860e3a16-e595-409a-b9c4-891f4c5237d1"
+        }
+    }
+}
+===== END FILE: Mods\Mesugaki_PersonalityEN_test_version\mod.json =====
+
+===== BEGIN FILE: Mods\Misc_hair_mix_and_match_parts\mod.json =====
+{
+    "name": "Misc hair pack",
+    "description": "A set of interchangable hair pieces. Build your own hairstyle by mix and matching four sections/nPlease note this is a large mod. As of this version phones cannot run this.Will be updated for next version",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638142619409944640,
+        "guid": {
+            "serializedGuid": "4e9f7840-5ab7-4bb6-98d8-802fcc4be2c9"
+        }
+    }
+}
+===== END FILE: Mods\Misc_hair_mix_and_match_parts\mod.json =====
+
+===== BEGIN FILE: Mods\Misc_mix_and_match_updated_hair\mod.json =====
+{
+    "name": "Misc hair pieces mix n match",
+    "description": "Pieces of hair to build your own hairstyle. Mix and match different sections of hair from this mod or the other mix and match hair mods. Some pieces may also stack well with original hair or other hair mods so try experimenting.  \n\nMade by nekolina. \nSpecial thanks to Sheep and Charade for coding guidance on custom sprites. \nSpecial thanks to GorkedPotato for early testing.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638242147690435379,
+        "guid": {
+            "serializedGuid": "4b0fc060-74c6-450e-821b-279142bed651"
+        }
+    }
+}
+===== END FILE: Mods\Misc_mix_and_match_updated_hair\mod.json =====
+
+===== BEGIN FILE: Mods\Moan Audio Personality\mod.json =====
+{
+    "name": "Moan Audio Personality Module (Lite)",
+    "description": "Personality module that plays custom moan audio during frick scenes. Lite version - no TTS voice. Requires GetAsAudioClipReference (added in 0.95.5).",
+    "modVersion": "1.0.0",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.95.5",
+    "languageCode": "en",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 639113500000000000,
+        "guid": {
+            "serializedGuid": "c5f23fa8-cdf7-47c2-a3b4-a940f95bbd33"
+        }
+    }
+}
+
+===== END FILE: Mods\Moan Audio Personality\mod.json =====
+
+===== BEGIN FILE: Mods\Mommybot Advanced 1\mod.json =====
+{
+    "name": "Mommybot Personality",
+    "description": "Mommy will take good care of you.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638467632484869979,
+        "guid": {
+            "serializedGuid": "54069587-7853-4bc3-9c72-2e10a6edf126"
+        }
+    }
+}
+===== END FILE: Mods\Mommybot Advanced 1\mod.json =====
+
+===== BEGIN FILE: Mods\Mommybot Advanced\mod.json =====
+{
+    "name": "Mommybot Personality",
+    "description": "Mommy will take good care of you.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638467632484869979,
+        "guid": {
+            "serializedGuid": "54069587-7853-4bc3-9c72-2e10a6edf126"
+        }
+    }
+}
+===== END FILE: Mods\Mommybot Advanced\mod.json =====
+
+===== BEGIN FILE: Mods\Mommybot_Personality_Mod\mod.json =====
+{
+    "name": "Mommybot Personality Module",
+    "description": "Mommy will take good care of you.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638429625300524859,
+        "guid": {
+            "serializedGuid": "3c9a5742-2df4-4b03-8943-d6a9336f0367"
+        }
+    }
+}
+===== END FILE: Mods\Mommybot_Personality_Mod\mod.json =====
+
+===== BEGIN FILE: Mods\More_stockings\mod.json =====
+{
+    "name": "More stockings",
+    "description": "Add more kinds of socks",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.1",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638368717165071510,
+        "guid": {
+            "serializedGuid": "9f1a9a01-c33a-4be9-8c3c-472888aa10b8"
+        }
+    }
+}
+===== END FILE: Mods\More_stockings\mod.json =====
+
+===== BEGIN FILE: Mods\More_stockings_upper_layer\mod.json =====
+{
+    "name": "More stockings (upper layer)",
+    "description": "If you want socks that can be stacked, install this mod.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua", 
+            "yuanbanscript.lua"
+        ]
+    },
+    "targetVersion": "0.87.1",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638402115252128500,
+        "guid": {
+            "serializedGuid": "264cbb85-8f5b-405d-b5d6-67fd6ad7f7e5"
+        }
+    }
+}
+===== END FILE: Mods\More_stockings_upper_layer\mod.json =====
+
+===== BEGIN FILE: Mods\More_teeth\mod.json =====
+{
+    "name": "More sharp teeth",
+    "description": "Add some different kinds of teeth to the game.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638247706871736410,
+        "guid": {
+            "serializedGuid": "f6a7be7f-66cb-462d-a074-8c7e44ddcecb"
+        }
+    }
+}
+===== END FILE: Mods\More_teeth\mod.json =====
+
+===== BEGIN FILE: Mods\Mouth_shape_expansion\mod.json =====
+{
+    "name": "Mouth shape expansion",
+    "description": "More lovely mouth shapes, the disadvantage is that you can't see the tongue.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua", 
+            "MS.lua"
+        ]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638394696294681670,
+        "guid": {
+            "serializedGuid": "03e91901-2a8a-4d79-a00c-f8833da8ab85"
+        }
+    }
+}
+===== END FILE: Mods\Mouth_shape_expansion\mod.json =====
+
+===== BEGIN FILE: Mods\Mulitails\mod.json =====
+{
+    "name": "Multitails",
+    "description": "tails, so many tails\nArt: Nekolina\nSetup help: Charade",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "multitail cat tipped.lua",
+            "multitail cat.lua",
+            "multitail fox tipped.lua",
+            "multitail fox.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638117980711639928,
+        "guid": {
+            "serializedGuid": "a395a892-d082-44b8-a64b-75c7f4cbe697"
+        }
+    }
+}
+===== END FILE: Mods\Mulitails\mod.json =====
+
+===== BEGIN FILE: Mods\Neko_tails_mod\mod.json =====
+{
+    "name": "Neko tail mod",
+    "description": "Chasin' that tail...\nArt: Nekolina\nSetup help: Charade",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua",
+            "thick.lua",
+            "thin.lua",
+            "accs.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638116857828791865,
+        "guid": {
+            "serializedGuid": "61b05840-f3d6-4263-adce-09a4cb65d260"
+        }
+    }
+}
+===== END FILE: Mods\Neko_tails_mod\mod.json =====
+
+===== BEGIN FILE: Mods\NekoArc Mouth _Binding seamless parts\mod.json =====
+{
+    "name": "NekoArc Mouth(Binding seamless parts)",
+    "description": "Cat's mouth，Binding seamless body mod",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua", 
+            "eyes.lua"
+        ]
+    },
+    "targetVersion": "0.90.7",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638301079929387940,
+        "guid": {
+            "serializedGuid": "2a1829e2-43e8-491c-8f26-a36b73f685ef"
+        }
+    }
+}
+===== END FILE: Mods\NekoArc Mouth _Binding seamless parts\mod.json =====
+
+===== BEGIN FILE: Mods\Nerd Dimension Personality Modules. Volume II\mod.json =====
+{
+    "name": "Nerd Dimension Personality Modules. Volume II",
+    "description": "From the creators of Nerd Dimension Personality Modules (Volume I), arrives a completely new opportunity to get nerdy! Prepare yourself for the latest, most advanced Nerd Dimension personality modules product line, including: \\n\\n- Unprepared bot, for those who seek some messy yet really funny experience from their now unprepared and unaware bot. \\n- Foodie, for those who want to put their sausage in some fresh, warm and exquisite bun. \\n- Guidance, which offers a magic experience for those who are not “properly skilled”. Your bot will guide you thought this journey in what would probably be the best sex ed you ever had! \\n\\nWhat are you waiting for? Join the nerd army! Become part of the Nerd Dimension!",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638863338171872712,
+        "guid": {
+            "serializedGuid": "ffbf2df6-6f70-45e5-98a4-c4dd737c4faf"
+        }
+    }
+}
+===== END FILE: Mods\Nerd Dimension Personality Modules. Volume II\mod.json =====
+
+===== BEGIN FILE: Mods\Nerd Dimension Personality Modules_V1\mod.json =====
+{
+    "name": "Nerd Dimension Personality Modules. Volume I",
+    "description": "Bored of super sexualized personality modules? Time to get nerdy! Nerd Dimension presents its new line of casual personality modules with three launch products:\n\n- DnD player, for those who want to bring dice rolling and spell casting into a different kind of sheets.\n- Gamer, for those who love their digital heroes and want to put their hands in something that is not a controller.\n- Nerd, for those who think personality modules cannot make your bot seem smart… sometimes even too much.\n\nWhat are you waiting for? Join the nerd army! Become part of the Nerd Dimension!",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638842586268180000,
+        "guid": {
+            "serializedGuid": "4207c48d-b072-4a93-b95e-ce3e048c4226"
+        }
+    }
+}
+===== END FILE: Mods\Nerd Dimension Personality Modules_V1\mod.json =====
+
+===== BEGIN FILE: Mods\NEZUKO-CHAAAAN\mod.json =====
+{
+    "name": "Nezuko-chan~",
+    "description": "Pssst! hey kid...do you like anime?",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638339942270933090,
+        "guid": {
+            "serializedGuid": "1f76759b-a8dc-44d7-ba65-6f25a0fdc4c3"
+        }
+    }
+}
+
+===== END FILE: Mods\NEZUKO-CHAAAAN\mod.json =====
+
+===== BEGIN FILE: Mods\nipple_piercing\mod.json =====
+{
+    "name": "nipple piercing",
+    "description": "nipple piercing",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638242259518482830,
+        "guid": {
+            "serializedGuid": "c5cdeb68-070a-47f8-accc-5474052526b5"
+        }
+    }
+}
+===== END FILE: Mods\nipple_piercing\mod.json =====
+
+===== BEGIN FILE: Mods\NotSoPlain\mod.json =====
+{
+    "name": "Not so plain",
+    "description": "A collection of patterned Bras and Panties.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638475467505677080,
+        "guid": {
+            "serializedGuid": "6e1a305b-1ab8-4529-b7ea-75bbd1f96658"
+        }
+    }
+}
+===== END FILE: Mods\NotSoPlain\mod.json =====
+
+===== BEGIN FILE: Mods\NPC_Doll\mod.json =====
+{
+    "name": "NPC Doll",
+    "description": "Add some character dolls in the game.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": ["scriptplushy.lua"]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638397201749967810,
+        "guid": {
+            "serializedGuid": "fc539565-b406-44db-8baf-accb6f3f564c"
+        }
+    }
+}
+===== END FILE: Mods\NPC_Doll\mod.json =====
+
+===== BEGIN FILE: Mods\nunbot personality mod\mod.json =====
+{
+    "name": "Nunbot Personality Module",
+    "description": "A pious nun who will help cleanse you of sin.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638725676096093216,
+        "guid": {
+            "serializedGuid": "d58fb19a-3091-485a-a58d-fd2f15087544"
+        }
+    }
+}
+===== END FILE: Mods\nunbot personality mod\mod.json =====
+
+===== BEGIN FILE: Mods\Nursebot_Personality_Module\mod.json =====
+{
+    "name": "Nursebot Personality Mod",
+    "description": "A sexy nurse that can attend to your needs!",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638467610872665603,
+        "guid": {
+            "serializedGuid": "ed138739-d7b3-408f-b795-b9225bca93a1"
+        }
+    }
+}
+===== END FILE: Mods\Nursebot_Personality_Module\mod.json =====
+
+===== BEGIN FILE: Mods\Olhos Personalizados\mod.json =====
+{
+    "name": "Pacote: Olhos Personalizados",
+    "description": "Contem novos estilos de olhos para seu Bot\nItens sao vendidos na loja de pe�as individualmente\n\nAutor: GreadEden",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638761172881517722,
+        "guid": {
+            "serializedGuid": "5cda70e4-1f2c-4537-b90a-4b23e66ccdcd"
+        }
+    }
+}
+===== END FILE: Mods\Olhos Personalizados\mod.json =====
+
+===== BEGIN FILE: Mods\OTAKUROOM by androgetta\mod.json =====
+{
+    "name": "Otaku room by ANDROGETTA",
+    "description": "Todos son libres de usar/Editar/traducir este Mod.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "scriptbg.lua", 
+            "scriptplushy.lua", 
+            "scriptrug.lua", 
+            "scriptcupboard.lua", 
+            "scriptcouch.lua", 
+            "scriptdesk.lua", 
+            "scriptPC.lua", 
+            "scriptTV.lua", 
+            "scriptwindowLight.lua", 
+            "scriptwindow.lua", 
+            "scriptdoor.lua", 
+            "script.lua", 
+            "scriptbed.lua"
+        ]
+    },
+    "targetVersion": "0.86.2",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 639040812944903730,
+        "guid": {
+            "serializedGuid": "b616532b-913c-43b5-b437-9ccc6e7b5684"
+        }
+    }
+}
+===== END FILE: Mods\OTAKUROOM by androgetta\mod.json =====
+
+===== BEGIN FILE: Mods\PackOShoeSigs\mod.json =====
+{
+    "name": "Pack O ShoeSigs",
+    "description": "SHOEING all my love and dedication ",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638344045022808360,
+        "guid": {
+            "serializedGuid": "46a04cfa-8759-432f-9fe7-315f47650d7e"
+        }
+    }
+}
+
+===== END FILE: Mods\PackOShoeSigs\mod.json =====
+
+===== BEGIN FILE: Mods\Panties_and_shorts\mod.json =====
+{
+    "name": "Panties and shorts",
+    "description": "Panties and shorts mod by 王司徒",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua", 
+            "pants.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638155959002013570,
+        "guid": {
+            "serializedGuid": "fdaa875e-72ff-418b-b813-74f97c98ea7c"
+        }
+    }
+}
+===== END FILE: Mods\Panties_and_shorts\mod.json =====
+
+===== BEGIN FILE: Mods\pawpackv1\mod.json =====
+{
+    "name": "Pawpack V1",
+    "description": "Adds several furry-adjacent items along with the ability to make the bot flat chested.<br><br>Features edited items from:<br><color=#00A2E8>Potatopack v3 by UnderachievingPotato</color><br><color=#A14FED>RGB Blush by Wibiz</color><br><color=#EC2A5C>Pigmentate! by AndreWharn</color><br><br>Creator:<br>Tensorsensors<br><br>Additional notes:<br>Thank you to Nekolina and Tieubach for testing!<br><br>Also thank you to Nekolina for help, advice, and support during development!<br><br>Feel free to edit and/or redesribute any of my texture work! (Emphasis on mine, ask permision from the original creator for any items edited from other mods!)",
+    "OnGameStart": {
+        "luaFiles": [
+            "ladyparts/script.lua",
+			"clothing/script.lua",
+			"socks/script.lua",
+			"collar/script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638620406514883011,
+        "guid": {
+            "serializedGuid": "da86fc71-4c9c-48e9-87e0-e07c00dd7272"
+        }
+    }
+}
+===== END FILE: Mods\pawpackv1\mod.json =====
+
+===== BEGIN FILE: Mods\pawpackv2\mod.json =====
+{
+    "name": "Pawpack V2",
+    "description": "Adds several furry-adjacent items.<br><br>Features edited items from:<br><color=#00A2E8>Potatopack v3 by UnderachievingPotato</color><br><color=#A14FED>RGB Blush by Wibiz</color><br><br>Creator:<br>Tensorsensors<br><br>Additional notes:<br>Thank you to Nekolina and Tieubach for testing!<br><br>Also thank you to Nekolina for help, advice, and support during development!<br><br>Feel free to edit and/or redesribute any of my texture work! (Emphasis on mine, ask permision from the original creator for any items edited from other mods!)<br><br>A text file item list is included in the zip, <b>DO NOT UNZIP</b> you can view the text file without unzipping.",
+    "OnGameStart": {
+        "luaFiles": [
+            "ladyparts/script.lua",
+			"clothing/script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638620406514883011,
+        "guid": {
+            "serializedGuid": "da86fc71-4c9c-48e9-87e0-e07c00dd7272"
+        }
+    }
+}
+===== END FILE: Mods\pawpackv2\mod.json =====
+
+===== BEGIN FILE: Mods\PCSL_Loli_Shigure_mod\mod.json =====
+{
+    "name": "PCSL_Loli_Shigure_mod",
+    "description": "Change PC screen light into Loli Shigure dancing. Buy in grocery store. ",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638820492145179240,
+        "guid": {
+            "serializedGuid": "47a63cbb-5c7b-4e87-94d7-08bc41f520da"
+        }
+    }
+}
+===== END FILE: Mods\PCSL_Loli_Shigure_mod\mod.json =====
+
+===== BEGIN FILE: Mods\PEHC_mod\mod.json =====
+{
+    "name": "PEHC_mod",
+    "description": "Adds 22 items and some of the items could change the gameplay with buffs and trade-off bonuses when equipped. <BR><color=#FFFF00>Energy+</color> <u>more energy</u>, <BR><color=#FF0000>Health+</color> <u>small health regen</u>, <BR><color=#45b6fe>Cum+</color> <u>increase cum</u>. <BR><BR><color=#FF0000>REMINDER</color>:<BR><u>Some of these items will only be available in the pharmacy store or any other store if the player has started to have enough money... gambling tokens... or more condition that needs to be met</u>.<BR><BR><color=#FF0000>WARNING</color>:<BR><u>Starting a new save game and going to sleep interaction will make the game stuck in black screen</u>.<BR><BR><color=#45b6fe>Solution Fix</color>: <u>Start your new save game and save your game; after that load back your game save file. This method will fix the issue</u><BR>Other than that, no other bug found when activating this mod... yet. :)",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua",
+            "pendant.lua",
+            "energy.lua",
+            "health.lua",
+            "cum.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638826641030044930,
+        "guid": {
+            "serializedGuid": "bd1fb4e7-8956-495c-b618-93d37b55c937"
+        }
+    }
+}
+===== END FILE: Mods\PEHC_mod\mod.json =====
+
+===== BEGIN FILE: Mods\PervBot\mod.json =====
+{
+    "name": "Perverted Bot",
+    "description": "Who made the bot such a perv? And what happened to the profianity filter?",
+    "OnGameStart": {
+		"luaScript": "",
+        "luaFiles":  [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638663633741144185,
+        "guid": {
+            "serializedGuid": "2e7a49e1-4c6c-4621-9240-edb8ce42ddce"
+        }
+    }
+}
+===== END FILE: Mods\PervBot\mod.json =====
+
+===== BEGIN FILE: Mods\Piezas Muder Drones_ENG\mod.json =====
+{
+    "name": "Piezas Muder Drones (ENG)",
+    "description": "Mod that adds Murder Drone legs and a tail.<br><br>Mod translated into English by:<br>Shadow Spectator (shadowspectator)",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638821593140287400,
+        "guid": {
+            "serializedGuid": "0ecc9363-2d0b-4580-8914-1f3c1aea6832"
+        }
+    }
+}
+===== END FILE: Mods\Piezas Muder Drones_ENG\mod.json =====
+
+===== BEGIN FILE: Mods\pigmentate_v1.0\mod.json =====
+{
+    "name": "Pigmentate!",
+    "description": "Adds some illegal products in the \"ladyparts.ic\" site that allows you to customize Anon's skin/penis/cum colors!\n\nCreator: <color=#FF00FF>AndreWharn</color> (on 29/02/24)\nVersion: 1.0",
+    "OnGameStart": {
+        "luaFiles": [
+            "items/skin/script.lua",
+			"items/genitalia/script.lua",
+			"items/fluids/script.lua"
+        ]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638448412541417195,
+        "guid": {
+            "serializedGuid": "bce2e89b-14ef-4f53-9850-02b1cfff6142"
+        }
+    }
+}
+===== END FILE: Mods\pigmentate_v1.0\mod.json =====
+
+===== BEGIN FILE: Mods\PlentyOfFishnetsV2_Seamless - Public\mod.json =====
+{
+    "name": "PlentyOfFishnetsV2",
+    "description": "Various fishnet clothes",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.16",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 639023968492080170,
+        "guid": {
+            "serializedGuid": "28a48ecc-cd21-4d33-a433-d8e675070d3a"
+        }
+    }
+}
+===== END FILE: Mods\PlentyOfFishnetsV2_Seamless - Public\mod.json =====
+
+===== BEGIN FILE: Mods\PlentyOfFishnetsV2_Standard - Public\mod.json =====
+{
+    "name": "PlentyOfFishnetsV2",
+    "description": "Various fishnet clothes",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.16",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 639023968492080170,
+        "guid": {
+            "serializedGuid": "28a48ecc-cd21-4d33-a433-d8e675070d3a"
+        }
+    }
+}
+===== END FILE: Mods\PlentyOfFishnetsV2_Standard - Public\mod.json =====
+
+===== BEGIN FILE: Mods\plushes\mod.json =====
+{
+    "name": "More Plushies",
+    "description": "Sosig Vendor back at it again",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.6",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638709594680080630,
+        "guid": {
+            "serializedGuid": "9783c5f1-e544-459b-918f-9c75cbbc79dd"
+        }
+    }
+}
+===== END FILE: Mods\plushes\mod.json =====
+
+===== BEGIN FILE: Mods\potatopackv4\mod.json =====
+{
+    "name": "Potatopack V4",
+    "description": "A collection of most of my mods into one package. Art for Mutagenic Cloud Hoody by nekolina, art for Lip Piercing by LadLad. Put together by UnderachievingPotato. Big thanks to nekolina for testing too!",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638423726315977538,
+        "guid": {
+            "serializedGuid": "1607e66c-07aa-47ab-bcba-fbeeaae89b6a"
+        }
+    }
+}
+===== END FILE: Mods\potatopackv4\mod.json =====
+
+===== BEGIN FILE: Mods\Preset_hair_flicked\mod.json =====
+{
+    "name": "Flicked hair",
+    "description": "Hair that flicks up at the end",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638157102482440932,
+        "guid": {
+            "serializedGuid": "907bc822-448d-45b9-8308-bb57cc9def23"
+        }
+    }
+}
+===== END FILE: Mods\Preset_hair_flicked\mod.json =====
+
+===== BEGIN FILE: Mods\Preset_hair_fluffy\mod.json =====
+{
+    "name": "Fluffy hair",
+    "description": "Fluffy hair",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638157102266206207,
+        "guid": {
+            "serializedGuid": "7bdf726b-c05b-418c-bbd9-d2012334ba20"
+        }
+    }
+}
+===== END FILE: Mods\Preset_hair_fluffy\mod.json =====
+
+===== BEGIN FILE: Mods\Preset_hair_long_pigtails\mod.json =====
+{
+    "name": "Long pigtails",
+    "description": "Long pigtails",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638157102673563757,
+        "guid": {
+            "serializedGuid": "885bbc19-b170-4663-9f6b-02da8840b2f5"
+        }
+    }
+}
+===== END FILE: Mods\Preset_hair_long_pigtails\mod.json =====
+
+===== BEGIN FILE: Mods\Preset_hair_mod\mod.json =====
+{
+    "name": "Preset hair pack",
+    "description": "An update to the previous preset hair mods. Now together in one mod with secondary colors. \n\nMade by nekolina",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638247349813186449,
+        "guid": {
+            "serializedGuid": "4667d0e5-f43f-4688-9d07-d9b039e3699a"
+        }
+    }
+}
+===== END FILE: Mods\Preset_hair_mod\mod.json =====
+
+===== BEGIN FILE: Mods\Preset_hair_straight\mod.json =====
+{
+    "name": "Straight hair",
+    "description": "Some straight hairsyles",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638157100552491624,
+        "guid": {
+            "serializedGuid": "b08d8a5c-988f-4fe3-816f-b3e8af473882"
+        }
+    }
+}
+===== END FILE: Mods\Preset_hair_straight\mod.json =====
+
+===== BEGIN FILE: Mods\Preset_hair_wavy\mod.json =====
+{
+    "name": "Wavy hair",
+    "description": "Wavy hair",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638157102052191235,
+        "guid": {
+            "serializedGuid": "cc3e08f2-2afb-43a2-9d64-3b7e381bb556"
+        }
+    }
+}
+===== END FILE: Mods\Preset_hair_wavy\mod.json =====
+
+===== BEGIN FILE: Mods\Preverted Femboy Personality Module\mod.json =====
+{
+    "name": "Perverted Femboy",
+    "description": "Who made the bot such a perv? And what happened to the profianity filter? Note this is created for the Femboy mod. It will use male pronouns and all vaginal interactions with use anal dialog",
+    "OnGameStart": {
+		"luaScript": "",
+        "luaFiles":  [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638702074793737732,
+        "guid": {
+            "serializedGuid": "89abac4d-5f74-4948-87b2-1a6041a14538"
+		}
+    }
+}
+===== END FILE: Mods\Preverted Femboy Personality Module\mod.json =====
+
+===== BEGIN FILE: Mods\Preverted Femboy\mod.json =====
+{
+    "name": "Perverted Femboy",
+    "description": "Who made the bot such a perv? And what happened to the profianity filter? Note this is created for the Femboy mod. It will use male pronouns and all vaginal interactions with use anal dialog",
+    "OnGameStart": {
+		"luaScript": "",
+        "luaFiles":  [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638702074793737732,
+        "guid": {
+            "serializedGuid": "89abac4d-5f74-4948-87b2-1a6041a14538"
+		}
+    }
+}
+===== END FILE: Mods\Preverted Femboy\mod.json =====
+
+===== BEGIN FILE: Mods\QuantumCola_LuckyBoy_ENG\mod.json =====
+{
+    "name": "Lucky Boy - Dinero Máximo (ENG)",
+    "description": "Adds a free soda to the store that grants the maximum allowed amount of money when consumed.<br><br>Mod translated into English by:<br>Shadow Spectator (shadowspectator)",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638849382973022210,
+        "guid": {
+            "serializedGuid": "a6b0287a-cc4d-4f94-b988-6933ee3cf54d"
+        }
+    }
+}
+===== END FILE: Mods\QuantumCola_LuckyBoy_ENG\mod.json =====
+
+===== BEGIN FILE: Mods\Realistic_Eyes\mod.json =====
+{
+    "name": "Realistic Eyes",
+    "description": "A better Eye texture",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638274433062560661,
+        "guid": {
+            "serializedGuid": "ca6fafbd-c720-4018-b375-c3c35defc8c1"
+        }
+    }
+}
+===== END FILE: Mods\Realistic_Eyes\mod.json =====
+
+===== BEGIN FILE: Mods\Realistic_Pubic_Hair_Mod\mod.json =====
+{"name":"Pubic Hair Mod","description":"This mod gives a realistic pubic hair for your bot.","OnGameStart":{"luaScript":"","luaFiles":["script.lua"]},"targetVersion":"0.86.3","doNotChangeVariablesBelowThis":{"timeCreated":638254005069094520,"guid":{"serializedGuid":"78b083a7-eab1-449d-a97f-bd846a3c240d"}}}
+===== END FILE: Mods\Realistic_Pubic_Hair_Mod\mod.json =====
+
+===== BEGIN FILE: Mods\Rebecca_Cosplay_Set_0.86\mod.json =====
+{
+    "name": "Akaishio's Rebecca Cosplay Set!",
+    "description": "This Cosplay set contains Rebecca's Tattoos, Facelines, and Lipstick!",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638279183797562079,
+        "guid": {
+            "serializedGuid": "5fe28313-d141-4e43-986e-402f81e5c5eb"
+        }
+    }
+}
+===== END FILE: Mods\Rebecca_Cosplay_Set_0.86\mod.json =====
+
+===== BEGIN FILE: Mods\Rock_girl\mod.json =====
+{
+    "name": "Rock girl",
+    "description": "A rock outfit that originally had bracelets and leg bands, but I gave it up because it was too hard to make. Made by 王司徒",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.0",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638103131947338210,
+        "guid": {
+            "serializedGuid": "3209db85-aeb5-4baf-93a4-4d4f9afabf9a"
+        }
+    }
+}
+===== END FILE: Mods\Rock_girl\mod.json =====
+
+===== BEGIN FILE: Mods\ropTop\mod.json =====
+{
+    "name": "crop top",
+    "description": "A simple crop top",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638280859348566270,
+        "guid": {
+            "serializedGuid": "b09a4ecc-a54b-4062-b406-2fc79fb4a5d2"
+        }
+    }
+}
+===== END FILE: Mods\ropTop\mod.json =====
+
+===== BEGIN FILE: Mods\RS_Sofa&GB_ABGI_mod\mod.json =====
+{
+    "name": "RS_Sofa&GB_ABGI_mod",
+    "description": "Change couch with a custom made sofa & adds three animated background images. Buy in grocery store",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua",
+            "script (1).lua",
+            "script (2).lua",
+            "script (3).lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638825180222512130,
+        "guid": {
+            "serializedGuid": "e679712c-7719-4b86-b10c-dcafea9610d1"
+        }
+    }
+}
+===== END FILE: Mods\RS_Sofa&GB_ABGI_mod\mod.json =====
+
+===== BEGIN FILE: Mods\Seamless Components(0.9)\mod.json =====
+{
+    "name": "Seamless Components(0.9)",
+    "description": "Matching, improving on and repackaging the original equipment from @gear001, @Webiz, @Anon Jun. And This is a new version modified by that guy and 王司徒.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.7",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638247117095391960,
+        "guid": {
+            "serializedGuid": "5542efe7-7411-4ac3-b651-6ee73fd95a6f"
+        }
+    }
+}
+===== END FILE: Mods\Seamless Components(0.9)\mod.json =====
+
+===== BEGIN FILE: Mods\Secretary Personality Module 1\mod.json =====
+{
+    "name": "Secretary Personality Module",
+    "description": "From the creators of Nerd Dimension Personality Modules (Volume I & II), arrives a brand new opportunity to get nerdy! Prepare yourself for the latest, most advanced Nerd Dimension personality modules product line: \\n\\nThe secretary, for the corpos out there who want to rise something beyond the EBITDA and explore what the real meaning of Bonus is. \\n\\nWhat are you waiting for? Join the nerd army! Become part of the Nerd Dimension!",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.16",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638988025646376166,
+        "guid": {
+            "serializedGuid": "68eb2f47-cb0c-453f-ba28-90705b032e4e"
+        }
+    }
+}
+
+===== END FILE: Mods\Secretary Personality Module 1\mod.json =====
+
+===== BEGIN FILE: Mods\Secretary Personality Module\mod.json =====
+{
+    "name": "Secretary Personality Module",
+    "description": "From the creators of Nerd Dimension Personality Modules (Volume I & II), arrives a brand new opportunity to get nerdy! Prepare yourself for the latest, most advanced Nerd Dimension personality modules product line: \\n\\nThe secretary, for the corpos out there who want to rise something beyond the EBITDA and explore what the real meaning of Bonus is. \\n\\nWhat are you waiting for? Join the nerd army! Become part of the Nerd Dimension!",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.16",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638988025646376166,
+        "guid": {
+            "serializedGuid": "68eb2f47-cb0c-453f-ba28-90705b032e4e"
+        }
+    }
+}
+
+===== END FILE: Mods\Secretary Personality Module\mod.json =====
+
+===== BEGIN FILE: Mods\ShaniceBot - Skin compatible\mod.json =====
+{
+    "name": "Shanice Bot",
+    "description": "Make Jun look like Shanice",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638922014414522650,
+        "guid": {
+            "serializedGuid": "e9634b7f-becd-46ef-bab6-40841e1dfea7"
+        }
+    }
+}
+===== END FILE: Mods\ShaniceBot - Skin compatible\mod.json =====
+
+===== BEGIN FILE: Mods\Sharktails_for_bot\mod.json =====
+{
+    "name": "Sharktails",
+    "description": "Shark tails for the bot. Features one short and one long. \n Art by Lanthan  \n Mod setup by nekolina \n\nSharks go bark right?",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638258675103689247,
+        "guid": {
+            "serializedGuid": "5cb7e838-09b3-416b-b60e-86e906922d14"
+        }
+    }
+}
+===== END FILE: Mods\Sharktails_for_bot\mod.json =====
+
+===== BEGIN FILE: Mods\Shiros_techwear_shorts\mod.json =====
+{
+    "name": "Shiro's Techwear shorts",
+    "description": "A little mod I made for my own. made it for fun.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638407466122197566,
+        "guid": {
+            "serializedGuid": "27b96ce1-cc65-4364-b6c1-5cc441f14fe5"
+        }
+    }
+}
+===== END FILE: Mods\Shiros_techwear_shorts\mod.json =====
+
+===== BEGIN FILE: Mods\shorthoody\mod.json =====
+{
+    "name": "Short Hoody mod",
+    "description": "A mod that introduces 4 variations of a short hoody into the game. There are 4 versions, a plain, with a pocket, with a zipper and one with a pocket and zipper. Art by Nekolina, put together by GorkedPotato.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638031726787760352,
+        "guid": {
+            "serializedGuid": "0f462b10-ff19-424e-85eb-29a0bda2e08e"
+        }
+    }
+}
+===== END FILE: Mods\shorthoody\mod.json =====
+
+===== BEGIN FILE: Mods\Simurgh_s More Contract Merch - Panties\mod.json =====
+{
+    "name": "Simurgh's More Contract Merch - Panties",
+    "description": "Express your inner corpo drone with our new line of panties. In partnership with Simurgh Industries™, Helping Brands Be Better",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638726716639473897,
+        "guid": {
+            "serializedGuid": "42637066-9a95-4aca-b958-744387da903f"
+        }
+    }
+}
+===== END FILE: Mods\Simurgh_s More Contract Merch - Panties\mod.json =====
+
+===== BEGIN FILE: Mods\Simurgh's More Contract Merch - Panties\mod.json =====
+{
+    "name": "Simurgh's More Contract Merch - Panties",
+    "description": "Express your inner corpo drone with our new line of panties. In partnership with Simurgh Industries™, Helping Brands Be Better",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638726716639473897,
+        "guid": {
+            "serializedGuid": "42637066-9a95-4aca-b958-744387da903f"
+        }
+    }
+}
+===== END FILE: Mods\Simurgh's More Contract Merch - Panties\mod.json =====
+
+===== BEGIN FILE: Mods\skimpyunderwear_0.87.11-b\mod.json =====
+{
+    "name": "Skimpy underwear set",
+    "description": "A set of skimpy underwear. But is there more? *nudge *nudge\nOriginal mod by UnderachievingPotato\nCowgirl and blowjob images added by k.o.k.k.o.a",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 637904676156740862,
+        "guid": {
+            "serializedGuid": "d9b8b813-7695-40ab-87de-654ef2f129c7"
+        }
+    }
+}
+===== END FILE: Mods\skimpyunderwear_0.87.11-b\mod.json =====
+
+===== BEGIN FILE: Mods\Slutty_Clothes\mod.json =====
+{
+    "name": "Slutty Clothes",
+    "description": "Feel free to edit and share!",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638441423683689336,
+        "guid": {
+            "serializedGuid": "a86fa642-4cf6-4caf-9574-cc1b07b9ebbf"
+        }
+    }
+}
+===== END FILE: Mods\Slutty_Clothes\mod.json =====
+
+===== BEGIN FILE: Mods\Smaller_Booba_Mod\mod.json =====
+{
+    "name": "Smaller_Booba_Mod",
+    "description": "New smaller booba module has arrived, get them in bigdaddyhurt’s online store. It only includes the chest component. Making it somewhat compatible with other skin modules",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.15",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638752411761356110,
+        "guid": {
+            "serializedGuid": "7ce4b512-91e1-4f74-b710-72b44244e064"
+        }
+    }
+}
+===== END FILE: Mods\Smaller_Booba_Mod\mod.json =====
+
+===== BEGIN FILE: Mods\Smooth_Abs\mod.json =====
+{
+    "name": "Smoother Abs",
+    "description": "Makes the abs less defined for a smoother look. 'You call those abs? I call those Flabs. Kickin It S4E4'",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638246799194582550,
+        "guid": {
+            "serializedGuid": "66d94b44-c1cd-4710-9a97-0e220ce5834d"
+        }
+    }
+}
+===== END FILE: Mods\Smooth_Abs\mod.json =====
+
+===== BEGIN FILE: Mods\Some_masks_1\mod.json =====
+{
+    "name": "Some masks",
+    "description": "Add three cute masks.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.0",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638211405399040180,
+        "guid": {
+            "serializedGuid": "06618cc1-39c8-428b-9735-db975b11b769"
+        }
+    }
+}
+===== END FILE: Mods\Some_masks_1\mod.json =====
+
+===== BEGIN FILE: Mods\Some_shoes_v0.87.8\mod.json =====
+{
+    "name": "Some shoes v0.87.8↑",
+    "description": "Integrating some shoes made by Wang Situ before, and adding some new shoes.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "085high-heelshoe1.lua", 
+            "085high-heelshoe2.lua", 
+            "086shoe.lua", 
+            "085leathershoe.lua", 
+            "087shoe.lua"
+        ]
+    },
+    "targetVersion": "0.87.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638324616600152950,
+        "guid": {
+            "serializedGuid": "a1d97367-51be-47fe-b046-9a600ed5342c"
+        }
+    }
+}
+===== END FILE: Mods\Some_shoes_v0.87.8\mod.json =====
+
+===== BEGIN FILE: Mods\Some_strange_goods\mod.json =====
+{
+    "name": "Some strange goods",
+    "description": "Adds some items to Modify the bot's properties(mood, lust, sympathy), buy at the store",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.0",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638207966625180644,
+        "guid": {
+            "serializedGuid": "9c667c0b-7ebe-47a6-b83c-7cd5b59224a5"
+        }
+    }
+}
+===== END FILE: Mods\Some_strange_goods\mod.json =====
+
+===== BEGIN FILE: Mods\Some_T-shirts_v1\mod.json =====
+{
+    "name": "Some T-shirts",
+    "description": "I need to spend time making other types of mod, so this will be updated later.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638222701112099880,
+        "guid": {
+            "serializedGuid": "1b4f10d5-2c70-49a2-81ed-a6d44df5eef6"
+        }
+    }
+}
+===== END FILE: Mods\Some_T-shirts_v1\mod.json =====
+
+===== BEGIN FILE: Mods\SosigBallGagTape\mod.json =====
+{
+    "name": "Sosigs Tape and BallGag",
+    "description": "A bruised Sausage",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638346101672865040,
+        "guid": {
+            "serializedGuid": "130b70e1-5f3d-4f70-8fe9-208521b1d470"
+        }
+    }
+}
+
+===== END FILE: Mods\SosigBallGagTape\mod.json =====
+
+===== BEGIN FILE: Mods\SPH-SPA Personality Mod\mod.json =====
+{
+    "name": "Small Penis Humiliation-Appreciation Mod",
+    "description": "Personality module that makes the bot respond with a mix of small penis humiliation and appreciation, regardless of user's endowment. WARNING! Ladyparts is not responsible for any hurt feelings as a result of using this module!",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.16",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 639072006674782550,
+        "guid": {
+            "serializedGuid": "7b136804-3587-4e66-86c9-263f564a0615"
+        }
+    }
+}
+===== END FILE: Mods\SPH-SPA Personality Mod\mod.json =====
+
+===== BEGIN FILE: Mods\Stamina+ EN V2\mod.json =====
+{
+    "name": "Stamina+ in pharmacy",
+    "description": "well... I cannot say more... be careful not to overconsume!! (this item is not stamina + as we know it is a new one which has approximately the same properties).",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.8",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638716025922891393,
+        "guid": {
+            "serializedGuid": "39067be3-a2f0-4bd9-9d55-64e6c57df1bf"
+        }
+    }
+}
+===== END FILE: Mods\Stamina+ EN V2\mod.json =====
+
+===== BEGIN FILE: Mods\Sticker_bra\mod.json =====
+{
+    "name": "Sticker Bra Thing",
+    "description": "Just a simple sticker like bra thingy (idk what they're called). Made by Energizz and requested by AMa2.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.80 beta",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 637905803116883560,
+        "guid": {
+            "serializedGuid": "a83bb10e-9196-422f-9da3-117c152fe316"
+        }
+    }
+}
+===== END FILE: Mods\Sticker_bra\mod.json =====
+
+===== BEGIN FILE: Mods\Straight_hair_mix_and_match_parts\mod.json =====
+{
+    "name": "Straight hair pack",
+    "description": "A set of interchangable straight hair pieces. Build your own hairstyle by mix and matching four sections/nPlease note this is a large mod. As of this version phones cannot run this.Will be updated for next version",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638142619409944640,
+        "guid": {
+            "serializedGuid": "b642a8d6-5128-4c8e-99a4-99b9965f6244"
+        }
+    }
+}
+===== END FILE: Mods\Straight_hair_mix_and_match_parts\mod.json =====
+
+===== BEGIN FILE: Mods\Straight_hair_mix_and_match_updated_hair\mod.json =====
+{
+    "name": "Straight hair mix and match pieces",
+    "description": "Pieces of hair to build your own hairstyle. Mix and match different sections of hair from this mod or the other mix and match hair mods. Some pieces may also stack well with original hair or other hair mods so try experimenting.  \n\nMade by nekolina. \nSpecial thanks to Sheep and Charade for coding guidance on custom sprites. \nSpecial thanks to GorkedPotato for early testing.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638242149715425821,
+        "guid": {
+            "serializedGuid": "6448f4c6-6247-472e-8b24-cff49c17ced5"
+        }
+    }
+}
+===== END FILE: Mods\Straight_hair_mix_and_match_updated_hair\mod.json =====
+
+===== BEGIN FILE: Mods\SuccubusTail_En\mod.json =====
+{
+    "name": "Succubus tail",
+    "description": "Adds a tail for your devilishness and your devilish pleasures♥",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638618802688321434,
+        "guid": {
+            "serializedGuid": "55282929-7bf4-4d2d-9526-fef514e150e9"
+        }
+    }
+}
+===== END FILE: Mods\SuccubusTail_En\mod.json =====
+
+===== BEGIN FILE: Mods\Summer_Fairy_Miss_Set\mod.json =====
+{
+    "name": "Summer Fairy Miss Set",
+    "description": "In the hot summer, put on a cute swimsuit for your bot",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.7",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638523834909845090,
+        "guid": {
+            "serializedGuid": "c14ffc78-b629-4a09-a4a2-8a375c1529f9"
+        }
+    }
+}
+===== END FILE: Mods\Summer_Fairy_Miss_Set\mod.json =====
+
+===== BEGIN FILE: Mods\Summer_shorts\mod.json =====
+{
+    "name": "Summer shorts",
+    "description": "Summer shorts! Fully colourable, includes a belt and a buckle, what more could you ask for?",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638539662002758453,
+        "guid": {
+            "serializedGuid": "f37cdb9c-f6d2-4a3e-ae10-70d64695d1f0"
+        }
+    }
+}
+===== END FILE: Mods\Summer_shorts\mod.json =====
+
+===== BEGIN FILE: Mods\SuperModuleAdvanced (1)\mod.json =====
+{
+    "name": "PersonalityModule[advanced]",
+    "description": "with @The Alamo modders tool: over three hundred lines of dialogue, with 6 more lines added by @pollitoconpapas1607",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+            ]
+    },
+    "targetVersion": "0.87.7",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638430607656853010,
+        "guid": {
+            "serializedGuid": "04dde78b-2c73-49af-8473-dc8975379964"
+        }
+    }
+}
+
+===== END FILE: Mods\SuperModuleAdvanced (1)\mod.json =====
+
+===== BEGIN FILE: Mods\SweetBot\mod.json =====
+{
+    "name": "Sweet Bot",
+    "description": "Such a nice sweet bot that just needs head pats",
+    "OnGameStart": {
+		"luaScript": "",
+        "luaFiles":  [
+            "script.lua"
+        ]
+    },
+	"targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638670560868228786,
+        "guid": {
+            "serializedGuid": "882c0c6b-715d-4c30-8b48-fd827604e6cb"
+        }
+    }
+}
+===== END FILE: Mods\SweetBot\mod.json =====
+
+===== BEGIN FILE: Mods\Tattoos_Mod_Pack\mod.json =====
+{"name":"Tattoos Mod Pack","description":"This Mod gives tattoos for your bot.","OnGameStart":{"luaScript":"","luaFiles":["script.lua"]},"targetVersion":"0.86.3","doNotChangeVariablesBelowThis":{"timeCreated":638272868641275060,"guid":{"serializedGuid":"d1507968-9f39-48e0-adbf-c3b9caceb4d7"}}}
+===== END FILE: Mods\Tattoos_Mod_Pack\mod.json =====
+
+===== BEGIN FILE: Mods\Tomboy Personality Module\mod.json =====
+{
+    "name": "Tomboy Personality Module",
+    "description": "Makes the dialogues more Tomboyish. Dude with a vagina.",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.16",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 639007398899312332,
+        "guid": {
+            "serializedGuid": "28fa8676-2d4c-49f4-9a71-9b8ee1ddb375"
+        }
+    }
+}
+===== END FILE: Mods\Tomboy Personality Module\mod.json =====
+
+===== BEGIN FILE: Mods\Tongue_Piercing_Mod\mod.json =====
+{"name":"Tongue Piercing Mod","description":"Gives a Tongue Piercing for your bot.","OnGameStart":{"luaScript":"","luaFiles":["script.lua"]},"targetVersion":"0.86.3","doNotChangeVariablesBelowThis":{"timeCreated":638279832988433410,"guid":{"serializedGuid":"698f069d-a635-413f-90f5-239df1535c38"}}}
+===== END FILE: Mods\Tongue_Piercing_Mod\mod.json =====
+
+===== BEGIN FILE: Mods\ValentinesDayModpack.zip\mod.json =====
+{
+    "name": "Valentine's day pack",
+    "description": "A sweet mood made for your single ass//Made by Pollito Con Papas",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.13",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638731160479664309,
+        "guid": {
+            "serializedGuid": "ab1e96ae-7fdd-4c0d-87eb-fcc059b241c3"
+        }
+    }
+}
+===== END FILE: Mods\ValentinesDayModpack.zip\mod.json =====
+
+===== BEGIN FILE: Mods\Wavy_hair_mix_and_match_parts\mod.json =====
+{
+    "name": "Wavy hair pack",
+    "description": "A set of interchangable wavy hair pieces. Build your own hairstyle by mix and matching four sections/nPlease note this is a large mod. As of this version phones cannot run this.Will be updated for next version",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638142619409944640,
+        "guid": {
+            "serializedGuid": "04b6ef8d-5ef1-417b-863e-60e0e50af9ee"
+        }
+    }
+}
+===== END FILE: Mods\Wavy_hair_mix_and_match_parts\mod.json =====
+
+===== BEGIN FILE: Mods\Wavy_hair_mix_and_match_updated_hair\mod.json =====
+{
+    "name": "Wavy hair mix and match",
+    "description": "Pieces of hair to build your own hairstyle. Mix and match different sections of hair from this mod or the other mix and match hair mods. Some pieces may also stack well with original hair or other hair mods so try experimenting.  \n\nMade by nekolina. \nSpecial thanks to Sheep and Charade for coding guidance on custom sprites. \nSpecial thanks to GorkedPotato and Lanthan for early testing.",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.86.3",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638242150664093419,
+        "guid": {
+            "serializedGuid": "72171a6d-86e6-4dda-8fd1-303f66f9696b"
+        }
+    }
+}
+===== END FILE: Mods\Wavy_hair_mix_and_match_updated_hair\mod.json =====
+
+===== BEGIN FILE: Mods\WaxingMoon\mod.json =====
+{
+    "name": "Waxing Moon",
+    "description": "A replacement for the omega symbol matching the OperaGX Womb Tatoo",
+    "OnGameStart": {
+        "luaFiles": [
+            "moon.lua"
+        ]
+    },
+    "targetVersion": "0.87.11",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638468942277581720,
+        "guid": {
+            "serializedGuid": "02b90789-f91a-4d69-8130-222cf5f00a1f"
+        }
+    }
+}
+
+===== END FILE: Mods\WaxingMoon\mod.json =====
+
+===== BEGIN FILE: Mods\Wingsforbot\mod.json =====
+{
+    "name": "Wings pack",
+    "description": "Decorative wings for the bot",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638174774538990307,
+        "guid": {
+            "serializedGuid": "9aabe021-6d2a-4434-af9f-1194252201f9"
+        }
+    }
+}
+===== END FILE: Mods\Wingsforbot\mod.json =====
+
+===== BEGIN FILE: Mods\Womb_Tattoo\mod.json =====
+{
+    "name": "Womb tattoo",
+    "description": "This mod adds a womb tattoo in 3 versions, a single colored, darker colorable and a lighter colorable version. You can purchase said items in the ladyparts.ic store. Made by: GorkedPotato",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua",
+			"script2.lua",
+			"script3.lua"
+        ]
+    },
+    "targetVersion": "0.80 beta",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 637890909058031063,
+        "guid": {
+            "serializedGuid": "bd522dc7-c99a-446e-afe7-26eb91be7db8"
+        }
+    }
+}
+===== END FILE: Mods\Womb_Tattoo\mod.json =====
+
+===== BEGIN FILE: Mods\Zelda\mod.json =====
+{
+    "name": "Hair Zelda",
+    "description": "Make your bot have the same short hair style as zelda from breath of the wild 2",
+    "OnGameStart": {
+        "luaScript": "",
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.85.69",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638172054299590000,
+        "guid": {
+            "serializedGuid": "ab1554bd-8dea-4a70-bbe5-6824cb2b8dde"
+        }
+    }
+}
+===== END FILE: Mods\Zelda\mod.json =====
+
+===== BEGIN FILE: Mods\Ξ Sistema de Comidas Progressivo Ξ V1 PT-BR\mod.json =====
+{
+    "name": "<color=#00FF5E>Ξ Sistema de Comidas Progressivo",
+    "description": "<color=#00FF5E>Ξ Adiciona 60 comidas e 15 energeticos novos com sistema de raridades progressivas\nΞ Básico Ξ Melhorado Ξ Superior Ξ Excelente Ξ Lendário\nComidas realistas e balanceadas para end-game\n\nΞ V.1 PT-BR",
+    "OnGameStart": {
+        "luaFiles": [
+            "script.lua"
+        ]
+    },
+    "targetVersion": "0.90.16",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 638959203833951763,
+        "guid": {
+            "serializedGuid": "7538b4b0-3039-4847-a461-323b00c7ae39"
+        }
+    }
+}
+===== END FILE: Mods\Ξ Sistema de Comidas Progressivo Ξ V1 PT-BR\mod.json =====
+

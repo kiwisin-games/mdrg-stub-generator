@@ -1,0 +1,1739 @@
+table: 0000092A# MDRG Runtime Test
+
+test_id: runtime_test_001_debug_mod_real
+created_at: 20260507-134808
+runtime_test_label: debug_mod_real
+objective: Manual runtime callback test for MDRG debug mod
+
+## Configuration
+
+ENABLE_DEBUG_ITEMS: true
+ENABLE_CALLBACK_PROBE: true
+DEBUG_ADD_TO_SHOP: true
+DEBUG_ENABLE_UI_CALLBACK_CASES: true
+DEBUG_ENABLE_STORY_CONDITION_CASES: true
+DEBUG_ENABLE_COROUTINE_CASES: true
+DEBUG_ENABLE_TEXTURE_CALLBACK_CASES: true
+callback_probe_enabled: true
+callback_probe_once_per_context: false
+callback_probe_max_calls: 120
+context_label: debug-mod-real
+
+## Runtime Signals At First Callback
+
+CurrentModGuid: present
+GameVariables: missing
+gv: missing
+flowchart: missing
+io.open: present
+effective_gamevariables_source: none
+detected_context: callback-invocation-with-safe-io
+transport: file
+
+## Manual Actions
+
+- Use/equip/eat debug items
+- Open clothier if DEBUG_ADD_TO_SHOP is true
+- Check callback reports
+- User may edit this section after the test.
+
+## Reports
+
+Generated reports:
+table: 0000096B- callback-report-20260507-134808-001-coroutine-start.coroutine-closure-before.txt
+table: 000009C3- callback-report-20260507-134808-002-coroutine-start.coroutine-on-finished-before.txt
+table: 00000A43- callback-report-20260507-134909-003-category-clothing.random-item-post-processing-before.txt
+table: 00000AC2- callback-report-20260507-134909-004-category-food.random-item-post-processing-before.txt
+table: 00000B41- callback-report-20260507-134909-005-category-food-cooked-dish.random-item-post-processing-before.txt
+table: 00000BC0- callback-report-20260507-134909-006-category-usable.random-item-post-processing-before.txt
+table: 00000C3F- callback-report-20260507-134909-007-category-package.random-item-post-processing-before.txt
+table: 00000CBE- callback-report-20260507-134909-008-category-room.random-item-post-processing-before.txt
+table: 00000D3D- callback-report-20260507-134909-009-category-modules.random-item-post-processing-before.txt
+table: 00000DBC- callback-report-20260507-134909-010-category-modules-personality.random-item-post-processing-before.txt
+table: 00000E3B- callback-report-20260507-134909-011-category-fish.random-item-post-processing-before.txt
+table: 00000EBA- callback-report-20260507-134909-012-category-cooking-ingredient.random-item-post-processing-before.txt
+table: 00000F39- callback-report-20260507-134909-013-category-fishing-trash.random-item-post-processing-before.txt
+table: 00000FB8- callback-report-20260507-134909-014-category-meds.random-item-post-processing-before.txt
+table: 00001037- callback-report-20260507-134909-015-category-soap.random-item-post-processing-before.txt
+table: 000010B6- callback-report-20260507-134909-016-category-anon-equip.random-item-post-processing-before.txt
+table: 00001135- callback-report-20260507-134909-017-category-other.random-item-post-processing-before.txt
+table: 000011E2- callback-report-20260507-134910-018-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000128F- callback-report-20260507-134910-019-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000133C- callback-report-20260507-134910-020-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000013E9- callback-report-20260507-134910-021-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00001496- callback-report-20260507-134910-022-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00001543- callback-report-20260507-134910-023-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000015F0- callback-report-20260507-134915-024-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000169D- callback-report-20260507-134915-025-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000174A- callback-report-20260507-134916-026-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000017F7- callback-report-20260507-134916-027-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000189A- callback-report-20260507-134916-028-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000193D- callback-report-20260507-134916-029-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000019E0- callback-report-20260507-134916-030-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00001A83- callback-report-20260507-134916-031-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00001B02- callback-report-20260507-134926-032-category-other.on-use-before.txt
+table: 00001B81- callback-report-20260507-134930-033-category-anon-equip.on-use-before.txt
+table: 00001C01- callback-report-20260507-134932-034-texture-special-effect.texture-special-effect-before.txt
+table: 00001C80- callback-report-20260507-134932-035-item-scope-condition.item-scope-condition-before.txt
+table: 00001CFF- callback-report-20260507-134932-036-item-scope-condition.item-scope-condition-before.txt
+table: 00001D7E- callback-report-20260507-134934-037-category-soap.on-use-before.txt
+table: 00001DFD- callback-report-20260507-134936-038-category-meds.on-use-before.txt
+table: 00001E7C- callback-report-20260507-134939-039-category-fishing-trash.on-use-before.txt
+table: 00001F1F- callback-report-20260507-134940-040-category-cooking-ingredient.nutrition-filler-before.txt
+table: 00001FC2- callback-report-20260507-134940-041-category-cooking-ingredient.nutrition-filler-before.txt
+table: 00002041- callback-report-20260507-134942-042-category-cooking-ingredient.on-use-before.txt
+table: 000020E4- callback-report-20260507-134944-043-category-cooking-ingredient.nutrition-filler-before.txt
+table: 00002163- callback-report-20260507-134950-044-category-modules-personality.on-use-before.txt
+table: 000021E3- callback-report-20260507-134952-045-category-modules-personality.special-effect-before.txt
+table: 00002262- callback-report-20260507-134952-046-item-scope-condition.item-scope-condition-before.txt
+table: 000022E1- callback-report-20260507-134952-047-item-scope-condition.item-scope-condition-before.txt
+table: 00002360- callback-report-20260507-134952-048-item-scope-condition.item-scope-condition-before.txt
+table: 000023DF- callback-report-20260507-134953-049-category-modules.on-use-before.txt
+table: 0000245F- callback-report-20260507-134955-050-texture-special-effect.texture-special-effect-before.txt
+table: 000024DF- callback-report-20260507-134955-051-texture-special-effect.texture-special-effect-before.txt
+table: 0000255E- callback-report-20260507-134955-052-item-scope-condition.item-scope-condition-before.txt
+table: 000025DD- callback-report-20260507-134955-053-item-scope-condition.item-scope-condition-before.txt
+table: 0000265C- callback-report-20260507-134955-054-item-scope-condition.item-scope-condition-before.txt
+table: 000026DB- callback-report-20260507-134957-055-category-room.on-use-before.txt
+table: 0000275A- callback-report-20260507-134959-056-category-package.on-use-before.txt
+table: 000027D9- callback-report-20260507-135000-057-category-usable.on-use-before.txt
+table: 0000287C- callback-report-20260507-135002-058-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000291F- callback-report-20260507-135002-059-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000299E- callback-report-20260507-135003-060-category-food-cooked-dish.on-use-before.txt
+table: 00002A41- callback-report-20260507-135004-061-category-food.nutrition-filler-before.txt
+table: 00002AE4- callback-report-20260507-135004-062-category-food.nutrition-filler-before.txt
+table: 00002B63- callback-report-20260507-135005-063-category-food.on-use-before.txt
+table: 00002BE2- callback-report-20260507-135007-064-category-clothing.on-use-before.txt
+table: 00002C62- callback-report-20260507-135008-065-texture-special-effect.texture-special-effect-before.txt
+table: 00002CE2- callback-report-20260507-135008-066-texture-special-effect.texture-special-effect-before.txt
+table: 00002D61- callback-report-20260507-135008-067-item-scope-condition.item-scope-condition-before.txt
+table: 00002DE0- callback-report-20260507-135008-068-item-scope-condition.item-scope-condition-before.txt
+table: 00002E5F- callback-report-20260507-135008-069-item-scope-condition.item-scope-condition-before.txt
+table: 00002EB4- callback-report-20260507-135017-070-category-clothing.shop-availability-before.txt
+table: 00002F09- callback-report-20260507-135017-071-category-food.shop-availability-before.txt
+table: 00002F5E- callback-report-20260507-135017-072-category-food-cooked-dish.shop-availability-before.txt
+table: 00002FB3- callback-report-20260507-135017-073-category-usable.shop-availability-before.txt
+table: 00003008- callback-report-20260507-135017-074-category-package.shop-availability-before.txt
+table: 0000305D- callback-report-20260507-135017-075-category-room.shop-availability-before.txt
+table: 000030B2- callback-report-20260507-135017-076-category-modules.shop-availability-before.txt
+table: 00003107- callback-report-20260507-135017-077-category-modules-personality.shop-availability-before.txt
+table: 0000315C- callback-report-20260507-135017-078-category-fish.shop-availability-before.txt
+table: 000031B1- callback-report-20260507-135017-079-category-cooking-ingredient.shop-availability-before.txt
+table: 00003206- callback-report-20260507-135017-080-category-fishing-trash.shop-availability-before.txt
+table: 0000325B- callback-report-20260507-135017-081-category-meds.shop-availability-before.txt
+table: 000032B0- callback-report-20260507-135017-082-category-soap.shop-availability-before.txt
+table: 00003305- callback-report-20260507-135017-083-category-anon-equip.shop-availability-before.txt
+table: 0000335A- callback-report-20260507-135017-084-category-other.shop-availability-before.txt
+table: 000033D9- callback-report-20260507-135017-085-category-other.random-item-post-processing-before.txt
+table: 00003458- callback-report-20260507-135017-086-category-modules-personality.random-item-post-processing-before.txt
+table: 000034D7- callback-report-20260507-135018-087-category-soap.random-item-post-processing-before.txt
+table: 00003556- callback-report-20260507-135018-088-category-anon-equip.random-item-post-processing-before.txt
+table: 000035D5- callback-report-20260507-135018-089-category-food.random-item-post-processing-before.txt
+table: 00003654- callback-report-20260507-135018-090-category-anon-equip.random-item-post-processing-before.txt
+table: 000036D3- callback-report-20260507-135018-091-category-fish.random-item-post-processing-before.txt
+table: 00003752- callback-report-20260507-135018-092-category-fishing-trash.random-item-post-processing-before.txt
+table: 000037D1- callback-report-20260507-135018-093-category-modules-personality.random-item-post-processing-before.txt
+table: 00003850- callback-report-20260507-135018-094-category-anon-equip.random-item-post-processing-before.txt
+table: 000038CF- callback-report-20260507-135018-095-category-room.random-item-post-processing-before.txt
+table: 0000394E- callback-report-20260507-135018-096-category-modules.random-item-post-processing-before.txt
+table: 000039CD- callback-report-20260507-135018-097-category-meds.random-item-post-processing-before.txt
+table: 00003A4C- callback-report-20260507-135018-098-category-meds.random-item-post-processing-before.txt
+table: 00003ACB- callback-report-20260507-135018-099-category-meds.random-item-post-processing-before.txt
+table: 00003B20- callback-report-20260507-135019-100-category-clothing.shop-availability-before.txt
+table: 00003B75- callback-report-20260507-135019-101-category-food.shop-availability-before.txt
+table: 00003BCA- callback-report-20260507-135019-102-category-food-cooked-dish.shop-availability-before.txt
+table: 00003C1F- callback-report-20260507-135019-103-category-usable.shop-availability-before.txt
+table: 00003C74- callback-report-20260507-135019-104-category-package.shop-availability-before.txt
+table: 00003CC9- callback-report-20260507-135019-105-category-room.shop-availability-before.txt
+table: 00003D1E- callback-report-20260507-135019-106-category-modules.shop-availability-before.txt
+table: 00003D73- callback-report-20260507-135019-107-category-modules-personality.shop-availability-before.txt
+table: 00003DC8- callback-report-20260507-135019-108-category-fish.shop-availability-before.txt
+table: 00003E1D- callback-report-20260507-135019-109-category-cooking-ingredient.shop-availability-before.txt
+table: 00003E72- callback-report-20260507-135019-110-category-fishing-trash.shop-availability-before.txt
+table: 00003EC7- callback-report-20260507-135019-111-category-meds.shop-availability-before.txt
+table: 00003F1C- callback-report-20260507-135019-112-category-soap.shop-availability-before.txt
+table: 00003F71- callback-report-20260507-135019-113-category-anon-equip.shop-availability-before.txt
+table: 00003FC6- callback-report-20260507-135019-114-category-other.shop-availability-before.txt
+table: 00004045- callback-report-20260507-135019-115-category-food-cooked-dish.random-item-post-processing-before.txt
+table: 000040C4- callback-report-20260507-135019-116-category-other.random-item-post-processing-before.txt
+table: 00004143- callback-report-20260507-135019-117-category-clothing.random-item-post-processing-before.txt
+table: 000041C2- callback-report-20260507-135019-118-category-fishing-trash.random-item-post-processing-before.txt
+table: 00004241- callback-report-20260507-135019-119-category-food.random-item-post-processing-before.txt
+table: 000042C0- callback-report-20260507-135019-120-category-anon-equip.random-item-post-processing-before.txt
+table: 0000433F- callback-report-20260507-135019-121-category-package.random-item-post-processing-before.txt
+table: 000043BE- callback-report-20260507-135019-122-category-usable.random-item-post-processing-before.txt
+table: 0000443D- callback-report-20260507-135019-123-category-usable.random-item-post-processing-before.txt
+table: 000044BC- callback-report-20260507-135019-124-category-modules.random-item-post-processing-before.txt
+table: 0000453B- callback-report-20260507-135019-125-category-food-cooked-dish.random-item-post-processing-before.txt
+table: 000045BA- callback-report-20260507-135019-126-category-food.random-item-post-processing-before.txt
+table: 00004639- callback-report-20260507-135019-127-category-room.random-item-post-processing-before.txt
+table: 000046B8- callback-report-20260507-135019-128-category-clothing.random-item-post-processing-before.txt
+table: 00004737- callback-report-20260507-135019-129-category-food-cooked-dish.random-item-post-processing-before.txt
+table: 000047B6- callback-report-20260507-135019-130-category-package.random-item-post-processing-before.txt
+table: 00004835- callback-report-20260507-135019-131-category-food.random-item-post-processing-before.txt
+table: 000048B4- callback-report-20260507-135019-132-category-clothing.random-item-post-processing-before.txt
+table: 00004933- callback-report-20260507-135019-133-category-food-cooked-dish.random-item-post-processing-before.txt
+table: 000049B2- callback-report-20260507-135019-134-category-cooking-ingredient.random-item-post-processing-before.txt
+table: 00004A31- callback-report-20260507-135019-135-category-food.random-item-post-processing-before.txt
+table: 00004AB0- callback-report-20260507-135019-136-category-clothing.random-item-post-processing-before.txt
+table: 00004B2F- callback-report-20260507-135019-137-category-package.random-item-post-processing-before.txt
+table: 00004BAE- callback-report-20260507-135019-138-category-food-cooked-dish.random-item-post-processing-before.txt
+table: 00004C2D- callback-report-20260507-135019-139-category-clothing.random-item-post-processing-before.txt
+table: 00004CAC- callback-report-20260507-135019-140-category-usable.random-item-post-processing-before.txt
+table: 00004D2B- callback-report-20260507-135019-141-category-food.random-item-post-processing-before.txt
+table: 00004DAA- callback-report-20260507-135019-142-category-package.random-item-post-processing-before.txt
+table: 00004E29- callback-report-20260507-135019-143-category-usable.random-item-post-processing-before.txt
+table: 00004EA8- callback-report-20260507-135019-144-category-modules-personality.random-item-post-processing-before.txt
+table: 00004F27- callback-report-20260507-135019-145-category-food-cooked-dish.random-item-post-processing-before.txt
+table: 00004FA6- callback-report-20260507-135019-146-category-food.random-item-post-processing-before.txt
+table: 00005027- callback-report-20260507-135021-147-item-scope-condition.item-scope-condition-before.txt
+table: 000050A4- callback-report-20260507-135021-148-item-scope-condition.item-scope-condition-before.txt
+table: 00005121- callback-report-20260507-135021-149-item-scope-condition.item-scope-condition-before.txt
+table: 000051C2- callback-report-20260507-135023-150-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00005263- callback-report-20260507-135023-151-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00005304- callback-report-20260507-135023-152-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000053A5- callback-report-20260507-135023-153-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00005446- callback-report-20260507-135023-154-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000054E7- callback-report-20260507-135023-155-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00005588- callback-report-20260507-135032-156-category-cooking-ingredient.nutrition-filler-before.txt
+table: 00005629- callback-report-20260507-135032-157-category-cooking-ingredient.nutrition-filler-before.txt
+table: 000056CA- callback-report-20260507-135034-158-category-cooking-ingredient.nutrition-filler-before.txt
+table: 0000576B- callback-report-20260507-135034-159-category-fish.nutrition-filler-before.txt
+table: 0000580C- callback-report-20260507-135034-160-category-fish.nutrition-filler-before.txt
+table: 000058AD- callback-report-20260507-135034-161-category-fish.nutrition-filler-before.txt
+table: 0000594E- callback-report-20260507-135034-162-category-fish.nutrition-filler-before.txt
+table: 000059EF- callback-report-20260507-135034-163-category-fish.nutrition-filler-before.txt
+table: 00005A90- callback-report-20260507-135034-164-category-fish.nutrition-filler-before.txt
+table: 00005B31- callback-report-20260507-135035-165-category-fish.nutrition-filler-before.txt
+table: 00005BD2- callback-report-20260507-135035-166-category-fish.nutrition-filler-before.txt
+table: 00005C73- callback-report-20260507-135036-167-category-fish.nutrition-filler-before.txt
+table: 00005D14- callback-report-20260507-135036-168-category-fish.nutrition-filler-before.txt
+table: 00005DB5- callback-report-20260507-135036-169-category-fish.nutrition-filler-before.txt
+table: 00005E56- callback-report-20260507-135036-170-category-fish.nutrition-filler-before.txt
+table: 00005EF7- callback-report-20260507-135036-171-category-fish.nutrition-filler-before.txt
+table: 00005F98- callback-report-20260507-135036-172-category-fish.nutrition-filler-before.txt
+table: 00006039- callback-report-20260507-135038-173-category-fish.nutrition-filler-before.txt
+table: 000060DA- callback-report-20260507-135038-174-category-fish.nutrition-filler-before.txt
+table: 0000617B- callback-report-20260507-135039-175-category-fish.nutrition-filler-before.txt
+table: 0000621C- callback-report-20260507-135039-176-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000062BD- callback-report-20260507-135039-177-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000635E- callback-report-20260507-135039-178-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000063FF- callback-report-20260507-135039-179-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000064A0- callback-report-20260507-135041-180-category-food.nutrition-filler-before.txt
+table: 00006541- callback-report-20260507-135041-181-category-food.nutrition-filler-before.txt
+table: 000065E2- callback-report-20260507-135043-182-category-food.nutrition-filler-before.txt
+table: 00006683- callback-report-20260507-135043-183-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00006724- callback-report-20260507-135043-184-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000067C5- callback-report-20260507-135043-185-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00006866- callback-report-20260507-135043-186-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00006907- callback-report-20260507-135044-187-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000069A8- callback-report-20260507-135044-188-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00006A49- callback-report-20260507-135045-189-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00006A9C- callback-report-20260507-135055-190-category-clothing.shop-availability-before.txt
+table: 00006AEF- callback-report-20260507-135055-191-category-food.shop-availability-before.txt
+table: 00006B42- callback-report-20260507-135055-192-category-food-cooked-dish.shop-availability-before.txt
+table: 00006B95- callback-report-20260507-135055-193-category-usable.shop-availability-before.txt
+table: 00006BE8- callback-report-20260507-135055-194-category-package.shop-availability-before.txt
+table: 00006C3B- callback-report-20260507-135055-195-category-room.shop-availability-before.txt
+table: 00006C8E- callback-report-20260507-135055-196-category-modules.shop-availability-before.txt
+table: 00006CE1- callback-report-20260507-135055-197-category-modules-personality.shop-availability-before.txt
+table: 00006D34- callback-report-20260507-135055-198-category-fish.shop-availability-before.txt
+table: 00006D87- callback-report-20260507-135055-199-category-cooking-ingredient.shop-availability-before.txt
+table: 00006DDA- callback-report-20260507-135055-200-category-fishing-trash.shop-availability-before.txt
+table: 00006E2D- callback-report-20260507-135055-201-category-meds.shop-availability-before.txt
+table: 00006E80- callback-report-20260507-135055-202-category-soap.shop-availability-before.txt
+table: 00006ED3- callback-report-20260507-135055-203-category-anon-equip.shop-availability-before.txt
+table: 00006F26- callback-report-20260507-135055-204-category-other.shop-availability-before.txt
+table: 00006FA3- callback-report-20260507-135055-205-category-soap.random-item-post-processing-before.txt
+table: 00007020- callback-report-20260507-135055-206-category-soap.random-item-post-processing-before.txt
+table: 0000709D- callback-report-20260507-135055-207-category-cooking-ingredient.random-item-post-processing-before.txt
+table: 0000711A- callback-report-20260507-135055-208-category-fish.random-item-post-processing-before.txt
+table: 00007197- callback-report-20260507-135055-209-category-soap.random-item-post-processing-before.txt
+table: 00007214- callback-report-20260507-135055-210-category-fish.random-item-post-processing-before.txt
+table: 00007291- callback-report-20260507-135055-211-category-food.random-item-post-processing-before.txt
+table: 0000730E- callback-report-20260507-135055-212-category-soap.random-item-post-processing-before.txt
+table: 0000738B- callback-report-20260507-135055-213-category-cooking-ingredient.random-item-post-processing-before.txt
+table: 00007408- callback-report-20260507-135055-214-category-soap.random-item-post-processing-before.txt
+table: 00007485- callback-report-20260507-135055-215-category-cooking-ingredient.random-item-post-processing-before.txt
+table: 00007502- callback-report-20260507-135055-216-category-room.random-item-post-processing-before.txt
+table: 0000757F- callback-report-20260507-135055-217-category-fishing-trash.random-item-post-processing-before.txt
+table: 000075FC- callback-report-20260507-135055-218-category-soap.random-item-post-processing-before.txt
+table: 00007679- callback-report-20260507-135055-219-category-soap.random-item-post-processing-before.txt
+table: 000076F6- callback-report-20260507-135055-220-category-fishing-trash.random-item-post-processing-before.txt
+table: 00007749- callback-report-20260507-135056-221-category-clothing.shop-availability-before.txt
+table: 0000779C- callback-report-20260507-135056-222-category-food.shop-availability-before.txt
+table: 000077EF- callback-report-20260507-135056-223-category-food-cooked-dish.shop-availability-before.txt
+table: 00007842- callback-report-20260507-135056-224-category-usable.shop-availability-before.txt
+table: 00007895- callback-report-20260507-135056-225-category-package.shop-availability-before.txt
+table: 000078E8- callback-report-20260507-135056-226-category-room.shop-availability-before.txt
+table: 0000793B- callback-report-20260507-135056-227-category-modules.shop-availability-before.txt
+table: 0000798E- callback-report-20260507-135056-228-category-modules-personality.shop-availability-before.txt
+table: 000079E1- callback-report-20260507-135056-229-category-fish.shop-availability-before.txt
+table: 00007A34- callback-report-20260507-135056-230-category-cooking-ingredient.shop-availability-before.txt
+table: 00007A87- callback-report-20260507-135057-231-category-fishing-trash.shop-availability-before.txt
+table: 00007ADA- callback-report-20260507-135057-232-category-meds.shop-availability-before.txt
+table: 00007B2D- callback-report-20260507-135057-233-category-soap.shop-availability-before.txt
+table: 00007B80- callback-report-20260507-135057-234-category-anon-equip.shop-availability-before.txt
+table: 00007BD3- callback-report-20260507-135057-235-category-other.shop-availability-before.txt
+table: 00007C50- callback-report-20260507-135057-236-category-other.random-item-post-processing-before.txt
+table: 00007CCD- callback-report-20260507-135057-237-category-clothing.random-item-post-processing-before.txt
+table: 00007D4A- callback-report-20260507-135057-238-category-other.random-item-post-processing-before.txt
+table: 00007DC7- callback-report-20260507-135057-239-category-fish.random-item-post-processing-before.txt
+table: 00007E44- callback-report-20260507-135057-240-category-package.random-item-post-processing-before.txt
+table: 00007EC1- callback-report-20260507-135057-241-category-other.random-item-post-processing-before.txt
+table: 00007F3E- callback-report-20260507-135057-242-category-other.random-item-post-processing-before.txt
+table: 00007FBB- callback-report-20260507-135057-243-category-usable.random-item-post-processing-before.txt
+table: 00008038- callback-report-20260507-135057-244-category-fish.random-item-post-processing-before.txt
+table: 000080B5- callback-report-20260507-135057-245-category-package.random-item-post-processing-before.txt
+table: 00008132- callback-report-20260507-135057-246-category-cooking-ingredient.random-item-post-processing-before.txt
+table: 000081AF- callback-report-20260507-135057-247-category-modules.random-item-post-processing-before.txt
+table: 0000822C- callback-report-20260507-135057-248-category-soap.random-item-post-processing-before.txt
+table: 000082A9- callback-report-20260507-135057-249-category-food-cooked-dish.random-item-post-processing-before.txt
+table: 00008326- callback-report-20260507-135057-250-category-fishing-trash.random-item-post-processing-before.txt
+table: 000083A3- callback-report-20260507-135057-251-category-food-cooked-dish.random-item-post-processing-before.txt
+table: 00008422- callback-report-20260507-135058-252-item-scope-condition.item-scope-condition-before.txt
+table: 0000849F- callback-report-20260507-135058-253-item-scope-condition.item-scope-condition-before.txt
+table: 0000851C- callback-report-20260507-135058-254-item-scope-condition.item-scope-condition-before.txt
+table: 000085BD- callback-report-20260507-135100-255-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000865E- callback-report-20260507-135100-256-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000086FF- callback-report-20260507-135100-257-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000087A0- callback-report-20260507-135100-258-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008841- callback-report-20260507-135101-259-category-food-cooked-dish.nutrition-filler-before.txt
+table: 000088E2- callback-report-20260507-135101-260-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008983- callback-report-20260507-135102-261-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008A24- callback-report-20260507-135102-262-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008AC5- callback-report-20260507-135102-263-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008B66- callback-report-20260507-135102-264-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008C07- callback-report-20260507-135103-265-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008CA8- callback-report-20260507-135103-266-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008D49- callback-report-20260507-135103-267-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008DEA- callback-report-20260507-135103-268-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008E8B- callback-report-20260507-135104-269-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008F2C- callback-report-20260507-135104-270-category-food-cooked-dish.nutrition-filler-before.txt
+table: 00008FCD- callback-report-20260507-135114-271-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000906E- callback-report-20260507-135114-272-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000910F- callback-report-20260507-135115-273-category-food-cooked-dish.nutrition-filler-before.txt
+table: 0000918E- callback-report-20260507-135128-274-item-scope-condition.item-scope-condition-before.txt
+table: 0000920B- callback-report-20260507-135128-275-item-scope-condition.item-scope-condition-before.txt
+table: 00009288- callback-report-20260507-135128-276-item-scope-condition.item-scope-condition-before.txt
+table: 000092DB- callback-report-20260507-135221-277-category-clothing.shop-availability-before.txt
+table: 0000932E- callback-report-20260507-135221-278-category-food.shop-availability-before.txt
+table: 00009381- callback-report-20260507-135221-279-category-food-cooked-dish.shop-availability-before.txt
+table: 000093D4- callback-report-20260507-135221-280-category-usable.shop-availability-before.txt
+table: 00009427- callback-report-20260507-135221-281-category-package.shop-availability-before.txt
+table: 0000947A- callback-report-20260507-135221-282-category-room.shop-availability-before.txt
+table: 000094CD- callback-report-20260507-135221-283-category-modules.shop-availability-before.txt
+table: 00009520- callback-report-20260507-135221-284-category-modules-personality.shop-availability-before.txt
+table: 00009573- callback-report-20260507-135221-285-category-fish.shop-availability-before.txt
+table: 000095C6- callback-report-20260507-135221-286-category-cooking-ingredient.shop-availability-before.txt
+table: 00009619- callback-report-20260507-135221-287-category-fishing-trash.shop-availability-before.txt
+table: 0000966C- callback-report-20260507-135221-288-category-meds.shop-availability-before.txt
+table: 000096BF- callback-report-20260507-135221-289-category-soap.shop-availability-before.txt
+table: 00009712- callback-report-20260507-135221-290-category-anon-equip.shop-availability-before.txt
+table: 00009765- callback-report-20260507-135221-291-category-other.shop-availability-before.txt
+table: 000097E2- callback-report-20260507-135221-292-category-anon-equip.random-item-post-processing-before.txt
+table: 0000985F- callback-report-20260507-135221-293-category-food.random-item-post-processing-before.txt
+table: 000098DC- callback-report-20260507-135221-294-category-modules-personality.random-item-post-processing-before.txt
+table: 00009959- callback-report-20260507-135221-295-category-room.random-item-post-processing-before.txt
+table: 000099D6- callback-report-20260507-135221-296-category-modules.random-item-post-processing-before.txt
+table: 00009A53- callback-report-20260507-135221-297-category-fishing-trash.random-item-post-processing-before.txt
+table: 00009AD0- callback-report-20260507-135221-298-category-room.random-item-post-processing-before.txt
+table: 00009B4D- callback-report-20260507-135221-299-category-fish.random-item-post-processing-before.txt
+table: 00009BCA- callback-report-20260507-135221-300-category-anon-equip.random-item-post-processing-before.txt
+table: 00009C47- callback-report-20260507-135221-301-category-fish.random-item-post-processing-before.txt
+table: 00009CC4- callback-report-20260507-135221-302-category-package.random-item-post-processing-before.txt
+table: 00009D41- callback-report-20260507-135221-303-category-room.random-item-post-processing-before.txt
+table: 00009DBE- callback-report-20260507-135221-304-category-fishing-trash.random-item-post-processing-before.txt
+table: 00009E3B- callback-report-20260507-135221-305-category-modules-personality.random-item-post-processing-before.txt
+table: 00009EB8- callback-report-20260507-135406-306-item-scope-condition.item-scope-condition-before.txt
+table: 00009F35- callback-report-20260507-135406-307-item-scope-condition.item-scope-condition-before.txt
+table: 00009FB2- callback-report-20260507-135406-308-item-scope-condition.item-scope-condition-before.txt
+table: 0000A031- callback-report-20260507-135425-309-item-scope-condition.item-scope-condition-before.txt
+table: 0000A0AE- callback-report-20260507-135425-310-item-scope-condition.item-scope-condition-before.txt
+table: 0000A12B- callback-report-20260507-135425-311-item-scope-condition.item-scope-condition-before.txt
+table: 0000A1A8- callback-report-20260507-135428-312-item-scope-condition.item-scope-condition-before.txt
+table: 0000A225- callback-report-20260507-135428-313-item-scope-condition.item-scope-condition-before.txt
+table: 0000A2A2- callback-report-20260507-135428-314-item-scope-condition.item-scope-condition-before.txt
+table: 0000A320- callback-report-20260507-135438-315-category-other.special-effect-before.txt
+table: 0000A39E- callback-report-20260507-135438-316-texture-special-effect.texture-special-effect-before.txt
+table: 0000A41C- callback-report-20260507-135438-317-category-soap.special-effect-before.txt
+table: 0000A49A- callback-report-20260507-135438-318-category-meds.special-effect-before.txt
+table: 0000A518- callback-report-20260507-135438-319-category-fishing-trash.special-effect-before.txt
+table: 0000A596- callback-report-20260507-135438-320-category-modules-personality.special-effect-before.txt
+table: 0000A614- callback-report-20260507-135438-321-texture-special-effect.texture-special-effect-before.txt
+table: 0000A692- callback-report-20260507-135438-322-category-room.special-effect-before.txt
+table: 0000A710- callback-report-20260507-135438-323-category-package.special-effect-before.txt
+table: 0000A78E- callback-report-20260507-135438-324-category-usable.special-effect-before.txt
+table: 0000A80C- callback-report-20260507-135438-325-texture-special-effect.texture-special-effect-before.txt
+
+## Generated reports update
+
+updated_at: 2026-05-07T16:58:51+00:00
+report_count: 325
+
+Reports:
+- callback-report-20260507-134808-001-coroutine-start.coroutine-closure-before.txt
+- callback-report-20260507-134808-002-coroutine-start.coroutine-on-finished-before.txt
+- callback-report-20260507-134909-003-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-134909-004-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-134909-005-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-134909-006-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-134909-007-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-134909-008-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-134909-009-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-134909-010-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-134909-011-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-134909-012-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-134909-013-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-134909-014-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-134909-015-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-134909-016-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-134909-017-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-134910-018-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-019-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-020-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-021-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-022-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-023-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134915-024-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134915-025-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-026-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-027-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-028-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-029-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-030-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-031-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134926-032-category-other.on-use-before.txt
+- callback-report-20260507-134930-033-category-anon-equip.on-use-before.txt
+- callback-report-20260507-134932-034-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134932-035-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134932-036-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134934-037-category-soap.on-use-before.txt
+- callback-report-20260507-134936-038-category-meds.on-use-before.txt
+- callback-report-20260507-134939-039-category-fishing-trash.on-use-before.txt
+- callback-report-20260507-134940-040-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134940-041-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134942-042-category-cooking-ingredient.on-use-before.txt
+- callback-report-20260507-134944-043-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134950-044-category-modules-personality.on-use-before.txt
+- callback-report-20260507-134952-045-category-modules-personality.special-effect-before.txt
+- callback-report-20260507-134952-046-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134952-047-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134952-048-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134953-049-category-modules.on-use-before.txt
+- callback-report-20260507-134955-050-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134955-051-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134955-052-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134955-053-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134955-054-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134957-055-category-room.on-use-before.txt
+- callback-report-20260507-134959-056-category-package.on-use-before.txt
+- callback-report-20260507-135000-057-category-usable.on-use-before.txt
+- callback-report-20260507-135002-058-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135002-059-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135003-060-category-food-cooked-dish.on-use-before.txt
+- callback-report-20260507-135004-061-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135004-062-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135005-063-category-food.on-use-before.txt
+- callback-report-20260507-135007-064-category-clothing.on-use-before.txt
+- callback-report-20260507-135008-065-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135008-066-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135008-067-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135008-068-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135008-069-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135017-070-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135017-071-category-food.shop-availability-before.txt
+- callback-report-20260507-135017-072-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135017-073-category-usable.shop-availability-before.txt
+- callback-report-20260507-135017-074-category-package.shop-availability-before.txt
+- callback-report-20260507-135017-075-category-room.shop-availability-before.txt
+- callback-report-20260507-135017-076-category-modules.shop-availability-before.txt
+- callback-report-20260507-135017-077-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135017-078-category-fish.shop-availability-before.txt
+- callback-report-20260507-135017-079-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135017-080-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135017-081-category-meds.shop-availability-before.txt
+- callback-report-20260507-135017-082-category-soap.shop-availability-before.txt
+- callback-report-20260507-135017-083-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135017-084-category-other.shop-availability-before.txt
+- callback-report-20260507-135017-085-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135017-086-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135018-087-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135018-088-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-089-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135018-090-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-091-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135018-092-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135018-093-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135018-094-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-095-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135018-096-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135018-097-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135018-098-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135018-099-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135019-100-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135019-101-category-food.shop-availability-before.txt
+- callback-report-20260507-135019-102-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135019-103-category-usable.shop-availability-before.txt
+- callback-report-20260507-135019-104-category-package.shop-availability-before.txt
+- callback-report-20260507-135019-105-category-room.shop-availability-before.txt
+- callback-report-20260507-135019-106-category-modules.shop-availability-before.txt
+- callback-report-20260507-135019-107-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135019-108-category-fish.shop-availability-before.txt
+- callback-report-20260507-135019-109-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135019-110-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135019-111-category-meds.shop-availability-before.txt
+- callback-report-20260507-135019-112-category-soap.shop-availability-before.txt
+- callback-report-20260507-135019-113-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135019-114-category-other.shop-availability-before.txt
+- callback-report-20260507-135019-115-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-116-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135019-117-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-118-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135019-119-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-120-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135019-121-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-122-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-123-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-124-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135019-125-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-126-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-127-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135019-128-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-129-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-130-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-131-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-132-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-133-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-134-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135019-135-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-136-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-137-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-138-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-139-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-140-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-141-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-142-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-143-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-144-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135019-145-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-146-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135021-147-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135021-148-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135021-149-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135023-150-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-151-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-152-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-153-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-154-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-155-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135032-156-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135032-157-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135034-158-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135034-159-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-160-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-161-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-162-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-163-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-164-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135035-165-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135035-166-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-167-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-168-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-169-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-170-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-171-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-172-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135038-173-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135038-174-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135039-175-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135039-176-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-177-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-178-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-179-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135041-180-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135041-181-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135043-182-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135043-183-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-184-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-185-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-186-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135044-187-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135044-188-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135045-189-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135055-190-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135055-191-category-food.shop-availability-before.txt
+- callback-report-20260507-135055-192-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135055-193-category-usable.shop-availability-before.txt
+- callback-report-20260507-135055-194-category-package.shop-availability-before.txt
+- callback-report-20260507-135055-195-category-room.shop-availability-before.txt
+- callback-report-20260507-135055-196-category-modules.shop-availability-before.txt
+- callback-report-20260507-135055-197-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135055-198-category-fish.shop-availability-before.txt
+- callback-report-20260507-135055-199-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135055-200-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135055-201-category-meds.shop-availability-before.txt
+- callback-report-20260507-135055-202-category-soap.shop-availability-before.txt
+- callback-report-20260507-135055-203-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135055-204-category-other.shop-availability-before.txt
+- callback-report-20260507-135055-205-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-206-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-207-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-208-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135055-209-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-210-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135055-211-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135055-212-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-213-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-214-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-215-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-216-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135055-217-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135055-218-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-219-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-220-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135056-221-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135056-222-category-food.shop-availability-before.txt
+- callback-report-20260507-135056-223-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135056-224-category-usable.shop-availability-before.txt
+- callback-report-20260507-135056-225-category-package.shop-availability-before.txt
+- callback-report-20260507-135056-226-category-room.shop-availability-before.txt
+- callback-report-20260507-135056-227-category-modules.shop-availability-before.txt
+- callback-report-20260507-135056-228-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135056-229-category-fish.shop-availability-before.txt
+- callback-report-20260507-135056-230-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135057-231-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135057-232-category-meds.shop-availability-before.txt
+- callback-report-20260507-135057-233-category-soap.shop-availability-before.txt
+- callback-report-20260507-135057-234-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135057-235-category-other.shop-availability-before.txt
+- callback-report-20260507-135057-236-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-237-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135057-238-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-239-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-240-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135057-241-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-242-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-243-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135057-244-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-245-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135057-246-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135057-247-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135057-248-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135057-249-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-250-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135057-251-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135058-252-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135058-253-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135058-254-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135100-255-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-256-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-257-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-258-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135101-259-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135101-260-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-261-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-262-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-263-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-264-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-265-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-266-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-267-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-268-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135104-269-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135104-270-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135114-271-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135114-272-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135115-273-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135128-274-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135128-275-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135128-276-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135221-277-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135221-278-category-food.shop-availability-before.txt
+- callback-report-20260507-135221-279-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135221-280-category-usable.shop-availability-before.txt
+- callback-report-20260507-135221-281-category-package.shop-availability-before.txt
+- callback-report-20260507-135221-282-category-room.shop-availability-before.txt
+- callback-report-20260507-135221-283-category-modules.shop-availability-before.txt
+- callback-report-20260507-135221-284-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135221-285-category-fish.shop-availability-before.txt
+- callback-report-20260507-135221-286-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135221-287-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135221-288-category-meds.shop-availability-before.txt
+- callback-report-20260507-135221-289-category-soap.shop-availability-before.txt
+- callback-report-20260507-135221-290-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135221-291-category-other.shop-availability-before.txt
+- callback-report-20260507-135221-292-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135221-293-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135221-294-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135221-295-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-296-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135221-297-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135221-298-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-299-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135221-300-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135221-301-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135221-302-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135221-303-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-304-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135221-305-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135406-306-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135406-307-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135406-308-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-309-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-310-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-311-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-312-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-313-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-314-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135438-315-category-other.special-effect-before.txt
+- callback-report-20260507-135438-316-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135438-317-category-soap.special-effect-before.txt
+- callback-report-20260507-135438-318-category-meds.special-effect-before.txt
+- callback-report-20260507-135438-319-category-fishing-trash.special-effect-before.txt
+- callback-report-20260507-135438-320-category-modules-personality.special-effect-before.txt
+- callback-report-20260507-135438-321-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135438-322-category-room.special-effect-before.txt
+- callback-report-20260507-135438-323-category-package.special-effect-before.txt
+- callback-report-20260507-135438-324-category-usable.special-effect-before.txt
+- callback-report-20260507-135438-325-texture-special-effect.texture-special-effect-before.txt
+
+Callbacks:
+- ItemPrefab.SetRandomItemPostProcessing: 108
+- ModUtilities.AddSingleBuyItemToShop.availabilityFunc: 75
+- EdibleItemPrefabData.CreateInstanceDish: 52
+- ItemScopeConditionCustom.CreateInstance: 29
+- EdibleItemPrefabData.CreateInstance: 28
+- ItemPrefab.OnUse: 14
+- ItemPrefab.SpecialEffectAction: 9
+- TextureOverriderManager.GetSpecialEffectsAction: 8
+- ModUtilities.StartCoroutine: 2
+
+## Generated reports update
+
+updated_at: 2026-05-07T16:59:31+00:00
+report_count: 325
+
+Reports:
+- callback-report-20260507-134808-001-coroutine-start.coroutine-closure-before.txt
+- callback-report-20260507-134808-002-coroutine-start.coroutine-on-finished-before.txt
+- callback-report-20260507-134909-003-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-134909-004-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-134909-005-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-134909-006-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-134909-007-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-134909-008-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-134909-009-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-134909-010-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-134909-011-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-134909-012-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-134909-013-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-134909-014-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-134909-015-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-134909-016-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-134909-017-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-134910-018-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-019-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-020-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-021-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-022-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-023-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134915-024-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134915-025-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-026-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-027-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-028-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-029-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-030-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-031-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134926-032-category-other.on-use-before.txt
+- callback-report-20260507-134930-033-category-anon-equip.on-use-before.txt
+- callback-report-20260507-134932-034-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134932-035-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134932-036-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134934-037-category-soap.on-use-before.txt
+- callback-report-20260507-134936-038-category-meds.on-use-before.txt
+- callback-report-20260507-134939-039-category-fishing-trash.on-use-before.txt
+- callback-report-20260507-134940-040-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134940-041-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134942-042-category-cooking-ingredient.on-use-before.txt
+- callback-report-20260507-134944-043-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134950-044-category-modules-personality.on-use-before.txt
+- callback-report-20260507-134952-045-category-modules-personality.special-effect-before.txt
+- callback-report-20260507-134952-046-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134952-047-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134952-048-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134953-049-category-modules.on-use-before.txt
+- callback-report-20260507-134955-050-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134955-051-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134955-052-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134955-053-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134955-054-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134957-055-category-room.on-use-before.txt
+- callback-report-20260507-134959-056-category-package.on-use-before.txt
+- callback-report-20260507-135000-057-category-usable.on-use-before.txt
+- callback-report-20260507-135002-058-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135002-059-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135003-060-category-food-cooked-dish.on-use-before.txt
+- callback-report-20260507-135004-061-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135004-062-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135005-063-category-food.on-use-before.txt
+- callback-report-20260507-135007-064-category-clothing.on-use-before.txt
+- callback-report-20260507-135008-065-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135008-066-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135008-067-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135008-068-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135008-069-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135017-070-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135017-071-category-food.shop-availability-before.txt
+- callback-report-20260507-135017-072-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135017-073-category-usable.shop-availability-before.txt
+- callback-report-20260507-135017-074-category-package.shop-availability-before.txt
+- callback-report-20260507-135017-075-category-room.shop-availability-before.txt
+- callback-report-20260507-135017-076-category-modules.shop-availability-before.txt
+- callback-report-20260507-135017-077-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135017-078-category-fish.shop-availability-before.txt
+- callback-report-20260507-135017-079-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135017-080-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135017-081-category-meds.shop-availability-before.txt
+- callback-report-20260507-135017-082-category-soap.shop-availability-before.txt
+- callback-report-20260507-135017-083-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135017-084-category-other.shop-availability-before.txt
+- callback-report-20260507-135017-085-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135017-086-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135018-087-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135018-088-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-089-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135018-090-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-091-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135018-092-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135018-093-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135018-094-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-095-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135018-096-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135018-097-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135018-098-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135018-099-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135019-100-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135019-101-category-food.shop-availability-before.txt
+- callback-report-20260507-135019-102-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135019-103-category-usable.shop-availability-before.txt
+- callback-report-20260507-135019-104-category-package.shop-availability-before.txt
+- callback-report-20260507-135019-105-category-room.shop-availability-before.txt
+- callback-report-20260507-135019-106-category-modules.shop-availability-before.txt
+- callback-report-20260507-135019-107-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135019-108-category-fish.shop-availability-before.txt
+- callback-report-20260507-135019-109-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135019-110-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135019-111-category-meds.shop-availability-before.txt
+- callback-report-20260507-135019-112-category-soap.shop-availability-before.txt
+- callback-report-20260507-135019-113-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135019-114-category-other.shop-availability-before.txt
+- callback-report-20260507-135019-115-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-116-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135019-117-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-118-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135019-119-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-120-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135019-121-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-122-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-123-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-124-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135019-125-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-126-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-127-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135019-128-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-129-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-130-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-131-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-132-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-133-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-134-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135019-135-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-136-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-137-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-138-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-139-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-140-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-141-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-142-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-143-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-144-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135019-145-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-146-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135021-147-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135021-148-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135021-149-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135023-150-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-151-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-152-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-153-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-154-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-155-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135032-156-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135032-157-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135034-158-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135034-159-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-160-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-161-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-162-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-163-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-164-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135035-165-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135035-166-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-167-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-168-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-169-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-170-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-171-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-172-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135038-173-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135038-174-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135039-175-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135039-176-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-177-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-178-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-179-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135041-180-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135041-181-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135043-182-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135043-183-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-184-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-185-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-186-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135044-187-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135044-188-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135045-189-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135055-190-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135055-191-category-food.shop-availability-before.txt
+- callback-report-20260507-135055-192-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135055-193-category-usable.shop-availability-before.txt
+- callback-report-20260507-135055-194-category-package.shop-availability-before.txt
+- callback-report-20260507-135055-195-category-room.shop-availability-before.txt
+- callback-report-20260507-135055-196-category-modules.shop-availability-before.txt
+- callback-report-20260507-135055-197-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135055-198-category-fish.shop-availability-before.txt
+- callback-report-20260507-135055-199-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135055-200-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135055-201-category-meds.shop-availability-before.txt
+- callback-report-20260507-135055-202-category-soap.shop-availability-before.txt
+- callback-report-20260507-135055-203-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135055-204-category-other.shop-availability-before.txt
+- callback-report-20260507-135055-205-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-206-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-207-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-208-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135055-209-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-210-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135055-211-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135055-212-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-213-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-214-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-215-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-216-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135055-217-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135055-218-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-219-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-220-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135056-221-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135056-222-category-food.shop-availability-before.txt
+- callback-report-20260507-135056-223-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135056-224-category-usable.shop-availability-before.txt
+- callback-report-20260507-135056-225-category-package.shop-availability-before.txt
+- callback-report-20260507-135056-226-category-room.shop-availability-before.txt
+- callback-report-20260507-135056-227-category-modules.shop-availability-before.txt
+- callback-report-20260507-135056-228-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135056-229-category-fish.shop-availability-before.txt
+- callback-report-20260507-135056-230-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135057-231-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135057-232-category-meds.shop-availability-before.txt
+- callback-report-20260507-135057-233-category-soap.shop-availability-before.txt
+- callback-report-20260507-135057-234-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135057-235-category-other.shop-availability-before.txt
+- callback-report-20260507-135057-236-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-237-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135057-238-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-239-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-240-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135057-241-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-242-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-243-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135057-244-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-245-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135057-246-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135057-247-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135057-248-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135057-249-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-250-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135057-251-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135058-252-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135058-253-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135058-254-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135100-255-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-256-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-257-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-258-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135101-259-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135101-260-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-261-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-262-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-263-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-264-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-265-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-266-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-267-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-268-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135104-269-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135104-270-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135114-271-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135114-272-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135115-273-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135128-274-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135128-275-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135128-276-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135221-277-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135221-278-category-food.shop-availability-before.txt
+- callback-report-20260507-135221-279-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135221-280-category-usable.shop-availability-before.txt
+- callback-report-20260507-135221-281-category-package.shop-availability-before.txt
+- callback-report-20260507-135221-282-category-room.shop-availability-before.txt
+- callback-report-20260507-135221-283-category-modules.shop-availability-before.txt
+- callback-report-20260507-135221-284-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135221-285-category-fish.shop-availability-before.txt
+- callback-report-20260507-135221-286-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135221-287-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135221-288-category-meds.shop-availability-before.txt
+- callback-report-20260507-135221-289-category-soap.shop-availability-before.txt
+- callback-report-20260507-135221-290-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135221-291-category-other.shop-availability-before.txt
+- callback-report-20260507-135221-292-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135221-293-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135221-294-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135221-295-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-296-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135221-297-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135221-298-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-299-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135221-300-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135221-301-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135221-302-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135221-303-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-304-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135221-305-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135406-306-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135406-307-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135406-308-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-309-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-310-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-311-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-312-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-313-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-314-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135438-315-category-other.special-effect-before.txt
+- callback-report-20260507-135438-316-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135438-317-category-soap.special-effect-before.txt
+- callback-report-20260507-135438-318-category-meds.special-effect-before.txt
+- callback-report-20260507-135438-319-category-fishing-trash.special-effect-before.txt
+- callback-report-20260507-135438-320-category-modules-personality.special-effect-before.txt
+- callback-report-20260507-135438-321-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135438-322-category-room.special-effect-before.txt
+- callback-report-20260507-135438-323-category-package.special-effect-before.txt
+- callback-report-20260507-135438-324-category-usable.special-effect-before.txt
+- callback-report-20260507-135438-325-texture-special-effect.texture-special-effect-before.txt
+
+Callbacks:
+- ItemPrefab.SetRandomItemPostProcessing: 108
+- ModUtilities.AddSingleBuyItemToShop.availabilityFunc: 75
+- EdibleItemPrefabData.CreateInstanceDish: 52
+- ItemScopeConditionCustom.CreateInstance: 29
+- EdibleItemPrefabData.CreateInstance: 28
+- ItemPrefab.OnUse: 14
+- ItemPrefab.SpecialEffectAction: 9
+- TextureOverriderManager.GetSpecialEffectsAction: 8
+- ModUtilities.StartCoroutine: 2
+
+## Generated reports update
+
+updated_at: 2026-05-07T16:59:42+00:00
+report_count: 325
+
+Reports:
+- callback-report-20260507-134808-001-coroutine-start.coroutine-closure-before.txt
+- callback-report-20260507-134808-002-coroutine-start.coroutine-on-finished-before.txt
+- callback-report-20260507-134909-003-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-134909-004-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-134909-005-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-134909-006-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-134909-007-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-134909-008-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-134909-009-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-134909-010-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-134909-011-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-134909-012-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-134909-013-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-134909-014-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-134909-015-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-134909-016-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-134909-017-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-134910-018-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-019-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-020-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-021-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-022-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-023-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134915-024-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134915-025-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-026-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-027-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-028-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-029-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-030-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-031-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134926-032-category-other.on-use-before.txt
+- callback-report-20260507-134930-033-category-anon-equip.on-use-before.txt
+- callback-report-20260507-134932-034-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134932-035-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134932-036-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134934-037-category-soap.on-use-before.txt
+- callback-report-20260507-134936-038-category-meds.on-use-before.txt
+- callback-report-20260507-134939-039-category-fishing-trash.on-use-before.txt
+- callback-report-20260507-134940-040-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134940-041-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134942-042-category-cooking-ingredient.on-use-before.txt
+- callback-report-20260507-134944-043-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134950-044-category-modules-personality.on-use-before.txt
+- callback-report-20260507-134952-045-category-modules-personality.special-effect-before.txt
+- callback-report-20260507-134952-046-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134952-047-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134952-048-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134953-049-category-modules.on-use-before.txt
+- callback-report-20260507-134955-050-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134955-051-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134955-052-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134955-053-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134955-054-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134957-055-category-room.on-use-before.txt
+- callback-report-20260507-134959-056-category-package.on-use-before.txt
+- callback-report-20260507-135000-057-category-usable.on-use-before.txt
+- callback-report-20260507-135002-058-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135002-059-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135003-060-category-food-cooked-dish.on-use-before.txt
+- callback-report-20260507-135004-061-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135004-062-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135005-063-category-food.on-use-before.txt
+- callback-report-20260507-135007-064-category-clothing.on-use-before.txt
+- callback-report-20260507-135008-065-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135008-066-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135008-067-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135008-068-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135008-069-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135017-070-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135017-071-category-food.shop-availability-before.txt
+- callback-report-20260507-135017-072-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135017-073-category-usable.shop-availability-before.txt
+- callback-report-20260507-135017-074-category-package.shop-availability-before.txt
+- callback-report-20260507-135017-075-category-room.shop-availability-before.txt
+- callback-report-20260507-135017-076-category-modules.shop-availability-before.txt
+- callback-report-20260507-135017-077-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135017-078-category-fish.shop-availability-before.txt
+- callback-report-20260507-135017-079-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135017-080-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135017-081-category-meds.shop-availability-before.txt
+- callback-report-20260507-135017-082-category-soap.shop-availability-before.txt
+- callback-report-20260507-135017-083-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135017-084-category-other.shop-availability-before.txt
+- callback-report-20260507-135017-085-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135017-086-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135018-087-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135018-088-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-089-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135018-090-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-091-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135018-092-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135018-093-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135018-094-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-095-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135018-096-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135018-097-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135018-098-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135018-099-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135019-100-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135019-101-category-food.shop-availability-before.txt
+- callback-report-20260507-135019-102-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135019-103-category-usable.shop-availability-before.txt
+- callback-report-20260507-135019-104-category-package.shop-availability-before.txt
+- callback-report-20260507-135019-105-category-room.shop-availability-before.txt
+- callback-report-20260507-135019-106-category-modules.shop-availability-before.txt
+- callback-report-20260507-135019-107-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135019-108-category-fish.shop-availability-before.txt
+- callback-report-20260507-135019-109-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135019-110-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135019-111-category-meds.shop-availability-before.txt
+- callback-report-20260507-135019-112-category-soap.shop-availability-before.txt
+- callback-report-20260507-135019-113-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135019-114-category-other.shop-availability-before.txt
+- callback-report-20260507-135019-115-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-116-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135019-117-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-118-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135019-119-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-120-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135019-121-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-122-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-123-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-124-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135019-125-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-126-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-127-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135019-128-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-129-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-130-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-131-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-132-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-133-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-134-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135019-135-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-136-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-137-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-138-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-139-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-140-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-141-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-142-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-143-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-144-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135019-145-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-146-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135021-147-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135021-148-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135021-149-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135023-150-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-151-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-152-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-153-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-154-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-155-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135032-156-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135032-157-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135034-158-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135034-159-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-160-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-161-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-162-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-163-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-164-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135035-165-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135035-166-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-167-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-168-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-169-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-170-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-171-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-172-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135038-173-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135038-174-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135039-175-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135039-176-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-177-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-178-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-179-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135041-180-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135041-181-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135043-182-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135043-183-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-184-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-185-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-186-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135044-187-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135044-188-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135045-189-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135055-190-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135055-191-category-food.shop-availability-before.txt
+- callback-report-20260507-135055-192-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135055-193-category-usable.shop-availability-before.txt
+- callback-report-20260507-135055-194-category-package.shop-availability-before.txt
+- callback-report-20260507-135055-195-category-room.shop-availability-before.txt
+- callback-report-20260507-135055-196-category-modules.shop-availability-before.txt
+- callback-report-20260507-135055-197-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135055-198-category-fish.shop-availability-before.txt
+- callback-report-20260507-135055-199-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135055-200-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135055-201-category-meds.shop-availability-before.txt
+- callback-report-20260507-135055-202-category-soap.shop-availability-before.txt
+- callback-report-20260507-135055-203-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135055-204-category-other.shop-availability-before.txt
+- callback-report-20260507-135055-205-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-206-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-207-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-208-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135055-209-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-210-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135055-211-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135055-212-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-213-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-214-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-215-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-216-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135055-217-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135055-218-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-219-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-220-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135056-221-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135056-222-category-food.shop-availability-before.txt
+- callback-report-20260507-135056-223-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135056-224-category-usable.shop-availability-before.txt
+- callback-report-20260507-135056-225-category-package.shop-availability-before.txt
+- callback-report-20260507-135056-226-category-room.shop-availability-before.txt
+- callback-report-20260507-135056-227-category-modules.shop-availability-before.txt
+- callback-report-20260507-135056-228-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135056-229-category-fish.shop-availability-before.txt
+- callback-report-20260507-135056-230-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135057-231-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135057-232-category-meds.shop-availability-before.txt
+- callback-report-20260507-135057-233-category-soap.shop-availability-before.txt
+- callback-report-20260507-135057-234-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135057-235-category-other.shop-availability-before.txt
+- callback-report-20260507-135057-236-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-237-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135057-238-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-239-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-240-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135057-241-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-242-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-243-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135057-244-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-245-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135057-246-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135057-247-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135057-248-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135057-249-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-250-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135057-251-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135058-252-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135058-253-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135058-254-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135100-255-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-256-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-257-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-258-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135101-259-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135101-260-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-261-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-262-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-263-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-264-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-265-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-266-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-267-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-268-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135104-269-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135104-270-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135114-271-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135114-272-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135115-273-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135128-274-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135128-275-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135128-276-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135221-277-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135221-278-category-food.shop-availability-before.txt
+- callback-report-20260507-135221-279-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135221-280-category-usable.shop-availability-before.txt
+- callback-report-20260507-135221-281-category-package.shop-availability-before.txt
+- callback-report-20260507-135221-282-category-room.shop-availability-before.txt
+- callback-report-20260507-135221-283-category-modules.shop-availability-before.txt
+- callback-report-20260507-135221-284-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135221-285-category-fish.shop-availability-before.txt
+- callback-report-20260507-135221-286-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135221-287-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135221-288-category-meds.shop-availability-before.txt
+- callback-report-20260507-135221-289-category-soap.shop-availability-before.txt
+- callback-report-20260507-135221-290-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135221-291-category-other.shop-availability-before.txt
+- callback-report-20260507-135221-292-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135221-293-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135221-294-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135221-295-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-296-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135221-297-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135221-298-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-299-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135221-300-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135221-301-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135221-302-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135221-303-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-304-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135221-305-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135406-306-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135406-307-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135406-308-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-309-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-310-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-311-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-312-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-313-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-314-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135438-315-category-other.special-effect-before.txt
+- callback-report-20260507-135438-316-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135438-317-category-soap.special-effect-before.txt
+- callback-report-20260507-135438-318-category-meds.special-effect-before.txt
+- callback-report-20260507-135438-319-category-fishing-trash.special-effect-before.txt
+- callback-report-20260507-135438-320-category-modules-personality.special-effect-before.txt
+- callback-report-20260507-135438-321-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135438-322-category-room.special-effect-before.txt
+- callback-report-20260507-135438-323-category-package.special-effect-before.txt
+- callback-report-20260507-135438-324-category-usable.special-effect-before.txt
+- callback-report-20260507-135438-325-texture-special-effect.texture-special-effect-before.txt
+
+Callbacks:
+- ItemPrefab.SetRandomItemPostProcessing: 108
+- ModUtilities.AddSingleBuyItemToShop.availabilityFunc: 75
+- EdibleItemPrefabData.CreateInstanceDish: 52
+- ItemScopeConditionCustom.CreateInstance: 29
+- EdibleItemPrefabData.CreateInstance: 28
+- ItemPrefab.OnUse: 14
+- ItemPrefab.SpecialEffectAction: 9
+- TextureOverriderManager.GetSpecialEffectsAction: 8
+- ModUtilities.StartCoroutine: 2
+
+## Generated reports update
+
+updated_at: 2026-05-07T17:00:23+00:00
+report_count: 325
+
+Reports:
+- callback-report-20260507-134808-001-coroutine-start.coroutine-closure-before.txt
+- callback-report-20260507-134808-002-coroutine-start.coroutine-on-finished-before.txt
+- callback-report-20260507-134909-003-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-134909-004-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-134909-005-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-134909-006-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-134909-007-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-134909-008-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-134909-009-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-134909-010-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-134909-011-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-134909-012-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-134909-013-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-134909-014-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-134909-015-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-134909-016-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-134909-017-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-134910-018-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-019-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-020-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-021-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-022-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134910-023-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134915-024-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134915-025-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-026-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-027-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-028-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-029-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-030-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134916-031-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-134926-032-category-other.on-use-before.txt
+- callback-report-20260507-134930-033-category-anon-equip.on-use-before.txt
+- callback-report-20260507-134932-034-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134932-035-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134932-036-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134934-037-category-soap.on-use-before.txt
+- callback-report-20260507-134936-038-category-meds.on-use-before.txt
+- callback-report-20260507-134939-039-category-fishing-trash.on-use-before.txt
+- callback-report-20260507-134940-040-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134940-041-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134942-042-category-cooking-ingredient.on-use-before.txt
+- callback-report-20260507-134944-043-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-134950-044-category-modules-personality.on-use-before.txt
+- callback-report-20260507-134952-045-category-modules-personality.special-effect-before.txt
+- callback-report-20260507-134952-046-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134952-047-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134952-048-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134953-049-category-modules.on-use-before.txt
+- callback-report-20260507-134955-050-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134955-051-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-134955-052-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134955-053-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134955-054-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-134957-055-category-room.on-use-before.txt
+- callback-report-20260507-134959-056-category-package.on-use-before.txt
+- callback-report-20260507-135000-057-category-usable.on-use-before.txt
+- callback-report-20260507-135002-058-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135002-059-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135003-060-category-food-cooked-dish.on-use-before.txt
+- callback-report-20260507-135004-061-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135004-062-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135005-063-category-food.on-use-before.txt
+- callback-report-20260507-135007-064-category-clothing.on-use-before.txt
+- callback-report-20260507-135008-065-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135008-066-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135008-067-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135008-068-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135008-069-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135017-070-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135017-071-category-food.shop-availability-before.txt
+- callback-report-20260507-135017-072-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135017-073-category-usable.shop-availability-before.txt
+- callback-report-20260507-135017-074-category-package.shop-availability-before.txt
+- callback-report-20260507-135017-075-category-room.shop-availability-before.txt
+- callback-report-20260507-135017-076-category-modules.shop-availability-before.txt
+- callback-report-20260507-135017-077-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135017-078-category-fish.shop-availability-before.txt
+- callback-report-20260507-135017-079-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135017-080-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135017-081-category-meds.shop-availability-before.txt
+- callback-report-20260507-135017-082-category-soap.shop-availability-before.txt
+- callback-report-20260507-135017-083-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135017-084-category-other.shop-availability-before.txt
+- callback-report-20260507-135017-085-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135017-086-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135018-087-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135018-088-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-089-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135018-090-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-091-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135018-092-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135018-093-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135018-094-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135018-095-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135018-096-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135018-097-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135018-098-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135018-099-category-meds.random-item-post-processing-before.txt
+- callback-report-20260507-135019-100-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135019-101-category-food.shop-availability-before.txt
+- callback-report-20260507-135019-102-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135019-103-category-usable.shop-availability-before.txt
+- callback-report-20260507-135019-104-category-package.shop-availability-before.txt
+- callback-report-20260507-135019-105-category-room.shop-availability-before.txt
+- callback-report-20260507-135019-106-category-modules.shop-availability-before.txt
+- callback-report-20260507-135019-107-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135019-108-category-fish.shop-availability-before.txt
+- callback-report-20260507-135019-109-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135019-110-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135019-111-category-meds.shop-availability-before.txt
+- callback-report-20260507-135019-112-category-soap.shop-availability-before.txt
+- callback-report-20260507-135019-113-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135019-114-category-other.shop-availability-before.txt
+- callback-report-20260507-135019-115-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-116-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135019-117-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-118-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135019-119-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-120-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135019-121-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-122-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-123-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-124-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135019-125-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-126-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-127-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135019-128-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-129-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-130-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-131-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-132-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-133-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-134-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135019-135-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-136-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-137-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-138-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-139-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135019-140-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-141-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135019-142-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135019-143-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135019-144-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135019-145-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135019-146-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135021-147-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135021-148-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135021-149-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135023-150-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-151-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-152-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-153-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-154-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135023-155-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135032-156-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135032-157-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135034-158-category-cooking-ingredient.nutrition-filler-before.txt
+- callback-report-20260507-135034-159-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-160-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-161-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-162-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-163-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135034-164-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135035-165-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135035-166-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-167-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-168-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-169-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-170-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-171-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135036-172-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135038-173-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135038-174-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135039-175-category-fish.nutrition-filler-before.txt
+- callback-report-20260507-135039-176-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-177-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-178-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135039-179-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135041-180-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135041-181-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135043-182-category-food.nutrition-filler-before.txt
+- callback-report-20260507-135043-183-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-184-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-185-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135043-186-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135044-187-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135044-188-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135045-189-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135055-190-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135055-191-category-food.shop-availability-before.txt
+- callback-report-20260507-135055-192-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135055-193-category-usable.shop-availability-before.txt
+- callback-report-20260507-135055-194-category-package.shop-availability-before.txt
+- callback-report-20260507-135055-195-category-room.shop-availability-before.txt
+- callback-report-20260507-135055-196-category-modules.shop-availability-before.txt
+- callback-report-20260507-135055-197-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135055-198-category-fish.shop-availability-before.txt
+- callback-report-20260507-135055-199-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135055-200-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135055-201-category-meds.shop-availability-before.txt
+- callback-report-20260507-135055-202-category-soap.shop-availability-before.txt
+- callback-report-20260507-135055-203-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135055-204-category-other.shop-availability-before.txt
+- callback-report-20260507-135055-205-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-206-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-207-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-208-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135055-209-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-210-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135055-211-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135055-212-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-213-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-214-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-215-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135055-216-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135055-217-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135055-218-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-219-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135055-220-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135056-221-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135056-222-category-food.shop-availability-before.txt
+- callback-report-20260507-135056-223-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135056-224-category-usable.shop-availability-before.txt
+- callback-report-20260507-135056-225-category-package.shop-availability-before.txt
+- callback-report-20260507-135056-226-category-room.shop-availability-before.txt
+- callback-report-20260507-135056-227-category-modules.shop-availability-before.txt
+- callback-report-20260507-135056-228-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135056-229-category-fish.shop-availability-before.txt
+- callback-report-20260507-135056-230-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135057-231-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135057-232-category-meds.shop-availability-before.txt
+- callback-report-20260507-135057-233-category-soap.shop-availability-before.txt
+- callback-report-20260507-135057-234-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135057-235-category-other.shop-availability-before.txt
+- callback-report-20260507-135057-236-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-237-category-clothing.random-item-post-processing-before.txt
+- callback-report-20260507-135057-238-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-239-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-240-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135057-241-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-242-category-other.random-item-post-processing-before.txt
+- callback-report-20260507-135057-243-category-usable.random-item-post-processing-before.txt
+- callback-report-20260507-135057-244-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-245-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135057-246-category-cooking-ingredient.random-item-post-processing-before.txt
+- callback-report-20260507-135057-247-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135057-248-category-soap.random-item-post-processing-before.txt
+- callback-report-20260507-135057-249-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135057-250-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135057-251-category-food-cooked-dish.random-item-post-processing-before.txt
+- callback-report-20260507-135058-252-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135058-253-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135058-254-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135100-255-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-256-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-257-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135100-258-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135101-259-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135101-260-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-261-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-262-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-263-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135102-264-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-265-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-266-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-267-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135103-268-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135104-269-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135104-270-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135114-271-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135114-272-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135115-273-category-food-cooked-dish.nutrition-filler-before.txt
+- callback-report-20260507-135128-274-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135128-275-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135128-276-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135221-277-category-clothing.shop-availability-before.txt
+- callback-report-20260507-135221-278-category-food.shop-availability-before.txt
+- callback-report-20260507-135221-279-category-food-cooked-dish.shop-availability-before.txt
+- callback-report-20260507-135221-280-category-usable.shop-availability-before.txt
+- callback-report-20260507-135221-281-category-package.shop-availability-before.txt
+- callback-report-20260507-135221-282-category-room.shop-availability-before.txt
+- callback-report-20260507-135221-283-category-modules.shop-availability-before.txt
+- callback-report-20260507-135221-284-category-modules-personality.shop-availability-before.txt
+- callback-report-20260507-135221-285-category-fish.shop-availability-before.txt
+- callback-report-20260507-135221-286-category-cooking-ingredient.shop-availability-before.txt
+- callback-report-20260507-135221-287-category-fishing-trash.shop-availability-before.txt
+- callback-report-20260507-135221-288-category-meds.shop-availability-before.txt
+- callback-report-20260507-135221-289-category-soap.shop-availability-before.txt
+- callback-report-20260507-135221-290-category-anon-equip.shop-availability-before.txt
+- callback-report-20260507-135221-291-category-other.shop-availability-before.txt
+- callback-report-20260507-135221-292-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135221-293-category-food.random-item-post-processing-before.txt
+- callback-report-20260507-135221-294-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135221-295-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-296-category-modules.random-item-post-processing-before.txt
+- callback-report-20260507-135221-297-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135221-298-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-299-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135221-300-category-anon-equip.random-item-post-processing-before.txt
+- callback-report-20260507-135221-301-category-fish.random-item-post-processing-before.txt
+- callback-report-20260507-135221-302-category-package.random-item-post-processing-before.txt
+- callback-report-20260507-135221-303-category-room.random-item-post-processing-before.txt
+- callback-report-20260507-135221-304-category-fishing-trash.random-item-post-processing-before.txt
+- callback-report-20260507-135221-305-category-modules-personality.random-item-post-processing-before.txt
+- callback-report-20260507-135406-306-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135406-307-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135406-308-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-309-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-310-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135425-311-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-312-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-313-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135428-314-item-scope-condition.item-scope-condition-before.txt
+- callback-report-20260507-135438-315-category-other.special-effect-before.txt
+- callback-report-20260507-135438-316-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135438-317-category-soap.special-effect-before.txt
+- callback-report-20260507-135438-318-category-meds.special-effect-before.txt
+- callback-report-20260507-135438-319-category-fishing-trash.special-effect-before.txt
+- callback-report-20260507-135438-320-category-modules-personality.special-effect-before.txt
+- callback-report-20260507-135438-321-texture-special-effect.texture-special-effect-before.txt
+- callback-report-20260507-135438-322-category-room.special-effect-before.txt
+- callback-report-20260507-135438-323-category-package.special-effect-before.txt
+- callback-report-20260507-135438-324-category-usable.special-effect-before.txt
+- callback-report-20260507-135438-325-texture-special-effect.texture-special-effect-before.txt
+
+Callbacks:
+- ItemPrefab.SetRandomItemPostProcessing: 108
+- ModUtilities.AddSingleBuyItemToShop.availabilityFunc: 75
+- EdibleItemPrefabData.CreateInstanceDish: 52
+- ItemScopeConditionCustom.CreateInstance: 29
+- EdibleItemPrefabData.CreateInstance: 28
+- ItemPrefab.OnUse: 14
+- ItemPrefab.SpecialEffectAction: 9
+- TextureOverriderManager.GetSpecialEffectsAction: 8
+- ModUtilities.StartCoroutine: 2

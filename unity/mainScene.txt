@@ -1,0 +1,369 @@
+  luaScript: gv.newsDataManager.Force(NewsId.OpinionNews, GameId.CreateVanilla(10001))
+  luaScript: browser.CloseFromUIOverlay()
+  luaScript: "browser.SelectEmail(1)\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))"
+  luaScript: "browser.SelectEmail(0)\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))"
+  luaScript: "browser.SelectEmail(2)\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))"
+  luaScript: "browser.ChangeWebsite(\"bang.ic/email\")\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))\n"
+  luaScript: "browser = UiOverlay.OpenBrowser()\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser.ChangeWebsite(\"bang.ic/email\")\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser.SelectEmail(0)\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))"
+  luaScript: "browser = UiOverlay.OpenBrowser()\ncoroutine.yield(GameUtilities.WaitForSecondsYield(2))\n"
+  luaScript: "coroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser = UiOverlay.OpenBrowser()\ncoroutine.yield(GameUtilities.WaitForSecondsYield(2))"
+  luaScript: "browser.ChangeWebsite(\"casino.ic\")\n\n"
+  luaCompareString: gv.DispenserLevel<=1
+  luaCompareString: gv.DispenserLevel>0
+  luaCompareString: gv.itemManager.ShopManager.GetShop("clothier").ItemsBought == 0
+  luaCompareString: gv.CumInsideAnal > 2
+  luaCompareString: gv.CumInside>2 or gv.CumInsideStomach>2
+  luaCompareString: 'gv.CheckFlag("GoingOutside2") '
+  luaCompareString: gv.CheckFlag("LandlordConspiracy3")
+  luaCompareString: gv.CheckFlag("helpedlandlord")
+  luaCompareString: gv.CheckFlag("bigDaddysAdviceFinished")
+  luaCompareString: gv.CheckFlag("hobo")
+  luaCompareString: not gv.CheckFlag("clothiervisit")
+  luaScript: flowchart.SetIntegerVariable("Integer", gv.itemManager.ShopManager.GetShop("clothier").MoneySpent)
+  luaCompareString: not (gv.Hour>=8 and gv.Hour < 18)
+  luaCompareString: not (gv.Hour>=8 and gv.Hour < 18)
+  luaCompareString: gv.money > 1200
+  luaCompareString: gv.money < 1200
+  luaCompareString: ItemsBoughtThisVisit>0
+  luaCompareString: gv.CheckFlag("BestClient")
+  luaCompareString: gv.CheckFlag("GoingOutside3")
+  luaCompareString: gv.Hour == 17 and gv.Minute > 20
+  luaScript: flowchart.SetIntegerVariable("Integer", gv.itemManager.ShopManager.GetShop("clothier").MoneySpent)
+  luaCompareString: gv.money > 1200
+  luaCompareString: gv.money > 6000
+  luaCompareString: gv.CheckFlag("good_soul")
+  luaCompareString: gv.CheckFlag("church-endJustGoThereGood")
+  luaCompareString: gv.Hour >= 7 and gv.Hour <= 12
+  luaCompareString: gv.Hour >= 7 and gv.Hour <= 12 and (gv.DayOfTheWeek == 0 or gv.DayOfTheWeek == 4)
+  luaCompareString: not gv.CheckFlagAfterRelative("LandlordStaircase", 12*60) and gv.CheckFlag("LandlordConspiracy3")
+  luaCompareString: gv.Hour >= 12 and gv.Hour <= 19
+  luaCompareString: gv.Hour >= 19 and gv.Hour <= 24
+  luaCompareString: gv.money > 1200
+  luaCompareString: gv.money < 1200
+  luaCompareString: ItemsBoughtThisVisit>0
+  luaCompareString: gv.CheckFlag("BestClient")
+  luaCompareString: gv.MentalHealth > 0.15 and gv.Hour >=10 and gv.Hour <20
+  luaCompareString: (gv.Hour >=5 and gv.Hour <= 10) and gv.MentalHealth > 0.15
+  luaCompareString: (gv.Hour <=5 or gv.Hour >= 23) and gv.MentalHealth > 0.15
+  luaCompareString: gv.Hour >=19 and gv.Hour <23
+  luaCompareString: ((gv.Hour >=7 and gv.Hour <= 8) or (gv.Hour >= 15 and gv.Hour <= 17)) and (gv.DayOfTheWeek>=0 and gv.DayOfTheWeek<=4)
+  luaCompareString: gv.sympathy > 500 and gv.lust > 500
+  luaCompareString: not gv.CheckFlag("LastChance") and gv.CheckFlag("good_soul")
+  luaCompareString: gv.BotSaidSheCanTasteOnlyCum
+  luaCompareString: gv.CheckFlag("LandlordConspiracy2")
+  luaScript: gv.MentalHealth = 0
+  luaCompareString: gv.CheckFlag("hobo")
+  luaCompareString: gv.CheckFlag("good_soul")
+  luaScript: gv.newsDataManager.Force(NewsId.MainNews, GameId.CreateVanilla(1001))
+  luaCompareString: (gv.Hour <=5 or gv.Hour >= 23) and gv.MentalHealth < 0.15
+  luaCompareString: gv.MentalHealth < 0.15
+  luaCompareString: gv.CheckFlag("JoinUs2")
+  luaCompareString: gv.MentalHealth < 0.15
+  luaCompareString: gv.CheckFlagAfterRelative("exposure", 12*60)
+  luaCompareString: gv.CheckFlag("exposure_day")
+  luaCompareString: gv.CheckFlag("exposure_night")
+  luaCompareString: gv.search > 0.5
+  luaCompareString: gv.followers > 7500 and gv.TimeSinceLastStream < 48*60 and gv.EverStartedStream
+  luaCompareString: gv.CheckFlagAfterRelative("clothiervisit", 5)
+  luaCompareString: gv.money>100000
+  luaCompareString: gv.CheckFlag("hobo_failed")
+  luaCompareString: gv.CheckFlag("hobo_failed")
+  luaCompareString: gv.MentalHealth < 0.4
+  luaScript: return gv.TimeInDay(20, 2)-gv.TimeDay
+  luaScript: gv.RemoveAllEmailsWithId("JoinUs2")
+  luaScript: "gv.RemoveAllEmailsWithId(\"JoinUs2\")\nUiOverlay.GetCurrentlyOpenedBrowser().Refresh()"
+  luaCompareString: gv.sus > 0.4
+  luaCompareString: gv.sus<0.6
+  luaCompareString: gv.Hour>=9 and gv.Hour <=19
+  luaCompareString: gv.CheckFlagBeforeRelative("lastdate", 14*60) or not gv.CheckFlag("lastdate")
+  luaCompareString: gv.money > 2000
+  luaScript: ViewSingleton.ClothierScene.halloweenDecorationsEnabled = gv.HalloweenActive
+  luaCompareString: gv.HalloweenActive
+  luaCompareString: gv.CheckFlag("GoingOutside3")
+  luaCompareString: ItemsBoughtThisVisit>0
+  luaCompareString: gv.LandlordDecorationsUp
+  luaCompareString: ItemsBoughtThisVisit>0
+  luaCompareString: gv.HasPointyEars
+  luaCompareString: gv.HasWitchHat
+  luaCompareString: gv.HasHalloweenCostume
+  luaCompareString: gv.CheckFlag("ClothierHalloweenWithBot") or gv.CheckFlag("ClothierHalloweenAlone")
+  luaCompareString: gv.HasPointyEars
+  luaCompareString: gv.HasWitchHat
+  luaCompareString: gv.Random01>0.6
+  luaCompareString: gv.Hour>=6 or gv.Hour<=3
+  luaCompareString: ItemsBoughtThisVisit>0
+  luaCompareString: gv.HalloweenActive and gv.CheckFlag("ClothierHalloweenWithBot2")
+  luaCompareString: gv.HalloweenActive and gv.CheckFlag("ClothierHalloweenWithBot2")
+  luaCompareString: ItemsBoughtThisVisit>0
+  luaCompareString: gv.HalloweenActive and gv.CheckFlag("ClothierHalloweenWithBot2")
+  luaCompareString: gv.HalloweenActive and gv.CheckFlag("ClothierHalloweenWithBot2")
+  luaCompareString: gv.money > 100000
+  luaCompareString: gv.CheckFlag("church-priestbot_lie")
+  luaCompareString: gv.IsNaked
+  luaCompareString: gv.CheckFlag("church-priestbot_lie")
+  luaCompareString: not gv.CheckFlag("bigdaddystoryline1")
+  luaCompareString: not gv.CheckFlag("artgallery1")
+  luaCompareString: gv.CheckFlag("bigdaddystoryline4")
+  luaCompareString: gv.CheckFlag("restaurant1")
+  luaCompareString: not gv.CheckFlag("artgallery1")
+  luaCompareString: gv.money<5000
+  luaCompareString: gv.CheckFlag("JoinUs2")
+  luaCompareString: gv.CheckFlag("church-priestbot_truth") and gv.CheckFlag("church-nun_back4")
+  luaCompareString: gv.CheckFlag("joinusBigDaddy")
+  luaCompareString: gv.CheckFlag("church-MeetingNunWithTheBot")
+  luaScript: "browser.ChangeWebsite(\"cocktracts.ic/help\")\n\n"
+  luaCompareString: gv.HalloweenActive
+  luaScript: ViewSingleton.ClothierScene.halloweenDecorationsEnabled = gv.HalloweenActive
+  luaCompareString: gv.sympathy>100 and gv.IsBotSmart
+  luaCompareString: gv.CheckFlag("church-nun_back1")
+  luaCompareString: gv.CheckFlag("clothiervisit")
+  luaCompareString: gv.sympathy>100 and gv.IsBotSmart
+  luaScript: gv.newsDataManager.Force(NewsId.MainNews, GameId.CreateVanilla(1003))
+  luaCompareString: gv.RiotsAfter
+  luaCompareString: gv.RiotsActive
+  luaCompareString: gv.RiotsAfter
+  luaCompareString: gv.RiotsActive
+  luaCompareString: gv.RiotsAfter
+  luaCompareString: gv.RiotsActive
+  luaCompareString: gv.RiotsAfter
+  luaCompareString: gv.RiotsActive
+  luaCompareString: gv.Hour < 5 or gv.Hour >=15
+  luaCompareString: gv.Stamina < 0.2
+  luaCompareString: gv.CheckFlagAfterRelative("dispenserempty24hours", 24*60)
+  luaCompareString: gv.RiotsActive
+  luaCompareString: gv.WorkedTodayAlready
+  luaCompareString: gv.money>11000
+  luaCompareString: gv.CheckFlag("riots_beaten_up")
+  luaCompareString: gv.RiotsAfter
+  luaCompareString: gv.RiotsActive
+  luaCompareString: gv.RiotsActive
+  luaCompareString: gv.CheckFlag("Annalie_gave_money")
+  luaCompareString: gv.CheckFlag("Annalie_gave_money")
+  luaCompareString: gv.CheckFlag("LabourOffice_Riots_Landlord")
+  luaCompareString: gv.CheckFlag("Annalie_gave_money")
+  luaCompareString: gv.RiotsActive
+  luaCompareString: ItemsBoughtThisVisit > 1
+  luaCompareString: gv.CheckFlag("riots_beaten_up")
+  luaCompareString: gv.CheckFlag("riots_beaten_up")
+  luaCompareString: gv.CheckFlag("riots_beaten_up")
+  luaCompareString: gv.CheckFlag("riots_beaten_up")
+  luaCompareString: gv.CheckFlag("riots_beaten_up")
+  luaCompareString: gv.CheckFlag("bigDaddysAdvicePart2") and gv.Hour == 2
+  luaCompareString: gv.RiotsActive
+  luaCompareString: gv.CheckFlag("riots_beaten_up")
+  luaCompareString: gv.CheckFlag("riots_beaten_up")
+  luaCompareString: gv.RiotsActive
+  luaScript: gv.ReportSleepEnd(false)
+  luaCompareString: gv.AwakeFor<=60 and gv.lastSleptWithBot == false
+  luaCompareString: gv.Longing >= 3
+  luaCompareString: gv.Hour >= 13
+  luaCompareString: gv.Hour < 6
+  luaCompareString: gv.TimeSinceLastSawBot>=2000
+  luaCompareString: gv.CheckFlag("bigdaddystoryline3")
+  luaCompareString: not gv.CheckFlag("church-Big_Daddy_Knows") and gv.CheckFlag("church-nun_back7")
+  luaCompareString: gv.CheckFlag("church-bigdaddystorylinepart1")
+  luaCompareString: gv.CheckFlag("church-bigdaddystorylinepart1")
+  luaCompareString: gv.CheckFlag("Melissa4bot")
+  luaCompareString: gv.Satiation < 0.3
+  luaCompareString: gv.CheckFlag("Melissa4bot")
+  luaCompareString: gv.money < 5000
+  luaCompareString: gv.CheckFlag("riots_beaten_up")
+  luaCompareString: gv.CheckFlag("church-endJustGoThereGood")
+  luaCompareString: gv.money > 2000000
+  luaScript: gv.ForceTakeMoney(1000000)
+  luaCompareString: gv.money > 1000000
+  luaCompareString: gv.money > 1000000
+  luaScript: gv.ForceTakeMoney(1000000)
+  luaScript: "coroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser = UiOverlay.OpenBrowser()\ncoroutine.yield(GameUtilities.WaitForSecondsYield(2))"
+  luaScript: "coroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser = UiOverlay.OpenBrowser()\ncoroutine.yield(GameUtilities.WaitForSecondsYield(2))"
+  luaScript: "browser.SelectEmail(0)\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))\n"
+  luaScript: "coroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser = UiOverlay.OpenBrowser()\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser.ChangeWebsite(\"bang.ic/email\")\n"
+  luaScript: "browser.SelectEmail(0)\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))\n"
+  luaScript: "coroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser = UiOverlay.OpenBrowser()\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser.ChangeWebsite(\"bang.ic/email\")\n"
+  luaCompareString: gv.TimesCameAll > 0
+  luaScript: "browser = UiOverlay.OpenBrowser()\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser.ChangeWebsite(\"bang.ic/email\")\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))\nbrowser.SelectEmail(0)\ncoroutine.yield(GameUtilities.WaitForSecondsYield(1))"
+  luaCompareString: gv.EverStartedStream
+  luaCompareString: gv.EverCameInBot
+  luaCompareString: gv.EverCameInBot and gv.EverStartedStream
+  luaCompareString: gv.EverStartedStream
+  luaCompareString: gv.EverStartedStream
+  luaCompareString: gv.CanStartStream
+  luaScript: UiOverlay.GetCurrentlyOpenedBrowser().JoinUsOpenBlogLoginPage("Blog1")
+  luaScript: coroutine.yield(UiOverlay.GetCurrentlyOpenedBrowser().JoinUsLogin_Enumerator())
+  luaCompareString: gv.EverStartedStream
+  luaCompareString: gv.CheckFlag("joinusBigDaddy") and gv.CheckFlag("church-bigdaddystorylinepart1")
+  luaScript: "UiOverlay.GetCurrentlyOpenedBrowser().JoinUsOpenBlogLoginPage(\"Blog2\")\ncoroutine.yield(UiOverlay.GetCurrentlyOpenedBrowser().JoinUsLogin_Enumerator())"
+  luaScript: "UiOverlay.GetCurrentlyOpenedBrowser().JoinUsOpenBlogLoginPage(\"Blog3\")\ncoroutine.yield(UiOverlay.GetCurrentlyOpenedBrowser().JoinUsLogin_Enumerator())"
+  luaScript: "UiOverlay.GetCurrentlyOpenedBrowser().JoinUsOpenBlogLoginPage(\"Blog4\")\ncoroutine.yield(UiOverlay.GetCurrentlyOpenedBrowser().JoinUsLogin_Enumerator())"
+  luaScript: gv.newsDataManager.Force(NewsId.MainNews, GameId.CreateVanilla(1004))
+  luaCompareString: gv.CheckFlag("church-nun_back1")
+  luaScript: "UiOverlay.GetCurrentlyOpenedBrowser().JoinUsOpenBlogLoginPage(\"BlogBigDaddy1\")\ncoroutine.yield(UiOverlay.GetCurrentlyOpenedBrowser().JoinUsLogin_Enumerator())"
+  luaScript: "UiOverlay.GetCurrentlyOpenedBrowser().JoinUsOpenBlogLoginPage(\"BlogBigDaddy2\")\ncoroutine.yield(UiOverlay.GetCurrentlyOpenedBrowser().JoinUsLogin_Enumerator())"
+  luaScript: gv.newsDataManager.Force(NewsId.MainNews, GameId.CreateVanilla(1005))
+  luaScript: "UiOverlay.GetCurrentlyOpenedBrowser().JoinUsOpenBlogLoginPage(\"BlogBigDaddy3\")\ncoroutine.yield(UiOverlay.GetCurrentlyOpenedBrowser().JoinUsLogin_Enumerator())"
+  luaScript: "UiOverlay.GetCurrentlyOpenedBrowser().JoinUsOpenBlogLoginPage(\"BlogRichard1\")\ncoroutine.yield(UiOverlay.GetCurrentlyOpenedBrowser().JoinUsLogin_Enumerator())"
+  luaCompareString: gv.sympathy>300
+  luaCompareString: gv.IsNaked
+  luaCompareString: gv.HasBothLegsAndAtLeastOneArm
+  luaCompareString: gv.CheckFlag("joinus7_richard2_BotDAK")
+  luaScript: "UiOverlay.GetCurrentlyOpenedBrowser().JoinUsOpenBlogLoginPage(\"BlogRichard2\")\ncoroutine.yield(UiOverlay.GetCurrentlyOpenedBrowser().JoinUsLogin_Enumerator())"
+  luaScript: gv.ForceTakeMoney(2000)
+  luaCompareString: gv.money > 50000
+  luaCompareString: not gv.CheckFlag("shooting_failure") and not gv.CheckFlag("basketball_failure")
+  luaCompareString: gv.CheckFlag("shooting_failure") and gv.CheckFlag("basketball_failure")
+  luaScript: gv.ForceTakeMoney(5000)
+  luaScript: gv.ForceTakeMoney(80)
+  luaScript: gv.Satiation = gv.Satiation - 0.5
+  luaScript: gv.ForceTakeMoney(5000)
+  luaScript: gv.ForceTakeMoney(20)
+  luaScript: gv.ForceTakeMoney(80)
+  luaScript: gv.Satiation = 1.0
+  luaScript: gv.search = gv.search + 0.2
+  luaScript: gv.ForceTakeMoney(100)
+  luaCompareString: gv.Hour < 15 or gv.Hour  > 17
+  luaScript: gv.Satiation = 0
+  luaScript: gv.ForceTakeMoney(100)
+  luaScript: gv.ForceTakeMoney(200)
+  luaScript: gv.ForceTakeMoney(120)
+  luaScript: "gv.MaxCum = gv.MaxCum + 20\ngv.stamina  = gv.stamina + 0.2\ngv.MentalHealth = gv.MentalHealth + 0.5"
+  luaScript: "gv.MaxCum = gv.MaxCum + 20\ngv.stamina  = gv.stamina + 0.2\ngv.MentalHealth = gv.MentalHealth + 0.2"
+  luaScript: botStatusApp = nil
+  luaScript: botStatusApp = UiOverlay.OpenBotStatusAppPrologue()
+  luaScript: botStatusApp.ForceSubmitPlayerInput("\n")
+  luaScript: coroutine.yield(botStatusApp.WaitTillPlayerInputNeeded())
+  luaScript: "botStatusApp.ForceSubmitPlayerInput(\"\\n\")\ncoroutine.yield(botStatusApp.WaitTillPlayerInputNeeded())"
+  luaCompareString: gv.FishesCaught > 0
+  luaCompareString: gv.Hour <= 12
+  luaScript: botStatusApp = UiOverlay.OpenBotStatusApp()
+  luaScript: "botStatusApp.CloseFromUIOverlay()\nbotStatusApp = nil"
+  luaScript: coroutine.yield(botStatusApp.WaitTillPlayerInputNeeded())
+  luaScript: UiOverlay.GetCurrentlyOpenedBotStatusApp().ShowFile("boobs")
+  luaScript: UiOverlay.GetCurrentlyOpenedBotStatusApp().ShowFile("boobs")
+  luaCompareString: gv.Longing > 5 and gv.CheckFlag("interactr9")
+  luaScript: UiOverlay.GetCurrentlyOpenedBotStatusApp().ShowFile("boobs")
+  luaCompareString: gv.Longing > 5 and gv.CheckFlag("interactr8")
+  luaScript: UiOverlay.GetCurrentlyOpenedBotStatusApp().ShowFile("mouth")
+  luaScript: "gv.MaxCum = gv.MaxCum + 30\ngv.stamina  = gv.stamina + 0.2\ngv.Satiation = gv.Satiation + 1\ngv.MentalHealth = gv.MentalHealth + 0.3"
+  luaScript: "\rgv.stamina  = gv.stamina + 0.4\r\ngv.Satiation = gv.Satiation + 0.1\r\ngv.MentalHealth = gv.MentalHealth + 0.2\ngv.Health = gv.Health + 0.2"
+  luaScript: "gv.MaxCum = gv.MaxCum + 20\ngv.stamina  = gv.stamina + 0.2\ngv.Satiation = gv.Satiation + 0.5\ngv.MentalHealth = gv.MentalHealth + 0.2"
+  luaScript: "\rgv.stamina  = gv.stamina + 0.4\r\ngv.Satiation = gv.Satiation + 0.1\r\ngv.MentalHealth = gv.MentalHealth + 0.2"
+  luaScript: "gv.MaxCum = gv.MaxCum + 20\ngv.stamina  = gv.stamina + 0.2\ngv.Satiation = gv.Satiation + 0.5\ngv.MentalHealth = gv.MentalHealth + 0.2"
+  luaScript: "\rgv.stamina  = gv.stamina + 0.4\r\ngv.Satiation = gv.Satiation + 0.1\r\ngv.MentalHealth = gv.MentalHealth + 0.2"
+  luaScript: "gv.MaxCum = gv.MaxCum + 10\ngv.stamina  = gv.stamina + 0.2\ngv.Satiation = gv.Satiation + 0.5\ngv.MentalHealth = gv.MentalHealth + 0.2"
+  luaScript: "gv.MaxCum = gv.MaxCum + 10\ngv.stamina  = gv.stamina + 0.2\ngv.Satiation = gv.Satiation + 0.5\ngv.MentalHealth = gv.MentalHealth + 0.2"
+  luaScript: gv.lightSwitchOn = true
+  luaScript: gv.lightSwitchOn = false
+  luaScript: gv.lightSwitchOn = true
+  luaScript: gv.lightSwitchOn = false
+  luaScript: "GameUtilities.Save.AddGlobalFlag(\"prologueseen\")\nGameUtilities.SaveSingleton.SaveAllChanges()"
+  luaCompareString: GameUtilities.Save.HasGlobalFlag("prologueseen")
+  luaCompareString: gv.money > 4
+  luaCompareString: gv.EverStartedStream
+  luaCompareString: gv.TimesCameAll > 0
+  luaCompareString: gv.StartedStreamingAfterPrologue
+  luaCompareString: gv.CheckFlag("bigDaddysAdviceBeforePart2")
+  luaCompareString: gv.CheckFlag("bigDaddysAdviceFinished")
+  luaCompareString: gv.CheckFlag("bigDaddysAdvicePart2")
+  luaCompareString: gv.CheckFlag("bigDaddysAdvice")
+  luaCompareString: gv.EverFuckedBot
+  luaCompareString: gv.CheckFlag("church-shaniceFoundCumInBot") and gv.EverStartedStream
+  luaCompareString: gv.EverFuckedBot
+  luaCompareString: gv.EverStartedStream
+  luaCompareString: gv.EverStartedStream
+  luaCompareString: gv.CheckFlag("Bathroom1_haggle")
+  luaScript: flowchart.SetIntegerVariable("Integer", gv.GetFlagSetCount("Bathroom2_notyet"))
+  luaScript: gv.ForceTakeMoney(100000)
+  luaScript: gv.ForceTakeMoney(200000)
+  luaCompareString: gv.CheckFlag("Bathroom1_haggle")
+  luaScript: gv.ForceTakeMoney(100)
+  luaCompareString: gv.CheckFlag("LabourOffice_Riots_FirstTime")
+  luaCompareString: gv.TryTakeMoney(100)
+  luaScript: gv.ForceTakeMoney(1000)
+  luaScript: gv.money = 0
+  luaScript: gv.ForceTakeMoney(10000)
+  luaCompareString: gv.money > 1000
+  luaCompareString: gv.money > 100000
+  luaCompareString: gv.CheckFlag("church-nun_back7")
+  luaCompareString: not gv.CheckFlag("Karaoke2")
+  luaCompareString: not gv.CheckFlag("Karaoke2")
+  luaCompareString: gv.CheckFlag("Karaoke2")
+  luaCompareString: gv.CheckFlag("restaurant1")
+  luaCompareString: gv.CheckFlag("karaoke_idol")
+  luaCompareString: gv.CheckFlag("Melissa_leaves")
+  luaCompareString: gv.CheckFlag("Melissa_dead")
+  luaCompareString: gv.CheckFlag("Melissa_dead")
+  luaCompareString: gv.CheckFlag("Melissa_dead")
+  luaCompareString: gv.CheckFlag("Melissa_dead")
+  luaCompareString: not gv.HasAnySoap
+  luaScript: "gv.bathroomLightOn = false\ngv.BotShowerEffect()"
+  luaScript: gv.bathroomLightOn = true
+  luaCompareString: gv.IsThereCumOnHer
+  luaScript: gv.BotCleanWithRagEffect()
+  luaCompareString: gv.IsThereCumOnHer
+  luaScript: gv.BotCleanWithRagEffect()
+  luaScript: gv.BotCleanWithRagEffect()
+  luaScript: gv.BotCleanWithRagEffect()
+  luaScript: gv.BotCleanWithRagEffect()
+  luaScript: gv.BotCleanWithRagEffect()
+  luaScript: gv.BotCleanWithRagEffect()
+  luaCompareString: gv.CheckFlag("Melissa21")
+  luaCompareString: gv.CheckFlag("Melissa22")
+  luaCompareString: gv.CheckFlag("Melissa_leaves")
+  luaCompareString: gv.CheckFlag("Melissa_dead")
+  luaCompareString: gv.CheckFlag("Melissa22")
+  luaCompareString: not gv.CheckFlag("ice_skating1")
+  luaCompareString: gv.CheckFlag("ice_skating1")
+  luaCompareString: gv.CheckFlag("Melissa9")
+  luaCompareString: gv.CheckFlag("Melissa22")
+  luaCompareString: gv.CheckFlag("Melissa22")
+  luaCompareString: gv.CheckFlag("Melissa22")
+  luaScript: gv.ForceTakeMoney(1000)
+  luaCompareString: gv.search > 0.85
+  luaCompareString: gv.money<13000000
+  luaCompareString: gv.IsWearingPanties
+  luaCompareString: gv.CheckFlag("Melissa_dead")
+  luaCompareString: gv.CheckFlag("Melissa22")
+  luaCompareString: 'gv.IsLandlordOnIslandEnding '
+  luaCompareString: 'gv.IsShaniceAndPriestbotOnIslandEnding '
+  luaCompareString: 'gv.isFisherOnIslandEnding '
+  luaCompareString: gv.CheckFlag("Annalie_ending9")
+  luaCompareString: gv.CheckFlag("Annalie_gave_money")
+  luaCompareString: gv.CheckFlag("Annalie_ending9")
+  luaScript: gv.ForceTakeMoney(5000000)
+  luaCompareString: 'gv.isFisherOnIslandEnding '
+  luaCompareString: gv.IsAnnalieOnIslandEnding
+  luaCompareString: gv.IsBritanniaOnIslandEnding and gv.IsAnnalieOnIslandEnding and not gv.CheckFlag("BritanniaSL1")
+  luaCompareString: 'gv.IsShaniceAndPriestbotOnIslandEnding '
+  luaCompareString: 'gv.IsBritanniaOnIslandEnding '
+  luaCompareString: gv.CheckFlag("Annalie_gave_money")
+  luaCompareString: 'gv.IsLandlordOnIslandEnding '
+  luaCompareString: 'gv.IsBritanniaOnIslandEnding '
+  luaScript: gv.ForceTakeMoney(6000000)
+  luaScript: flowchart.SetBooleanVariable("Boolean", not gv.CheckFlag("hobo_beaten"))
+  luaCompareString: not gv.CheckFlag("hobo_beaten")
+  luaCompareString: gv.CheckFlag("hobo1")
+  luaScript: gv.ForceTakeMoney(995)
+  luaScript: gv.ForceTakeMoney(1000)
+  luaScript: gv.ForceTakeMoney(2000)
+  luaCompareString: gv.HasToldBotAHorrorStory
+  luaCompareString: gv.CheckFlag("riots_beaten_up")
+  luaCompareString: gv.CheckFlag("Landlord_ending3_strongarmedHobos")
+  luaCompareString: gv.IsBritanniaOnIslandEnding
+  luaCompareString: gv.money < 5000000
+  luaCompareString: gv.IsBritanniaOnIslandEnding
+  luaCompareString: gv.IsBritanniaOnIslandEnding
+  luaCompareString: gv.IsLandlordOnIslandEnding
+  luaCompareString: gv.IsEveryoneOnTheIsland
+  luaScript: gv.ClearMood()
+  luaScript: gv.ClearMood()
+  luaScript: gv.ClearMood()
+  luaCompareString: gv.money > 500000
+  luaCompareString: gv.TryTakeMoney(500)
+  luaCompareString: gv.MadeNoiseLastSexScene
+  luaScript: gv.ForceTakeMoney(500)
+  luaCompareString: gv.CheckFlag("fishing4")
+  luaCompareString: gv.CheckFlag("Britannia_island")
+  luaCompareString: not gv.CheckFlag("Melissa22") and gv.CheckFlag("Melissa14_StillFriends")
+  luaCompareString: gv.CheckFlag("church-nun_back1")
+  luaScript: gv.ForceTakeMoney(400)
+  luaScript: gv.ForceTakeMoney(3000)

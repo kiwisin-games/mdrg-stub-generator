@@ -1,0 +1,50 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 4 - doggy_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "SkirtUpper",
+                    "RectInt": {
+                        "x": 354,
+                        "y": 311,
+                        "width": 196,
+                        "height": 325
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "SkirtDownBack2",
+                    "RectInt": {
+                        "x": 560,
+                        "y": 311,
+                        "width": 196,
+                        "height": 318
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "SkirtUpper2",
+                    "RectInt": {
+                        "x": 353,
+                        "y": 5,
+                        "width": 144,
+                        "height": 248
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "doggy"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

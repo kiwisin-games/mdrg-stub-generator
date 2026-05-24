@@ -1,0 +1,26 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 4 - shower_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "NipPiercingLeft",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 132,
+                        "height": 172
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "shower"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

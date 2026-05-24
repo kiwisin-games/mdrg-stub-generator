@@ -1,0 +1,286 @@
+{
+  "block_count": 203,
+  "valid_mods": 203,
+  "invalid_blocks": [],
+  "root_stats": {
+    "count": 203,
+    "keys": {
+      "name": 203,
+      "description": 203,
+      "OnGameStart": 203,
+      "targetVersion": 203,
+      "doNotChangeVariablesBelowThis": 203,
+      "modVersion": 1,
+      "languageCode": 1
+    },
+    "type_counts": {
+      "name": {
+        "string": 203
+      },
+      "description": {
+        "string": 203
+      },
+      "OnGameStart": {
+        "object": 203
+      },
+      "targetVersion": {
+        "string": 203
+      },
+      "doNotChangeVariablesBelowThis": {
+        "object": 203
+      },
+      "modVersion": {
+        "string": 1
+      },
+      "languageCode": {
+        "string": 1
+      }
+    },
+    "samples": {
+      "name": [
+        "[MDRG]Kz Fomboy bot(Beta5)",
+        "Kz Futanari Mod",
+        "[Sosigs] Additional Furry Parts",
+        "Sosigs Annalie Sockets",
+        "CyberFutura"
+      ],
+      "description": [
+        "All pose success",
+        "Turn your bot into a Futanari. Mod by:Kz (@rimuru013)",
+        "Please Have FurryPackV4 insta",
+        "Goth Girl Energy",
+        "truly dystopian!!!"
+      ],
+      "OnGameStart": [
+        {
+          "luaFiles": [
+            "script.lua"
+          ]
+        },
+        {
+          "luaFiles": [
+            "script.lua"
+          ]
+        },
+        {
+          "luaFiles": [
+            "script.lua"
+          ]
+        },
+        {
+          "luaFiles": [
+            "script.lua"
+          ]
+        },
+        {
+          "luaFiles": [
+            "scriptplushy.lua",
+            "scriptrug.lua",
+            "scriptcupboard.lua",
+            "scriptcouch.lua",
+            "scriptdesk.lua",
+            "scriptPC.lua",
+            "scriptTV.lua",
+            "scriptwindow.lua",
+            "scriptdoor.lua",
+            "scriptbat.lua",
+            "scriptpcscreen.lua",
+            "scriptwallpaper.lua",
+            "scriptwallpaper2.lua",
+            "scriptbed.lua",
+            "scriptbg.lua"
+          ]
+        }
+      ],
+      "targetVersion": [
+        "0.87.11",
+        "0.87.11",
+        "0.90.13",
+        "0.90.6",
+        "0.90.6"
+      ],
+      "doNotChangeVariablesBelowThis": [
+        {
+          "timeCreated": 638685738269403100,
+          "guid": {
+            "serializedGuid": "0568a5fb-7fc7-47be-940d-1055d2a949c4"
+          }
+        },
+        {
+          "timeCreated": 638657832769614980,
+          "guid": {
+            "serializedGuid": "4512037d-c160-4480-9dc4-f3d68d922b1b"
+          }
+        },
+        {
+          "timeCreated": 638739319963710860,
+          "guid": {
+            "serializedGuid": "fc7bc4b4-44a1-4d06-ab29-88cc37867875"
+          }
+        },
+        {
+          "timeCreated": 638709734569365690,
+          "guid": {
+            "serializedGuid": "65e29ce1-419b-4d27-984d-73a73556abd1"
+          }
+        },
+        {
+          "timeCreated": 638838286098002140,
+          "guid": {
+            "serializedGuid": "d0f815f9-d19a-479f-8f61-1b2644e78b7b"
+          }
+        }
+      ],
+      "modVersion": [
+        "1.0.0"
+      ],
+      "languageCode": [
+        "en"
+      ]
+    }
+  },
+  "on_game_start_stats": {
+    "count": 203,
+    "keys": {
+      "luaFiles": 203,
+      "luaScript": 119
+    },
+    "type_counts": {
+      "luaFiles": {
+        "array": 203
+      },
+      "luaScript": {
+        "string": 119
+      }
+    },
+    "samples": {
+      "luaFiles": [
+        [
+          "script.lua"
+        ],
+        [
+          "script.lua"
+        ],
+        [
+          "script.lua"
+        ],
+        [
+          "script.lua"
+        ],
+        [
+          "scriptplushy.lua",
+          "scriptrug.lua",
+          "scriptcupboard.lua",
+          "scriptcouch.lua",
+          "scriptdesk.lua",
+          "scriptPC.lua",
+          "scriptTV.lua",
+          "scriptwindow.lua",
+          "scriptdoor.lua",
+          "scriptbat.lua",
+          "scriptpcscreen.lua",
+          "scriptwallpaper.lua",
+          "scriptwallpaper2.lua",
+          "scriptbed.lua",
+          "scriptbg.lua"
+        ]
+      ],
+      "luaScript": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "protected_stats": {
+    "count": 203,
+    "keys": {
+      "timeCreated": 203,
+      "guid": 203
+    },
+    "type_counts": {
+      "timeCreated": {
+        "integer": 203
+      },
+      "guid": {
+        "object": 203
+      }
+    },
+    "samples": {
+      "timeCreated": [
+        638685738269403100,
+        638657832769614980,
+        638739319963710860,
+        638709734569365690,
+        638838286098002140
+      ],
+      "guid": [
+        {
+          "serializedGuid": "0568a5fb-7fc7-47be-940d-1055d2a949c4"
+        },
+        {
+          "serializedGuid": "4512037d-c160-4480-9dc4-f3d68d922b1b"
+        },
+        {
+          "serializedGuid": "fc7bc4b4-44a1-4d06-ab29-88cc37867875"
+        },
+        {
+          "serializedGuid": "65e29ce1-419b-4d27-984d-73a73556abd1"
+        },
+        {
+          "serializedGuid": "d0f815f9-d19a-479f-8f61-1b2644e78b7b"
+        }
+      ]
+    }
+  },
+  "target_versions": {
+    "0.87.11": 24,
+    "0.90.13": 11,
+    "0.90.6": 5,
+    "0.90.8": 8,
+    "0.90.15": 27,
+    "0.86.0": 7,
+    "0.90.10": 2,
+    "0.86.3": 45,
+    "0.87.10": 1,
+    "0.90.16": 9,
+    "0.87.8": 12,
+    "0.85.69": 32,
+    "0.95.15": 1,
+    "0.90.7": 7,
+    "0.86.2": 2,
+    "0.80 beta": 3,
+    "0.85.1": 2,
+    "0.87.6": 1,
+    "0.95.5": 1,
+    "0.87.1": 2,
+    "0.87.7": 1
+  },
+  "mod_versions": {
+    "<missing>": 202,
+    "1.0.0": 1
+  },
+  "language_codes": {
+    "<missing>": 202,
+    "en": 1
+  },
+  "lua_file_counts": {
+    "1": 175,
+    "15": 1,
+    "12": 2,
+    "11": 3,
+    "5": 5,
+    "2": 9,
+    "9": 1,
+    "4": 4,
+    "13": 1,
+    "3": 2
+  },
+  "lua_script_present_count": 119,
+  "notes": [
+    "modVersion and languageCode were rare in the supplied dump; keep optional.",
+    "OnGameStart.luaScript appeared in many older mods; keep optional and do not treat empty string as error."
+  ]
+}

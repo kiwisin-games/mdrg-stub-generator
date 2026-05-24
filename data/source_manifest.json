@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-05-07T05:42:29+00:00",
+  "policy": "curated reproducible indexes; raw dumps remain local/ignored",
+  "inputs": {
+    "docs.txt": {
+      "sha256": "645f2b5a7c0db8d97f6c34b7102df9cafffbf4aa949825febab4a2d0ed586cc8",
+      "bytes": 429115
+    },
+    "documented_functions.md": {
+      "sha256": "a9e25499578f850111c09e7c8c240e5b76f1911c6767c947951f1e893a34098a",
+      "bytes": 674400
+    },
+    "dump": {
+      "files": 1684
+    },
+    "rawdump": {
+      "files": 2866
+    },
+    "luas": {
+      "files": 13
+    },
+    "unity": {
+      "mainScene.txt_sha256": "7705bc67e9a20f4f0055a86dbfefe53bd07f3a3e689903f57e32f516c90f9b73",
+      "mainScene.md_sha256": "63ace1af99f889cb420f5965221a9bd0a744ac9fcad9e5b765520aceb08410f8"
+    },
+    "probe": {
+      "source_report": "probe/report-20260506-194845.txt",
+      "source_timestamp": "20260506-194845",
+      "source_sha256": "34f135113521e01aa87630793fd3235cae79bab25c17dcc110b22db5ec258faa"
+    },
+    "extern": {
+      "d_lua_files": 1,
+      "md_files": 1
+    }
+  },
+  "outputs": {
+    "csharp_index.json": {
+      "field_docs": 10,
+      "inheritance_edges": 824,
+      "method_entries": 5153
+    },
+    "lua_usage_index.json": {
+      "aliases": 9
+    },
+    "unity_main_scene_index.json": {
+      "aliases": 5
+    },
+    "runtime_probe_index.json": {
+      "present_symbols": 107,
+      "runtime_aliases": 2,
+      "callables": 106,
+      "enum_like_userdata": 18,
+      "field_probes": 113,
+      "enum_value_probes": 34,
+      "safe_io_present": true
+    }
+  }
+}

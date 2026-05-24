@@ -1,0 +1,38 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 2 - shower_texture0_layer1.png",
+            "Layer": 1,
+            "PackedDrawables": [
+                {
+                    "Name": "Tongue3",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 119,
+                        "height": 130
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "Tongue",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 145,
+                        "width": 104,
+                        "height": 74
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "shower"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

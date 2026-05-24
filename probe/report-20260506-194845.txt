@@ -1,0 +1,1691 @@
+table: 000012C0# MDRG Lua Environment Report
+Generated at: 20260506-194845
+Script version: 2026-05-06
+
+## Runtime
+----------
+_VERSION: "MoonSharp 2.0.0.0"
+CurrentModGuid: <missing>
+_MOONSHARP: <table: table: 00000005>
+_MOONSHARP.banner: "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+_MOONSHARP.is_aot: true
+_MOONSHARP.is_clr4: true
+_MOONSHARP.is_mono: true
+_MOONSHARP.is_pcl: false
+_MOONSHARP.is_unity: true
+_MOONSHARP.luacompat: "5.2"
+_MOONSHARP.platform: "limited.unity.dll.mono.clr4.aot"
+_MOONSHARP.version: "2.0.0.0"
+
+## Execution / Transport Context
+--------------------------------
+Target report filename: report-20260506-194845.txt
+Write strategy: try io.open first; if unavailable, print console-safe chunks.
+PROBE_MODE: file
+TABLE_ENUM_MODE: raw
+IO_AVAILABLE at startup: true
+ENABLE_DEEP_GLOBAL_DUMP: true
+ENABLE_PACKAGE_LOADED_DUMP: false
+Console prefixes like [LuaPatch] [Lua:exec.lua] are external transport/log prefixes, not Lua globals.
+Console fallback chunk marker: MDRG_ENV_PROBE_CHUNK n
+Context hint: console/plugin execution is likely; mod-scoped globals or save-scoped globals may be absent.
+
+## Globals Summary
+------------------
+Accessible globals sampled: 109
+Types: function=21, string=1, table=11, userdata=76
+
+## Known Stub Symbols Present/Missing
+-------------------------------------
+Runtime symbol expected - present:
+- _G: table <table: table: 00000004>
+- _VERSION: string "MoonSharp 2.0.0.0"
+- _MOONSHARP: table <table: table: 00000005>
+- assert: function <function: function: 0000000A>
+- collectgarbage: function <function: function: 0000000B>
+- coroutine: table <table: table: 00000055>
+- debug: table <table: table: 00000061>
+- error: function <function: function: 0000000C>
+- getmetatable: function <function: function: 00000012>
+- ipairs: function <function: function: 00000006>
+- json: table <table: table: 0000006D>
+- io: table <table: table: 00000414>
+- math: table <table: table: 00000038>
+- next: function <function: function: 00000008>
+- os: table <table: table: 0000005C>
+- package: table <table: table: 00000018>
+- pairs: function <function: function: 00000007>
+- pcall: function <function: function: 00000036>
+- print: function <function: function: 00000010>
+- rawequal: function <function: function: 00000015>
+- rawget: function <function: function: 00000013>
+- rawlen: function <function: function: 00000016>
+- rawset: function <function: function: 00000014>
+- select: function <function: function: 0000000E>
+- setmetatable: function <function: function: 00000011>
+- string: table <table: table: 00000017>
+- table: table <table: table: 0000002D>
+- tonumber: function <function: function: 0000000F>
+- tostring: function <function: function: 0000000D>
+- type: function <function: function: 00000009>
+- xpcall: function <function: function: 00000037>
+- ModUtilities: userdata <userdata: Everything (ModUtilities)>
+- GameUtilities: userdata <userdata: Everything (GameUtilities)>
+- Item: userdata <userdata: userdata: 000000AB>
+- ItemPrefab: userdata <userdata: userdata: 000000B5>
+- ItemPrefabManager: userdata <userdata: userdata: 000000B7>
+- GameId: userdata <userdata: userdata: 0000007B>
+- Guid: userdata <userdata: userdata: 0000007A>
+- ColorPalette: userdata <userdata: userdata: 0000027A>
+- ColorPaletteEntry: userdata <userdata: userdata: 0000027B>
+- ItemEnum: userdata <userdata: userdata: 00000219>
+- ControllerEnum: userdata <userdata: userdata: 00000079>
+- FishingBaitType: userdata <userdata: userdata: 00000269>
+- ItemCategory: userdata <userdata: userdata: 00000228>
+- ScratchTextureType: userdata <userdata: userdata: 00000230>
+- ItemSlot: userdata <userdata: userdata: 00000285>
+- SlotType: userdata <userdata: userdata: 0000028C>
+- CheckType: userdata <userdata: userdata: 000002DD>
+- UiOverlay: userdata <userdata: Everything (UiOverlay)>
+- SaveContainer: userdata <userdata: userdata: 000003E9>
+- SaveSingleton: userdata <userdata: userdata: 000003E4>
+- StoryCondition: userdata <userdata: userdata: 000003BF>
+- StoryBotDialogueBranch: userdata <userdata: userdata: 000003C7>
+- TextureOverriderManager: userdata <userdata: userdata: 0000039E>
+- ColorSlot: userdata <userdata: userdata: 0000023B>
+- ColorPaletteManager: userdata <userdata: userdata: 00000279>
+- SlotEquipData: userdata <userdata: userdata: 00000242>
+- EdibleItemPrefabData: userdata <userdata: userdata: 0000024D>
+- SimpleLocalizedString: userdata <userdata: userdata: 000003DF>
+- AllowedModifiers: userdata <userdata: userdata: 0000023E>
+- AtLeastOneBoolVariableTrueRequirement: userdata <userdata: userdata: 0000024C>
+- CommonAllowedModifiersEnum: userdata <userdata: userdata: 00000241>
+- CookingSong: userdata <userdata: userdata: 0000036C>
+- CookingSongRuntimeData: userdata <userdata: userdata: 00000372>
+- EdibleItemNutritionProfile: userdata <userdata: userdata: 0000024F>
+- EdibleTypeEnum: userdata <userdata: userdata: 0000025A>
+- FinishedType: userdata <userdata: userdata: 000003DE>
+- FishingBaitItemPrefabData: userdata <userdata: userdata: 0000025E>
+- FishingCatchBehaviourType: userdata <userdata: userdata: 0000026F>
+- FishingRodItemPrefabData: userdata <userdata: userdata: 0000025D>
+- FishItemPrefabData: userdata <userdata: userdata: 0000025B>
+- FishPreferences: userdata <userdata: userdata: 0000025C>
+- flowchart: userdata <userdata: Main Flowchart (Fungus.Flowchart)>
+- GlobalFlag: userdata <userdata: userdata: 000003EA>
+- gv: userdata <userdata: GameVariables>
+- ItemModifiableVariableFactory: userdata <userdata: userdata: 00000247>
+- ItemModifiableVariablesRequirement: userdata <userdata: userdata: 0000024B>
+- ItemScopeCondition: userdata <userdata: userdata: 00000243>
+- ItemScopeConditionAlwaysTrueCondition: userdata <userdata: userdata: 00000246>
+- ItemScopeConditionCustom: userdata <userdata: userdata: 00000244>
+- ItemScopeConditionSpecialVariable: userdata <userdata: userdata: 00000245>
+- ItemSubCategory: userdata <userdata: userdata: 0000022D>
+- Live2DControllerSingleton: userdata <userdata: userdata: 0000036B>
+- NewsId: userdata <userdata: userdata: 000002D3>
+- NoteButtonTypeEnum: userdata <userdata: userdata: 00000370>
+- R: userdata <userdata: userdata: 00000373>
+- Recipe: userdata <userdata: userdata: 0000036D>
+- Result: userdata <userdata: userdata: 0000039F>
+- Shop: userdata <userdata: userdata: 00000270>
+- ShopItem: userdata <userdata: userdata: 00000276>
+- ShopManager: userdata <userdata: userdata: 00000272>
+- SingleArgumentComparators: userdata <userdata: userdata: 000003D6>
+- SlotManager: userdata <userdata: userdata: 0000027C>
+- SoundSingleton: userdata <userdata: Everything (SoundSingleton)>
+- StoryAutoBranch: userdata <userdata: userdata: 000003C8>
+- StoryBlockTarget: userdata <userdata: userdata: 000003CD>
+- StoryBotContainerTypeEnum: userdata <userdata: userdata: 000003C6>
+- StoryBranchTarget: userdata <userdata: userdata: 000003CA>
+- StoryEnumeratorTarget: userdata <userdata: userdata: 000003CE>
+- StoryLocalizedConversationBranchTarget: userdata <userdata: userdata: 000003CF>
+- StoryMenuBranch: userdata <userdata: userdata: 000003C9>
+- StorySingleton: userdata <userdata: userdata: 000003BD>
+- SusArea: userdata <userdata: userdata: 0000023A>
+- SusModifier: userdata <userdata: userdata: 0000023C>
+- TimeCheckType: userdata <userdata: userdata: 000002D9>
+- TwoArgumentComparators: userdata <userdata: userdata: 000003DB>
+- ViewSingleton: userdata <userdata: Views (ViewSingleton)>
+
+Runtime symbol expected - missing in this context:
+- CurrentModGuid
+- GameVariables
+- ItemManager
+- Color
+- Vector2
+- Vector3
+- Quaternion
+- SceneEnumFlag
+- ColoringGroupEnum
+- CustomShaderTypeEnum
+- ItemLocationEnum
+- ItemSlotEnum
+- ShopItemType
+- UpdateTexturesFromCurrentlyEquippedTypeEnum
+- DeliveryStatus
+- EquipResults
+- EyeSelection
+- ArmState
+- BrowserPopup
+- BotStatusAppPopup
+- Flowchart
+- Save
+- StoryBotDialogueBranchContainer
+- LuaPersonalityModuleDefinition
+- PersonalityModuleDefinition
+- PackedTexturesContainer
+- EdibleData
+
+Stub-only alias expected - not a runtime error if missing:
+- MdrgKnownWebsiteId: stub-only alias, runtime symbol not expected
+- MdrgKnownStoryFlagId: stub-only alias, runtime symbol not expected
+- MdrgKnownPaletteName: stub-only alias, runtime symbol not expected
+- MdrgKnownShopId: stub-only alias, runtime symbol not expected
+- MdrgKnownControllerId: stub-only alias, runtime symbol not expected
+- MdrgKnownColorSlotName: stub-only alias, runtime symbol not expected
+- MdrgKnownEquipmentSlotId: stub-only alias, runtime symbol not expected
+- MdrgKnownDialogueContainerId: stub-only alias, runtime symbol not expected
+
+## Known Runtime Aliases
+------------------------
+- gv -> GameVariables
+  note: Legacy/internal alias observed for GameVariables.
+  alias: present as userdata <userdata: GameVariables>
+  target: missing in this context
+- flowchart -> Flowchart
+  note: Fungus flowchart object injected in internal scripts.
+  alias: present as userdata <userdata: Main Flowchart (Fungus.Flowchart)>
+  target: missing in this context
+
+## Legacy/Internal Runtime Context
+----------------------------------
+GameVariables global: missing
+gv legacy alias: present <userdata: GameVariables>
+flowchart: present <userdata: Main Flowchart (Fungus.Flowchart)>
+Effective GameVariables source: gv <userdata: GameVariables>
+ENABLE_SAFE_CONTEXT_CALLS: false
+
+Alias field probe sample:
+- flowchart.ExecuteBlock: present (function, source=index)
+- flowchart.GetBooleanVariable: present (function, source=index)
+- flowchart.GetIntegerVariable: present (function, source=index)
+- flowchart.GetName: present (function, source=index)
+- flowchart.GetStringVariable: present (function, source=index)
+- flowchart.HasBlock: present (function, source=index)
+- flowchart.IsActive: present (function, source=index)
+- flowchart.SetBooleanVariable: present (function, source=index)
+- flowchart.SetIntegerVariable: present (function, source=index)
+- flowchart.SetStringVariable: present (function, source=index)
+- flowchart.StopBlock: present (function, source=index)
+- gv.CheckFlag: present (function, source=index)
+- gv.CheckFlagAfterRelative: present (function, source=index)
+- gv.DayOfTheWeek: present (number, source=index)
+- gv.ForceTakeMoney: present (function, source=index)
+- gv.Health: present (number, source=index)
+- gv.Hour: present (number, source=index)
+- gv.MentalHealth: present (number, source=index)
+- gv.Minute: present (number, source=index)
+- gv.Money: error (nil, source=error)
+- gv.ReportSleepEnd: present (function, source=index)
+- gv.Satiation: present (number, source=index)
+
+## Known Field Probe
+--------------------
+Read-only field/method lookup by known names. Returned functions are not called.
+- flowchart
+  flowchart.ExecuteBlock = function [present, source=index] <function: function: 00000A18>
+  flowchart.GetBooleanVariable = function [present, source=index] <function: function: 00000A2C>
+  flowchart.GetIntegerVariable = function [present, source=index] <function: function: 00000A22>
+  flowchart.GetName = function [present, source=index] <function: function: 00000A09>
+  flowchart.GetStringVariable = function [present, source=index] <function: function: 00000A27>
+  flowchart.HasBlock = function [present, source=index] <function: function: 00000A13>
+  flowchart.IsActive = function [present, source=index] <function: function: 00000A0E>
+  flowchart.SetBooleanVariable = function [present, source=index] <function: function: 00000A3B>
+  flowchart.SetIntegerVariable = function [present, source=index] <function: function: 00000A31>
+  flowchart.SetStringVariable = function [present, source=index] <function: function: 00000A36>
+  flowchart.StopBlock = function [present, source=index] <function: function: 00000A1D>
+- GameId
+  GameId.__new = function [present, source=index] <function: function: 00000955>
+  GameId.CreateGeneric = function [present, source=index] <function: function: 00000964>
+  GameId.CreateModded = function [present, source=index] <function: function: 0000095F>
+  GameId.CreateVanilla = function [present, source=index] <function: function: 0000095A>
+  GameId.FromShortString = function [present, source=index] <function: function: 00000969>
+  GameId.ToLuaString = function [present, source=index] <function: function: 00000973>
+  GameId.ToShortString = function [present, source=index] <function: function: 00000978>
+  GameId.ToString = function [present, source=index] <function: function: 0000096E>
+- GameUtilities
+  GameUtilities.AddItemToInventory = function [present, source=index] <function: function: 0000088E>
+  GameUtilities.FadeOrMoveToView = function [present, source=index] <function: function: 0000089D>
+  GameUtilities.FadeToView = function [present, source=index] <function: function: 00000893>
+  GameUtilities.GetCurrentYearToInteger = function [present, source=index] <function: function: 000008A2>
+  GameUtilities.MoveToView = function [present, source=index] <function: function: 00000898>
+  GameUtilities.WaitForSecondsYield = function [present, source=index] <function: function: 00000889>
+- Guid
+  Guid.__new = function [present, source=index] <function: function: 00000980>
+  Guid.Parse = function [present, source=index] <function: function: 0000098A>
+  Guid.ToString = function [present, source=index] <function: function: 00000985>
+- gv
+  gv.CheckFlag = function [present, source=index] <function: function: 00000A5F>
+  gv.CheckFlagAfterRelative = function [present, source=index] <function: function: 00000A64>
+  gv.DayOfTheWeek = number [present, source=index] 6
+  gv.ForceTakeMoney = function [present, source=index] <function: function: 00000A69>
+  gv.Health = number [present, source=index] 1
+  gv.Hour = number [present, source=index] 12
+  gv.MentalHealth = number [present, source=index] 0.999969780445099
+  gv.Minute = number [present, source=index] 31
+  gv.Money = nil [error, source=error]
+  gv.ReportSleepEnd = function [present, source=index] <function: function: 00000A6E>
+  gv.Satiation = number [present, source=index] 0.955554962158203
+- io
+  io.close = function [present, source=raw] <function: function: 00000416>
+  io.flush = function [present, source=raw] <function: function: 00000417>
+  io.input = function [present, source=raw] <function: function: 00000418>
+  io.lines = function [present, source=raw] <function: function: 0000041C>
+  io.open = function [present, source=raw] <function: function: 00000415>
+  io.output = function [present, source=raw] <function: function: 00000419>
+  io.popen = nil [missing, source=missing]
+  io.read = function [present, source=raw] <function: function: 0000041A>
+  io.tmpfile = nil [missing, source=missing]
+  io.type = function [present, source=raw] <function: function: 0000041D>
+  io.write = function [present, source=raw] <function: function: 0000041B>
+- Item
+  Item.__new = function [present, source=index] <function: function: 000008E8>
+  Item.CanBeUnpacked = function [present, source=index] <function: function: 0000091A>
+  Item.CanBeUsed = function [present, source=index] <function: function: 00000915>
+  Item.ColorSlotId = function [present, source=index] <function: function: 00000924>
+  Item.CreateDefaultItemForLive2DController = function [present, source=index] <function: function: 000008F2>
+  Item.CreateRandomItem = function [present, source=index] <function: function: 000008ED>
+  Item.GetCount = function [present, source=index] <function: function: 00000901>
+  Item.GetDescription = function [present, source=index] <function: function: 000008FC>
+  Item.GetItemPrefab = function [present, source=index] <function: function: 0000090B>
+  Item.GetName = function [present, source=index] <function: function: 000008F7>
+  Item.GetPrice = function [present, source=index] <function: function: 00000906>
+  Item.GetQualityString = function [present, source=index] <function: function: 0000091F>
+  Item.IsEquipped = function [present, source=index] <function: function: 00000910>
+- ItemPrefab
+  ItemPrefab.__new = function [present, source=index] <function: function: 0000092C>
+  ItemPrefab.Clone = function [present, source=index] <function: function: 0000093D>
+  ItemPrefab.ColorSlotId = nil [error, source=error]
+  ItemPrefab.CreateInstance = nil [error, source=error]
+  ItemPrefab.ToLuaString = nil [error, source=error]
+- ItemPrefabManager
+  ItemPrefabManager.GetItemById = function [present, source=index] <function: function: 0000094D>
+  ItemPrefabManager.GetItemPrefab = nil [error, source=error]
+  ItemPrefabManager.TryGetItemPrefab = nil [error, source=error]
+- ModUtilities
+  ModUtilities.CreateItemPrefab = function [present, source=index] <function: function: 00000863>
+  ModUtilities.CreateNewItem = function [present, source=index] <function: function: 00000868>
+  ModUtilities.CreateNewItemAutoAssignId = function [present, source=index] <function: function: 0000086D>
+  ModUtilities.GetController = function [present, source=index] <function: function: 00000872>
+  ModUtilities.GetGameVariables = function [present, source=index] <function: function: 00000859>
+  ModUtilities.GetNewGuid = function [present, source=index] <function: function: 0000085E>
+  ModUtilities.StartCoroutine = function [present, source=index] <function: function: 00000877>
+  ModUtilities.StopCoroutine = function [present, source=index] <function: function: 0000087C>
+  ModUtilities.WaitForSeconds = function [present, source=index] <function: function: 00000881>
+- SaveContainer
+  SaveContainer.AddGlobalFlag = function [present, source=index] <function: function: 00000997>
+  SaveContainer.GetPercentageOfSeenStoryText = function [present, source=index] <function: function: 000009B0>
+  SaveContainer.HasAchievement = function [present, source=index] <function: function: 000009A1>
+  SaveContainer.HasGlobalFlag = function [present, source=index] <function: function: 00000992>
+  SaveContainer.RemoveAchievement = function [present, source=index] <function: function: 000009AB>
+  SaveContainer.TryGetGlobalFlag = function [present, source=index] <function: function: 0000099C>
+  SaveContainer.UnlockAchievement = function [present, source=index] <function: function: 000009A6>
+- SaveSingleton
+  SaveSingleton.GetSaveContainerAsString = function [present, source=index] <function: function: 000009B8>
+  SaveSingleton.ResetAllData = function [present, source=index] <function: function: 000009C2>
+  SaveSingleton.SaveAllChanges = function [present, source=index] <function: function: 000009BD>
+  SaveSingleton.TryMakeAutoSave = function [present, source=index] <function: function: 000009C7>
+- SoundSingleton
+  SoundSingleton.LuaInstance = nil [error, source=error]
+  SoundSingleton.PlayMusic = nil [error, source=error]
+  SoundSingleton.PlaySound = nil [error, source=error]
+  SoundSingleton.StopMusic = nil [error, source=error]
+- StoryBotDialogueBranch
+  StoryBotDialogueBranch.__new = function [present, source=index] <function: function: 000009EA>
+- StoryCondition
+  StoryCondition.And = function [present, source=index] <function: function: 000009CF>
+  StoryCondition.Delegate = function [present, source=index] <function: function: 000009E2>
+  StoryCondition.Lua = function [present, source=index] <function: function: 000009DD>
+  StoryCondition.Not = nil [error, source=error]
+  StoryCondition.Or = function [present, source=index] <function: function: 000009D4>
+- StorySingleton
+  StorySingleton.GenerateSummary = function [present, source=index] <function: function: 00000A01>
+  StorySingleton.GetFlowchart = function [present, source=index] <function: function: 000009F2>
+  StorySingleton.GetStage = function [present, source=index] <function: function: 000009F7>
+  StorySingleton.TryGetTag = function [present, source=index] <function: function: 000009FC>
+- UiOverlay
+  UiOverlay.CloseAll = nil [error, source=error]
+  UiOverlay.OpenBrowser = function [present, source=index] <function: function: 000008AA>
+  UiOverlay.OpenShop = function [present, source=index] <function: function: 000008AF>
+  UiOverlay.OpenSimplePopup = nil [error, source=error]
+- ViewSingleton
+  ViewSingleton.GetNotCurrentView = function [present, source=index] <function: function: 000008DB>
+  ViewSingleton.LuaInstance = nil [error, source=error]
+  ViewSingleton.SetNextView = function [present, source=index] <function: function: 000008D6>
+  ViewSingleton.UpdateViewReferences = function [present, source=index] <function: function: 000008E0>
+
+## Enum Value Probe
+-------------------
+Read-only enum value lookup by known names. No functions are called.
+- ArmState
+  ArmState.Default = nil [owner-missing, source=missing]
+- CheckType
+  CheckType.Equal = nil [error, source=error]
+  CheckType.Greater = nil [error, source=error]
+  CheckType.Less = nil [error, source=error]
+  CheckType.NotEqual = nil [error, source=error]
+- CommonAllowedModifiersEnum
+  CommonAllowedModifiersEnum.FishingRod = userdata [present, source=index] <userdata: FishingRod>
+  CommonAllowedModifiersEnum.None = userdata [present, source=index] <userdata: None>
+- ControllerEnum
+  ControllerEnum.Interaction = userdata [present, source=index] <userdata: Interaction>
+  ControllerEnum.Missionary = userdata [present, source=index] <userdata: Missionary>
+  ControllerEnum.NoScene = userdata [present, source=index] <userdata: NoScene>
+- EdibleTypeEnum
+  EdibleTypeEnum.Dish = userdata [present, source=index] <userdata: Dish>
+  EdibleTypeEnum.Fish = userdata [present, source=index] <userdata: Fish>
+  EdibleTypeEnum.Meat = userdata [present, source=index] <userdata: Meat>
+  EdibleTypeEnum.Other = userdata [present, source=index] <userdata: Other>
+- EquipResults
+  EquipResults.FailedBlocked = nil [owner-missing, source=missing]
+  EquipResults.FailedMissingRequired = nil [owner-missing, source=missing]
+  EquipResults.FailedNonEquipable = nil [owner-missing, source=missing]
+  EquipResults.Success = nil [owner-missing, source=missing]
+- EyeSelection
+  EyeSelection.BothEyes = nil [owner-missing, source=missing]
+  EyeSelection.LeftEye = nil [owner-missing, source=missing]
+  EyeSelection.RightEye = nil [owner-missing, source=missing]
+- FishingBaitType
+  FishingBaitType.None = nil [error, source=error]
+  FishingBaitType.Worm = nil [error, source=error]
+- FishingCatchBehaviourType
+  FishingCatchBehaviourType.Fighter = userdata [present, source=index] <userdata: Fighter>
+  FishingCatchBehaviourType.Floater = userdata [present, source=index] <userdata: Floater>
+  FishingCatchBehaviourType.Normal = userdata [present, source=index] <userdata: Normal>
+  FishingCatchBehaviourType.Rock = userdata [present, source=index] <userdata: Rock>
+  FishingCatchBehaviourType.Sinker = userdata [present, source=index] <userdata: Sinker>
+- ItemCategory
+  ItemCategory.Clothing = userdata [present, source=index] <userdata: Clothing>
+  ItemCategory.Food = userdata [present, source=index] <userdata: Food>
+  ItemCategory.Misc = nil [error, source=error]
+  ItemCategory.Room = userdata [present, source=index] <userdata: Room>
+- ScratchTextureType
+  ScratchTextureType.Universal = userdata [present, source=index] <userdata: Universal>
+- SlotType
+  SlotType.Normal = nil [error, source=error]
+
+## Possibly Undocumented Globals
+--------------------------------
+- pack (function)
+- unpack (function)
+
+## Top-level Tables Snapshot
+----------------------------
+- _G
+  accessible keys sampled: 109
+  functions ~= 21, tables ~= 11, userdata ~= 76, scalars ~= 1
+  value types: function=21, string=1, table=11, userdata=76
+  metatable: none
+  enum-like/constant-like: no
+  key sample: _G:table, _MOONSHARP:table, _VERSION:string, AllowedModifiers:userdata, assert:function, AtLeastOneBoolVariableTrueRequirement:userdata, CheckType:userdata, collectgarbage:function, ColorPalette:userdata, ColorPaletteEntry:userdata, ColorPaletteManager:userdata, ColorSlot:userdata, CommonAllowedModifiersEnum:userdata, ControllerEnum:userdata, CookingSong:userdata, CookingSongRuntimeData:userdata, coroutine:table, debug:table, EdibleItemNutritionProfile:userdata, EdibleItemPrefabData:userdata, EdibleTypeEnum:userdata, error:function, FinishedType:userdata, FishingBaitItemPrefabData:userdata, FishingBaitType:userdata, FishingCatchBehaviourType:userdata, FishingRodItemPrefabData:userdata, FishItemPrefabData:userdata, FishPreferences:userdata, flowchart:userdata, GameId:userdata, GameUtilities:userdata, getmetatable:function, GlobalFlag:userdata, Guid:userdata, gv:userdata, io:table, ipairs:function, Item:userdata, ItemCategory:userdata, ItemEnum:userdata, ItemModifiableVariableFactory:use...<truncated>
+- _MOONSHARP
+  accessible keys sampled: 9
+  functions ~= 0, tables ~= 0, userdata ~= 0, scalars ~= 9
+  value types: boolean=5, string=4
+  metatable: none
+  enum-like/constant-like: constant-like
+  key sample: banner:string, is_aot:boolean, is_clr4:boolean, is_mono:boolean, is_pcl:boolean, is_unity:boolean, luacompat:string, platform:string, version:string
+- coroutine
+  accessible keys sampled: 6
+  functions ~= 6, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=6
+  metatable: none
+  enum-like/constant-like: no
+  key sample: create:function, resume:function, running:function, status:function, wrap:function, yield:function
+- debug
+  accessible keys sampled: 11
+  functions ~= 11, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=11
+  metatable: none
+  enum-like/constant-like: no
+  key sample: debug:function, getmetatable:function, getregistry:function, getupvalue:function, getuservalue:function, setmetatable:function, setupvalue:function, setuservalue:function, traceback:function, upvalueid:function, upvaluejoin:function
+- io
+  accessible keys sampled: 9
+  functions ~= 9, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=9
+  metatable: none
+  enum-like/constant-like: no
+  key sample: close:function, flush:function, input:function, lines:function, open:function, output:function, read:function, type:function, write:function
+- json
+  accessible keys sampled: 4
+  functions ~= 4, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=4
+  metatable: none
+  enum-like/constant-like: no
+  key sample: isnull:function, null:function, parse:function, serialize:function
+- math
+  accessible keys sampled: 29
+  functions ~= 27, tables ~= 0, userdata ~= 0, scalars ~= 2
+  value types: function=27, number=2
+  metatable: none
+  enum-like/constant-like: no
+  key sample: abs:function, acos:function, asin:function, atan:function, atan2:function, ceil:function, cos:function, cosh:function, deg:function, exp:function, floor:function, fmod:function, frexp:function, huge:number, ldexp:function, log:function, max:function, min:function, modf:function, pi:number, pow:function, rad:function, random:function, randomseed:function, sin:function, sinh:function, sqrt:function, tan:function, tanh:function
+- os
+  accessible keys sampled: 4
+  functions ~= 4, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=4
+  metatable: none
+  enum-like/constant-like: no
+  key sample: clock:function, date:function, difftime:function, time:function
+- package
+  accessible keys sampled: 1
+  functions ~= 0, tables ~= 1, userdata ~= 0, scalars ~= 0
+  value types: table=1
+  metatable: none
+  enum-like/constant-like: no
+  key sample: loaded:table
+- string
+  accessible keys sampled: 18
+  functions ~= 18, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=18
+  metatable: none
+  enum-like/constant-like: no
+  key sample: byte:function, char:function, contains:function, dump:function, endsWith:function, find:function, format:function, gmatch:function, gsub:function, len:function, lower:function, match:function, rep:function, reverse:function, startsWith:function, sub:function, unicode:function, upper:function
+- table
+  accessible keys sampled: 6
+  functions ~= 6, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=6
+  metatable: none
+  enum-like/constant-like: no
+  key sample: concat:function, insert:function, pack:function, remove:function, sort:function, unpack:function
+
+## Callable Inventory
+---------------------
+- assert : function [origin=global, safety=Read-only]
+- collectgarbage : function [origin=global, safety=Unknown]
+- coroutine.create : function [origin=known-stub-symbol, safety=Context-dependent] [dangerous-name]
+- coroutine.resume : function [origin=known-stub-symbol, safety=Context-dependent]
+- coroutine.running : function [origin=known-stub-symbol, safety=Context-dependent]
+- coroutine.status : function [origin=known-stub-symbol, safety=Context-dependent]
+- coroutine.wrap : function [origin=known-stub-symbol, safety=Context-dependent]
+- coroutine.yield : function [origin=known-stub-symbol, safety=Context-dependent]
+- debug.debug : function [origin=known-stub-symbol, safety=Unknown]
+- debug.getmetatable : function [origin=known-stub-symbol, safety=Read-only]
+- debug.getregistry : function [origin=known-stub-symbol, safety=Read-only]
+- debug.getupvalue : function [origin=known-stub-symbol, safety=Read-only]
+- debug.getuservalue : function [origin=known-stub-symbol, safety=Read-only]
+- debug.setmetatable : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- debug.setupvalue : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- debug.setuservalue : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- debug.traceback : function [origin=known-stub-symbol, safety=Unknown]
+- debug.upvalueid : function [origin=known-stub-symbol, safety=Unknown]
+- debug.upvaluejoin : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- error : function [origin=global, safety=Unknown]
+- getmetatable : function [origin=global, safety=Read-only]
+- io.close : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- io.flush : function [origin=known-stub-symbol, safety=Unknown]
+- io.input : function [origin=known-stub-symbol, safety=Unknown]
+- io.lines : function [origin=known-stub-symbol, safety=Unknown]
+- io.open : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- io.output : function [origin=known-stub-symbol, safety=Unknown]
+- io.read : function [origin=known-stub-symbol, safety=Unknown]
+- io.type : function [origin=known-stub-symbol, safety=Read-only]
+- io.write : function [origin=known-stub-symbol, safety=Unknown]
+- ipairs : function [origin=global, safety=Read-only]
+- json.isnull : function [origin=known-stub-symbol, safety=Read-only]
+- json.null : function [origin=known-stub-symbol, safety=Unknown]
+- json.parse : function [origin=known-stub-symbol, safety=Read-only]
+- json.serialize : function [origin=known-stub-symbol, safety=Read-only]
+- math.abs : function [origin=known-stub-symbol, safety=Read-only]
+- math.acos : function [origin=known-stub-symbol, safety=Read-only]
+- math.asin : function [origin=known-stub-symbol, safety=Read-only]
+- math.atan : function [origin=known-stub-symbol, safety=Read-only]
+- math.atan2 : function [origin=known-stub-symbol, safety=Read-only]
+- math.ceil : function [origin=known-stub-symbol, safety=Read-only]
+- math.cos : function [origin=known-stub-symbol, safety=Read-only]
+- math.cosh : function [origin=known-stub-symbol, safety=Read-only]
+- math.deg : function [origin=known-stub-symbol, safety=Read-only]
+- math.exp : function [origin=known-stub-symbol, safety=Read-only]
+- math.floor : function [origin=known-stub-symbol, safety=Read-only]
+- math.fmod : function [origin=known-stub-symbol, safety=Read-only]
+- math.frexp : function [origin=known-stub-symbol, safety=Read-only]
+- math.ldexp : function [origin=known-stub-symbol, safety=Read-only]
+- math.log : function [origin=known-stub-symbol, safety=Read-only]
+- math.max : function [origin=known-stub-symbol, safety=Read-only]
+- math.min : function [origin=known-stub-symbol, safety=Read-only]
+- math.modf : function [origin=known-stub-symbol, safety=Read-only]
+- math.pow : function [origin=known-stub-symbol, safety=Read-only]
+- math.rad : function [origin=known-stub-symbol, safety=Read-only]
+- math.random : function [origin=known-stub-symbol, safety=Read-only]
+- math.randomseed : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- math.sin : function [origin=known-stub-symbol, safety=Read-only]
+- math.sinh : function [origin=known-stub-symbol, safety=Read-only]
+- math.sqrt : function [origin=known-stub-symbol, safety=Read-only]
+- math.tan : function [origin=known-stub-symbol, safety=Read-only]
+- math.tanh : function [origin=known-stub-symbol, safety=Read-only]
+- next : function [origin=global, safety=Read-only]
+- os.clock : function [origin=known-stub-symbol, safety=Read-only]
+- os.date : function [origin=known-stub-symbol, safety=Read-only]
+- os.difftime : function [origin=known-stub-symbol, safety=Read-only]
+- os.time : function [origin=known-stub-symbol, safety=Read-only]
+- pack : function [origin=global, safety=Unknown]
+- pairs : function [origin=global, safety=Read-only]
+- pcall : function [origin=global, safety=Read-only]
+- print : function [origin=global, safety=Unknown]
+- rawequal : function [origin=global, safety=Read-only]
+- rawget : function [origin=global, safety=Read-only]
+- rawlen : function [origin=global, safety=Read-only]
+- rawset : function [origin=global, safety=State-changing] [dangerous-name]
+- select : function [origin=global, safety=Read-only]
+- setmetatable : function [origin=global, safety=State-changing] [dangerous-name]
+- string.byte : function [origin=table-field, canonical, safety=Read-only]
+- string.char : function [origin=table-field, canonical, safety=Read-only]
+- string.contains : function [origin=table-field, canonical, safety=Read-only]
+- string.dump : function [origin=table-field, canonical, safety=Read-only]
+- string.endsWith : function [origin=table-field, canonical, safety=Read-only]
+- string.find : function [origin=table-field, canonical, safety=Read-only]
+- string.format : function [origin=table-field, canonical, safety=Read-only]
+- string.gmatch : function [origin=table-field, canonical, safety=Read-only]
+- string.gsub : function [origin=table-field, canonical, safety=Read-only]
+- string.len : function [origin=table-field, canonical, safety=Read-only]
+- string.lower : function [origin=table-field, canonical, safety=Read-only]
+- string.match : function [origin=table-field, canonical, safety=Read-only]
+- string.rep : function [origin=table-field, canonical, safety=Read-only]
+- string.reverse : function [origin=table-field, canonical, safety=Read-only]
+- string.startsWith : function [origin=table-field, canonical, safety=Read-only]
+- string.sub : function [origin=table-field, canonical, safety=Read-only]
+- string.unicode : function [origin=table-field, canonical, safety=Read-only]
+- string.upper : function [origin=table-field, canonical, safety=Read-only]
+- table.concat : function [origin=table-field, canonical, safety=Read-only]
+- table.insert : function [origin=table-field, canonical, safety=State-changing] [dangerous-name]
+- table.pack : function [origin=table-field, canonical, safety=Unknown]
+- table.remove : function [origin=table-field, canonical, safety=Dangerous/Destructive] [dangerous-name]
+- table.sort : function [origin=table-field, canonical, safety=State-changing] [dangerous-name]
+- table.unpack : function [origin=table-field, canonical, safety=Read-only]
+- tonumber : function [origin=global, safety=Read-only]
+- tostring : function [origin=global, safety=Read-only]
+- type : function [origin=global, safety=Read-only]
+- unpack : function [origin=global, safety=Unknown]
+- xpcall : function [origin=global, safety=Read-only]
+
+## API Safety Map
+-----------------
+Read-only:
+- assert [origin=global]
+- debug.getmetatable [origin=known-stub-symbol]
+- debug.getregistry [origin=known-stub-symbol]
+- debug.getupvalue [origin=known-stub-symbol]
+- debug.getuservalue [origin=known-stub-symbol]
+- getmetatable [origin=global]
+- io.type [origin=known-stub-symbol]
+- ipairs [origin=global]
+- json.isnull [origin=known-stub-symbol]
+- json.parse [origin=known-stub-symbol]
+- json.serialize [origin=known-stub-symbol]
+- math.abs [origin=known-stub-symbol]
+- math.acos [origin=known-stub-symbol]
+- math.asin [origin=known-stub-symbol]
+- math.atan [origin=known-stub-symbol]
+- math.atan2 [origin=known-stub-symbol]
+- math.ceil [origin=known-stub-symbol]
+- math.cos [origin=known-stub-symbol]
+- math.cosh [origin=known-stub-symbol]
+- math.deg [origin=known-stub-symbol]
+- math.exp [origin=known-stub-symbol]
+- math.floor [origin=known-stub-symbol]
+- math.fmod [origin=known-stub-symbol]
+- math.frexp [origin=known-stub-symbol]
+- math.ldexp [origin=known-stub-symbol]
+- math.log [origin=known-stub-symbol]
+- math.max [origin=known-stub-symbol]
+- math.min [origin=known-stub-symbol]
+- math.modf [origin=known-stub-symbol]
+- math.pow [origin=known-stub-symbol]
+- math.rad [origin=known-stub-symbol]
+- math.random [origin=known-stub-symbol]
+- math.sin [origin=known-stub-symbol]
+- math.sinh [origin=known-stub-symbol]
+- math.sqrt [origin=known-stub-symbol]
+- math.tan [origin=known-stub-symbol]
+- math.tanh [origin=known-stub-symbol]
+- next [origin=global]
+- os.clock [origin=known-stub-symbol]
+- os.date [origin=known-stub-symbol]
+- os.difftime [origin=known-stub-symbol]
+- os.time [origin=known-stub-symbol]
+- pairs [origin=global]
+- pcall [origin=global]
+- rawequal [origin=global]
+- rawget [origin=global]
+- rawlen [origin=global]
+- select [origin=global]
+- string.byte [origin=table-field, canonical]
+- string.char [origin=table-field, canonical]
+- string.contains [origin=table-field, canonical]
+- string.dump [origin=table-field, canonical]
+- string.endsWith [origin=table-field, canonical]
+- string.find [origin=table-field, canonical]
+- string.format [origin=table-field, canonical]
+- string.gmatch [origin=table-field, canonical]
+- string.gsub [origin=table-field, canonical]
+- string.len [origin=table-field, canonical]
+- string.lower [origin=table-field, canonical]
+- string.match [origin=table-field, canonical]
+- string.rep [origin=table-field, canonical]
+- string.reverse [origin=table-field, canonical]
+- string.startsWith [origin=table-field, canonical]
+- string.sub [origin=table-field, canonical]
+- string.unicode [origin=table-field, canonical]
+- string.upper [origin=table-field, canonical]
+- table.concat [origin=table-field, canonical]
+- table.unpack [origin=table-field, canonical]
+- tonumber [origin=global]
+- tostring [origin=global]
+- type [origin=global]
+- xpcall [origin=global]
+
+Context-dependent:
+- coroutine.create [origin=known-stub-symbol]
+- coroutine.resume [origin=known-stub-symbol]
+- coroutine.running [origin=known-stub-symbol]
+- coroutine.status [origin=known-stub-symbol]
+- coroutine.wrap [origin=known-stub-symbol]
+- coroutine.yield [origin=known-stub-symbol]
+
+State-changing:
+- debug.setmetatable [origin=known-stub-symbol]
+- debug.setupvalue [origin=known-stub-symbol]
+- debug.setuservalue [origin=known-stub-symbol]
+- debug.upvaluejoin [origin=known-stub-symbol]
+- io.close [origin=known-stub-symbol]
+- io.open [origin=known-stub-symbol]
+- math.randomseed [origin=known-stub-symbol]
+- rawset [origin=global]
+- setmetatable [origin=global]
+- table.insert [origin=table-field, canonical]
+- table.sort [origin=table-field, canonical]
+
+UI-changing:
+- none
+
+Save-changing:
+- none
+
+Dangerous/Destructive:
+- table.remove [origin=table-field, canonical]
+
+Unknown:
+- collectgarbage [origin=global]
+- debug.debug [origin=known-stub-symbol]
+- debug.traceback [origin=known-stub-symbol]
+- debug.upvalueid [origin=known-stub-symbol]
+- error [origin=global]
+- io.flush [origin=known-stub-symbol]
+- io.input [origin=known-stub-symbol]
+- io.lines [origin=known-stub-symbol]
+- io.output [origin=known-stub-symbol]
+- io.read [origin=known-stub-symbol]
+- io.write [origin=known-stub-symbol]
+- json.null [origin=known-stub-symbol]
+- pack [origin=global]
+- print [origin=global]
+- table.pack [origin=table-field, canonical]
+- unpack [origin=global]
+
+Classification is name/path based only. No callable listed here was executed.
+
+## Enum-like Tables / Constants
+-------------------------------
+- ItemEnum (Enum-like Userdata: known enum from stubs)
+  type: userdata
+  value: <userdata: userdata: 00000219>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- ControllerEnum (Enum-like Userdata: known enum from stubs)
+  type: userdata
+  value: <userdata: userdata: 00000079>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- FishingBaitType (Enum-like Userdata: known enum from stubs)
+  type: userdata
+  value: <userdata: userdata: 00000269>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- ItemCategory (Enum-like Userdata: known enum from stubs)
+  type: userdata
+  value: <userdata: userdata: 00000228>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- ScratchTextureType (Enum-like Userdata: known enum from stubs)
+  type: userdata
+  value: <userdata: userdata: 00000230>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- SlotType (Enum-like Userdata: known enum from stubs)
+  type: userdata
+  value: <userdata: userdata: 0000028C>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- CheckType (Enum-like Userdata: known enum from stubs)
+  type: userdata
+  value: <userdata: userdata: 000002DD>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- _MOONSHARP (constant-like)
+  keys sampled: 9
+  composition: scalar=9, function=0, table=0, userdata=0
+  banner = "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+  is_aot = true
+  is_clr4 = true
+  is_mono = true
+  is_pcl = false
+  is_unity = true
+  luacompat = "5.2"
+  platform = "limited.unity.dll.mono.clr4.aot"
+  version = "2.0.0.0"
+- ColorSlot (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 0000023B>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- CommonAllowedModifiersEnum (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 00000241>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- EdibleTypeEnum (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 0000025A>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- FinishedType (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 000003DE>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- FishingCatchBehaviourType (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 0000026F>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- GlobalFlag (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 000003EA>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- ItemSlot (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 00000285>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- ItemSubCategory (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 0000022D>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- NoteButtonTypeEnum (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 00000370>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- StoryBotContainerTypeEnum (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 000003C6>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+- TimeCheckType (Enum-like Userdata: enum-like userdata)
+  type: userdata
+  value: <userdata: userdata: 000002D9>
+  field enumeration: not attempted for userdata; only safe metatable sampling is reported
+  metatable: none
+
+## Global Dump
+--------------
+_MOONSHARP = <table>
+  _MOONSHARP.banner = "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+  _MOONSHARP.is_aot = true
+  _MOONSHARP.is_clr4 = true
+  _MOONSHARP.is_mono = true
+  _MOONSHARP.is_pcl = false
+  _MOONSHARP.is_unity = true
+  _MOONSHARP.luacompat = "5.2"
+  _MOONSHARP.platform = "limited.unity.dll.mono.clr4.aot"
+  _MOONSHARP.version = "2.0.0.0"
+json = <table>
+  json.isnull = <function: function: 00000070>
+  json.null = <function: function: 00000071>
+  json.parse = <function: function: 0000006E>
+  json.serialize = <function: function: 0000006F>
+io = <table>
+  io.close = <function: function: 00000416>
+  io.flush = <function: function: 00000417>
+  io.input = <function: function: 00000418>
+  io.lines = <function: function: 0000041C>
+  io.open = <function: function: 00000415>
+  io.output = <function: function: 00000419>
+  io.read = <function: function: 0000041A>
+  io.type = <function: function: 0000041D>
+  io.write = <function: function: 0000041B>
+string = <table>
+  string.byte = <function: function: 0000001D>
+  string.char = <function: function: 0000001C>
+  string.contains = <function: function: 0000002C>
+  string.dump = <function: function: 0000001B>
+  string.endsWith = <function: function: 0000002B>
+  string.find = <function: function: 00000023>
+  string.format = <function: function: 00000027>
+  string.gmatch = <function: function: 00000021>
+  string.gsub = <function: function: 00000022>
+  string.len = <function: function: 0000001F>
+  string.lower = <function: function: 00000024>
+  string.match = <function: function: 00000020>
+  string.rep = <function: function: 00000026>
+  string.reverse = <function: function: 00000028>
+  string.startsWith = <function: function: 0000002A>
+  string.sub = <function: function: 00000029>
+  string.unicode = <function: function: 0000001E>
+  string.upper = <function: function: 00000025>
+table = <table>
+  table.concat = <function: function: 00000033>
+  table.insert = <function: function: 00000031>
+  table.pack = <function: function: 0000002F>
+  table.remove = <function: function: 00000032>
+  table.sort = <function: function: 00000030>
+  table.unpack = <function: function: 0000002E>
+math = <table>
+  math.abs = <function: function: 0000003A>
+  math.acos = <function: function: 0000003B>
+  math.asin = <function: function: 0000003C>
+  math.atan = <function: function: 0000003D>
+  math.atan2 = <function: function: 0000003E>
+  math.ceil = <function: function: 0000003F>
+  math.cos = <function: function: 00000040>
+  math.cosh = <function: function: 00000041>
+  math.deg = <function: function: 00000042>
+  math.exp = <function: function: 00000043>
+  math.floor = <function: function: 00000044>
+  math.fmod = <function: function: 00000045>
+  math.frexp = <function: function: 00000046>
+  math.huge = 1.79769313486232E+308
+  math.ldexp = <function: function: 00000047>
+  math.log = <function: function: 00000048>
+  math.max = <function: function: 00000049>
+  math.min = <function: function: 0000004A>
+  math.modf = <function: function: 0000004B>
+  math.pi = 3.14159265358979
+  math.pow = <function: function: 0000004C>
+  math.rad = <function: function: 0000004D>
+  math.random = <function: function: 0000004E>
+  math.randomseed = <function: function: 0000004F>
+  math.sin = <function: function: 00000050>
+  math.sinh = <function: function: 00000051>
+  math.sqrt = <function: function: 00000052>
+  math.tan = <function: function: 00000053>
+  math.tanh = <function: function: 00000054>
+coroutine = <table>
+  coroutine.create = <function: function: 00000056>
+  coroutine.resume = <function: function: 00000058>
+  coroutine.running = <function: function: 0000005A>
+  coroutine.status = <function: function: 0000005B>
+  coroutine.wrap = <function: function: 00000057>
+  coroutine.yield = <function: function: 00000059>
+os = <table>
+  os.clock = <function: function: 0000005D>
+  os.date = <function: function: 00000060>
+  os.difftime = <function: function: 0000005E>
+  os.time = <function: function: 0000005F>
+debug = <table>
+  debug.debug = <function: function: 00000062>
+  debug.getmetatable = <function: function: 00000066>
+  debug.getregistry = <function: function: 00000065>
+  debug.getupvalue = <function: function: 00000068>
+  debug.getuservalue = <function: function: 00000063>
+  debug.setmetatable = <function: function: 00000067>
+  debug.setupvalue = <function: function: 0000006A>
+  debug.setuservalue = <function: function: 00000064>
+  debug.traceback = <function: function: 0000006C>
+  debug.upvalueid = <function: function: 00000069>
+  debug.upvaluejoin = <function: function: 0000006B>
+ModUtilities = <userdata: Everything (ModUtilities)>
+GameUtilities = <userdata: Everything (GameUtilities)>
+GameVariables = <missing>
+ItemPrefab = <userdata: userdata: 000000B5>
+ItemPrefabManager = <userdata: userdata: 000000B7>
+GameId = <userdata: userdata: 0000007B>
+UiOverlay = <userdata: Everything (UiOverlay)>
+
+## Metatables
+-------------
+- ModUtilities: none
+- GameUtilities: none
+- Item: none
+- ItemPrefab: none
+- ItemPrefabManager: none
+- GameId: none
+- Guid: none
+- ColorPalette: none
+- ColorPaletteEntry: none
+- ItemEnum: none
+- ControllerEnum: none
+- FishingBaitType: none
+- CheckType: none
+- UiOverlay: none
+- AllowedModifiers: none
+- AtLeastOneBoolVariableTrueRequirement: none
+- ColorPaletteManager: none
+- ColorSlot: none
+- CommonAllowedModifiersEnum: none
+- CookingSong: none
+- CookingSongRuntimeData: none
+- EdibleItemNutritionProfile: none
+- EdibleItemPrefabData: none
+- EdibleTypeEnum: none
+- FinishedType: none
+- FishingBaitItemPrefabData: none
+- FishingCatchBehaviourType: none
+- FishingRodItemPrefabData: none
+- FishItemPrefabData: none
+- FishPreferences: none
+- flowchart: none
+- GlobalFlag: none
+- gv: none
+- ItemCategory: none
+- ItemModifiableVariableFactory: none
+- ItemModifiableVariablesRequirement: none
+- ItemScopeCondition: none
+- ItemScopeConditionAlwaysTrueCondition: none
+- ItemScopeConditionCustom: none
+- ItemScopeConditionSpecialVariable: none
+- ItemSlot: none
+- ItemSubCategory: none
+- Live2DControllerSingleton: none
+- NewsId: none
+- NoteButtonTypeEnum: none
+- R: none
+- Recipe: none
+- Result: none
+- SaveContainer: none
+- SaveSingleton: none
+- ScratchTextureType: none
+- Shop: none
+- ShopItem: none
+- ShopManager: none
+- SimpleLocalizedString: none
+- SingleArgumentComparators: none
+- SlotEquipData: none
+- SlotManager: none
+- SlotType: none
+- SoundSingleton: none
+- StoryAutoBranch: none
+- StoryBlockTarget: none
+- StoryBotContainerTypeEnum: none
+- StoryBotDialogueBranch: none
+- StoryBranchTarget: none
+- StoryCondition: none
+- StoryEnumeratorTarget: none
+- StoryLocalizedConversationBranchTarget: none
+- StoryMenuBranch: none
+- StorySingleton: none
+- SusArea: none
+- SusModifier: none
+- TextureOverriderManager: none
+- TimeCheckType: none
+- TwoArgumentComparators: none
+- ViewSingleton: none
+
+## Userdata Globals
+-------------------
+- AllowedModifiers: <userdata: userdata: 0000023E>
+-   AllowedModifiers: none
+- AtLeastOneBoolVariableTrueRequirement: <userdata: userdata: 0000024C>
+-   AtLeastOneBoolVariableTrueRequirement: none
+- CheckType: <userdata: userdata: 000002DD>
+-   CheckType: none
+- ColorPalette: <userdata: userdata: 0000027A>
+-   ColorPalette: none
+- ColorPaletteEntry: <userdata: userdata: 0000027B>
+-   ColorPaletteEntry: none
+- ColorPaletteManager: <userdata: userdata: 00000279>
+-   ColorPaletteManager: none
+- ColorSlot: <userdata: userdata: 0000023B>
+-   ColorSlot: none
+- CommonAllowedModifiersEnum: <userdata: userdata: 00000241>
+-   CommonAllowedModifiersEnum: none
+- ControllerEnum: <userdata: userdata: 00000079>
+-   ControllerEnum: none
+- CookingSong: <userdata: userdata: 0000036C>
+-   CookingSong: none
+- CookingSongRuntimeData: <userdata: userdata: 00000372>
+-   CookingSongRuntimeData: none
+- EdibleItemNutritionProfile: <userdata: userdata: 0000024F>
+-   EdibleItemNutritionProfile: none
+- EdibleItemPrefabData: <userdata: userdata: 0000024D>
+-   EdibleItemPrefabData: none
+- EdibleTypeEnum: <userdata: userdata: 0000025A>
+-   EdibleTypeEnum: none
+- FinishedType: <userdata: userdata: 000003DE>
+-   FinishedType: none
+- FishingBaitItemPrefabData: <userdata: userdata: 0000025E>
+-   FishingBaitItemPrefabData: none
+- FishingBaitType: <userdata: userdata: 00000269>
+-   FishingBaitType: none
+- FishingCatchBehaviourType: <userdata: userdata: 0000026F>
+-   FishingCatchBehaviourType: none
+- FishingRodItemPrefabData: <userdata: userdata: 0000025D>
+-   FishingRodItemPrefabData: none
+- FishItemPrefabData: <userdata: userdata: 0000025B>
+-   FishItemPrefabData: none
+- FishPreferences: <userdata: userdata: 0000025C>
+-   FishPreferences: none
+- flowchart: <userdata: Main Flowchart (Fungus.Flowchart)>
+-   flowchart: none
+- GameId: <userdata: userdata: 0000007B>
+-   GameId: none
+- GameUtilities: <userdata: Everything (GameUtilities)>
+-   GameUtilities: none
+- GlobalFlag: <userdata: userdata: 000003EA>
+-   GlobalFlag: none
+- Guid: <userdata: userdata: 0000007A>
+-   Guid: none
+- gv: <userdata: GameVariables>
+-   gv: none
+- Item: <userdata: userdata: 000000AB>
+-   Item: none
+- ItemCategory: <userdata: userdata: 00000228>
+-   ItemCategory: none
+- ItemEnum: <userdata: userdata: 00000219>
+-   ItemEnum: none
+- ItemModifiableVariableFactory: <userdata: userdata: 00000247>
+-   ItemModifiableVariableFactory: none
+- ItemModifiableVariablesRequirement: <userdata: userdata: 0000024B>
+-   ItemModifiableVariablesRequirement: none
+- ItemPrefab: <userdata: userdata: 000000B5>
+-   ItemPrefab: none
+- ItemPrefabManager: <userdata: userdata: 000000B7>
+-   ItemPrefabManager: none
+- ItemScopeCondition: <userdata: userdata: 00000243>
+-   ItemScopeCondition: none
+- ItemScopeConditionAlwaysTrueCondition: <userdata: userdata: 00000246>
+-   ItemScopeConditionAlwaysTrueCondition: none
+- ItemScopeConditionCustom: <userdata: userdata: 00000244>
+-   ItemScopeConditionCustom: none
+- ItemScopeConditionSpecialVariable: <userdata: userdata: 00000245>
+-   ItemScopeConditionSpecialVariable: none
+- ItemSlot: <userdata: userdata: 00000285>
+-   ItemSlot: none
+- ItemSubCategory: <userdata: userdata: 0000022D>
+-   ItemSubCategory: none
+- Live2DControllerSingleton: <userdata: userdata: 0000036B>
+-   Live2DControllerSingleton: none
+- ModUtilities: <userdata: Everything (ModUtilities)>
+-   ModUtilities: none
+- NewsId: <userdata: userdata: 000002D3>
+-   NewsId: none
+- NoteButtonTypeEnum: <userdata: userdata: 00000370>
+-   NoteButtonTypeEnum: none
+- R: <userdata: userdata: 00000373>
+-   R: none
+- Recipe: <userdata: userdata: 0000036D>
+-   Recipe: none
+- Result: <userdata: userdata: 0000039F>
+-   Result: none
+- SaveContainer: <userdata: userdata: 000003E9>
+-   SaveContainer: none
+- SaveSingleton: <userdata: userdata: 000003E4>
+-   SaveSingleton: none
+- ScratchTextureType: <userdata: userdata: 00000230>
+-   ScratchTextureType: none
+- Shop: <userdata: userdata: 00000270>
+-   Shop: none
+- ShopItem: <userdata: userdata: 00000276>
+-   ShopItem: none
+- ShopManager: <userdata: userdata: 00000272>
+-   ShopManager: none
+- SimpleLocalizedString: <userdata: userdata: 000003DF>
+-   SimpleLocalizedString: none
+- SingleArgumentComparators: <userdata: userdata: 000003D6>
+-   SingleArgumentComparators: none
+- SlotEquipData: <userdata: userdata: 00000242>
+-   SlotEquipData: none
+- SlotManager: <userdata: userdata: 0000027C>
+-   SlotManager: none
+- SlotType: <userdata: userdata: 0000028C>
+-   SlotType: none
+- SoundSingleton: <userdata: Everything (SoundSingleton)>
+-   SoundSingleton: none
+- StoryAutoBranch: <userdata: userdata: 000003C8>
+-   StoryAutoBranch: none
+- StoryBlockTarget: <userdata: userdata: 000003CD>
+-   StoryBlockTarget: none
+- StoryBotContainerTypeEnum: <userdata: userdata: 000003C6>
+-   StoryBotContainerTypeEnum: none
+- StoryBotDialogueBranch: <userdata: userdata: 000003C7>
+-   StoryBotDialogueBranch: none
+- StoryBranchTarget: <userdata: userdata: 000003CA>
+-   StoryBranchTarget: none
+- StoryCondition: <userdata: userdata: 000003BF>
+-   StoryCondition: none
+- StoryEnumeratorTarget: <userdata: userdata: 000003CE>
+-   StoryEnumeratorTarget: none
+- StoryLocalizedConversationBranchTarget: <userdata: userdata: 000003CF>
+-   StoryLocalizedConversationBranchTarget: none
+- StoryMenuBranch: <userdata: userdata: 000003C9>
+-   StoryMenuBranch: none
+- StorySingleton: <userdata: userdata: 000003BD>
+-   StorySingleton: none
+- SusArea: <userdata: userdata: 0000023A>
+-   SusArea: none
+- SusModifier: <userdata: userdata: 0000023C>
+-   SusModifier: none
+- TextureOverriderManager: <userdata: userdata: 0000039E>
+-   TextureOverriderManager: none
+- TimeCheckType: <userdata: userdata: 000002D9>
+-   TimeCheckType: none
+- TwoArgumentComparators: <userdata: userdata: 000003DB>
+-   TwoArgumentComparators: none
+- UiOverlay: <userdata: Everything (UiOverlay)>
+-   UiOverlay: none
+- ViewSingleton: <userdata: Views (ViewSingleton)>
+-   ViewSingleton: none
+
+## MoonSharp Details
+--------------------
+_MOONSHARP = <table>
+  _MOONSHARP.banner = "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+  _MOONSHARP.is_aot = true
+  _MOONSHARP.is_clr4 = true
+  _MOONSHARP.is_mono = true
+  _MOONSHARP.is_pcl = false
+  _MOONSHARP.is_unity = true
+  _MOONSHARP.luacompat = "5.2"
+  _MOONSHARP.platform = "limited.unity.dll.mono.clr4.aot"
+  _MOONSHARP.version = "2.0.0.0"
+
+## Game/Unity Context
+---------------------
+GameVariables: <missing>
+GameUtilities: userdata <userdata: Everything (GameUtilities)>
+ModUtilities: userdata <userdata: Everything (ModUtilities)>
+
+## Safe Validations
+-------------------
+Safe read validation:
+- OK _G._VERSION present (string)
+- OK _G._MOONSHARP present (table)
+- OK _G._MOONSHARP.version present (string)
+- OK _G._MOONSHARP.platform present (string)
+- MISS _G.CurrentModGuid missing
+- OK _G.json.parse present (function)
+- OK _G.json.serialize present (function)
+- OK _G.json.isnull present (function)
+- OK _G.string.startsWith present (function)
+- OK _G.string.endsWith present (function)
+- OK _G.string.contains present (function)
+- MISS _G.GameVariables missing
+- MISS _G.GameVariables missing
+- MISS _G.GameVariables missing
+- MISS _G.GameVariables missing
+- MISS _G.GameVariables missing
+- OK _G.GameUtilities.WaitForSecondsYield present (function)
+
+Context-dependent validation:
+- GameVariables missing in this context.
+
+Skipped dangerous/context-dependent validation:
+- ModUtilities.CreateItemPrefab [not called]
+- ModUtilities.CreateNewItem [not called]
+- ModUtilities.CreateNewItemAutoAssignId [not called]
+- GameUtilities.AddItemToInventory [not called]
+- GameUtilities.RemoveItemFromInventory [not called]
+- SaveContainer.AddGlobalFlag [not called]
+- SaveContainer.Save [not called]
+- UiOverlay.OpenBrowser [not called]
+- BrowserPopup.ChangeWebsite [not called]
+- Item.Consume [not called]
+- Item.Equip [not called]
+
+## Errors / Access Failures
+---------------------------
+- get OpenSimplePopup: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field OpenSimplePopup of userdata<UiOverlay>
+- get CloseAll: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field CloseAll of userdata<UiOverlay>
+- get LuaInstance: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field LuaInstance of userdata<SoundSingleton>
+- get PlaySound: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field PlaySound of userdata<SoundSingleton>
+- get PlayMusic: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field PlayMusic of userdata<SoundSingleton>
+- get StopMusic: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field StopMusic of userdata<SoundSingleton>
+- get LuaInstance: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field LuaInstance of userdata<ViewSingleton>
+- get CreateInstance: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field CreateInstance of userdata<ItemPrefab>
+- get ColorSlotId: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field ColorSlotId of userdata<ItemPrefab>
+- get ToLuaString: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field ToLuaString of userdata<ItemPrefab>
+- get GetItemPrefab: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field GetItemPrefab of userdata<ItemPrefab+ItemPrefabManager>
+- get TryGetItemPrefab: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field TryGetItemPrefab of userdata<ItemPrefab+ItemPrefabManager>
+- get Not: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field Not of userdata<StoryConditions.StoryCondition>
+- get Money: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field Money of userdata<GameVariables>
+- get Misc: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field Misc of userdata<ItemCategory>
+- get None: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field None of userdata<FishingBaitType>
+- get Worm: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field Worm of userdata<FishingBaitType>
+- get Normal: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field Normal of userdata<ItemSlot+SlotType>
+- get Equal: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field Equal of userdata<GameVariables+CheckType>
+- get NotEqual: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field NotEqual of userdata<GameVariables+CheckType>
+- get Greater: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field Greater of userdata<GameVariables+CheckType>
+- get Less: C:\Users\woxshi\Desktop\Factorial\Factorial\UserData\LuaExec\exec.lua:(828,4-21): cannot access field Less of userdata<GameVariables+CheckType>
+
+## Machine Readable Summary
+---------------------------
+Pipe-delimited blocks for tools/probe_runtime_index.py. Values are escaped for single-line parsing.
+BEGIN_MDRG_PROBE_SYMBOLS
+symbol|_G|table|present|<table: table: 00000004>
+symbol|_VERSION|string|present|"MoonSharp 2.0.0.0"
+symbol|_MOONSHARP|table|present|<table: table: 00000005>
+symbol|assert|function|present|<function: function: 0000000A>
+symbol|collectgarbage|function|present|<function: function: 0000000B>
+symbol|coroutine|table|present|<table: table: 00000055>
+symbol|debug|table|present|<table: table: 00000061>
+symbol|error|function|present|<function: function: 0000000C>
+symbol|getmetatable|function|present|<function: function: 00000012>
+symbol|ipairs|function|present|<function: function: 00000006>
+symbol|json|table|present|<table: table: 0000006D>
+symbol|io|table|present|<table: table: 00000414>
+symbol|math|table|present|<table: table: 00000038>
+symbol|next|function|present|<function: function: 00000008>
+symbol|os|table|present|<table: table: 0000005C>
+symbol|package|table|present|<table: table: 00000018>
+symbol|pairs|function|present|<function: function: 00000007>
+symbol|pcall|function|present|<function: function: 00000036>
+symbol|print|function|present|<function: function: 00000010>
+symbol|rawequal|function|present|<function: function: 00000015>
+symbol|rawget|function|present|<function: function: 00000013>
+symbol|rawlen|function|present|<function: function: 00000016>
+symbol|rawset|function|present|<function: function: 00000014>
+symbol|select|function|present|<function: function: 0000000E>
+symbol|setmetatable|function|present|<function: function: 00000011>
+symbol|string|table|present|<table: table: 00000017>
+symbol|table|table|present|<table: table: 0000002D>
+symbol|tonumber|function|present|<function: function: 0000000F>
+symbol|tostring|function|present|<function: function: 0000000D>
+symbol|type|function|present|<function: function: 00000009>
+symbol|xpcall|function|present|<function: function: 00000037>
+symbol|CurrentModGuid|nil|missing|
+symbol|ModUtilities|userdata|present|<userdata: Everything (ModUtilities)>
+symbol|GameUtilities|userdata|present|<userdata: Everything (GameUtilities)>
+symbol|GameVariables|nil|missing|
+symbol|Item|userdata|present|<userdata: userdata: 000000AB>
+symbol|ItemPrefab|userdata|present|<userdata: userdata: 000000B5>
+symbol|ItemPrefabManager|userdata|present|<userdata: userdata: 000000B7>
+symbol|ItemManager|nil|missing|
+symbol|GameId|userdata|present|<userdata: userdata: 0000007B>
+symbol|Guid|userdata|present|<userdata: userdata: 0000007A>
+symbol|Color|nil|missing|
+symbol|Vector2|nil|missing|
+symbol|Vector3|nil|missing|
+symbol|Quaternion|nil|missing|
+symbol|ColorPalette|userdata|present|<userdata: userdata: 0000027A>
+symbol|ColorPaletteEntry|userdata|present|<userdata: userdata: 0000027B>
+symbol|ItemEnum|userdata|present|<userdata: userdata: 00000219>
+symbol|ControllerEnum|userdata|present|<userdata: userdata: 00000079>
+symbol|SceneEnumFlag|nil|missing|
+symbol|ColoringGroupEnum|nil|missing|
+symbol|FishingBaitType|userdata|present|<userdata: userdata: 00000269>
+symbol|ItemCategory|userdata|present|<userdata: userdata: 00000228>
+symbol|ScratchTextureType|userdata|present|<userdata: userdata: 00000230>
+symbol|CustomShaderTypeEnum|nil|missing|
+symbol|ItemLocationEnum|nil|missing|
+symbol|ItemSlot|userdata|present|<userdata: userdata: 00000285>
+symbol|ItemSlotEnum|nil|missing|
+symbol|ShopItemType|nil|missing|
+symbol|SlotType|userdata|present|<userdata: userdata: 0000028C>
+symbol|UpdateTexturesFromCurrentlyEquippedTypeEnum|nil|missing|
+symbol|CheckType|userdata|present|<userdata: userdata: 000002DD>
+symbol|DeliveryStatus|nil|missing|
+symbol|EquipResults|nil|missing|
+symbol|EyeSelection|nil|missing|
+symbol|ArmState|nil|missing|
+symbol|UiOverlay|userdata|present|<userdata: Everything (UiOverlay)>
+symbol|BrowserPopup|nil|missing|
+symbol|BotStatusAppPopup|nil|missing|
+symbol|Flowchart|nil|missing|
+symbol|Save|nil|missing|
+symbol|SaveContainer|userdata|present|<userdata: userdata: 000003E9>
+symbol|SaveSingleton|userdata|present|<userdata: userdata: 000003E4>
+symbol|StoryCondition|userdata|present|<userdata: userdata: 000003BF>
+symbol|StoryBotDialogueBranch|userdata|present|<userdata: userdata: 000003C7>
+symbol|StoryBotDialogueBranchContainer|nil|missing|
+symbol|LuaPersonalityModuleDefinition|nil|missing|
+symbol|PersonalityModuleDefinition|nil|missing|
+symbol|TextureOverriderManager|userdata|present|<userdata: userdata: 0000039E>
+symbol|PackedTexturesContainer|nil|missing|
+symbol|ColorSlot|userdata|present|<userdata: userdata: 0000023B>
+symbol|ColorPaletteManager|userdata|present|<userdata: userdata: 00000279>
+symbol|SlotEquipData|userdata|present|<userdata: userdata: 00000242>
+symbol|EdibleData|nil|missing|
+symbol|EdibleItemPrefabData|userdata|present|<userdata: userdata: 0000024D>
+symbol|SimpleLocalizedString|userdata|present|<userdata: userdata: 000003DF>
+symbol|AllowedModifiers|userdata|present|<userdata: userdata: 0000023E>
+symbol|AtLeastOneBoolVariableTrueRequirement|userdata|present|<userdata: userdata: 0000024C>
+symbol|CommonAllowedModifiersEnum|userdata|present|<userdata: userdata: 00000241>
+symbol|CookingSong|userdata|present|<userdata: userdata: 0000036C>
+symbol|CookingSongRuntimeData|userdata|present|<userdata: userdata: 00000372>
+symbol|EdibleItemNutritionProfile|userdata|present|<userdata: userdata: 0000024F>
+symbol|EdibleTypeEnum|userdata|present|<userdata: userdata: 0000025A>
+symbol|FinishedType|userdata|present|<userdata: userdata: 000003DE>
+symbol|FishingBaitItemPrefabData|userdata|present|<userdata: userdata: 0000025E>
+symbol|FishingCatchBehaviourType|userdata|present|<userdata: userdata: 0000026F>
+symbol|FishingRodItemPrefabData|userdata|present|<userdata: userdata: 0000025D>
+symbol|FishItemPrefabData|userdata|present|<userdata: userdata: 0000025B>
+symbol|FishPreferences|userdata|present|<userdata: userdata: 0000025C>
+symbol|flowchart|userdata|present|<userdata: Main Flowchart (Fungus.Flowchart)>
+symbol|GlobalFlag|userdata|present|<userdata: userdata: 000003EA>
+symbol|gv|userdata|present|<userdata: GameVariables>
+symbol|ItemModifiableVariableFactory|userdata|present|<userdata: userdata: 00000247>
+symbol|ItemModifiableVariablesRequirement|userdata|present|<userdata: userdata: 0000024B>
+symbol|ItemScopeCondition|userdata|present|<userdata: userdata: 00000243>
+symbol|ItemScopeConditionAlwaysTrueCondition|userdata|present|<userdata: userdata: 00000246>
+symbol|ItemScopeConditionCustom|userdata|present|<userdata: userdata: 00000244>
+symbol|ItemScopeConditionSpecialVariable|userdata|present|<userdata: userdata: 00000245>
+symbol|ItemSubCategory|userdata|present|<userdata: userdata: 0000022D>
+symbol|Live2DControllerSingleton|userdata|present|<userdata: userdata: 0000036B>
+symbol|NewsId|userdata|present|<userdata: userdata: 000002D3>
+symbol|NoteButtonTypeEnum|userdata|present|<userdata: userdata: 00000370>
+symbol|R|userdata|present|<userdata: userdata: 00000373>
+symbol|Recipe|userdata|present|<userdata: userdata: 0000036D>
+symbol|Result|userdata|present|<userdata: userdata: 0000039F>
+symbol|Shop|userdata|present|<userdata: userdata: 00000270>
+symbol|ShopItem|userdata|present|<userdata: userdata: 00000276>
+symbol|ShopManager|userdata|present|<userdata: userdata: 00000272>
+symbol|SingleArgumentComparators|userdata|present|<userdata: userdata: 000003D6>
+symbol|SlotManager|userdata|present|<userdata: userdata: 0000027C>
+symbol|SoundSingleton|userdata|present|<userdata: Everything (SoundSingleton)>
+symbol|StoryAutoBranch|userdata|present|<userdata: userdata: 000003C8>
+symbol|StoryBlockTarget|userdata|present|<userdata: userdata: 000003CD>
+symbol|StoryBotContainerTypeEnum|userdata|present|<userdata: userdata: 000003C6>
+symbol|StoryBranchTarget|userdata|present|<userdata: userdata: 000003CA>
+symbol|StoryEnumeratorTarget|userdata|present|<userdata: userdata: 000003CE>
+symbol|StoryLocalizedConversationBranchTarget|userdata|present|<userdata: userdata: 000003CF>
+symbol|StoryMenuBranch|userdata|present|<userdata: userdata: 000003C9>
+symbol|StorySingleton|userdata|present|<userdata: userdata: 000003BD>
+symbol|SusArea|userdata|present|<userdata: userdata: 0000023A>
+symbol|SusModifier|userdata|present|<userdata: userdata: 0000023C>
+symbol|TimeCheckType|userdata|present|<userdata: userdata: 000002D9>
+symbol|TwoArgumentComparators|userdata|present|<userdata: userdata: 000003DB>
+symbol|ViewSingleton|userdata|present|<userdata: Views (ViewSingleton)>
+END_MDRG_PROBE_SYMBOLS
+BEGIN_MDRG_PROBE_ALIASES
+alias|gv|GameVariables|present|userdata|<userdata: GameVariables>
+alias|flowchart|Flowchart|present|userdata|<userdata: Main Flowchart (Fungus.Flowchart)>
+END_MDRG_PROBE_ALIASES
+BEGIN_MDRG_PROBE_CALLABLES
+callable|assert|function|Read-only|global|false
+callable|collectgarbage|function|Unknown|global|false
+callable|coroutine.create|function|Context-dependent|known-stub-symbol|true
+callable|coroutine.resume|function|Context-dependent|known-stub-symbol|false
+callable|coroutine.running|function|Context-dependent|known-stub-symbol|false
+callable|coroutine.status|function|Context-dependent|known-stub-symbol|false
+callable|coroutine.wrap|function|Context-dependent|known-stub-symbol|false
+callable|coroutine.yield|function|Context-dependent|known-stub-symbol|false
+callable|debug.debug|function|Unknown|known-stub-symbol|false
+callable|debug.getmetatable|function|Read-only|known-stub-symbol|false
+callable|debug.getregistry|function|Read-only|known-stub-symbol|false
+callable|debug.getupvalue|function|Read-only|known-stub-symbol|false
+callable|debug.getuservalue|function|Read-only|known-stub-symbol|false
+callable|debug.setmetatable|function|State-changing|known-stub-symbol|true
+callable|debug.setupvalue|function|State-changing|known-stub-symbol|true
+callable|debug.setuservalue|function|State-changing|known-stub-symbol|true
+callable|debug.traceback|function|Unknown|known-stub-symbol|false
+callable|debug.upvalueid|function|Unknown|known-stub-symbol|false
+callable|debug.upvaluejoin|function|State-changing|known-stub-symbol|true
+callable|error|function|Unknown|global|false
+callable|getmetatable|function|Read-only|global|false
+callable|io.close|function|State-changing|known-stub-symbol|true
+callable|io.flush|function|Unknown|known-stub-symbol|false
+callable|io.input|function|Unknown|known-stub-symbol|false
+callable|io.lines|function|Unknown|known-stub-symbol|false
+callable|io.open|function|State-changing|known-stub-symbol|true
+callable|io.output|function|Unknown|known-stub-symbol|false
+callable|io.read|function|Unknown|known-stub-symbol|false
+callable|io.type|function|Read-only|known-stub-symbol|false
+callable|io.write|function|Unknown|known-stub-symbol|false
+callable|ipairs|function|Read-only|global|false
+callable|json.isnull|function|Read-only|known-stub-symbol|false
+callable|json.null|function|Unknown|known-stub-symbol|false
+callable|json.parse|function|Read-only|known-stub-symbol|false
+callable|json.serialize|function|Read-only|known-stub-symbol|false
+callable|math.abs|function|Read-only|known-stub-symbol|false
+callable|math.acos|function|Read-only|known-stub-symbol|false
+callable|math.asin|function|Read-only|known-stub-symbol|false
+callable|math.atan|function|Read-only|known-stub-symbol|false
+callable|math.atan2|function|Read-only|known-stub-symbol|false
+callable|math.ceil|function|Read-only|known-stub-symbol|false
+callable|math.cos|function|Read-only|known-stub-symbol|false
+callable|math.cosh|function|Read-only|known-stub-symbol|false
+callable|math.deg|function|Read-only|known-stub-symbol|false
+callable|math.exp|function|Read-only|known-stub-symbol|false
+callable|math.floor|function|Read-only|known-stub-symbol|false
+callable|math.fmod|function|Read-only|known-stub-symbol|false
+callable|math.frexp|function|Read-only|known-stub-symbol|false
+callable|math.ldexp|function|Read-only|known-stub-symbol|false
+callable|math.log|function|Read-only|known-stub-symbol|false
+callable|math.max|function|Read-only|known-stub-symbol|false
+callable|math.min|function|Read-only|known-stub-symbol|false
+callable|math.modf|function|Read-only|known-stub-symbol|false
+callable|math.pow|function|Read-only|known-stub-symbol|false
+callable|math.rad|function|Read-only|known-stub-symbol|false
+callable|math.random|function|Read-only|known-stub-symbol|false
+callable|math.randomseed|function|State-changing|known-stub-symbol|true
+callable|math.sin|function|Read-only|known-stub-symbol|false
+callable|math.sinh|function|Read-only|known-stub-symbol|false
+callable|math.sqrt|function|Read-only|known-stub-symbol|false
+callable|math.tan|function|Read-only|known-stub-symbol|false
+callable|math.tanh|function|Read-only|known-stub-symbol|false
+callable|next|function|Read-only|global|false
+callable|os.clock|function|Read-only|known-stub-symbol|false
+callable|os.date|function|Read-only|known-stub-symbol|false
+callable|os.difftime|function|Read-only|known-stub-symbol|false
+callable|os.time|function|Read-only|known-stub-symbol|false
+callable|pack|function|Unknown|global|false
+callable|pairs|function|Read-only|global|false
+callable|pcall|function|Read-only|global|false
+callable|print|function|Unknown|global|false
+callable|rawequal|function|Read-only|global|false
+callable|rawget|function|Read-only|global|false
+callable|rawlen|function|Read-only|global|false
+callable|rawset|function|State-changing|global|true
+callable|select|function|Read-only|global|false
+callable|setmetatable|function|State-changing|global|true
+callable|string.byte|function|Read-only|table-field, canonical|false
+callable|string.char|function|Read-only|table-field, canonical|false
+callable|string.contains|function|Read-only|table-field, canonical|false
+callable|string.dump|function|Read-only|table-field, canonical|false
+callable|string.endsWith|function|Read-only|table-field, canonical|false
+callable|string.find|function|Read-only|table-field, canonical|false
+callable|string.format|function|Read-only|table-field, canonical|false
+callable|string.gmatch|function|Read-only|table-field, canonical|false
+callable|string.gsub|function|Read-only|table-field, canonical|false
+callable|string.len|function|Read-only|table-field, canonical|false
+callable|string.lower|function|Read-only|table-field, canonical|false
+callable|string.match|function|Read-only|table-field, canonical|false
+callable|string.rep|function|Read-only|table-field, canonical|false
+callable|string.reverse|function|Read-only|table-field, canonical|false
+callable|string.startsWith|function|Read-only|table-field, canonical|false
+callable|string.sub|function|Read-only|table-field, canonical|false
+callable|string.unicode|function|Read-only|table-field, canonical|false
+callable|string.upper|function|Read-only|table-field, canonical|false
+callable|table.concat|function|Read-only|table-field, canonical|false
+callable|table.insert|function|State-changing|table-field, canonical|true
+callable|table.pack|function|Unknown|table-field, canonical|false
+callable|table.remove|function|Dangerous/Destructive|table-field, canonical|true
+callable|table.sort|function|State-changing|table-field, canonical|true
+callable|table.unpack|function|Read-only|table-field, canonical|false
+callable|tonumber|function|Read-only|global|false
+callable|tostring|function|Read-only|global|false
+callable|type|function|Read-only|global|false
+callable|unpack|function|Unknown|global|false
+callable|xpcall|function|Read-only|global|false
+END_MDRG_PROBE_CALLABLES
+BEGIN_MDRG_PROBE_FIELDS
+field|flowchart|ExecuteBlock|function|present|index|<function: function: 00000A18>
+field|flowchart|GetBooleanVariable|function|present|index|<function: function: 00000A2C>
+field|flowchart|GetIntegerVariable|function|present|index|<function: function: 00000A22>
+field|flowchart|GetName|function|present|index|<function: function: 00000A09>
+field|flowchart|GetStringVariable|function|present|index|<function: function: 00000A27>
+field|flowchart|HasBlock|function|present|index|<function: function: 00000A13>
+field|flowchart|IsActive|function|present|index|<function: function: 00000A0E>
+field|flowchart|SetBooleanVariable|function|present|index|<function: function: 00000A3B>
+field|flowchart|SetIntegerVariable|function|present|index|<function: function: 00000A31>
+field|flowchart|SetStringVariable|function|present|index|<function: function: 00000A36>
+field|flowchart|StopBlock|function|present|index|<function: function: 00000A1D>
+field|GameId|__new|function|present|index|<function: function: 00000955>
+field|GameId|CreateGeneric|function|present|index|<function: function: 00000964>
+field|GameId|CreateModded|function|present|index|<function: function: 0000095F>
+field|GameId|CreateVanilla|function|present|index|<function: function: 0000095A>
+field|GameId|FromShortString|function|present|index|<function: function: 00000969>
+field|GameId|ToLuaString|function|present|index|<function: function: 00000973>
+field|GameId|ToShortString|function|present|index|<function: function: 00000978>
+field|GameId|ToString|function|present|index|<function: function: 0000096E>
+field|GameUtilities|AddItemToInventory|function|present|index|<function: function: 0000088E>
+field|GameUtilities|FadeOrMoveToView|function|present|index|<function: function: 0000089D>
+field|GameUtilities|FadeToView|function|present|index|<function: function: 00000893>
+field|GameUtilities|GetCurrentYearToInteger|function|present|index|<function: function: 000008A2>
+field|GameUtilities|MoveToView|function|present|index|<function: function: 00000898>
+field|GameUtilities|WaitForSecondsYield|function|present|index|<function: function: 00000889>
+field|Guid|__new|function|present|index|<function: function: 00000980>
+field|Guid|Parse|function|present|index|<function: function: 0000098A>
+field|Guid|ToString|function|present|index|<function: function: 00000985>
+field|gv|CheckFlag|function|present|index|<function: function: 00000A5F>
+field|gv|CheckFlagAfterRelative|function|present|index|<function: function: 00000A64>
+field|gv|DayOfTheWeek|number|present|index|6
+field|gv|ForceTakeMoney|function|present|index|<function: function: 00000A69>
+field|gv|Health|number|present|index|1
+field|gv|Hour|number|present|index|12
+field|gv|MentalHealth|number|present|index|0.999969780445099
+field|gv|Minute|number|present|index|31
+field|gv|Money|nil|error|error|
+field|gv|ReportSleepEnd|function|present|index|<function: function: 00000A6E>
+field|gv|Satiation|number|present|index|0.955554962158203
+field|io|close|function|present|raw|<function: function: 00000416>
+field|io|flush|function|present|raw|<function: function: 00000417>
+field|io|input|function|present|raw|<function: function: 00000418>
+field|io|lines|function|present|raw|<function: function: 0000041C>
+field|io|open|function|present|raw|<function: function: 00000415>
+field|io|output|function|present|raw|<function: function: 00000419>
+field|io|popen|nil|missing|missing|
+field|io|read|function|present|raw|<function: function: 0000041A>
+field|io|tmpfile|nil|missing|missing|
+field|io|type|function|present|raw|<function: function: 0000041D>
+field|io|write|function|present|raw|<function: function: 0000041B>
+field|Item|__new|function|present|index|<function: function: 000008E8>
+field|Item|CanBeUnpacked|function|present|index|<function: function: 0000091A>
+field|Item|CanBeUsed|function|present|index|<function: function: 00000915>
+field|Item|ColorSlotId|function|present|index|<function: function: 00000924>
+field|Item|CreateDefaultItemForLive2DController|function|present|index|<function: function: 000008F2>
+field|Item|CreateRandomItem|function|present|index|<function: function: 000008ED>
+field|Item|GetCount|function|present|index|<function: function: 00000901>
+field|Item|GetDescription|function|present|index|<function: function: 000008FC>
+field|Item|GetItemPrefab|function|present|index|<function: function: 0000090B>
+field|Item|GetName|function|present|index|<function: function: 000008F7>
+field|Item|GetPrice|function|present|index|<function: function: 00000906>
+field|Item|GetQualityString|function|present|index|<function: function: 0000091F>
+field|Item|IsEquipped|function|present|index|<function: function: 00000910>
+field|ItemPrefab|__new|function|present|index|<function: function: 0000092C>
+field|ItemPrefab|Clone|function|present|index|<function: function: 0000093D>
+field|ItemPrefab|ColorSlotId|nil|error|error|
+field|ItemPrefab|CreateInstance|nil|error|error|
+field|ItemPrefab|ToLuaString|nil|error|error|
+field|ItemPrefabManager|GetItemById|function|present|index|<function: function: 0000094D>
+field|ItemPrefabManager|GetItemPrefab|nil|error|error|
+field|ItemPrefabManager|TryGetItemPrefab|nil|error|error|
+field|ModUtilities|CreateItemPrefab|function|present|index|<function: function: 00000863>
+field|ModUtilities|CreateNewItem|function|present|index|<function: function: 00000868>
+field|ModUtilities|CreateNewItemAutoAssignId|function|present|index|<function: function: 0000086D>
+field|ModUtilities|GetController|function|present|index|<function: function: 00000872>
+field|ModUtilities|GetGameVariables|function|present|index|<function: function: 00000859>
+field|ModUtilities|GetNewGuid|function|present|index|<function: function: 0000085E>
+field|ModUtilities|StartCoroutine|function|present|index|<function: function: 00000877>
+field|ModUtilities|StopCoroutine|function|present|index|<function: function: 0000087C>
+field|ModUtilities|WaitForSeconds|function|present|index|<function: function: 00000881>
+field|SaveContainer|AddGlobalFlag|function|present|index|<function: function: 00000997>
+field|SaveContainer|GetPercentageOfSeenStoryText|function|present|index|<function: function: 000009B0>
+field|SaveContainer|HasAchievement|function|present|index|<function: function: 000009A1>
+field|SaveContainer|HasGlobalFlag|function|present|index|<function: function: 00000992>
+field|SaveContainer|RemoveAchievement|function|present|index|<function: function: 000009AB>
+field|SaveContainer|TryGetGlobalFlag|function|present|index|<function: function: 0000099C>
+field|SaveContainer|UnlockAchievement|function|present|index|<function: function: 000009A6>
+field|SaveSingleton|GetSaveContainerAsString|function|present|index|<function: function: 000009B8>
+field|SaveSingleton|ResetAllData|function|present|index|<function: function: 000009C2>
+field|SaveSingleton|SaveAllChanges|function|present|index|<function: function: 000009BD>
+field|SaveSingleton|TryMakeAutoSave|function|present|index|<function: function: 000009C7>
+field|SoundSingleton|LuaInstance|nil|error|error|
+field|SoundSingleton|PlayMusic|nil|error|error|
+field|SoundSingleton|PlaySound|nil|error|error|
+field|SoundSingleton|StopMusic|nil|error|error|
+field|StoryBotDialogueBranch|__new|function|present|index|<function: function: 000009EA>
+field|StoryCondition|And|function|present|index|<function: function: 000009CF>
+field|StoryCondition|Delegate|function|present|index|<function: function: 000009E2>
+field|StoryCondition|Lua|function|present|index|<function: function: 000009DD>
+field|StoryCondition|Not|nil|error|error|
+field|StoryCondition|Or|function|present|index|<function: function: 000009D4>
+field|StorySingleton|GenerateSummary|function|present|index|<function: function: 00000A01>
+field|StorySingleton|GetFlowchart|function|present|index|<function: function: 000009F2>
+field|StorySingleton|GetStage|function|present|index|<function: function: 000009F7>
+field|StorySingleton|TryGetTag|function|present|index|<function: function: 000009FC>
+field|UiOverlay|CloseAll|nil|error|error|
+field|UiOverlay|OpenBrowser|function|present|index|<function: function: 000008AA>
+field|UiOverlay|OpenShop|function|present|index|<function: function: 000008AF>
+field|UiOverlay|OpenSimplePopup|nil|error|error|
+field|ViewSingleton|GetNotCurrentView|function|present|index|<function: function: 000008DB>
+field|ViewSingleton|LuaInstance|nil|error|error|
+field|ViewSingleton|SetNextView|function|present|index|<function: function: 000008D6>
+field|ViewSingleton|UpdateViewReferences|function|present|index|<function: function: 000008E0>
+END_MDRG_PROBE_FIELDS
+BEGIN_MDRG_PROBE_ENUM_VALUES
+enum|ArmState|Default|nil|owner-missing|missing|
+enum|CheckType|Equal|nil|error|error|
+enum|CheckType|Greater|nil|error|error|
+enum|CheckType|Less|nil|error|error|
+enum|CheckType|NotEqual|nil|error|error|
+enum|CommonAllowedModifiersEnum|FishingRod|userdata|present|index|<userdata: FishingRod>
+enum|CommonAllowedModifiersEnum|None|userdata|present|index|<userdata: None>
+enum|ControllerEnum|Interaction|userdata|present|index|<userdata: Interaction>
+enum|ControllerEnum|Missionary|userdata|present|index|<userdata: Missionary>
+enum|ControllerEnum|NoScene|userdata|present|index|<userdata: NoScene>
+enum|EdibleTypeEnum|Dish|userdata|present|index|<userdata: Dish>
+enum|EdibleTypeEnum|Fish|userdata|present|index|<userdata: Fish>
+enum|EdibleTypeEnum|Meat|userdata|present|index|<userdata: Meat>
+enum|EdibleTypeEnum|Other|userdata|present|index|<userdata: Other>
+enum|EquipResults|FailedBlocked|nil|owner-missing|missing|
+enum|EquipResults|FailedMissingRequired|nil|owner-missing|missing|
+enum|EquipResults|FailedNonEquipable|nil|owner-missing|missing|
+enum|EquipResults|Success|nil|owner-missing|missing|
+enum|EyeSelection|BothEyes|nil|owner-missing|missing|
+enum|EyeSelection|LeftEye|nil|owner-missing|missing|
+enum|EyeSelection|RightEye|nil|owner-missing|missing|
+enum|FishingBaitType|None|nil|error|error|
+enum|FishingBaitType|Worm|nil|error|error|
+enum|FishingCatchBehaviourType|Fighter|userdata|present|index|<userdata: Fighter>
+enum|FishingCatchBehaviourType|Floater|userdata|present|index|<userdata: Floater>
+enum|FishingCatchBehaviourType|Normal|userdata|present|index|<userdata: Normal>
+enum|FishingCatchBehaviourType|Rock|userdata|present|index|<userdata: Rock>
+enum|FishingCatchBehaviourType|Sinker|userdata|present|index|<userdata: Sinker>
+enum|ItemCategory|Clothing|userdata|present|index|<userdata: Clothing>
+enum|ItemCategory|Food|userdata|present|index|<userdata: Food>
+enum|ItemCategory|Misc|nil|error|error|
+enum|ItemCategory|Room|userdata|present|index|<userdata: Room>
+enum|ScratchTextureType|Universal|userdata|present|index|<userdata: Universal>
+enum|SlotType|Normal|nil|error|error|
+END_MDRG_PROBE_ENUM_VALUES
+
+## Notes
+--------
+- This probe does not call discovered functions.
+- Callable Inventory marks dangerous names by substring and never executes them.
+- API Safety Map is conservative and based only on name/path heuristics.
+- Enum-like tables are heuristic unless the name is already known from stubs.
+- Enum-like userdata is reported by presence/metatable only; fields are not brute-forced.
+- Known Field Probe and Enum Value Probe read named fields only; returned functions are never called.
+- Machine-readable blocks are included for offline parsing and should still be reviewed manually.
+- Console prefixes are added by the host/plugin log transport and are not part of this script.
+- Missing symbols can be normal when a save, scene or UI context is not loaded.
+- Reports should be reviewed before any stub or documentation update.
+
+## Output
+---------
+Target filename: report-20260506-194845.txt
+Writer: io.open if available, print fallback otherwise.
+Result: saved with io.open.

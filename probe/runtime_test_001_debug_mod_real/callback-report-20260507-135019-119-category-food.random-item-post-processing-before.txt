@@ -1,0 +1,154 @@
+table: 000041E2# MDRG Callback Context Report
+Generated at: 20260507-135019
+Callback probe version: 2026-05-07
+Report file: probe/runtime_test_001_debug_mod_real/callback-report-20260507-135019-119-category-food.random-item-post-processing-before.txt
+
+## Callback Invocation
+----------------------
+callback id: category-food.random-item-post-processing
+callback name: category-food.random-item-post-processing
+callback kind: random-item-post-processing
+debug case id: category-food
+source stub: ItemPrefab.SetRandomItemPostProcessing
+expected signature: fun(item: Item)
+trigger hint: Runtime random item creation or item post-processing
+phase: before
+call count: 3
+
+## Callback Runtime / Injection Context
+---------------------------------------
+This is a callback/closure invocation context. Surrounding runtime signals are likely, not guaranteed.
+CurrentModGuid: true (userdata)
+GameVariables: false (nil)
+gv: true (userdata)
+flowchart: false (nil)
+io: true (table)
+io.open: true (function)
+io.read: true (function)
+io.write: true (function)
+io.popen: true (function)
+io.tmpfile: true (function)
+ModUtilities: true (userdata)
+GameUtilities: true (userdata)
+effective GameVariables source: gv
+detected context: callback-invocation-with-safe-io
+surrounding context: unknown-plugin-context
+transport: file
+safe IO likely injected: yes
+io is present. If this came from LuaPatch/safe IO, treat it as an injected bridge API, not native MDRG.
+io.popen field is present but was not called. Presence does not prove process execution capability.
+
+## Callback Lifecycle Matrix
+----------------------------
+Callback:
+- name: category-food.random-item-post-processing
+- phase: before
+
+Current runtime signals:
+- CurrentModGuid: true
+- GameVariables: false
+- gv: true
+- flowchart: false
+- io.open: true
+
+Likely phase:
+- callback invocation during gameplay or system evaluation
+- registered earlier by mod startup / OnGameStart-like script
+- exact caller is not guaranteed unless callback name identifies it
+
+## Arguments
+------------
+- #1 item: userdata <userdata: callback probe Food> (metatable missing)
+
+## Item Context
+---------------
+item present: yes
+item tostring: <userdata: callback probe Food>
+item type: userdata
+item metatable: missing
+debug inferred name: callback probe Food
+debug case id: category-food
+callback kind: random-item-post-processing
+source stub: ItemPrefab.SetRandomItemPostProcessing
+
+## Field Probe
+--------------
+- item.GetName: present function [index] <function: function: 000041F1>
+- item.GetDescription: present function [index] <function: function: 000041F6>
+- item.GetCount: present function [index] <function: function: 000041FB>
+- item.GetPrice: present function [index] <function: function: 00004200>
+- item.GetItemPrefab: present function [index] <function: function: 00004205>
+- item.IsEquipped: present function [index] <function: function: 0000420A>
+- item.CanBeUsed: present function [index] <function: function: 0000420F>
+- item.CanBeUnpacked: present function [index] <function: function: 00004214>
+
+## Access Errors
+----------------
+Total access errors: 0
+
+## Machine Readable Summary
+---------------------------
+BEGIN_MDRG_RUNTIME_TEST_CONTEXT
+runtime_test|id|runtime_test_001_debug_mod_real
+runtime_test|label|debug_mod_real
+runtime_test|folder|probe/runtime_test_001_debug_mod_real
+runtime_test|notes_path|probe/runtime_test_001_debug_mod_real/notes.txt
+END_MDRG_RUNTIME_TEST_CONTEXT
+BEGIN_MDRG_CALLBACK_CONTEXT
+callback|callback_id|category-food.random-item-post-processing
+callback|callback_name|category-food.random-item-post-processing
+callback|phase|before
+callback|call_count|3
+callback|callback_kind|random-item-post-processing
+callback|expected_signature|fun(item: Item)
+callback|source_stub|ItemPrefab.SetRandomItemPostProcessing
+callback|debug_case_id|category-food
+callback|trigger_hint|Runtime random item creation or item post-processing
+callback|detected_context|callback-invocation-with-safe-io
+callback|surrounding_context|unknown-plugin-context
+callback|context_confidence|likely
+callback|current_mod_guid_present|true
+callback|gamevariables_present|false
+callback|gv_present|true
+callback|flowchart_present|false
+callback|io_present|true
+callback|io_open_present|true
+callback|io_read_present|true
+callback|io_write_present|true
+callback|io_popen_present|true
+callback|io_tmpfile_present|true
+callback|modutilities_present|true
+callback|gameutilities_present|true
+callback|effective_gamevariables_source|gv
+callback|transport|file
+callback|safe_io_likely_injected|yes
+END_MDRG_CALLBACK_CONTEXT
+BEGIN_MDRG_CALLBACK_ARGS
+arg|1|item|userdata|<userdata: callback probe Food>|metatable:missing
+END_MDRG_CALLBACK_ARGS
+BEGIN_MDRG_CALLBACK_ITEM_CONTEXT
+item|callback_id|category-food.random-item-post-processing
+item|phase|before
+item|arg_name|item
+item|type|userdata
+item|value|<userdata: callback probe Food>
+item|metatable|missing
+item|debug_case_id|category-food
+item|callback_kind|random-item-post-processing
+item|source_stub|ItemPrefab.SetRandomItemPostProcessing
+item|expected_signature|fun(item: Item)
+item|inferred_item_label|callback probe Food
+item|present|true
+END_MDRG_CALLBACK_ITEM_CONTEXT
+BEGIN_MDRG_CALLBACK_FIELDS
+field|item|GetName|function|present|index|<function: function: 000041F1>
+field|item|GetDescription|function|present|index|<function: function: 000041F6>
+field|item|GetCount|function|present|index|<function: function: 000041FB>
+field|item|GetPrice|function|present|index|<function: function: 00004200>
+field|item|GetItemPrefab|function|present|index|<function: function: 00004205>
+field|item|IsEquipped|function|present|index|<function: function: 0000420A>
+field|item|CanBeUsed|function|present|index|<function: function: 0000420F>
+field|item|CanBeUnpacked|function|present|index|<function: function: 00004214>
+END_MDRG_CALLBACK_FIELDS
+BEGIN_MDRG_CALLBACK_ERRORS
+END_MDRG_CALLBACK_ERRORS

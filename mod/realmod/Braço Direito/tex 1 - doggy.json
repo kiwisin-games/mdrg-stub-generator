@@ -1,0 +1,50 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 1 - doggy_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "AttachArmR",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 166,
+                        "height": 146
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "AttachArmRForearm",
+                    "RectInt": {
+                        "x": 181,
+                        "y": 5,
+                        "width": 102,
+                        "height": 135
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "AttachArmRHand",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 161,
+                        "width": 121,
+                        "height": 98
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "doggy"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 2 - missionary_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "AttachArmRForearm",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 166,
+                        "height": 297
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "AttachArmR",
+                    "RectInt": {
+                        "x": 181,
+                        "y": 5,
+                        "width": 220,
+                        "height": 190
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "AttachArmRHandHandholdingAbove",
+                    "RectInt": {
+                        "x": 181,
+                        "y": 205,
+                        "width": 146,
+                        "height": 169
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "AttachArmRHand2",
+                    "RectInt": {
+                        "x": 337,
+                        "y": 205,
+                        "width": 130,
+                        "height": 177
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "AttachArmRHand1",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 312,
+                        "width": 126,
+                        "height": 158
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "missionary"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

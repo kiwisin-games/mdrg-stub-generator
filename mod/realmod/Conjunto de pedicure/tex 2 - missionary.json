@@ -1,0 +1,72 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 2 - missionary_texture0_layer50.png",
+            "Layer": 50,
+            "PackedDrawables": [
+                {
+                    "Name": "AttachLegLFoot",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 246,
+                        "height": 464
+                    },
+                    "ColorIndex": 1,
+                    "DrawableType": 0,
+                    "BypassColorScaler": true
+                },
+                {
+                    "Name": "AttachLegRFoot",
+                    "RectInt": {
+                        "x": 261,
+                        "y": 5,
+                        "width": 222,
+                        "height": 435
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": true
+                }
+            ],
+            "Targets": [
+                "missionary"
+            ],
+            "DontIncludeVanillaLayers": false
+        },
+        {
+            "TextureName": "tex 2 - missionary_texture0_layer51.png",
+            "Layer": 51,
+            "PackedDrawables": [
+                {
+                    "Name": "AttachLegLFoot",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 246,
+                        "height": 464
+                    },
+                    "ColorIndex": -1,
+                    "DrawableType": 0,
+                    "BypassColorScaler": true
+                },
+                {
+                    "Name": "AttachLegRFoot",
+                    "RectInt": {
+                        "x": 261,
+                        "y": 5,
+                        "width": 222,
+                        "height": 435
+                    },
+                    "ColorIndex": -1,
+                    "DrawableType": 0,
+                    "BypassColorScaler": true
+                }
+            ],
+            "Targets": [
+                "missionary"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

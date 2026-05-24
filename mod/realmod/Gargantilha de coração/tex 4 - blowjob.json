@@ -1,0 +1,26 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 4 - blowjob_texture0_layer10.png",
+            "Layer": 10,
+            "PackedDrawables": [
+                {
+                    "Name": "SkinNeck",
+                    "RectInt": {
+                        "x": 10,
+                        "y": 10,
+                        "width": 276,
+                        "height": 270
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "blowjob"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "include": [
+    "config.json",
+    "info.json",
+    "README.md",
+    "library/**/*.d.lua",
+    "examples/test.lua"
+  ],
+  "optional_include": [
+    "extern/**/*",
+    "AGENTS.md",
+    "SKILL.md"
+  ],
+  "exclude": [
+    "dump/**",
+    "rawdump/**",
+    "luas/**",
+    "probe/**",
+    "analysis/**",
+    "archive/**",
+    "old/**",
+    "json/mdrg_jsondump_tools/all_mods_dump/**",
+    "examples/mods_mixed.lua",
+    "examples/callback_debug_mod_real/**",
+    "tools/**",
+    "*.zip"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 2 - missionary_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "Panties_Above",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 530,
+                        "height": 226
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "Panties_Bottom",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 241,
+                        "width": 284,
+                        "height": 218
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "Panties_upper",
+                    "RectInt": {
+                        "x": 299,
+                        "y": 241,
+                        "width": 182,
+                        "height": 230
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "missionary"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

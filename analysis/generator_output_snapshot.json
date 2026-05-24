@@ -1,0 +1,53 @@
+{
+  "generated_at_utc": "2026-05-07T16:16:02+00:00",
+  "files": {
+    "library/mdrg_enums.d.lua": {
+      "sha256": "aefa32a831ba974a5590ba23d03e39c0be14d32d4b1fcdf738b1e85938b342d8",
+      "bytes": 43281
+    },
+    "library/mdrg_game.d.lua": {
+      "sha256": "d20014f3199edf138495730483f0d4f13e0a3015c2c4f4f57df93dde09cde32f",
+      "bytes": 199136
+    },
+    "library/mdrg_globals.d.lua": {
+      "sha256": "6741879e4a47c45ca4de0dc7023d16fd3eba9c33fa77e3f2a91d0c735f614f37",
+      "bytes": 794
+    },
+    "library/mdrg_items.d.lua": {
+      "sha256": "8d5c7bb7f37ce0412a06c80a9c83529399538097f77efa6d5e238b1cbc3a5054",
+      "bytes": 96373
+    },
+    "library/mdrg_legacy_runtime_aliases.d.lua": {
+      "sha256": "556cf7e4db6eceed597776fcdb7d44968236866f075c8d263e480301558ab7db",
+      "bytes": 4481
+    },
+    "library/mdrg_safe_io.d.lua": {
+      "sha256": "e2cb4b0ea9e6052037356bdb4804d60d917ef5f0cafa23cd3e64985b5b66b752",
+      "bytes": 5932
+    },
+    "library/mdrg_stdlib.d.lua": {
+      "sha256": "f1b497ab39e32136d30d4e76921e2599ab20ed6fba7ec2be04499bc8a34266bd",
+      "bytes": 1161
+    },
+    "library/mdrg_story.d.lua": {
+      "sha256": "f80751ce95db5151c1e8b86a2dd792059cd66308428bab52c02597b74703cce5",
+      "bytes": 45560
+    },
+    "library/mdrg_types.d.lua": {
+      "sha256": "bd975fe8404672ca3bee69ceef94da5840d068f7455f0ab23aeb5f75af5c5ed5",
+      "bytes": 123686
+    },
+    "library/mdrg_ui.d.lua": {
+      "sha256": "2f64e9a96388e83e8747c81c6330a596e45a7a27efbdf63d6b8942799185783f",
+      "bytes": 37054
+    },
+    "library/mdrg_unity.d.lua": {
+      "sha256": "64817e5e474b4ffab881fbf1bcafc936bd2d5c3416db5c6094a8b241fd386187",
+      "bytes": 49501
+    },
+    "library/mdrg_usage.d.lua": {
+      "sha256": "dc857c3498b05a520c065a26f30d9de3a66fa19b3ff030667f7e55c7271bb707",
+      "bytes": 5579
+    }
+  }
+}

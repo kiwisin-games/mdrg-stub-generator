@@ -1,0 +1,38 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 2 - doggy_texture0_layer10.png",
+            "Layer": 10,
+            "PackedDrawables": [
+                {
+                    "Name": "SkinMouth",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 78,
+                        "height": 44
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "SkinLipUpper",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 59,
+                        "width": 66,
+                        "height": 38
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "doggy"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

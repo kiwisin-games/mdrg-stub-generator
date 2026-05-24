@@ -1,0 +1,2814 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-05-07T16:15:34+00:00",
+  "source_report": "probe/report-20260506-194845.txt",
+  "source_timestamp": "20260506-194845",
+  "source_sha256": "34f135113521e01aa87630793fd3235cae79bab25c17dcc110b22db5ec258faa",
+  "runtime": {
+    "moonsharp": {
+      "banner": "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n",
+      "is_aot": true,
+      "is_clr4": true,
+      "is_mono": true,
+      "is_pcl": false,
+      "is_unity": true,
+      "luacompat": "5.2",
+      "platform": "limited.unity.dll.mono.clr4.aot",
+      "version": "2.0.0.0"
+    },
+    "lua_version": "MoonSharp 2.0.0.0",
+    "current_mod_guid": null,
+    "current_mod_guid_present": false
+  },
+  "output_context": {
+    "transport_prefix_detected": false,
+    "console_fallback": false,
+    "io_available": true,
+    "chunk_markers": 0,
+    "target_filename": "report-20260506-194845.txt",
+    "result": "saved with io.open.",
+    "probe_mode": "file",
+    "table_enum_mode": "raw",
+    "io_available_at_startup": true,
+    "deep_global_dump": true
+  },
+  "environment": {
+    "context_label": "auto",
+    "safe_io_expected": false,
+    "io_present": true,
+    "io_open_present": true,
+    "current_mod_guid_present": false,
+    "gamevariables_present": false,
+    "gv_present": true,
+    "flowchart_present": true,
+    "effective_gamevariables_source": "gv",
+    "transport": "file",
+    "detected_context": "luaexec-with-safe-io-scene-context",
+    "context_confidence": "low"
+  },
+  "runtime_test": {},
+  "present_symbols": [
+    {
+      "name": "_G",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 00000004>"
+    },
+    {
+      "name": "_MOONSHARP",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 00000005>"
+    },
+    {
+      "name": "_VERSION",
+      "type": "string",
+      "status": "present",
+      "value": "\"MoonSharp 2.0.0.0\""
+    },
+    {
+      "name": "AllowedModifiers",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000023E>"
+    },
+    {
+      "name": "assert",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 0000000A>"
+    },
+    {
+      "name": "AtLeastOneBoolVariableTrueRequirement",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000024C>"
+    },
+    {
+      "name": "CheckType",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000002DD>"
+    },
+    {
+      "name": "collectgarbage",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 0000000B>"
+    },
+    {
+      "name": "ColorPalette",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000027A>"
+    },
+    {
+      "name": "ColorPaletteEntry",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000027B>"
+    },
+    {
+      "name": "ColorPaletteManager",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000279>"
+    },
+    {
+      "name": "ColorSlot",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000023B>"
+    },
+    {
+      "name": "CommonAllowedModifiersEnum",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000241>"
+    },
+    {
+      "name": "ControllerEnum",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000079>"
+    },
+    {
+      "name": "CookingSong",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000036C>"
+    },
+    {
+      "name": "CookingSongRuntimeData",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000372>"
+    },
+    {
+      "name": "coroutine",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 00000055>"
+    },
+    {
+      "name": "debug",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 00000061>"
+    },
+    {
+      "name": "EdibleItemNutritionProfile",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000024F>"
+    },
+    {
+      "name": "EdibleItemPrefabData",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000024D>"
+    },
+    {
+      "name": "EdibleTypeEnum",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000025A>"
+    },
+    {
+      "name": "error",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 0000000C>"
+    },
+    {
+      "name": "FinishedType",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003DE>"
+    },
+    {
+      "name": "FishingBaitItemPrefabData",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000025E>"
+    },
+    {
+      "name": "FishingBaitType",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000269>"
+    },
+    {
+      "name": "FishingCatchBehaviourType",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000026F>"
+    },
+    {
+      "name": "FishingRodItemPrefabData",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000025D>"
+    },
+    {
+      "name": "FishItemPrefabData",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000025B>"
+    },
+    {
+      "name": "FishPreferences",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000025C>"
+    },
+    {
+      "name": "flowchart",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: Main Flowchart (Fungus.Flowchart)>"
+    },
+    {
+      "name": "GameId",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000007B>"
+    },
+    {
+      "name": "GameUtilities",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: Everything (GameUtilities)>"
+    },
+    {
+      "name": "getmetatable",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000012>"
+    },
+    {
+      "name": "GlobalFlag",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003EA>"
+    },
+    {
+      "name": "Guid",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000007A>"
+    },
+    {
+      "name": "gv",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: GameVariables>"
+    },
+    {
+      "name": "io",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 00000414>"
+    },
+    {
+      "name": "ipairs",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000006>"
+    },
+    {
+      "name": "Item",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000000AB>"
+    },
+    {
+      "name": "ItemCategory",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000228>"
+    },
+    {
+      "name": "ItemEnum",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000219>"
+    },
+    {
+      "name": "ItemModifiableVariableFactory",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000247>"
+    },
+    {
+      "name": "ItemModifiableVariablesRequirement",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000024B>"
+    },
+    {
+      "name": "ItemPrefab",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000000B5>"
+    },
+    {
+      "name": "ItemPrefabManager",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000000B7>"
+    },
+    {
+      "name": "ItemScopeCondition",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000243>"
+    },
+    {
+      "name": "ItemScopeConditionAlwaysTrueCondition",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000246>"
+    },
+    {
+      "name": "ItemScopeConditionCustom",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000244>"
+    },
+    {
+      "name": "ItemScopeConditionSpecialVariable",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000245>"
+    },
+    {
+      "name": "ItemSlot",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000285>"
+    },
+    {
+      "name": "ItemSubCategory",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000022D>"
+    },
+    {
+      "name": "json",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 0000006D>"
+    },
+    {
+      "name": "Live2DControllerSingleton",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000036B>"
+    },
+    {
+      "name": "math",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 00000038>"
+    },
+    {
+      "name": "ModUtilities",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: Everything (ModUtilities)>"
+    },
+    {
+      "name": "NewsId",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000002D3>"
+    },
+    {
+      "name": "next",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000008>"
+    },
+    {
+      "name": "NoteButtonTypeEnum",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000370>"
+    },
+    {
+      "name": "os",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 0000005C>"
+    },
+    {
+      "name": "package",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 00000018>"
+    },
+    {
+      "name": "pairs",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000007>"
+    },
+    {
+      "name": "pcall",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000036>"
+    },
+    {
+      "name": "print",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000010>"
+    },
+    {
+      "name": "R",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000373>"
+    },
+    {
+      "name": "rawequal",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000015>"
+    },
+    {
+      "name": "rawget",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000013>"
+    },
+    {
+      "name": "rawlen",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000016>"
+    },
+    {
+      "name": "rawset",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000014>"
+    },
+    {
+      "name": "Recipe",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000036D>"
+    },
+    {
+      "name": "Result",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000039F>"
+    },
+    {
+      "name": "SaveContainer",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003E9>"
+    },
+    {
+      "name": "SaveSingleton",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003E4>"
+    },
+    {
+      "name": "ScratchTextureType",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000230>"
+    },
+    {
+      "name": "select",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 0000000E>"
+    },
+    {
+      "name": "setmetatable",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000011>"
+    },
+    {
+      "name": "Shop",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000270>"
+    },
+    {
+      "name": "ShopItem",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000276>"
+    },
+    {
+      "name": "ShopManager",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000272>"
+    },
+    {
+      "name": "SimpleLocalizedString",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003DF>"
+    },
+    {
+      "name": "SingleArgumentComparators",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003D6>"
+    },
+    {
+      "name": "SlotEquipData",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 00000242>"
+    },
+    {
+      "name": "SlotManager",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000027C>"
+    },
+    {
+      "name": "SlotType",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000028C>"
+    },
+    {
+      "name": "SoundSingleton",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: Everything (SoundSingleton)>"
+    },
+    {
+      "name": "StoryAutoBranch",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003C8>"
+    },
+    {
+      "name": "StoryBlockTarget",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003CD>"
+    },
+    {
+      "name": "StoryBotContainerTypeEnum",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003C6>"
+    },
+    {
+      "name": "StoryBotDialogueBranch",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003C7>"
+    },
+    {
+      "name": "StoryBranchTarget",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003CA>"
+    },
+    {
+      "name": "StoryCondition",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003BF>"
+    },
+    {
+      "name": "StoryEnumeratorTarget",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003CE>"
+    },
+    {
+      "name": "StoryLocalizedConversationBranchTarget",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003CF>"
+    },
+    {
+      "name": "StoryMenuBranch",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003C9>"
+    },
+    {
+      "name": "StorySingleton",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003BD>"
+    },
+    {
+      "name": "string",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 00000017>"
+    },
+    {
+      "name": "SusArea",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000023A>"
+    },
+    {
+      "name": "SusModifier",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000023C>"
+    },
+    {
+      "name": "table",
+      "type": "table",
+      "status": "present",
+      "value": "<table: table: 0000002D>"
+    },
+    {
+      "name": "TextureOverriderManager",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 0000039E>"
+    },
+    {
+      "name": "TimeCheckType",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000002D9>"
+    },
+    {
+      "name": "tonumber",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 0000000F>"
+    },
+    {
+      "name": "tostring",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 0000000D>"
+    },
+    {
+      "name": "TwoArgumentComparators",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: userdata: 000003DB>"
+    },
+    {
+      "name": "type",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000009>"
+    },
+    {
+      "name": "UiOverlay",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: Everything (UiOverlay)>"
+    },
+    {
+      "name": "ViewSingleton",
+      "type": "userdata",
+      "status": "present",
+      "value": "<userdata: Views (ViewSingleton)>"
+    },
+    {
+      "name": "xpcall",
+      "type": "function",
+      "status": "present",
+      "value": "<function: function: 00000037>"
+    }
+  ],
+  "missing_symbols": [
+    "ArmState",
+    "BotStatusAppPopup",
+    "BrowserPopup",
+    "Color",
+    "ColoringGroupEnum",
+    "CurrentModGuid",
+    "CustomShaderTypeEnum",
+    "DeliveryStatus",
+    "EdibleData",
+    "EquipResults",
+    "EyeSelection",
+    "Flowchart",
+    "GameVariables",
+    "ItemLocationEnum",
+    "ItemManager",
+    "ItemSlotEnum",
+    "LuaPersonalityModuleDefinition",
+    "PackedTexturesContainer",
+    "PersonalityModuleDefinition",
+    "Quaternion",
+    "Save",
+    "SceneEnumFlag",
+    "ShopItemType",
+    "StoryBotDialogueBranchContainer",
+    "UpdateTexturesFromCurrentlyEquippedTypeEnum",
+    "Vector2",
+    "Vector3"
+  ],
+  "runtime_aliases": [
+    {
+      "name": "gv",
+      "target": "GameVariables",
+      "type": "userdata",
+      "value": "<userdata: GameVariables>",
+      "evidence": "Machine Readable Summary"
+    },
+    {
+      "name": "flowchart",
+      "target": "Flowchart",
+      "type": "userdata",
+      "value": "<userdata: Main Flowchart (Fungus.Flowchart)>",
+      "evidence": "Machine Readable Summary"
+    }
+  ],
+  "possibly_undocumented_globals": {
+    "known_in_docs": [
+      {
+        "name": "pack",
+        "type": "function"
+      },
+      {
+        "name": "unpack",
+        "type": "function"
+      }
+    ],
+    "not_in_docs": []
+  },
+  "callables": [
+    {
+      "path": "assert",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "collectgarbage",
+      "origin": "global",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "coroutine.create",
+      "origin": "known-stub-symbol",
+      "safety": "Context-dependent",
+      "dangerous_name": true
+    },
+    {
+      "path": "coroutine.resume",
+      "origin": "known-stub-symbol",
+      "safety": "Context-dependent",
+      "dangerous_name": false
+    },
+    {
+      "path": "coroutine.running",
+      "origin": "known-stub-symbol",
+      "safety": "Context-dependent",
+      "dangerous_name": false
+    },
+    {
+      "path": "coroutine.status",
+      "origin": "known-stub-symbol",
+      "safety": "Context-dependent",
+      "dangerous_name": false
+    },
+    {
+      "path": "coroutine.wrap",
+      "origin": "known-stub-symbol",
+      "safety": "Context-dependent",
+      "dangerous_name": false
+    },
+    {
+      "path": "coroutine.yield",
+      "origin": "known-stub-symbol",
+      "safety": "Context-dependent",
+      "dangerous_name": false
+    },
+    {
+      "path": "debug.debug",
+      "origin": "known-stub-symbol",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "debug.getmetatable",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "debug.getregistry",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "debug.getupvalue",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "debug.getuservalue",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "debug.setmetatable",
+      "origin": "known-stub-symbol",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "debug.setupvalue",
+      "origin": "known-stub-symbol",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "debug.setuservalue",
+      "origin": "known-stub-symbol",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "debug.traceback",
+      "origin": "known-stub-symbol",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "debug.upvalueid",
+      "origin": "known-stub-symbol",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "debug.upvaluejoin",
+      "origin": "known-stub-symbol",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "error",
+      "origin": "global",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "getmetatable",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "io.close",
+      "origin": "known-stub-symbol",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "io.flush",
+      "origin": "known-stub-symbol",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "io.input",
+      "origin": "known-stub-symbol",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "io.lines",
+      "origin": "known-stub-symbol",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "io.open",
+      "origin": "known-stub-symbol",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "io.output",
+      "origin": "known-stub-symbol",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "io.read",
+      "origin": "known-stub-symbol",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "io.type",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "io.write",
+      "origin": "known-stub-symbol",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "ipairs",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "json.isnull",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "json.null",
+      "origin": "known-stub-symbol",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "json.parse",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "json.serialize",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.abs",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.acos",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.asin",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.atan",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.atan2",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.ceil",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.cos",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.cosh",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.deg",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.exp",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.floor",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.fmod",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.frexp",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.ldexp",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.log",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.max",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.min",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.modf",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.pow",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.rad",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.random",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.randomseed",
+      "origin": "known-stub-symbol",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "math.sin",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.sinh",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.sqrt",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.tan",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "math.tanh",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "next",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "os.clock",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "os.date",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "os.difftime",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "os.time",
+      "origin": "known-stub-symbol",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "pack",
+      "origin": "global",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "pairs",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "pcall",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "print",
+      "origin": "global",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "rawequal",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "rawget",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "rawlen",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "rawset",
+      "origin": "global",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "select",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "setmetatable",
+      "origin": "global",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "string.byte",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.char",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.contains",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.dump",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.endsWith",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.find",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.format",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.gmatch",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.gsub",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.len",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.lower",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.match",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.rep",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.reverse",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.startsWith",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.sub",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.unicode",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "string.upper",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "table.concat",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "table.insert",
+      "origin": "table-field, canonical",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "table.pack",
+      "origin": "table-field, canonical",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "table.remove",
+      "origin": "table-field, canonical",
+      "safety": "Dangerous/Destructive",
+      "dangerous_name": true
+    },
+    {
+      "path": "table.sort",
+      "origin": "table-field, canonical",
+      "safety": "State-changing",
+      "dangerous_name": true
+    },
+    {
+      "path": "table.unpack",
+      "origin": "table-field, canonical",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "tonumber",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "tostring",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "type",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    },
+    {
+      "path": "unpack",
+      "origin": "global",
+      "safety": "Unknown",
+      "dangerous_name": false
+    },
+    {
+      "path": "xpcall",
+      "origin": "global",
+      "safety": "Read-only",
+      "dangerous_name": false
+    }
+  ],
+  "enum_like_userdata": [
+    {
+      "name": "CheckType",
+      "kind": "known enum from stubs",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 000002DD>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "ColorSlot",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 0000023B>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "CommonAllowedModifiersEnum",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 00000241>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "ControllerEnum",
+      "kind": "known enum from stubs",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 00000079>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "EdibleTypeEnum",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 0000025A>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "FinishedType",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 000003DE>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "FishingBaitType",
+      "kind": "known enum from stubs",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 00000269>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "FishingCatchBehaviourType",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 0000026F>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "GlobalFlag",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 000003EA>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "ItemCategory",
+      "kind": "known enum from stubs",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 00000228>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "ItemEnum",
+      "kind": "known enum from stubs",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 00000219>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "ItemSlot",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 00000285>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "ItemSubCategory",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 0000022D>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "NoteButtonTypeEnum",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 00000370>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "ScratchTextureType",
+      "kind": "known enum from stubs",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 00000230>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "SlotType",
+      "kind": "known enum from stubs",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 0000028C>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "StoryBotContainerTypeEnum",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 000003C6>",
+        "metatable": "none"
+      }
+    },
+    {
+      "name": "TimeCheckType",
+      "kind": "enum-like userdata",
+      "details": {
+        "type": "userdata",
+        "value": "<userdata: userdata: 000002D9>",
+        "metatable": "none"
+      }
+    }
+  ],
+  "enum_like_tables": [
+    {
+      "name": "_MOONSHARP",
+      "kind": "constant-like",
+      "values": [
+        {
+          "key": "banner",
+          "value": "\"MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\\r\\nCopyright (C) 2014-2016 Marco Mastropaolo\\r\\nhttp://www.moonsharp.org\\r\\n\""
+        },
+        {
+          "key": "is_aot",
+          "value": "true"
+        },
+        {
+          "key": "is_clr4",
+          "value": "true"
+        },
+        {
+          "key": "is_mono",
+          "value": "true"
+        },
+        {
+          "key": "is_pcl",
+          "value": "false"
+        },
+        {
+          "key": "is_unity",
+          "value": "true"
+        },
+        {
+          "key": "luacompat",
+          "value": "\"5.2\""
+        },
+        {
+          "key": "platform",
+          "value": "\"limited.unity.dll.mono.clr4.aot\""
+        },
+        {
+          "key": "version",
+          "value": "\"2.0.0.0\""
+        }
+      ]
+    }
+  ],
+  "field_probes": [
+    {
+      "owner": "flowchart",
+      "field": "ExecuteBlock",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A18>"
+    },
+    {
+      "owner": "flowchart",
+      "field": "GetBooleanVariable",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A2C>"
+    },
+    {
+      "owner": "flowchart",
+      "field": "GetIntegerVariable",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A22>"
+    },
+    {
+      "owner": "flowchart",
+      "field": "GetName",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A09>"
+    },
+    {
+      "owner": "flowchart",
+      "field": "GetStringVariable",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A27>"
+    },
+    {
+      "owner": "flowchart",
+      "field": "HasBlock",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A13>"
+    },
+    {
+      "owner": "flowchart",
+      "field": "IsActive",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A0E>"
+    },
+    {
+      "owner": "flowchart",
+      "field": "SetBooleanVariable",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A3B>"
+    },
+    {
+      "owner": "flowchart",
+      "field": "SetIntegerVariable",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A31>"
+    },
+    {
+      "owner": "flowchart",
+      "field": "SetStringVariable",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A36>"
+    },
+    {
+      "owner": "flowchart",
+      "field": "StopBlock",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A1D>"
+    },
+    {
+      "owner": "GameId",
+      "field": "__new",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000955>"
+    },
+    {
+      "owner": "GameId",
+      "field": "CreateGeneric",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000964>"
+    },
+    {
+      "owner": "GameId",
+      "field": "CreateModded",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000095F>"
+    },
+    {
+      "owner": "GameId",
+      "field": "CreateVanilla",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000095A>"
+    },
+    {
+      "owner": "GameId",
+      "field": "FromShortString",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000969>"
+    },
+    {
+      "owner": "GameId",
+      "field": "ToLuaString",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000973>"
+    },
+    {
+      "owner": "GameId",
+      "field": "ToShortString",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000978>"
+    },
+    {
+      "owner": "GameId",
+      "field": "ToString",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000096E>"
+    },
+    {
+      "owner": "GameUtilities",
+      "field": "AddItemToInventory",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000088E>"
+    },
+    {
+      "owner": "GameUtilities",
+      "field": "FadeOrMoveToView",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000089D>"
+    },
+    {
+      "owner": "GameUtilities",
+      "field": "FadeToView",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000893>"
+    },
+    {
+      "owner": "GameUtilities",
+      "field": "GetCurrentYearToInteger",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008A2>"
+    },
+    {
+      "owner": "GameUtilities",
+      "field": "MoveToView",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000898>"
+    },
+    {
+      "owner": "GameUtilities",
+      "field": "WaitForSecondsYield",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000889>"
+    },
+    {
+      "owner": "Guid",
+      "field": "__new",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000980>"
+    },
+    {
+      "owner": "Guid",
+      "field": "Parse",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000098A>"
+    },
+    {
+      "owner": "Guid",
+      "field": "ToString",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000985>"
+    },
+    {
+      "owner": "gv",
+      "field": "CheckFlag",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A5F>"
+    },
+    {
+      "owner": "gv",
+      "field": "CheckFlagAfterRelative",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A64>"
+    },
+    {
+      "owner": "gv",
+      "field": "DayOfTheWeek",
+      "type": "number",
+      "status": "present",
+      "source": "index",
+      "value": "6"
+    },
+    {
+      "owner": "gv",
+      "field": "ForceTakeMoney",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A69>"
+    },
+    {
+      "owner": "gv",
+      "field": "Health",
+      "type": "number",
+      "status": "present",
+      "source": "index",
+      "value": "1"
+    },
+    {
+      "owner": "gv",
+      "field": "Hour",
+      "type": "number",
+      "status": "present",
+      "source": "index",
+      "value": "12"
+    },
+    {
+      "owner": "gv",
+      "field": "MentalHealth",
+      "type": "number",
+      "status": "present",
+      "source": "index",
+      "value": "0.999969780445099"
+    },
+    {
+      "owner": "gv",
+      "field": "Minute",
+      "type": "number",
+      "status": "present",
+      "source": "index",
+      "value": "31"
+    },
+    {
+      "owner": "gv",
+      "field": "Money",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "gv",
+      "field": "ReportSleepEnd",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A6E>"
+    },
+    {
+      "owner": "gv",
+      "field": "Satiation",
+      "type": "number",
+      "status": "present",
+      "source": "index",
+      "value": "0.955554962158203"
+    },
+    {
+      "owner": "io",
+      "field": "close",
+      "type": "function",
+      "status": "present",
+      "source": "raw",
+      "value": "<function: function: 00000416>"
+    },
+    {
+      "owner": "io",
+      "field": "flush",
+      "type": "function",
+      "status": "present",
+      "source": "raw",
+      "value": "<function: function: 00000417>"
+    },
+    {
+      "owner": "io",
+      "field": "input",
+      "type": "function",
+      "status": "present",
+      "source": "raw",
+      "value": "<function: function: 00000418>"
+    },
+    {
+      "owner": "io",
+      "field": "lines",
+      "type": "function",
+      "status": "present",
+      "source": "raw",
+      "value": "<function: function: 0000041C>"
+    },
+    {
+      "owner": "io",
+      "field": "open",
+      "type": "function",
+      "status": "present",
+      "source": "raw",
+      "value": "<function: function: 00000415>"
+    },
+    {
+      "owner": "io",
+      "field": "output",
+      "type": "function",
+      "status": "present",
+      "source": "raw",
+      "value": "<function: function: 00000419>"
+    },
+    {
+      "owner": "io",
+      "field": "popen",
+      "type": "nil",
+      "status": "missing",
+      "source": "missing",
+      "value": ""
+    },
+    {
+      "owner": "io",
+      "field": "read",
+      "type": "function",
+      "status": "present",
+      "source": "raw",
+      "value": "<function: function: 0000041A>"
+    },
+    {
+      "owner": "io",
+      "field": "tmpfile",
+      "type": "nil",
+      "status": "missing",
+      "source": "missing",
+      "value": ""
+    },
+    {
+      "owner": "io",
+      "field": "type",
+      "type": "function",
+      "status": "present",
+      "source": "raw",
+      "value": "<function: function: 0000041D>"
+    },
+    {
+      "owner": "io",
+      "field": "write",
+      "type": "function",
+      "status": "present",
+      "source": "raw",
+      "value": "<function: function: 0000041B>"
+    },
+    {
+      "owner": "Item",
+      "field": "__new",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008E8>"
+    },
+    {
+      "owner": "Item",
+      "field": "CanBeUnpacked",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000091A>"
+    },
+    {
+      "owner": "Item",
+      "field": "CanBeUsed",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000915>"
+    },
+    {
+      "owner": "Item",
+      "field": "ColorSlotId",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000924>"
+    },
+    {
+      "owner": "Item",
+      "field": "CreateDefaultItemForLive2DController",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008F2>"
+    },
+    {
+      "owner": "Item",
+      "field": "CreateRandomItem",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008ED>"
+    },
+    {
+      "owner": "Item",
+      "field": "GetCount",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000901>"
+    },
+    {
+      "owner": "Item",
+      "field": "GetDescription",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008FC>"
+    },
+    {
+      "owner": "Item",
+      "field": "GetItemPrefab",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000090B>"
+    },
+    {
+      "owner": "Item",
+      "field": "GetName",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008F7>"
+    },
+    {
+      "owner": "Item",
+      "field": "GetPrice",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000906>"
+    },
+    {
+      "owner": "Item",
+      "field": "GetQualityString",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000091F>"
+    },
+    {
+      "owner": "Item",
+      "field": "IsEquipped",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000910>"
+    },
+    {
+      "owner": "ItemPrefab",
+      "field": "__new",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000092C>"
+    },
+    {
+      "owner": "ItemPrefab",
+      "field": "Clone",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000093D>"
+    },
+    {
+      "owner": "ItemPrefab",
+      "field": "ColorSlotId",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "ItemPrefab",
+      "field": "CreateInstance",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "ItemPrefab",
+      "field": "ToLuaString",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "ItemPrefabManager",
+      "field": "GetItemById",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000094D>"
+    },
+    {
+      "owner": "ItemPrefabManager",
+      "field": "GetItemPrefab",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "ItemPrefabManager",
+      "field": "TryGetItemPrefab",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "ModUtilities",
+      "field": "CreateItemPrefab",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000863>"
+    },
+    {
+      "owner": "ModUtilities",
+      "field": "CreateNewItem",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000868>"
+    },
+    {
+      "owner": "ModUtilities",
+      "field": "CreateNewItemAutoAssignId",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000086D>"
+    },
+    {
+      "owner": "ModUtilities",
+      "field": "GetController",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000872>"
+    },
+    {
+      "owner": "ModUtilities",
+      "field": "GetGameVariables",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000859>"
+    },
+    {
+      "owner": "ModUtilities",
+      "field": "GetNewGuid",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000085E>"
+    },
+    {
+      "owner": "ModUtilities",
+      "field": "StartCoroutine",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000877>"
+    },
+    {
+      "owner": "ModUtilities",
+      "field": "StopCoroutine",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000087C>"
+    },
+    {
+      "owner": "ModUtilities",
+      "field": "WaitForSeconds",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000881>"
+    },
+    {
+      "owner": "SaveContainer",
+      "field": "AddGlobalFlag",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000997>"
+    },
+    {
+      "owner": "SaveContainer",
+      "field": "GetPercentageOfSeenStoryText",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009B0>"
+    },
+    {
+      "owner": "SaveContainer",
+      "field": "HasAchievement",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009A1>"
+    },
+    {
+      "owner": "SaveContainer",
+      "field": "HasGlobalFlag",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000992>"
+    },
+    {
+      "owner": "SaveContainer",
+      "field": "RemoveAchievement",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009AB>"
+    },
+    {
+      "owner": "SaveContainer",
+      "field": "TryGetGlobalFlag",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 0000099C>"
+    },
+    {
+      "owner": "SaveContainer",
+      "field": "UnlockAchievement",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009A6>"
+    },
+    {
+      "owner": "SaveSingleton",
+      "field": "GetSaveContainerAsString",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009B8>"
+    },
+    {
+      "owner": "SaveSingleton",
+      "field": "ResetAllData",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009C2>"
+    },
+    {
+      "owner": "SaveSingleton",
+      "field": "SaveAllChanges",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009BD>"
+    },
+    {
+      "owner": "SaveSingleton",
+      "field": "TryMakeAutoSave",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009C7>"
+    },
+    {
+      "owner": "SoundSingleton",
+      "field": "LuaInstance",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "SoundSingleton",
+      "field": "PlayMusic",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "SoundSingleton",
+      "field": "PlaySound",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "SoundSingleton",
+      "field": "StopMusic",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "StoryBotDialogueBranch",
+      "field": "__new",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009EA>"
+    },
+    {
+      "owner": "StoryCondition",
+      "field": "And",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009CF>"
+    },
+    {
+      "owner": "StoryCondition",
+      "field": "Delegate",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009E2>"
+    },
+    {
+      "owner": "StoryCondition",
+      "field": "Lua",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009DD>"
+    },
+    {
+      "owner": "StoryCondition",
+      "field": "Not",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "StoryCondition",
+      "field": "Or",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009D4>"
+    },
+    {
+      "owner": "StorySingleton",
+      "field": "GenerateSummary",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 00000A01>"
+    },
+    {
+      "owner": "StorySingleton",
+      "field": "GetFlowchart",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009F2>"
+    },
+    {
+      "owner": "StorySingleton",
+      "field": "GetStage",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009F7>"
+    },
+    {
+      "owner": "StorySingleton",
+      "field": "TryGetTag",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000009FC>"
+    },
+    {
+      "owner": "UiOverlay",
+      "field": "CloseAll",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "UiOverlay",
+      "field": "OpenBrowser",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008AA>"
+    },
+    {
+      "owner": "UiOverlay",
+      "field": "OpenShop",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008AF>"
+    },
+    {
+      "owner": "UiOverlay",
+      "field": "OpenSimplePopup",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "ViewSingleton",
+      "field": "GetNotCurrentView",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008DB>"
+    },
+    {
+      "owner": "ViewSingleton",
+      "field": "LuaInstance",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "value": ""
+    },
+    {
+      "owner": "ViewSingleton",
+      "field": "SetNextView",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008D6>"
+    },
+    {
+      "owner": "ViewSingleton",
+      "field": "UpdateViewReferences",
+      "type": "function",
+      "status": "present",
+      "source": "index",
+      "value": "<function: function: 000008E0>"
+    }
+  ],
+  "enum_value_probes": [
+    {
+      "enum": "ArmState",
+      "value": "Default",
+      "type": "nil",
+      "status": "owner-missing",
+      "source": "missing",
+      "result": ""
+    },
+    {
+      "enum": "CheckType",
+      "value": "Equal",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "result": ""
+    },
+    {
+      "enum": "CheckType",
+      "value": "Greater",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "result": ""
+    },
+    {
+      "enum": "CheckType",
+      "value": "Less",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "result": ""
+    },
+    {
+      "enum": "CheckType",
+      "value": "NotEqual",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "result": ""
+    },
+    {
+      "enum": "CommonAllowedModifiersEnum",
+      "value": "FishingRod",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: FishingRod>"
+    },
+    {
+      "enum": "CommonAllowedModifiersEnum",
+      "value": "None",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: None>"
+    },
+    {
+      "enum": "ControllerEnum",
+      "value": "Interaction",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Interaction>"
+    },
+    {
+      "enum": "ControllerEnum",
+      "value": "Missionary",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Missionary>"
+    },
+    {
+      "enum": "ControllerEnum",
+      "value": "NoScene",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: NoScene>"
+    },
+    {
+      "enum": "EdibleTypeEnum",
+      "value": "Dish",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Dish>"
+    },
+    {
+      "enum": "EdibleTypeEnum",
+      "value": "Fish",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Fish>"
+    },
+    {
+      "enum": "EdibleTypeEnum",
+      "value": "Meat",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Meat>"
+    },
+    {
+      "enum": "EdibleTypeEnum",
+      "value": "Other",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Other>"
+    },
+    {
+      "enum": "EquipResults",
+      "value": "FailedBlocked",
+      "type": "nil",
+      "status": "owner-missing",
+      "source": "missing",
+      "result": ""
+    },
+    {
+      "enum": "EquipResults",
+      "value": "FailedMissingRequired",
+      "type": "nil",
+      "status": "owner-missing",
+      "source": "missing",
+      "result": ""
+    },
+    {
+      "enum": "EquipResults",
+      "value": "FailedNonEquipable",
+      "type": "nil",
+      "status": "owner-missing",
+      "source": "missing",
+      "result": ""
+    },
+    {
+      "enum": "EquipResults",
+      "value": "Success",
+      "type": "nil",
+      "status": "owner-missing",
+      "source": "missing",
+      "result": ""
+    },
+    {
+      "enum": "EyeSelection",
+      "value": "BothEyes",
+      "type": "nil",
+      "status": "owner-missing",
+      "source": "missing",
+      "result": ""
+    },
+    {
+      "enum": "EyeSelection",
+      "value": "LeftEye",
+      "type": "nil",
+      "status": "owner-missing",
+      "source": "missing",
+      "result": ""
+    },
+    {
+      "enum": "EyeSelection",
+      "value": "RightEye",
+      "type": "nil",
+      "status": "owner-missing",
+      "source": "missing",
+      "result": ""
+    },
+    {
+      "enum": "FishingBaitType",
+      "value": "None",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "result": ""
+    },
+    {
+      "enum": "FishingBaitType",
+      "value": "Worm",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "result": ""
+    },
+    {
+      "enum": "FishingCatchBehaviourType",
+      "value": "Fighter",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Fighter>"
+    },
+    {
+      "enum": "FishingCatchBehaviourType",
+      "value": "Floater",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Floater>"
+    },
+    {
+      "enum": "FishingCatchBehaviourType",
+      "value": "Normal",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Normal>"
+    },
+    {
+      "enum": "FishingCatchBehaviourType",
+      "value": "Rock",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Rock>"
+    },
+    {
+      "enum": "FishingCatchBehaviourType",
+      "value": "Sinker",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Sinker>"
+    },
+    {
+      "enum": "ItemCategory",
+      "value": "Clothing",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Clothing>"
+    },
+    {
+      "enum": "ItemCategory",
+      "value": "Food",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Food>"
+    },
+    {
+      "enum": "ItemCategory",
+      "value": "Misc",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "result": ""
+    },
+    {
+      "enum": "ItemCategory",
+      "value": "Room",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Room>"
+    },
+    {
+      "enum": "ScratchTextureType",
+      "value": "Universal",
+      "type": "userdata",
+      "status": "present",
+      "source": "index",
+      "result": "<userdata: Universal>"
+    },
+    {
+      "enum": "SlotType",
+      "value": "Normal",
+      "type": "nil",
+      "status": "error",
+      "source": "error",
+      "result": ""
+    }
+  ],
+  "enum_value_candidates": [],
+  "callback_contexts": [],
+  "callback_args": [],
+  "callback_fields": [],
+  "callback_errors": [],
+  "callback_item_contexts": [],
+  "safe_io": {
+    "io_present": true,
+    "io_open_present": true,
+    "io_popen_present": false,
+    "io_tmpfile_present": false,
+    "safe_io_expected": false,
+    "safe_io_likely_injected": "unknown",
+    "transport": "file",
+    "io_type": "table",
+    "io_value": "<table: table: 00000414>",
+    "console_fallback": false
+  },
+  "counts": {
+    "present_symbols": 107,
+    "missing_symbols": 27,
+    "runtime_aliases": 2,
+    "possibly_undocumented_known_in_docs": 2,
+    "possibly_undocumented_not_in_docs": 0,
+    "callables": 106,
+    "enum_like_userdata": 18,
+    "enum_like_tables": 1,
+    "field_probes": 113,
+    "enum_value_probes": 34,
+    "enum_value_candidates": 0,
+    "callback_contexts": 0,
+    "callback_args": 0,
+    "callback_fields": 0,
+    "callback_errors": 0,
+    "callback_item_contexts": 0
+  }
+}

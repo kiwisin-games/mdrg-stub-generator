@@ -1,0 +1,29 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 1 - blowjob, cowgirl, interaction, missionary_texture0_layer100.png",
+            "Layer": 100,
+            "PackedDrawables": [
+                {
+                    "Name": "SkinNose",
+                    "RectInt": {
+                        "x": 1,
+                        "y": 1,
+                        "width": 58,
+                        "height": 104
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "blowjob",
+                "cowgirl",
+                "interaction",
+                "missionary"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

@@ -1,0 +1,1119 @@
+[19:07:13.996] [LuaPatch] [Lua:exec.lua] === MDRG ENV PROBE REPORT BEGIN ===
+[19:07:13.997] [LuaPatch] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 1
+[19:07:13.998] [LuaPatch] [Lua:exec.lua] # MDRG Lua Environment Report
+[19:07:13.998] [LuaPatch] [Lua:exec.lua] Generated at: 20260506-190713
+[19:07:13.998] [LuaPatch] [Lua:exec.lua] Script version: 2026-05-06
+[19:07:13.999] [LuaPatch] [Lua:exec.lua] 
+[19:07:13.999] [LuaPatch] [Lua:exec.lua] ## Runtime
+[19:07:14.000] [LuaPatch] [Lua:exec.lua] ----------
+[19:07:14.000] [LuaPatch] [Lua:exec.lua] _VERSION: "MoonSharp 2.0.0.0"
+[19:07:14.001] [LuaPatch] [Lua:exec.lua] CurrentModGuid: <missing>
+[19:07:14.001] [LuaPatch] [Lua:exec.lua] _MOONSHARP: <table: table: 00000005>
+[19:07:14.002] [LuaPatch] [Lua:exec.lua] _MOONSHARP.banner: "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+[19:07:14.002] [LuaPatch] [Lua:exec.lua] _MOONSHARP.is_aot: true
+[19:07:14.002] [LuaPatch] [Lua:exec.lua] _MOONSHARP.is_clr4: true
+[19:07:14.003] [LuaPatch] [Lua:exec.lua] _MOONSHARP.is_mono: true
+[19:07:14.003] [LuaPatch] [Lua:exec.lua] _MOONSHARP.is_pcl: false
+[19:07:14.004] [LuaPatch] [Lua:exec.lua] _MOONSHARP.is_unity: true
+[19:07:14.004] [LuaPatch] [Lua:exec.lua] _MOONSHARP.luacompat: "5.2"
+[19:07:14.004] [LuaPatch] [Lua:exec.lua] _MOONSHARP.platform: "limited.unity.dll.mono.clr4.aot"
+[19:07:14.005] [LuaPatch] [Lua:exec.lua] _MOONSHARP.version: "2.0.0.0"
+[19:07:14.005] [LuaPatch] [Lua:exec.lua] 
+[19:07:14.006] [LuaPatch] [Lua:exec.lua] ## Execution / Transport Context
+[19:07:14.006] [LuaPatch] [Lua:exec.lua] --------------------------------
+[19:07:14.007] [LuaPatch] [Lua:exec.lua] Target report filename: report-20260506-190713.txt
+[19:07:14.010] [LuaPatch] [Lua:exec.lua] Write strategy: try io.open first; if unavailable, print console-safe chunks.
+[19:07:14.011] [LuaPatch] [Lua:exec.lua] Console prefixes like [LuaPatch] [Lua:exec.lua] are external transport/log prefixes, not Lua globals.
+[19:07:14.011] [LuaPatch] [Lua:exec.lua] Console fallback chunk marker: MDRG_ENV_PROBE_CHUNK n
+[19:07:14.012] [LuaPatch] [Lua:exec.lua] Context hint: console/plugin execution is likely; mod-scoped globals or save-scoped globals may be absent.
+[19:07:14.012] [LuaPatch] [Lua:exec.lua] 
+[19:07:14.013] [LuaPatch] [Lua:exec.lua] ## Globals Summary
+[19:07:14.013] [LuaPatch] [Lua:exec.lua] ------------------
+[19:07:14.014] [LuaPatch] [Lua:exec.lua] Accessible globals sampled: 108
+[19:07:14.018] [LuaPatch] [Lua:exec.lua] Types: function=21, string=1, table=10, userdata=76
+[19:07:14.018] [LuaPatch] [Lua:exec.lua] 
+[19:07:14.019] [LuaPatch] [Lua:exec.lua] ## Known Stub Symbols Present/Missing
+[19:07:14.019] [LuaPatch] [Lua:exec.lua] -------------------------------------
+[19:07:14.019] [LuaPatch] [Lua:exec.lua] Runtime symbol expected - present:
+[19:07:14.020] [LuaPatch] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 2
+[19:07:14.020] [Lua:exec.lua] - _G: table <table: table: 00000004>
+[19:07:14.021] [Lua:exec.lua] - _VERSION: string "MoonSharp 2.0.0.0"
+[19:07:14.021] [Lua:exec.lua] - _MOONSHARP: table <table: table: 00000005>
+[19:07:14.022] [Lua:exec.lua] - assert: function <function: function: 0000000A>
+[19:07:14.022] [Lua:exec.lua] - collectgarbage: function <function: function: 0000000B>
+[19:07:14.023] [Lua:exec.lua] - coroutine: table <table: table: 00000055>
+[19:07:14.023] [Lua:exec.lua] - debug: table <table: table: 00000061>
+[19:07:14.026] [Lua:exec.lua] - error: function <function: function: 0000000C>
+[19:07:14.027] [Lua:exec.lua] - getmetatable: function <function: function: 00000012>
+[19:07:14.028] [Lua:exec.lua] - ipairs: function <function: function: 00000006>
+[19:07:14.028] [Lua:exec.lua] - json: table <table: table: 0000006D>
+[19:07:14.059] [Lua:exec.lua] - math: table <table: table: 00000038>
+[19:07:14.059] [Lua:exec.lua] - next: function <function: function: 00000008>
+[19:07:14.060] [Lua:exec.lua] - os: table <table: table: 0000005C>
+[19:07:14.060] [Lua:exec.lua] - package: table <table: table: 00000018>
+[19:07:14.061] [Lua:exec.lua] - pairs: function <function: function: 00000007>
+[19:07:14.061] [Lua:exec.lua] - pcall: function <function: function: 00000036>
+[19:07:14.062] [Lua:exec.lua] - print: function <function: function: 00000010>
+[19:07:14.062] [Lua:exec.lua] - rawequal: function <function: function: 00000015>
+[19:07:14.063] [Lua:exec.lua] - rawget: function <function: function: 00000013>
+[19:07:14.063] [Lua:exec.lua] - rawlen: function <function: function: 00000016>
+[19:07:14.064] [Lua:exec.lua] - rawset: function <function: function: 00000014>
+[19:07:14.064] [Lua:exec.lua] - select: function <function: function: 0000000E>
+[19:07:14.064] [Lua:exec.lua] - setmetatable: function <function: function: 00000011>
+[19:07:14.065] [Lua:exec.lua] - string: table <table: table: 00000017>
+[19:07:14.065] [Lua:exec.lua] - table: table <table: table: 0000002D>
+[19:07:14.066] [Lua:exec.lua] - tonumber: function <function: function: 0000000F>
+[19:07:14.066] [Lua:exec.lua] - tostring: function <function: function: 0000000D>
+[19:07:14.066] [Lua:exec.lua] - type: function <function: function: 00000009>
+[19:07:14.067] [Lua:exec.lua] - xpcall: function <function: function: 00000037>
+[19:07:14.067] [Lua:exec.lua] - ModUtilities: userdata <userdata: Everything (ModUtilities)>
+[19:07:14.068] [Lua:exec.lua] - GameUtilities: userdata <userdata: Everything (GameUtilities)>
+[19:07:14.068] [Lua:exec.lua] - Item: userdata <userdata: userdata: 000000AB>
+[19:07:14.068] [Lua:exec.lua] - ItemPrefab: userdata <userdata: userdata: 000000B5>
+[19:07:14.069] [Lua:exec.lua] - ItemPrefabManager: userdata <userdata: userdata: 000000B7>
+[19:07:14.069] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 3
+[19:07:14.070] [Lua:exec.lua] - GameId: userdata <userdata: userdata: 0000007B>
+[19:07:14.070] [Lua:exec.lua] - Guid: userdata <userdata: userdata: 0000007A>
+[19:07:14.071] [Lua:exec.lua] - ColorPalette: userdata <userdata: userdata: 0000027A>
+[19:07:14.074] [Lua:exec.lua] - ColorPaletteEntry: userdata <userdata: userdata: 0000027B>
+[19:07:14.074] [Lua:exec.lua] - ItemEnum: userdata <userdata: userdata: 00000219>
+[19:07:14.075] [Lua:exec.lua] - ControllerEnum: userdata <userdata: userdata: 00000079>
+[19:07:14.076] [Lua:exec.lua] - FishingBaitType: userdata <userdata: userdata: 00000269>
+[19:07:14.076] [Lua:exec.lua] - ItemCategory: userdata <userdata: userdata: 00000228>
+[19:07:14.076] [Lua:exec.lua] - ScratchTextureType: userdata <userdata: userdata: 00000230>
+[19:07:14.077] [Lua:exec.lua] - ItemSlot: userdata <userdata: userdata: 00000285>
+[19:07:14.077] [Lua:exec.lua] - SlotType: userdata <userdata: userdata: 0000028C>
+[19:07:14.078] [Lua:exec.lua] - CheckType: userdata <userdata: userdata: 000002DD>
+[19:07:14.079] [Lua:exec.lua] - UiOverlay: userdata <userdata: Everything (UiOverlay)>
+[19:07:14.079] [Lua:exec.lua] - SaveContainer: userdata <userdata: userdata: 000003E9>
+[19:07:14.080] [Lua:exec.lua] - SaveSingleton: userdata <userdata: userdata: 000003E4>
+[19:07:14.080] [Lua:exec.lua] - StoryCondition: userdata <userdata: userdata: 000003BF>
+[19:07:14.080] [Lua:exec.lua] - StoryBotDialogueBranch: userdata <userdata: userdata: 000003C7>
+[19:07:14.081] [Lua:exec.lua] - TextureOverriderManager: userdata <userdata: userdata: 0000039E>
+[19:07:14.081] [Lua:exec.lua] - ColorSlot: userdata <userdata: userdata: 0000023B>
+[19:07:14.082] [Lua:exec.lua] - ColorPaletteManager: userdata <userdata: userdata: 00000279>
+[19:07:14.082] [Lua:exec.lua] - SlotEquipData: userdata <userdata: userdata: 00000242>
+[19:07:14.083] [Lua:exec.lua] - EdibleItemPrefabData: userdata <userdata: userdata: 0000024D>
+[19:07:14.083] [Lua:exec.lua] - SimpleLocalizedString: userdata <userdata: userdata: 000003DF>
+[19:07:14.084] [Lua:exec.lua] 
+[19:07:14.084] [Lua:exec.lua] Runtime symbol expected - missing in this context:
+[19:07:14.085] [Lua:exec.lua] - CurrentModGuid
+[19:07:14.085] [Lua:exec.lua] - GameVariables
+[19:07:14.086] [Lua:exec.lua] - ItemManager
+[19:07:14.088] [Lua:exec.lua] - Color
+[19:07:14.089] [Lua:exec.lua] - Vector2
+[19:07:14.089] [Lua:exec.lua] - Vector3
+[19:07:14.090] [Lua:exec.lua] - Quaternion
+[19:07:14.090] [Lua:exec.lua] - SceneEnumFlag
+[19:07:14.090] [Lua:exec.lua] - ColoringGroupEnum
+[19:07:14.091] [Lua:exec.lua] - CustomShaderTypeEnum
+[19:07:14.091] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 4
+[19:07:14.092] [Lua:exec.lua] - ItemLocationEnum
+[19:07:14.092] [Lua:exec.lua] - ItemSlotEnum
+[19:07:14.093] [Lua:exec.lua] - ShopItemType
+[19:07:14.093] [Lua:exec.lua] - UpdateTexturesFromCurrentlyEquippedTypeEnum
+[19:07:14.093] [Lua:exec.lua] - DeliveryStatus
+[19:07:14.094] [Lua:exec.lua] - EquipResults
+[19:07:14.094] [Lua:exec.lua] - EyeSelection
+[19:07:14.095] [Lua:exec.lua] - ArmState
+[19:07:14.095] [Lua:exec.lua] - BrowserPopup
+[19:07:14.096] [Lua:exec.lua] - BotStatusAppPopup
+[19:07:14.096] [Lua:exec.lua] - Flowchart
+[19:07:14.096] [Lua:exec.lua] - Save
+[19:07:14.097] [Lua:exec.lua] - StoryBotDialogueBranchContainer
+[19:07:14.097] [Lua:exec.lua] - LuaPersonalityModuleDefinition
+[19:07:14.098] [Lua:exec.lua] - PersonalityModuleDefinition
+[19:07:14.098] [Lua:exec.lua] - PackedTexturesContainer
+[19:07:14.099] [Lua:exec.lua] - EdibleData
+[19:07:14.099] [Lua:exec.lua] 
+[19:07:14.099] [Lua:exec.lua] Stub-only alias expected - not a runtime error if missing:
+[19:07:14.100] [Lua:exec.lua] - MdrgKnownWebsiteId: stub-only alias, runtime symbol not expected
+[19:07:14.100] [Lua:exec.lua] - MdrgKnownStoryFlagId: stub-only alias, runtime symbol not expected
+[19:07:14.101] [Lua:exec.lua] - MdrgKnownPaletteName: stub-only alias, runtime symbol not expected
+[19:07:14.101] [Lua:exec.lua] - MdrgKnownShopId: stub-only alias, runtime symbol not expected
+[19:07:14.105] [Lua:exec.lua] - MdrgKnownControllerId: stub-only alias, runtime symbol not expected
+[19:07:14.105] [Lua:exec.lua] - MdrgKnownColorSlotName: stub-only alias, runtime symbol not expected
+[19:07:14.106] [Lua:exec.lua] - MdrgKnownEquipmentSlotId: stub-only alias, runtime symbol not expected
+[19:07:14.107] [Lua:exec.lua] - MdrgKnownDialogueContainerId: stub-only alias, runtime symbol not expected
+[19:07:14.107] [Lua:exec.lua] 
+[19:07:14.107] [Lua:exec.lua] ## Possibly Undocumented Globals
+[19:07:14.108] [Lua:exec.lua] --------------------------------
+[19:07:14.108] [Lua:exec.lua] - AllowedModifiers (userdata)
+[19:07:14.109] [Lua:exec.lua] - AtLeastOneBoolVariableTrueRequirement (userdata)
+[19:07:14.109] [Lua:exec.lua] - CommonAllowedModifiersEnum (userdata)
+[19:07:14.109] [Lua:exec.lua] - CookingSong (userdata)
+[19:07:14.110] [Lua:exec.lua] - CookingSongRuntimeData (userdata)
+[19:07:14.110] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 5
+[19:07:14.110] [Lua:exec.lua] - EdibleItemNutritionProfile (userdata)
+[19:07:14.111] [Lua:exec.lua] - EdibleTypeEnum (userdata)
+[19:07:14.111] [Lua:exec.lua] - FinishedType (userdata)
+[19:07:14.112] [Lua:exec.lua] - FishingBaitItemPrefabData (userdata)
+[19:07:14.112] [Lua:exec.lua] - FishingCatchBehaviourType (userdata)
+[19:07:14.113] [Lua:exec.lua] - FishingRodItemPrefabData (userdata)
+[19:07:14.113] [Lua:exec.lua] - FishItemPrefabData (userdata)
+[19:07:14.114] [Lua:exec.lua] - FishPreferences (userdata)
+[19:07:14.114] [Lua:exec.lua] - flowchart (userdata)
+[19:07:14.114] [Lua:exec.lua] - GlobalFlag (userdata)
+[19:07:14.115] [Lua:exec.lua] - gv (userdata)
+[19:07:14.115] [Lua:exec.lua] - ItemModifiableVariableFactory (userdata)
+[19:07:14.116] [Lua:exec.lua] - ItemModifiableVariablesRequirement (userdata)
+[19:07:14.116] [Lua:exec.lua] - ItemScopeCondition (userdata)
+[19:07:14.116] [Lua:exec.lua] - ItemScopeConditionAlwaysTrueCondition (userdata)
+[19:07:14.120] [Lua:exec.lua] - ItemScopeConditionCustom (userdata)
+[19:07:14.121] [Lua:exec.lua] - ItemScopeConditionSpecialVariable (userdata)
+[19:07:14.122] [Lua:exec.lua] - ItemSubCategory (userdata)
+[19:07:14.122] [Lua:exec.lua] - Live2DControllerSingleton (userdata)
+[19:07:14.123] [Lua:exec.lua] - NewsId (userdata)
+[19:07:14.123] [Lua:exec.lua] - NoteButtonTypeEnum (userdata)
+[19:07:14.123] [Lua:exec.lua] - pack (function)
+[19:07:14.124] [Lua:exec.lua] - R (userdata)
+[19:07:14.124] [Lua:exec.lua] - Recipe (userdata)
+[19:07:14.125] [Lua:exec.lua] - Result (userdata)
+[19:07:14.125] [Lua:exec.lua] - Shop (userdata)
+[19:07:14.125] [Lua:exec.lua] - ShopItem (userdata)
+[19:07:14.126] [Lua:exec.lua] - ShopManager (userdata)
+[19:07:14.126] [Lua:exec.lua] - SingleArgumentComparators (userdata)
+[19:07:14.127] [Lua:exec.lua] - SlotManager (userdata)
+[19:07:14.127] [Lua:exec.lua] - SoundSingleton (userdata)
+[19:07:14.128] [Lua:exec.lua] - StoryAutoBranch (userdata)
+[19:07:14.128] [Lua:exec.lua] - StoryBlockTarget (userdata)
+[19:07:14.128] [Lua:exec.lua] - StoryBotContainerTypeEnum (userdata)
+[19:07:14.129] [Lua:exec.lua] - StoryBranchTarget (userdata)
+[19:07:14.129] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 6
+[19:07:14.129] [Lua:exec.lua] - StoryEnumeratorTarget (userdata)
+[19:07:14.130] [Lua:exec.lua] - StoryLocalizedConversationBranchTarget (userdata)
+[19:07:14.130] [Lua:exec.lua] - StoryMenuBranch (userdata)
+[19:07:14.131] [Lua:exec.lua] - StorySingleton (userdata)
+[19:07:14.131] [Lua:exec.lua] - SusArea (userdata)
+[19:07:14.132] [Lua:exec.lua] - SusModifier (userdata)
+[19:07:14.132] [Lua:exec.lua] - TimeCheckType (userdata)
+[19:07:14.136] [Lua:exec.lua] - TwoArgumentComparators (userdata)
+[19:07:14.136] [Lua:exec.lua] - unpack (function)
+[19:07:14.137] [Lua:exec.lua] - ViewSingleton (userdata)
+[19:07:14.137] [Lua:exec.lua] 
+[19:07:14.138] [Lua:exec.lua] ## Top-level Tables Snapshot
+[19:07:14.138] [Lua:exec.lua] ----------------------------
+[19:07:14.138] [Lua:exec.lua] - _G
+[19:07:14.139] [Lua:exec.lua]   accessible keys sampled: 108
+[19:07:14.139] [Lua:exec.lua]   functions ~= 21, tables ~= 10, userdata ~= 76, scalars ~= 1
+[19:07:14.140] [Lua:exec.lua]   value types: function=21, string=1, table=10, userdata=76
+[19:07:14.140] [Lua:exec.lua]   metatable: none
+[19:07:14.141] [Lua:exec.lua]   enum-like/constant-like: no
+[19:07:14.141] [Lua:exec.lua]   key sample: _G:table, _MOONSHARP:table, _VERSION:string, AllowedModifiers:userdata, assert:function, AtLeastOneBoolVariableTrueRequirement:userdata, CheckType:userdata, collectgarbage:function, ColorPalette:userdata, ColorPaletteEntry:userdata, ColorPaletteManager:userdata, ColorSlot:userdata, CommonAllowedModifiersEnum:userdata, ControllerEnum:userdata, CookingSong:userdata, CookingSongRuntimeData:userdata, coroutine:table, debug:table, EdibleItemNutritionProfile:userdata, EdibleItemPrefabData:userdata, EdibleTypeEnum:userdata, error:function, FinishedType:userdata, FishingBaitItemPrefabData:userdata, FishingBaitType:userdata, FishingCatchBehaviourType:userdata, FishingRodItemPrefabData:userdata, FishItemPrefabData:userdata, FishPreferences:userdata, flowchart:userdata, GameId:userdata, GameUtilities:userdata, getmetatable:function, GlobalFlag:userdata, Guid:userdata, gv:userdata, ipa
+[19:07:14.142] [Lua:exec.lua] irs:function, Item:userdata, ItemCategory:userdata, ItemEnum:userdata, ItemModifiableVariableFactory:userdata, Ite...<truncated>
+[19:07:14.142] [Lua:exec.lua] - _MOONSHARP
+[19:07:14.143] [Lua:exec.lua]   accessible keys sampled: 9
+[19:07:14.143] [Lua:exec.lua]   functions ~= 0, tables ~= 0, userdata ~= 0, scalars ~= 9
+[19:07:14.143] [Lua:exec.lua]   value types: boolean=5, string=4
+[19:07:14.144] [Lua:exec.lua]   metatable: none
+[19:07:14.144] [Lua:exec.lua]   enum-like/constant-like: constant-like
+[19:07:14.145] [Lua:exec.lua]   key sample: banner:string, is_aot:boolean, is_clr4:boolean, is_mono:boolean, is_pcl:boolean, is_unity:boolean, luacompat:string, platform:string, version:string
+[19:07:14.145] [Lua:exec.lua] - coroutine
+[19:07:14.145] [Lua:exec.lua]   accessible keys sampled: 6
+[19:07:14.146] [Lua:exec.lua]   functions ~= 6, tables ~= 0, userdata ~= 0, scalars ~= 0
+[19:07:14.147] [Lua:exec.lua]   value types: function=6
+[19:07:14.147] [Lua:exec.lua]   metatable: none
+[19:07:14.148] [Lua:exec.lua]   enum-like/constant-like: no
+[19:07:14.149] [Lua:exec.lua]   key sample: create:function, resume:function, running:function, status:function, wrap:function, yield:function
+[19:07:14.151] [Lua:exec.lua] - debug
+[19:07:14.152] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 7
+[19:07:14.152] [Lua:exec.lua]   accessible keys sampled: 11
+[19:07:14.153] [Lua:exec.lua]   functions ~= 11, tables ~= 0, userdata ~= 0, scalars ~= 0
+[19:07:14.153] [Lua:exec.lua]   value types: function=11
+[19:07:14.154] [Lua:exec.lua]   metatable: none
+[19:07:14.154] [Lua:exec.lua]   enum-like/constant-like: no
+[19:07:14.155] [Lua:exec.lua]   key sample: debug:function, getmetatable:function, getregistry:function, getupvalue:function, getuservalue:function, setmetatable:function, setupvalue:function, setuservalue:function, traceback:function, upvalueid:function, upvaluejoin:function
+[19:07:14.155] [Lua:exec.lua] - json
+[19:07:14.156] [Lua:exec.lua]   accessible keys sampled: 4
+[19:07:14.156] [Lua:exec.lua]   functions ~= 4, tables ~= 0, userdata ~= 0, scalars ~= 0
+[19:07:14.156] [Lua:exec.lua]   value types: function=4
+[19:07:14.157] [Lua:exec.lua]   metatable: none
+[19:07:14.157] [Lua:exec.lua]   enum-like/constant-like: no
+[19:07:14.157] [Lua:exec.lua]   key sample: isnull:function, null:function, parse:function, serialize:function
+[19:07:14.158] [Lua:exec.lua] - math
+[19:07:14.158] [Lua:exec.lua]   accessible keys sampled: 29
+[19:07:14.159] [Lua:exec.lua]   functions ~= 27, tables ~= 0, userdata ~= 0, scalars ~= 2
+[19:07:14.159] [Lua:exec.lua]   value types: function=27, number=2
+[19:07:14.160] [Lua:exec.lua]   metatable: none
+[19:07:14.160] [Lua:exec.lua]   enum-like/constant-like: no
+[19:07:14.160] [Lua:exec.lua]   key sample: abs:function, acos:function, asin:function, atan:function, atan2:function, ceil:function, cos:function, cosh:function, deg:function, exp:function, floor:function, fmod:function, frexp:function, huge:number, ldexp:function, log:function, max:function, min:function, modf:function, pi:number, pow:function, rad:function, random:function, randomseed:function, sin:function, sinh:function, sqrt:function, tan:function, tanh:function
+[19:07:14.161] [Lua:exec.lua] - os
+[19:07:14.161] [Lua:exec.lua]   accessible keys sampled: 4
+[19:07:14.162] [Lua:exec.lua]   functions ~= 4, tables ~= 0, userdata ~= 0, scalars ~= 0
+[19:07:14.162] [Lua:exec.lua]   value types: function=4
+[19:07:14.163] [Lua:exec.lua]   metatable: none
+[19:07:14.163] [Lua:exec.lua]   enum-like/constant-like: no
+[19:07:14.163] [Lua:exec.lua]   key sample: clock:function, date:function, difftime:function, time:function
+[19:07:14.164] [Lua:exec.lua] - package
+[19:07:14.164] [Lua:exec.lua]   accessible keys sampled: 1
+[19:07:14.168] [Lua:exec.lua]   functions ~= 0, tables ~= 1, userdata ~= 0, scalars ~= 0
+[19:07:14.169] [Lua:exec.lua]   value types: table=1
+[19:07:14.169] [Lua:exec.lua]   metatable: none
+[19:07:14.170] [Lua:exec.lua]   enum-like/constant-like: no
+[19:07:14.170] [Lua:exec.lua]   key sample: loaded:table
+[19:07:14.170] [Lua:exec.lua] - string
+[19:07:14.171] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 8
+[19:07:14.171] [Lua:exec.lua]   accessible keys sampled: 18
+[19:07:14.172] [Lua:exec.lua]   functions ~= 18, tables ~= 0, userdata ~= 0, scalars ~= 0
+[19:07:14.172] [Lua:exec.lua]   value types: function=18
+[19:07:14.172] [Lua:exec.lua]   metatable: none
+[19:07:14.173] [Lua:exec.lua]   enum-like/constant-like: no
+[19:07:14.173] [Lua:exec.lua]   key sample: byte:function, char:function, contains:function, dump:function, endsWith:function, find:function, format:function, gmatch:function, gsub:function, len:function, lower:function, match:function, rep:function, reverse:function, startsWith:function, sub:function, unicode:function, upper:function
+[19:07:14.174] [Lua:exec.lua] - table
+[19:07:14.174] [Lua:exec.lua]   accessible keys sampled: 6
+[19:07:14.174] [Lua:exec.lua]   functions ~= 6, tables ~= 0, userdata ~= 0, scalars ~= 0
+[19:07:14.175] [Lua:exec.lua]   value types: function=6
+[19:07:14.175] [Lua:exec.lua]   metatable: none
+[19:07:14.176] [Lua:exec.lua]   enum-like/constant-like: no
+[19:07:14.176] [Lua:exec.lua]   key sample: concat:function, insert:function, pack:function, remove:function, sort:function, unpack:function
+[19:07:14.177] [Lua:exec.lua] 
+[19:07:14.177] [Lua:exec.lua] ## Callable Inventory
+[19:07:14.177] [Lua:exec.lua] ---------------------
+[19:07:14.178] [Lua:exec.lua] - assert : function [origin=global, safety=Read-only]
+[19:07:14.178] [Lua:exec.lua] - collectgarbage : function [origin=global, safety=Unknown]
+[19:07:14.182] [Lua:exec.lua] - coroutine.create : function [origin=known-stub-symbol, safety=Context-dependent] [dangerous-name]
+[19:07:14.193] [Lua:exec.lua] - coroutine.resume : function [origin=known-stub-symbol, safety=Context-dependent]
+[19:07:14.196] [Lua:exec.lua] - coroutine.running : function [origin=known-stub-symbol, safety=Context-dependent]
+[19:07:14.197] [Lua:exec.lua] - coroutine.status : function [origin=known-stub-symbol, safety=Context-dependent]
+[19:07:14.198] [Lua:exec.lua] - coroutine.wrap : function [origin=known-stub-symbol, safety=Context-dependent]
+[19:07:14.238] [Lua:exec.lua] - coroutine.yield : function [origin=known-stub-symbol, safety=Context-dependent]
+[19:07:14.238] [Lua:exec.lua] - debug.debug : function [origin=known-stub-symbol, safety=Unknown]
+[19:07:14.239] [Lua:exec.lua] - debug.getmetatable : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.240] [Lua:exec.lua] - debug.getregistry : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.240] [Lua:exec.lua] - debug.getupvalue : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.240] [Lua:exec.lua] - debug.getuservalue : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.241] [Lua:exec.lua] - debug.setmetatable : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+[19:07:14.241] [Lua:exec.lua] - debug.setupvalue : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+[19:07:14.242] [Lua:exec.lua] - debug.setuservalue : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+[19:07:14.242] [Lua:exec.lua] - debug.traceback : function [origin=known-stub-symbol, safety=Unknown]
+[19:07:14.243] [Lua:exec.lua] - debug.upvalueid : function [origin=known-stub-symbol, safety=Unknown]
+[19:07:14.243] [Lua:exec.lua] - debug.upvaluejoin : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+[19:07:14.244] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 9
+[19:07:14.244] [Lua:exec.lua] - error : function [origin=global, safety=Unknown]
+[19:07:14.245] [Lua:exec.lua] - getmetatable : function [origin=global, safety=Read-only]
+[19:07:14.245] [Lua:exec.lua] - ipairs : function [origin=global, safety=Read-only]
+[19:07:14.245] [Lua:exec.lua] - json.isnull : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.246] [Lua:exec.lua] - json.null : function [origin=known-stub-symbol, safety=Unknown]
+[19:07:14.246] [Lua:exec.lua] - json.parse : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.247] [Lua:exec.lua] - json.serialize : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.247] [Lua:exec.lua] - math.abs : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.247] [Lua:exec.lua] - math.acos : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.248] [Lua:exec.lua] - math.asin : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.248] [Lua:exec.lua] - math.atan : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.249] [Lua:exec.lua] - math.atan2 : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.249] [Lua:exec.lua] - math.ceil : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.249] [Lua:exec.lua] - math.cos : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.250] [Lua:exec.lua] - math.cosh : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.251] [Lua:exec.lua] - math.deg : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.252] [Lua:exec.lua] - math.exp : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.255] [Lua:exec.lua] - math.floor : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.262] [Lua:exec.lua] - math.fmod : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.263] [Lua:exec.lua] - math.frexp : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.264] [Lua:exec.lua] - math.ldexp : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.266] [Lua:exec.lua] - math.log : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.266] [Lua:exec.lua] - math.max : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.267] [Lua:exec.lua] - math.min : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.267] [Lua:exec.lua] - math.modf : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.267] [Lua:exec.lua] - math.pow : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.268] [Lua:exec.lua] - math.rad : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.268] [Lua:exec.lua] - math.random : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.275] [Lua:exec.lua] - math.randomseed : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+[19:07:14.284] [Lua:exec.lua] - math.sin : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.287] [Lua:exec.lua] - math.sinh : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.288] [Lua:exec.lua] - math.sqrt : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.290] [Lua:exec.lua] - math.tan : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.293] [Lua:exec.lua] - math.tanh : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.294] [Lua:exec.lua] - next : function [origin=global, safety=Read-only]
+[19:07:14.294] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 10
+[19:07:14.295] [Lua:exec.lua] - os.clock : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.295] [Lua:exec.lua] - os.date : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.295] [Lua:exec.lua] - os.difftime : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.296] [Lua:exec.lua] - os.time : function [origin=known-stub-symbol, safety=Read-only]
+[19:07:14.296] [Lua:exec.lua] - pack : function [origin=global, safety=Unknown]
+[19:07:14.297] [Lua:exec.lua] - pairs : function [origin=global, safety=Read-only]
+[19:07:14.297] [Lua:exec.lua] - pcall : function [origin=global, safety=Read-only]
+[19:07:14.297] [Lua:exec.lua] - print : function [origin=global, safety=Unknown]
+[19:07:14.298] [Lua:exec.lua] - rawequal : function [origin=global, safety=Read-only]
+[19:07:14.298] [Lua:exec.lua] - rawget : function [origin=global, safety=Read-only]
+[19:07:14.299] [Lua:exec.lua] - rawlen : function [origin=global, safety=Read-only]
+[19:07:14.299] [Lua:exec.lua] - rawset : function [origin=global, safety=State-changing] [dangerous-name]
+[19:07:14.299] [Lua:exec.lua] - select : function [origin=global, safety=Read-only]
+[19:07:14.300] [Lua:exec.lua] - setmetatable : function [origin=global, safety=State-changing] [dangerous-name]
+[19:07:14.300] [Lua:exec.lua] - string.byte : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.301] [Lua:exec.lua] - string.char : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.301] [Lua:exec.lua] - string.contains : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.301] [Lua:exec.lua] - string.dump : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.302] [Lua:exec.lua] - string.endsWith : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.302] [Lua:exec.lua] - string.find : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.303] [Lua:exec.lua] - string.format : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.303] [Lua:exec.lua] - string.gmatch : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.303] [Lua:exec.lua] - string.gsub : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.304] [Lua:exec.lua] - string.len : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.305] [Lua:exec.lua] - string.lower : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.308] [Lua:exec.lua] - string.match : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.309] [Lua:exec.lua] - string.rep : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.309] [Lua:exec.lua] - string.reverse : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.310] [Lua:exec.lua] - string.startsWith : function [origin=table-field, canonical, safety=Read-only] [dangerous-name]
+[19:07:14.310] [Lua:exec.lua] - string.sub : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.310] [Lua:exec.lua] - string.unicode : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.311] [Lua:exec.lua] - string.upper : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.311] [Lua:exec.lua] - table.concat : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.312] [Lua:exec.lua] - table.insert : function [origin=table-field, canonical, safety=State-changing] [dangerous-name]
+[19:07:14.312] [Lua:exec.lua] - table.pack : function [origin=table-field, canonical, safety=Unknown]
+[19:07:14.313] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 11
+[19:07:14.313] [Lua:exec.lua] - table.remove : function [origin=table-field, canonical, safety=Dangerous/Destructive] [dangerous-name]
+[19:07:14.314] [Lua:exec.lua] - table.sort : function [origin=table-field, canonical, safety=State-changing] [dangerous-name]
+[19:07:14.314] [Lua:exec.lua] - table.unpack : function [origin=table-field, canonical, safety=Read-only]
+[19:07:14.314] [Lua:exec.lua] - tonumber : function [origin=global, safety=Read-only]
+[19:07:14.315] [Lua:exec.lua] - tostring : function [origin=global, safety=Read-only]
+[19:07:14.315] [Lua:exec.lua] - type : function [origin=global, safety=Read-only]
+[19:07:14.316] [Lua:exec.lua] - unpack : function [origin=global, safety=Unknown]
+[19:07:14.316] [Lua:exec.lua] - xpcall : function [origin=global, safety=Read-only]
+[19:07:14.316] [Lua:exec.lua] 
+[19:07:14.317] [Lua:exec.lua] ## API Safety Map
+[19:07:14.317] [Lua:exec.lua] -----------------
+[19:07:14.318] [Lua:exec.lua] Read-only:
+[19:07:14.318] [Lua:exec.lua] - assert [origin=global]
+[19:07:14.318] [Lua:exec.lua] - debug.getmetatable [origin=known-stub-symbol]
+[19:07:14.319] [Lua:exec.lua] - debug.getregistry [origin=known-stub-symbol]
+[19:07:14.319] [Lua:exec.lua] - debug.getupvalue [origin=known-stub-symbol]
+[19:07:14.320] [Lua:exec.lua] - debug.getuservalue [origin=known-stub-symbol]
+[19:07:14.320] [Lua:exec.lua] - getmetatable [origin=global]
+[19:07:14.323] [Lua:exec.lua] - ipairs [origin=global]
+[19:07:14.324] [Lua:exec.lua] - json.isnull [origin=known-stub-symbol]
+[19:07:14.324] [Lua:exec.lua] - json.parse [origin=known-stub-symbol]
+[19:07:14.325] [Lua:exec.lua] - json.serialize [origin=known-stub-symbol]
+[19:07:14.325] [Lua:exec.lua] - math.abs [origin=known-stub-symbol]
+[19:07:14.326] [Lua:exec.lua] - math.acos [origin=known-stub-symbol]
+[19:07:14.326] [Lua:exec.lua] - math.asin [origin=known-stub-symbol]
+[19:07:14.326] [Lua:exec.lua] - math.atan [origin=known-stub-symbol]
+[19:07:14.327] [Lua:exec.lua] - math.atan2 [origin=known-stub-symbol]
+[19:07:14.327] [Lua:exec.lua] - math.ceil [origin=known-stub-symbol]
+[19:07:14.328] [Lua:exec.lua] - math.cos [origin=known-stub-symbol]
+[19:07:14.328] [Lua:exec.lua] - math.cosh [origin=known-stub-symbol]
+[19:07:14.329] [Lua:exec.lua] - math.deg [origin=known-stub-symbol]
+[19:07:14.329] [Lua:exec.lua] - math.exp [origin=known-stub-symbol]
+[19:07:14.330] [Lua:exec.lua] - math.floor [origin=known-stub-symbol]
+[19:07:14.330] [Lua:exec.lua] - math.fmod [origin=known-stub-symbol]
+[19:07:14.330] [Lua:exec.lua] - math.frexp [origin=known-stub-symbol]
+[19:07:14.331] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 12
+[19:07:14.331] [Lua:exec.lua] - math.ldexp [origin=known-stub-symbol]
+[19:07:14.331] [Lua:exec.lua] - math.log [origin=known-stub-symbol]
+[19:07:14.332] [Lua:exec.lua] - math.max [origin=known-stub-symbol]
+[19:07:14.332] [Lua:exec.lua] - math.min [origin=known-stub-symbol]
+[19:07:14.333] [Lua:exec.lua] - math.modf [origin=known-stub-symbol]
+[19:07:14.333] [Lua:exec.lua] - math.pow [origin=known-stub-symbol]
+[19:07:14.334] [Lua:exec.lua] - math.rad [origin=known-stub-symbol]
+[19:07:14.334] [Lua:exec.lua] - math.random [origin=known-stub-symbol]
+[19:07:14.335] [Lua:exec.lua] - math.sin [origin=known-stub-symbol]
+[19:07:14.335] [Lua:exec.lua] - math.sinh [origin=known-stub-symbol]
+[19:07:14.338] [Lua:exec.lua] - math.sqrt [origin=known-stub-symbol]
+[19:07:14.339] [Lua:exec.lua] - math.tan [origin=known-stub-symbol]
+[19:07:14.339] [Lua:exec.lua] - math.tanh [origin=known-stub-symbol]
+[19:07:14.339] [Lua:exec.lua] - next [origin=global]
+[19:07:14.340] [Lua:exec.lua] - os.clock [origin=known-stub-symbol]
+[19:07:14.340] [Lua:exec.lua] - os.date [origin=known-stub-symbol]
+[19:07:14.341] [Lua:exec.lua] - os.difftime [origin=known-stub-symbol]
+[19:07:14.341] [Lua:exec.lua] - os.time [origin=known-stub-symbol]
+[19:07:14.342] [Lua:exec.lua] - pairs [origin=global]
+[19:07:14.342] [Lua:exec.lua] - pcall [origin=global]
+[19:07:14.342] [Lua:exec.lua] - rawequal [origin=global]
+[19:07:14.343] [Lua:exec.lua] - rawget [origin=global]
+[19:07:14.343] [Lua:exec.lua] - rawlen [origin=global]
+[19:07:14.343] [Lua:exec.lua] - select [origin=global]
+[19:07:14.344] [Lua:exec.lua] - string.byte [origin=table-field, canonical]
+[19:07:14.344] [Lua:exec.lua] - string.char [origin=table-field, canonical]
+[19:07:14.345] [Lua:exec.lua] - string.contains [origin=table-field, canonical]
+[19:07:14.345] [Lua:exec.lua] - string.dump [origin=table-field, canonical]
+[19:07:14.346] [Lua:exec.lua] - string.endsWith [origin=table-field, canonical]
+[19:07:14.346] [Lua:exec.lua] - string.find [origin=table-field, canonical]
+[19:07:14.346] [Lua:exec.lua] - string.format [origin=table-field, canonical]
+[19:07:14.347] [Lua:exec.lua] - string.gmatch [origin=table-field, canonical]
+[19:07:14.348] [Lua:exec.lua] - string.gsub [origin=table-field, canonical]
+[19:07:14.348] [Lua:exec.lua] - string.len [origin=table-field, canonical]
+[19:07:14.349] [Lua:exec.lua] - string.lower [origin=table-field, canonical]
+[19:07:14.349] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 13
+[19:07:14.349] [Lua:exec.lua] - string.match [origin=table-field, canonical]
+[19:07:14.350] [Lua:exec.lua] - string.rep [origin=table-field, canonical]
+[19:07:14.350] [Lua:exec.lua] - string.reverse [origin=table-field, canonical]
+[19:07:14.351] [Lua:exec.lua] - string.startsWith [origin=table-field, canonical]
+[19:07:14.351] [Lua:exec.lua] - string.sub [origin=table-field, canonical]
+[19:07:14.355] [Lua:exec.lua] - string.unicode [origin=table-field, canonical]
+[19:07:14.356] [Lua:exec.lua] - string.upper [origin=table-field, canonical]
+[19:07:14.356] [Lua:exec.lua] - table.concat [origin=table-field, canonical]
+[19:07:14.356] [Lua:exec.lua] - table.unpack [origin=table-field, canonical]
+[19:07:14.357] [Lua:exec.lua] - tonumber [origin=global]
+[19:07:14.357] [Lua:exec.lua] - tostring [origin=global]
+[19:07:14.358] [Lua:exec.lua] - type [origin=global]
+[19:07:14.358] [Lua:exec.lua] - xpcall [origin=global]
+[19:07:14.358] [Lua:exec.lua] 
+[19:07:14.359] [Lua:exec.lua] Context-dependent:
+[19:07:14.359] [Lua:exec.lua] - coroutine.create [origin=known-stub-symbol]
+[19:07:14.360] [Lua:exec.lua] - coroutine.resume [origin=known-stub-symbol]
+[19:07:14.360] [Lua:exec.lua] - coroutine.running [origin=known-stub-symbol]
+[19:07:14.360] [Lua:exec.lua] - coroutine.status [origin=known-stub-symbol]
+[19:07:14.361] [Lua:exec.lua] - coroutine.wrap [origin=known-stub-symbol]
+[19:07:14.361] [Lua:exec.lua] - coroutine.yield [origin=known-stub-symbol]
+[19:07:14.362] [Lua:exec.lua] 
+[19:07:14.362] [Lua:exec.lua] State-changing:
+[19:07:14.362] [Lua:exec.lua] - debug.setmetatable [origin=known-stub-symbol]
+[19:07:14.363] [Lua:exec.lua] - debug.setupvalue [origin=known-stub-symbol]
+[19:07:14.363] [Lua:exec.lua] - debug.setuservalue [origin=known-stub-symbol]
+[19:07:14.364] [Lua:exec.lua] - debug.upvaluejoin [origin=known-stub-symbol]
+[19:07:14.364] [Lua:exec.lua] - math.randomseed [origin=known-stub-symbol]
+[19:07:14.364] [Lua:exec.lua] - rawset [origin=global]
+[19:07:14.365] [Lua:exec.lua] - setmetatable [origin=global]
+[19:07:14.365] [Lua:exec.lua] - table.insert [origin=table-field, canonical]
+[19:07:14.365] [Lua:exec.lua] - table.sort [origin=table-field, canonical]
+[19:07:14.366] [Lua:exec.lua] 
+[19:07:14.366] [Lua:exec.lua] UI-changing:
+[19:07:14.367] [Lua:exec.lua] - none
+[19:07:14.371] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 14
+[19:07:14.371] [Lua:exec.lua] 
+[19:07:14.372] [Lua:exec.lua] Save-changing:
+[19:07:14.372] [Lua:exec.lua] - none
+[19:07:14.373] [Lua:exec.lua] 
+[19:07:14.373] [Lua:exec.lua] Dangerous/Destructive:
+[19:07:14.373] [Lua:exec.lua] - table.remove [origin=table-field, canonical]
+[19:07:14.374] [Lua:exec.lua] 
+[19:07:14.374] [Lua:exec.lua] Unknown:
+[19:07:14.374] [Lua:exec.lua] - collectgarbage [origin=global]
+[19:07:14.375] [Lua:exec.lua] - debug.debug [origin=known-stub-symbol]
+[19:07:14.375] [Lua:exec.lua] - debug.traceback [origin=known-stub-symbol]
+[19:07:14.376] [Lua:exec.lua] - debug.upvalueid [origin=known-stub-symbol]
+[19:07:14.376] [Lua:exec.lua] - error [origin=global]
+[19:07:14.377] [Lua:exec.lua] - json.null [origin=known-stub-symbol]
+[19:07:14.377] [Lua:exec.lua] - pack [origin=global]
+[19:07:14.377] [Lua:exec.lua] - print [origin=global]
+[19:07:14.378] [Lua:exec.lua] - table.pack [origin=table-field, canonical]
+[19:07:14.378] [Lua:exec.lua] - unpack [origin=global]
+[19:07:14.378] [Lua:exec.lua] 
+[19:07:14.379] [Lua:exec.lua] Classification is name/path based only. No callable listed here was executed.
+[19:07:14.379] [Lua:exec.lua] 
+[19:07:14.380] [Lua:exec.lua] ## Enum-like Tables / Constants
+[19:07:14.380] [Lua:exec.lua] -------------------------------
+[19:07:14.380] [Lua:exec.lua] - ItemEnum (Enum-like Userdata: known enum from stubs)
+[19:07:14.381] [Lua:exec.lua]   type: userdata
+[19:07:14.381] [Lua:exec.lua]   value: <userdata: userdata: 00000219>
+[19:07:14.382] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.382] [Lua:exec.lua]   metatable: none
+[19:07:14.383] [Lua:exec.lua] - ControllerEnum (Enum-like Userdata: known enum from stubs)
+[19:07:14.386] [Lua:exec.lua]   type: userdata
+[19:07:14.386] [Lua:exec.lua]   value: <userdata: userdata: 00000079>
+[19:07:14.386] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.387] [Lua:exec.lua]   metatable: none
+[19:07:14.387] [Lua:exec.lua] - FishingBaitType (Enum-like Userdata: known enum from stubs)
+[19:07:14.388] [Lua:exec.lua]   type: userdata
+[19:07:14.421] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 15
+[19:07:14.422] [Lua:exec.lua]   value: <userdata: userdata: 00000269>
+[19:07:14.423] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.423] [Lua:exec.lua]   metatable: none
+[19:07:14.424] [Lua:exec.lua] - ItemCategory (Enum-like Userdata: known enum from stubs)
+[19:07:14.424] [Lua:exec.lua]   type: userdata
+[19:07:14.424] [Lua:exec.lua]   value: <userdata: userdata: 00000228>
+[19:07:14.425] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.426] [Lua:exec.lua]   metatable: none
+[19:07:14.426] [Lua:exec.lua] - ScratchTextureType (Enum-like Userdata: known enum from stubs)
+[19:07:14.426] [Lua:exec.lua]   type: userdata
+[19:07:14.427] [Lua:exec.lua]   value: <userdata: userdata: 00000230>
+[19:07:14.427] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.428] [Lua:exec.lua]   metatable: none
+[19:07:14.428] [Lua:exec.lua] - SlotType (Enum-like Userdata: known enum from stubs)
+[19:07:14.428] [Lua:exec.lua]   type: userdata
+[19:07:14.429] [Lua:exec.lua]   value: <userdata: userdata: 0000028C>
+[19:07:14.429] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.430] [Lua:exec.lua]   metatable: none
+[19:07:14.430] [Lua:exec.lua] - CheckType (Enum-like Userdata: known enum from stubs)
+[19:07:14.431] [Lua:exec.lua]   type: userdata
+[19:07:14.431] [Lua:exec.lua]   value: <userdata: userdata: 000002DD>
+[19:07:14.432] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.432] [Lua:exec.lua]   metatable: none
+[19:07:14.433] [Lua:exec.lua] - _MOONSHARP (constant-like)
+[19:07:14.433] [Lua:exec.lua]   keys sampled: 9
+[19:07:14.434] [Lua:exec.lua]   composition: scalar=9, function=0, table=0, userdata=0
+[19:07:14.434] [Lua:exec.lua]   banner = "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+[19:07:14.434] [Lua:exec.lua]   is_aot = true
+[19:07:14.435] [Lua:exec.lua]   is_clr4 = true
+[19:07:14.435] [Lua:exec.lua]   is_mono = true
+[19:07:14.436] [Lua:exec.lua]   is_pcl = false
+[19:07:14.436] [Lua:exec.lua]   is_unity = true
+[19:07:14.436] [Lua:exec.lua]   luacompat = "5.2"
+[19:07:14.437] [Lua:exec.lua]   platform = "limited.unity.dll.mono.clr4.aot"
+[19:07:14.437] [Lua:exec.lua]   version = "2.0.0.0"
+[19:07:14.438] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 16
+[19:07:14.438] [Lua:exec.lua] - ColorSlot (Enum-like Userdata: enum-like userdata)
+[19:07:14.439] [Lua:exec.lua]   type: userdata
+[19:07:14.439] [Lua:exec.lua]   value: <userdata: userdata: 0000023B>
+[19:07:14.440] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.440] [Lua:exec.lua]   metatable: none
+[19:07:14.441] [Lua:exec.lua] - CommonAllowedModifiersEnum (Enum-like Userdata: enum-like userdata)
+[19:07:14.441] [Lua:exec.lua]   type: userdata
+[19:07:14.441] [Lua:exec.lua]   value: <userdata: userdata: 00000241>
+[19:07:14.442] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.442] [Lua:exec.lua]   metatable: none
+[19:07:14.442] [Lua:exec.lua] - EdibleTypeEnum (Enum-like Userdata: enum-like userdata)
+[19:07:14.443] [Lua:exec.lua]   type: userdata
+[19:07:14.443] [Lua:exec.lua]   value: <userdata: userdata: 0000025A>
+[19:07:14.444] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.444] [Lua:exec.lua]   metatable: none
+[19:07:14.444] [Lua:exec.lua] - FinishedType (Enum-like Userdata: enum-like userdata)
+[19:07:14.445] [Lua:exec.lua]   type: userdata
+[19:07:14.448] [Lua:exec.lua]   value: <userdata: userdata: 000003DE>
+[19:07:14.448] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.449] [Lua:exec.lua]   metatable: none
+[19:07:14.449] [Lua:exec.lua] - FishingCatchBehaviourType (Enum-like Userdata: enum-like userdata)
+[19:07:14.450] [Lua:exec.lua]   type: userdata
+[19:07:14.450] [Lua:exec.lua]   value: <userdata: userdata: 0000026F>
+[19:07:14.450] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.451] [Lua:exec.lua]   metatable: none
+[19:07:14.451] [Lua:exec.lua] - GlobalFlag (Enum-like Userdata: enum-like userdata)
+[19:07:14.452] [Lua:exec.lua]   type: userdata
+[19:07:14.452] [Lua:exec.lua]   value: <userdata: userdata: 000003EA>
+[19:07:14.453] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.453] [Lua:exec.lua]   metatable: none
+[19:07:14.454] [Lua:exec.lua] - ItemSlot (Enum-like Userdata: enum-like userdata)
+[19:07:14.454] [Lua:exec.lua]   type: userdata
+[19:07:14.455] [Lua:exec.lua]   value: <userdata: userdata: 00000285>
+[19:07:14.455] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.456] [Lua:exec.lua]   metatable: none
+[19:07:14.456] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 17
+[19:07:14.456] [Lua:exec.lua] - ItemSubCategory (Enum-like Userdata: enum-like userdata)
+[19:07:14.457] [Lua:exec.lua]   type: userdata
+[19:07:14.457] [Lua:exec.lua]   value: <userdata: userdata: 0000022D>
+[19:07:14.458] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.458] [Lua:exec.lua]   metatable: none
+[19:07:14.459] [Lua:exec.lua] - NoteButtonTypeEnum (Enum-like Userdata: enum-like userdata)
+[19:07:14.459] [Lua:exec.lua]   type: userdata
+[19:07:14.460] [Lua:exec.lua]   value: <userdata: userdata: 00000370>
+[19:07:14.460] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.460] [Lua:exec.lua]   metatable: none
+[19:07:14.463] [Lua:exec.lua] - StoryBotContainerTypeEnum (Enum-like Userdata: enum-like userdata)
+[19:07:14.463] [Lua:exec.lua]   type: userdata
+[19:07:14.464] [Lua:exec.lua]   value: <userdata: userdata: 000003C6>
+[19:07:14.464] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.465] [Lua:exec.lua]   metatable: none
+[19:07:14.465] [Lua:exec.lua] - TimeCheckType (Enum-like Userdata: enum-like userdata)
+[19:07:14.466] [Lua:exec.lua]   type: userdata
+[19:07:14.466] [Lua:exec.lua]   value: <userdata: userdata: 000002D9>
+[19:07:14.467] [Lua:exec.lua]   field enumeration: not attempted for userdata; only safe metatable sampling is reported
+[19:07:14.467] [Lua:exec.lua]   metatable: none
+[19:07:14.467] [Lua:exec.lua] 
+[19:07:14.468] [Lua:exec.lua] ## Global Dump
+[19:07:14.468] [Lua:exec.lua] --------------
+[19:07:14.469] [Lua:exec.lua] _MOONSHARP = <table>
+[19:07:14.469] [Lua:exec.lua]   _MOONSHARP.banner = "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+[19:07:14.469] [Lua:exec.lua]   _MOONSHARP.is_aot = true
+[19:07:14.470] [Lua:exec.lua]   _MOONSHARP.is_clr4 = true
+[19:07:14.470] [Lua:exec.lua]   _MOONSHARP.is_mono = true
+[19:07:14.471] [Lua:exec.lua]   _MOONSHARP.is_pcl = false
+[19:07:14.471] [Lua:exec.lua]   _MOONSHARP.is_unity = true
+[19:07:14.472] [Lua:exec.lua]   _MOONSHARP.luacompat = "5.2"
+[19:07:14.472] [Lua:exec.lua]   _MOONSHARP.platform = "limited.unity.dll.mono.clr4.aot"
+[19:07:14.473] [Lua:exec.lua]   _MOONSHARP.version = "2.0.0.0"
+[19:07:14.473] [Lua:exec.lua] json = <table>
+[19:07:14.474] [Lua:exec.lua]   json.isnull = <function: function: 00000070>
+[19:07:14.474] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 18
+[19:07:14.474] [Lua:exec.lua]   json.null = <function: function: 00000071>
+[19:07:14.475] [Lua:exec.lua]   json.parse = <function: function: 0000006E>
+[19:07:14.475] [Lua:exec.lua]   json.serialize = <function: function: 0000006F>
+[19:07:14.476] [Lua:exec.lua] string = <table>
+[19:07:14.478] [Lua:exec.lua]   string.byte = <function: function: 0000001D>
+[19:07:14.479] [Lua:exec.lua]   string.char = <function: function: 0000001C>
+[19:07:14.480] [Lua:exec.lua]   string.contains = <function: function: 0000002C>
+[19:07:14.480] [Lua:exec.lua]   string.dump = <function: function: 0000001B>
+[19:07:14.481] [Lua:exec.lua]   string.endsWith = <function: function: 0000002B>
+[19:07:14.481] [Lua:exec.lua]   string.find = <function: function: 00000023>
+[19:07:14.482] [Lua:exec.lua]   string.format = <function: function: 00000027>
+[19:07:14.482] [Lua:exec.lua]   string.gmatch = <function: function: 00000021>
+[19:07:14.482] [Lua:exec.lua]   string.gsub = <function: function: 00000022>
+[19:07:14.483] [Lua:exec.lua]   string.len = <function: function: 0000001F>
+[19:07:14.483] [Lua:exec.lua]   string.lower = <function: function: 00000024>
+[19:07:14.484] [Lua:exec.lua]   string.match = <function: function: 00000020>
+[19:07:14.484] [Lua:exec.lua]   string.rep = <function: function: 00000026>
+[19:07:14.484] [Lua:exec.lua]   string.reverse = <function: function: 00000028>
+[19:07:14.485] [Lua:exec.lua]   string.startsWith = <function: function: 0000002A>
+[19:07:14.485] [Lua:exec.lua]   string.sub = <function: function: 00000029>
+[19:07:14.486] [Lua:exec.lua]   string.unicode = <function: function: 0000001E>
+[19:07:14.486] [Lua:exec.lua]   string.upper = <function: function: 00000025>
+[19:07:14.487] [Lua:exec.lua] table = <table>
+[19:07:14.487] [Lua:exec.lua]   table.concat = <function: function: 00000033>
+[19:07:14.487] [Lua:exec.lua]   table.insert = <function: function: 00000031>
+[19:07:14.488] [Lua:exec.lua]   table.pack = <function: function: 0000002F>
+[19:07:14.488] [Lua:exec.lua]   table.remove = <function: function: 00000032>
+[19:07:14.489] [Lua:exec.lua]   table.sort = <function: function: 00000030>
+[19:07:14.489] [Lua:exec.lua]   table.unpack = <function: function: 0000002E>
+[19:07:14.490] [Lua:exec.lua] math = <table>
+[19:07:14.490] [Lua:exec.lua]   math.abs = <function: function: 0000003A>
+[19:07:14.490] [Lua:exec.lua]   math.acos = <function: function: 0000003B>
+[19:07:14.491] [Lua:exec.lua]   math.asin = <function: function: 0000003C>
+[19:07:14.491] [Lua:exec.lua]   math.atan = <function: function: 0000003D>
+[19:07:14.492] [Lua:exec.lua]   math.atan2 = <function: function: 0000003E>
+[19:07:14.495] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 19
+[19:07:14.495] [Lua:exec.lua]   math.ceil = <function: function: 0000003F>
+[19:07:14.496] [Lua:exec.lua]   math.cos = <function: function: 00000040>
+[19:07:14.496] [Lua:exec.lua]   math.cosh = <function: function: 00000041>
+[19:07:14.497] [Lua:exec.lua]   math.deg = <function: function: 00000042>
+[19:07:14.497] [Lua:exec.lua]   math.exp = <function: function: 00000043>
+[19:07:14.497] [Lua:exec.lua]   math.floor = <function: function: 00000044>
+[19:07:14.498] [Lua:exec.lua]   math.fmod = <function: function: 00000045>
+[19:07:14.498] [Lua:exec.lua]   math.frexp = <function: function: 00000046>
+[19:07:14.498] [Lua:exec.lua]   math.huge = 1.79769313486232E+308
+[19:07:14.499] [Lua:exec.lua]   math.ldexp = <function: function: 00000047>
+[19:07:14.499] [Lua:exec.lua]   math.log = <function: function: 00000048>
+[19:07:14.500] [Lua:exec.lua]   math.max = <function: function: 00000049>
+[19:07:14.500] [Lua:exec.lua]   math.min = <function: function: 0000004A>
+[19:07:14.501] [Lua:exec.lua]   math.modf = <function: function: 0000004B>
+[19:07:14.501] [Lua:exec.lua]   math.pi = 3.14159265358979
+[19:07:14.502] [Lua:exec.lua]   math.pow = <function: function: 0000004C>
+[19:07:14.502] [Lua:exec.lua]   math.rad = <function: function: 0000004D>
+[19:07:14.503] [Lua:exec.lua]   math.random = <function: function: 0000004E>
+[19:07:14.503] [Lua:exec.lua]   math.randomseed = <function: function: 0000004F>
+[19:07:14.503] [Lua:exec.lua]   math.sin = <function: function: 00000050>
+[19:07:14.504] [Lua:exec.lua]   math.sinh = <function: function: 00000051>
+[19:07:14.504] [Lua:exec.lua]   math.sqrt = <function: function: 00000052>
+[19:07:14.505] [Lua:exec.lua]   math.tan = <function: function: 00000053>
+[19:07:14.505] [Lua:exec.lua]   math.tanh = <function: function: 00000054>
+[19:07:14.505] [Lua:exec.lua] coroutine = <table>
+[19:07:14.506] [Lua:exec.lua]   coroutine.create = <function: function: 00000056>
+[19:07:14.506] [Lua:exec.lua]   coroutine.resume = <function: function: 00000058>
+[19:07:14.507] [Lua:exec.lua]   coroutine.running = <function: function: 0000005A>
+[19:07:14.511] [Lua:exec.lua]   coroutine.status = <function: function: 0000005B>
+[19:07:14.511] [Lua:exec.lua]   coroutine.wrap = <function: function: 00000057>
+[19:07:14.512] [Lua:exec.lua]   coroutine.yield = <function: function: 00000059>
+[19:07:14.512] [Lua:exec.lua] os = <table>
+[19:07:14.513] [Lua:exec.lua]   os.clock = <function: function: 0000005D>
+[19:07:14.513] [Lua:exec.lua]   os.date = <function: function: 00000060>
+[19:07:14.513] [Lua:exec.lua]   os.difftime = <function: function: 0000005E>
+[19:07:14.514] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 20
+[19:07:14.515] [Lua:exec.lua]   os.time = <function: function: 0000005F>
+[19:07:14.515] [Lua:exec.lua] debug = <table>
+[19:07:14.515] [Lua:exec.lua]   debug.debug = <function: function: 00000062>
+[19:07:14.516] [Lua:exec.lua]   debug.getmetatable = <function: function: 00000066>
+[19:07:14.516] [Lua:exec.lua]   debug.getregistry = <function: function: 00000065>
+[19:07:14.517] [Lua:exec.lua]   debug.getupvalue = <function: function: 00000068>
+[19:07:14.517] [Lua:exec.lua]   debug.getuservalue = <function: function: 00000063>
+[19:07:14.518] [Lua:exec.lua]   debug.setmetatable = <function: function: 00000067>
+[19:07:14.518] [Lua:exec.lua]   debug.setupvalue = <function: function: 0000006A>
+[19:07:14.519] [Lua:exec.lua]   debug.setuservalue = <function: function: 00000064>
+[19:07:14.519] [Lua:exec.lua]   debug.traceback = <function: function: 0000006C>
+[19:07:14.519] [Lua:exec.lua]   debug.upvalueid = <function: function: 00000069>
+[19:07:14.520] [Lua:exec.lua]   debug.upvaluejoin = <function: function: 0000006B>
+[19:07:14.520] [Lua:exec.lua] package = <table>
+[19:07:14.521] [Lua:exec.lua]   package.loaded = <table>
+[19:07:14.521] [Lua:exec.lua]     package.loaded.coroutine = <table>
+[19:07:14.521] [Lua:exec.lua]       package.loaded.coroutine.create = <function: function: 00000056>
+[19:07:14.522] [Lua:exec.lua]       package.loaded.coroutine.resume = <function: function: 00000058>
+[19:07:14.525] [Lua:exec.lua]       package.loaded.coroutine.running = <function: function: 0000005A>
+[19:07:14.525] [Lua:exec.lua]       package.loaded.coroutine.status = <function: function: 0000005B>
+[19:07:14.526] [Lua:exec.lua]       package.loaded.coroutine.wrap = <function: function: 00000057>
+[19:07:14.526] [Lua:exec.lua]       package.loaded.coroutine.yield = <function: function: 00000059>
+[19:07:14.526] [Lua:exec.lua]     package.loaded.debug = <table>
+[19:07:14.527] [Lua:exec.lua]       package.loaded.debug.debug = <function: function: 00000062>
+[19:07:14.527] [Lua:exec.lua]       package.loaded.debug.getmetatable = <function: function: 00000066>
+[19:07:14.528] [Lua:exec.lua]       package.loaded.debug.getregistry = <function: function: 00000065>
+[19:07:14.528] [Lua:exec.lua]       package.loaded.debug.getupvalue = <function: function: 00000068>
+[19:07:14.528] [Lua:exec.lua]       package.loaded.debug.getuservalue = <function: function: 00000063>
+[19:07:14.529] [Lua:exec.lua]       package.loaded.debug.setmetatable = <function: function: 00000067>
+[19:07:14.529] [Lua:exec.lua]       package.loaded.debug.setupvalue = <function: function: 0000006A>
+[19:07:14.533] [Lua:exec.lua]       package.loaded.debug.setuservalue = <function: function: 00000064>
+[19:07:14.534] [Lua:exec.lua]       package.loaded.debug.traceback = <function: function: 0000006C>
+[19:07:14.534] [Lua:exec.lua]       package.loaded.debug.upvalueid = <function: function: 00000069>
+[19:07:14.534] [Lua:exec.lua]       package.loaded.debug.upvaluejoin = <function: function: 0000006B>
+[19:07:14.535] [Lua:exec.lua]     package.loaded.json = <table>
+[19:07:14.535] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 21
+[19:07:14.536] [Lua:exec.lua]       package.loaded.json.isnull = <function: function: 00000070>
+[19:07:14.536] [Lua:exec.lua]       package.loaded.json.null = <function: function: 00000071>
+[19:07:14.537] [Lua:exec.lua]       package.loaded.json.parse = <function: function: 0000006E>
+[19:07:14.537] [Lua:exec.lua]       package.loaded.json.serialize = <function: function: 0000006F>
+[19:07:14.539] [Lua:exec.lua]     package.loaded.math = <table>
+[19:07:14.540] [Lua:exec.lua]       package.loaded.math.abs = <function: function: 0000003A>
+[19:07:14.540] [Lua:exec.lua]       package.loaded.math.acos = <function: function: 0000003B>
+[19:07:14.540] [Lua:exec.lua]       package.loaded.math.asin = <function: function: 0000003C>
+[19:07:14.541] [Lua:exec.lua]       package.loaded.math.atan = <function: function: 0000003D>
+[19:07:14.541] [Lua:exec.lua]       package.loaded.math.atan2 = <function: function: 0000003E>
+[19:07:14.542] [Lua:exec.lua]       package.loaded.math.ceil = <function: function: 0000003F>
+[19:07:14.542] [Lua:exec.lua]       package.loaded.math.cos = <function: function: 00000040>
+[19:07:14.574] [Lua:exec.lua]       package.loaded.math.cosh = <function: function: 00000041>
+[19:07:14.574] [Lua:exec.lua]       package.loaded.math.deg = <function: function: 00000042>
+[19:07:14.575] [Lua:exec.lua]       package.loaded.math.exp = <function: function: 00000043>
+[19:07:14.576] [Lua:exec.lua]       package.loaded.math.floor = <function: function: 00000044>
+[19:07:14.576] [Lua:exec.lua]       package.loaded.math.fmod = <function: function: 00000045>
+[19:07:14.577] [Lua:exec.lua]       package.loaded.math.frexp = <function: function: 00000046>
+[19:07:14.577] [Lua:exec.lua]       package.loaded.math.huge = 1.79769313486232E+308
+[19:07:14.578] [Lua:exec.lua]       package.loaded.math.ldexp = <function: function: 00000047>
+[19:07:14.578] [Lua:exec.lua]       package.loaded.math.log = <function: function: 00000048>
+[19:07:14.579] [Lua:exec.lua]       package.loaded.math.max = <function: function: 00000049>
+[19:07:14.579] [Lua:exec.lua]       package.loaded.math.min = <function: function: 0000004A>
+[19:07:14.580] [Lua:exec.lua]       package.loaded.math.modf = <function: function: 0000004B>
+[19:07:14.580] [Lua:exec.lua]       package.loaded.math.pi = 3.14159265358979
+[19:07:14.581] [Lua:exec.lua]       package.loaded.math.pow = <function: function: 0000004C>
+[19:07:14.581] [Lua:exec.lua]       package.loaded.math.rad = <function: function: 0000004D>
+[19:07:14.581] [Lua:exec.lua]       package.loaded.math.random = <function: function: 0000004E>
+[19:07:14.582] [Lua:exec.lua]       package.loaded.math.randomseed = <function: function: 0000004F>
+[19:07:14.582] [Lua:exec.lua]       package.loaded.math.sin = <function: function: 00000050>
+[19:07:14.583] [Lua:exec.lua]       package.loaded.math.sinh = <function: function: 00000051>
+[19:07:14.583] [Lua:exec.lua]       package.loaded.math.sqrt = <function: function: 00000052>
+[19:07:14.584] [Lua:exec.lua]       package.loaded.math.tan = <function: function: 00000053>
+[19:07:14.584] [Lua:exec.lua]       package.loaded.math.tanh = <function: function: 00000054>
+[19:07:14.585] [Lua:exec.lua]     package.loaded.os = <table>
+[19:07:14.587] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 22
+[19:07:14.587] [Lua:exec.lua]       package.loaded.os.clock = <function: function: 0000005D>
+[19:07:14.588] [Lua:exec.lua]       package.loaded.os.date = <function: function: 00000060>
+[19:07:14.588] [Lua:exec.lua]       package.loaded.os.difftime = <function: function: 0000005E>
+[19:07:14.589] [Lua:exec.lua]       package.loaded.os.time = <function: function: 0000005F>
+[19:07:14.589] [Lua:exec.lua]     package.loaded.string = <table>
+[19:07:14.589] [Lua:exec.lua]       package.loaded.string.byte = <function: function: 0000001D>
+[19:07:14.590] [Lua:exec.lua]       package.loaded.string.char = <function: function: 0000001C>
+[19:07:14.590] [Lua:exec.lua]       package.loaded.string.contains = <function: function: 0000002C>
+[19:07:14.591] [Lua:exec.lua]       package.loaded.string.dump = <function: function: 0000001B>
+[19:07:14.591] [Lua:exec.lua]       package.loaded.string.endsWith = <function: function: 0000002B>
+[19:07:14.592] [Lua:exec.lua]       package.loaded.string.find = <function: function: 00000023>
+[19:07:14.593] [Lua:exec.lua]       package.loaded.string.format = <function: function: 00000027>
+[19:07:14.593] [Lua:exec.lua]       package.loaded.string.gmatch = <function: function: 00000021>
+[19:07:14.593] [Lua:exec.lua]       package.loaded.string.gsub = <function: function: 00000022>
+[19:07:14.594] [Lua:exec.lua]       package.loaded.string.len = <function: function: 0000001F>
+[19:07:14.594] [Lua:exec.lua]       package.loaded.string.lower = <function: function: 00000024>
+[19:07:14.595] [Lua:exec.lua]       package.loaded.string.match = <function: function: 00000020>
+[19:07:14.595] [Lua:exec.lua]       package.loaded.string.rep = <function: function: 00000026>
+[19:07:14.596] [Lua:exec.lua]       package.loaded.string.reverse = <function: function: 00000028>
+[19:07:14.596] [Lua:exec.lua]       package.loaded.string.startsWith = <function: function: 0000002A>
+[19:07:14.596] [Lua:exec.lua]       package.loaded.string.sub = <function: function: 00000029>
+[19:07:14.597] [Lua:exec.lua]       package.loaded.string.unicode = <function: function: 0000001E>
+[19:07:14.597] [Lua:exec.lua]       package.loaded.string.upper = <function: function: 00000025>
+[19:07:14.598] [Lua:exec.lua]     package.loaded.table = <table>
+[19:07:14.598] [Lua:exec.lua]       package.loaded.table.concat = <function: function: 00000033>
+[19:07:14.599] [Lua:exec.lua]       package.loaded.table.insert = <function: function: 00000031>
+[19:07:14.599] [Lua:exec.lua]       package.loaded.table.pack = <function: function: 0000002F>
+[19:07:14.599] [Lua:exec.lua]       package.loaded.table.remove = <function: function: 00000032>
+[19:07:14.600] [Lua:exec.lua]       package.loaded.table.sort = <function: function: 00000030>
+[19:07:14.600] [Lua:exec.lua]       package.loaded.table.unpack = <function: function: 0000002E>
+[19:07:14.601] [Lua:exec.lua] ModUtilities = <userdata: Everything (ModUtilities)>
+[19:07:14.603] [Lua:exec.lua] GameUtilities = <userdata: Everything (GameUtilities)>
+[19:07:14.604] [Lua:exec.lua] GameVariables = <missing>
+[19:07:14.604] [Lua:exec.lua] ItemPrefab = <userdata: userdata: 000000B5>
+[19:07:14.605] [Lua:exec.lua] ItemPrefabManager = <userdata: userdata: 000000B7>
+[19:07:14.606] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 23
+[19:07:14.606] [Lua:exec.lua] GameId = <userdata: userdata: 0000007B>
+[19:07:14.607] [Lua:exec.lua] UiOverlay = <userdata: Everything (UiOverlay)>
+[19:07:14.607] [Lua:exec.lua] 
+[19:07:14.607] [Lua:exec.lua] ## Metatables
+[19:07:14.608] [Lua:exec.lua] -------------
+[19:07:14.608] [Lua:exec.lua] - ModUtilities: none
+[19:07:14.609] [Lua:exec.lua] - GameUtilities: none
+[19:07:14.609] [Lua:exec.lua] - Item: none
+[19:07:14.609] [Lua:exec.lua] - ItemPrefab: none
+[19:07:14.610] [Lua:exec.lua] - ItemPrefabManager: none
+[19:07:14.610] [Lua:exec.lua] - GameId: none
+[19:07:14.610] [Lua:exec.lua] - Guid: none
+[19:07:14.611] [Lua:exec.lua] - ColorPalette: none
+[19:07:14.612] [Lua:exec.lua] - ColorPaletteEntry: none
+[19:07:14.612] [Lua:exec.lua] - ItemEnum: none
+[19:07:14.613] [Lua:exec.lua] - ControllerEnum: none
+[19:07:14.613] [Lua:exec.lua] - FishingBaitType: none
+[19:07:14.614] [Lua:exec.lua] - CheckType: none
+[19:07:14.614] [Lua:exec.lua] - UiOverlay: none
+[19:07:14.614] [Lua:exec.lua] - AllowedModifiers: none
+[19:07:14.615] [Lua:exec.lua] - AtLeastOneBoolVariableTrueRequirement: none
+[19:07:14.615] [Lua:exec.lua] - ColorPaletteManager: none
+[19:07:14.616] [Lua:exec.lua] - ColorSlot: none
+[19:07:14.619] [Lua:exec.lua] - CommonAllowedModifiersEnum: none
+[19:07:14.619] [Lua:exec.lua] - CookingSong: none
+[19:07:14.620] [Lua:exec.lua] - CookingSongRuntimeData: none
+[19:07:14.620] [Lua:exec.lua] - EdibleItemNutritionProfile: none
+[19:07:14.621] [Lua:exec.lua] - EdibleItemPrefabData: none
+[19:07:14.621] [Lua:exec.lua] - EdibleTypeEnum: none
+[19:07:14.621] [Lua:exec.lua] - FinishedType: none
+[19:07:14.622] [Lua:exec.lua] - FishingBaitItemPrefabData: none
+[19:07:14.622] [Lua:exec.lua] - FishingCatchBehaviourType: none
+[19:07:14.623] [Lua:exec.lua] - FishingRodItemPrefabData: none
+[19:07:14.623] [Lua:exec.lua] - FishItemPrefabData: none
+[19:07:14.623] [Lua:exec.lua] - FishPreferences: none
+[19:07:14.624] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 24
+[19:07:14.624] [Lua:exec.lua] - flowchart: none
+[19:07:14.625] [Lua:exec.lua] - GlobalFlag: none
+[19:07:14.625] [Lua:exec.lua] - gv: none
+[19:07:14.625] [Lua:exec.lua] - ItemCategory: none
+[19:07:14.626] [Lua:exec.lua] - ItemModifiableVariableFactory: none
+[19:07:14.627] [Lua:exec.lua] - ItemModifiableVariablesRequirement: none
+[19:07:14.627] [Lua:exec.lua] - ItemScopeCondition: none
+[19:07:14.628] [Lua:exec.lua] - ItemScopeConditionAlwaysTrueCondition: none
+[19:07:14.628] [Lua:exec.lua] - ItemScopeConditionCustom: none
+[19:07:14.629] [Lua:exec.lua] - ItemScopeConditionSpecialVariable: none
+[19:07:14.629] [Lua:exec.lua] - ItemSlot: none
+[19:07:14.630] [Lua:exec.lua] - ItemSubCategory: none
+[19:07:14.630] [Lua:exec.lua] - Live2DControllerSingleton: none
+[19:07:14.630] [Lua:exec.lua] - NewsId: none
+[19:07:14.631] [Lua:exec.lua] - NoteButtonTypeEnum: none
+[19:07:14.631] [Lua:exec.lua] - R: none
+[19:07:14.631] [Lua:exec.lua] - Recipe: none
+[19:07:14.632] [Lua:exec.lua] - Result: none
+[19:07:14.635] [Lua:exec.lua] - SaveContainer: none
+[19:07:14.636] [Lua:exec.lua] - SaveSingleton: none
+[19:07:14.636] [Lua:exec.lua] - ScratchTextureType: none
+[19:07:14.637] [Lua:exec.lua] - Shop: none
+[19:07:14.637] [Lua:exec.lua] - ShopItem: none
+[19:07:14.637] [Lua:exec.lua] - ShopManager: none
+[19:07:14.638] [Lua:exec.lua] - SimpleLocalizedString: none
+[19:07:14.638] [Lua:exec.lua] - SingleArgumentComparators: none
+[19:07:14.639] [Lua:exec.lua] - SlotEquipData: none
+[19:07:14.639] [Lua:exec.lua] - SlotManager: none
+[19:07:14.639] [Lua:exec.lua] - SlotType: none
+[19:07:14.640] [Lua:exec.lua] - SoundSingleton: none
+[19:07:14.640] [Lua:exec.lua] - StoryAutoBranch: none
+[19:07:14.641] [Lua:exec.lua] - StoryBlockTarget: none
+[19:07:14.641] [Lua:exec.lua] - StoryBotContainerTypeEnum: none
+[19:07:14.642] [Lua:exec.lua] - StoryBotDialogueBranch: none
+[19:07:14.642] [Lua:exec.lua] - StoryBranchTarget: none
+[19:07:14.642] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 25
+[19:07:14.643] [Lua:exec.lua] - StoryCondition: none
+[19:07:14.643] [Lua:exec.lua] - StoryEnumeratorTarget: none
+[19:07:14.644] [Lua:exec.lua] - StoryLocalizedConversationBranchTarget: none
+[19:07:14.644] [Lua:exec.lua] - StoryMenuBranch: none
+[19:07:14.644] [Lua:exec.lua] - StorySingleton: none
+[19:07:14.645] [Lua:exec.lua] - SusArea: none
+[19:07:14.645] [Lua:exec.lua] - SusModifier: none
+[19:07:14.646] [Lua:exec.lua] - TextureOverriderManager: none
+[19:07:14.646] [Lua:exec.lua] - TimeCheckType: none
+[19:07:14.646] [Lua:exec.lua] - TwoArgumentComparators: none
+[19:07:14.647] [Lua:exec.lua] - ViewSingleton: none
+[19:07:14.649] [Lua:exec.lua] 
+[19:07:14.650] [Lua:exec.lua] ## Userdata Globals
+[19:07:14.650] [Lua:exec.lua] -------------------
+[19:07:14.651] [Lua:exec.lua] - AllowedModifiers: <userdata: userdata: 0000023E>
+[19:07:14.651] [Lua:exec.lua] -   AllowedModifiers: none
+[19:07:14.651] [Lua:exec.lua] - AtLeastOneBoolVariableTrueRequirement: <userdata: userdata: 0000024C>
+[19:07:14.652] [Lua:exec.lua] -   AtLeastOneBoolVariableTrueRequirement: none
+[19:07:14.652] [Lua:exec.lua] - CheckType: <userdata: userdata: 000002DD>
+[19:07:14.653] [Lua:exec.lua] -   CheckType: none
+[19:07:14.653] [Lua:exec.lua] - ColorPalette: <userdata: userdata: 0000027A>
+[19:07:14.653] [Lua:exec.lua] -   ColorPalette: none
+[19:07:14.654] [Lua:exec.lua] - ColorPaletteEntry: <userdata: userdata: 0000027B>
+[19:07:14.654] [Lua:exec.lua] -   ColorPaletteEntry: none
+[19:07:14.655] [Lua:exec.lua] - ColorPaletteManager: <userdata: userdata: 00000279>
+[19:07:14.655] [Lua:exec.lua] -   ColorPaletteManager: none
+[19:07:14.656] [Lua:exec.lua] - ColorSlot: <userdata: userdata: 0000023B>
+[19:07:14.656] [Lua:exec.lua] -   ColorSlot: none
+[19:07:14.656] [Lua:exec.lua] - CommonAllowedModifiersEnum: <userdata: userdata: 00000241>
+[19:07:14.657] [Lua:exec.lua] -   CommonAllowedModifiersEnum: none
+[19:07:14.657] [Lua:exec.lua] - ControllerEnum: <userdata: userdata: 00000079>
+[19:07:14.658] [Lua:exec.lua] -   ControllerEnum: none
+[19:07:14.658] [Lua:exec.lua] - CookingSong: <userdata: userdata: 0000036C>
+[19:07:14.658] [Lua:exec.lua] -   CookingSong: none
+[19:07:14.659] [Lua:exec.lua] - CookingSongRuntimeData: <userdata: userdata: 00000372>
+[19:07:14.659] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 26
+[19:07:14.659] [Lua:exec.lua] -   CookingSongRuntimeData: none
+[19:07:14.660] [Lua:exec.lua] - EdibleItemNutritionProfile: <userdata: userdata: 0000024F>
+[19:07:14.660] [Lua:exec.lua] -   EdibleItemNutritionProfile: none
+[19:07:14.661] [Lua:exec.lua] - EdibleItemPrefabData: <userdata: userdata: 0000024D>
+[19:07:14.661] [Lua:exec.lua] -   EdibleItemPrefabData: none
+[19:07:14.662] [Lua:exec.lua] - EdibleTypeEnum: <userdata: userdata: 0000025A>
+[19:07:14.662] [Lua:exec.lua] -   EdibleTypeEnum: none
+[19:07:14.662] [Lua:exec.lua] - FinishedType: <userdata: userdata: 000003DE>
+[19:07:14.663] [Lua:exec.lua] -   FinishedType: none
+[19:07:14.666] [Lua:exec.lua] - FishingBaitItemPrefabData: <userdata: userdata: 0000025E>
+[19:07:14.667] [Lua:exec.lua] -   FishingBaitItemPrefabData: none
+[19:07:14.667] [Lua:exec.lua] - FishingBaitType: <userdata: userdata: 00000269>
+[19:07:14.668] [Lua:exec.lua] -   FishingBaitType: none
+[19:07:14.668] [Lua:exec.lua] - FishingCatchBehaviourType: <userdata: userdata: 0000026F>
+[19:07:14.669] [Lua:exec.lua] -   FishingCatchBehaviourType: none
+[19:07:14.669] [Lua:exec.lua] - FishingRodItemPrefabData: <userdata: userdata: 0000025D>
+[19:07:14.670] [Lua:exec.lua] -   FishingRodItemPrefabData: none
+[19:07:14.670] [Lua:exec.lua] - FishItemPrefabData: <userdata: userdata: 0000025B>
+[19:07:14.670] [Lua:exec.lua] -   FishItemPrefabData: none
+[19:07:14.671] [Lua:exec.lua] - FishPreferences: <userdata: userdata: 0000025C>
+[19:07:14.671] [Lua:exec.lua] -   FishPreferences: none
+[19:07:14.671] [Lua:exec.lua] - flowchart: <userdata: Main Flowchart (Fungus.Flowchart)>
+[19:07:14.672] [Lua:exec.lua] -   flowchart: none
+[19:07:14.672] [Lua:exec.lua] - GameId: <userdata: userdata: 0000007B>
+[19:07:14.673] [Lua:exec.lua] -   GameId: none
+[19:07:14.673] [Lua:exec.lua] - GameUtilities: <userdata: Everything (GameUtilities)>
+[19:07:14.673] [Lua:exec.lua] -   GameUtilities: none
+[19:07:14.674] [Lua:exec.lua] - GlobalFlag: <userdata: userdata: 000003EA>
+[19:07:14.674] [Lua:exec.lua] -   GlobalFlag: none
+[19:07:14.675] [Lua:exec.lua] - Guid: <userdata: userdata: 0000007A>
+[19:07:14.675] [Lua:exec.lua] -   Guid: none
+[19:07:14.676] [Lua:exec.lua] - gv: <userdata: GameVariables>
+[19:07:14.676] [Lua:exec.lua] -   gv: none
+[19:07:14.677] [Lua:exec.lua] - Item: <userdata: userdata: 000000AB>
+[19:07:14.677] [Lua:exec.lua] -   Item: none
+[19:07:14.677] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 27
+[19:07:14.678] [Lua:exec.lua] - ItemCategory: <userdata: userdata: 00000228>
+[19:07:14.678] [Lua:exec.lua] -   ItemCategory: none
+[19:07:14.682] [Lua:exec.lua] - ItemEnum: <userdata: userdata: 00000219>
+[19:07:14.682] [Lua:exec.lua] -   ItemEnum: none
+[19:07:14.683] [Lua:exec.lua] - ItemModifiableVariableFactory: <userdata: userdata: 00000247>
+[19:07:14.683] [Lua:exec.lua] -   ItemModifiableVariableFactory: none
+[19:07:14.684] [Lua:exec.lua] - ItemModifiableVariablesRequirement: <userdata: userdata: 0000024B>
+[19:07:14.684] [Lua:exec.lua] -   ItemModifiableVariablesRequirement: none
+[19:07:14.684] [Lua:exec.lua] - ItemPrefab: <userdata: userdata: 000000B5>
+[19:07:14.685] [Lua:exec.lua] -   ItemPrefab: none
+[19:07:14.685] [Lua:exec.lua] - ItemPrefabManager: <userdata: userdata: 000000B7>
+[19:07:14.685] [Lua:exec.lua] -   ItemPrefabManager: none
+[19:07:14.686] [Lua:exec.lua] - ItemScopeCondition: <userdata: userdata: 00000243>
+[19:07:14.686] [Lua:exec.lua] -   ItemScopeCondition: none
+[19:07:14.687] [Lua:exec.lua] - ItemScopeConditionAlwaysTrueCondition: <userdata: userdata: 00000246>
+[19:07:14.687] [Lua:exec.lua] -   ItemScopeConditionAlwaysTrueCondition: none
+[19:07:14.687] [Lua:exec.lua] - ItemScopeConditionCustom: <userdata: userdata: 00000244>
+[19:07:14.688] [Lua:exec.lua] -   ItemScopeConditionCustom: none
+[19:07:14.689] [Lua:exec.lua] - ItemScopeConditionSpecialVariable: <userdata: userdata: 00000245>
+[19:07:14.689] [Lua:exec.lua] -   ItemScopeConditionSpecialVariable: none
+[19:07:14.689] [Lua:exec.lua] - ItemSlot: <userdata: userdata: 00000285>
+[19:07:14.690] [Lua:exec.lua] -   ItemSlot: none
+[19:07:14.690] [Lua:exec.lua] - ItemSubCategory: <userdata: userdata: 0000022D>
+[19:07:14.691] [Lua:exec.lua] -   ItemSubCategory: none
+[19:07:14.722] [Lua:exec.lua] - Live2DControllerSingleton: <userdata: userdata: 0000036B>
+[19:07:14.722] [Lua:exec.lua] -   Live2DControllerSingleton: none
+[19:07:14.723] [Lua:exec.lua] - ModUtilities: <userdata: Everything (ModUtilities)>
+[19:07:14.724] [Lua:exec.lua] -   ModUtilities: none
+[19:07:14.724] [Lua:exec.lua] - NewsId: <userdata: userdata: 000002D3>
+[19:07:14.725] [Lua:exec.lua] -   NewsId: none
+[19:07:14.725] [Lua:exec.lua] - NoteButtonTypeEnum: <userdata: userdata: 00000370>
+[19:07:14.726] [Lua:exec.lua] -   NoteButtonTypeEnum: none
+[19:07:14.726] [Lua:exec.lua] - R: <userdata: userdata: 00000373>
+[19:07:14.727] [Lua:exec.lua] -   R: none
+[19:07:14.727] [Lua:exec.lua] - Recipe: <userdata: userdata: 0000036D>
+[19:07:14.728] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 28
+[19:07:14.728] [Lua:exec.lua] -   Recipe: none
+[19:07:14.729] [Lua:exec.lua] - Result: <userdata: userdata: 0000039F>
+[19:07:14.729] [Lua:exec.lua] -   Result: none
+[19:07:14.729] [Lua:exec.lua] - SaveContainer: <userdata: userdata: 000003E9>
+[19:07:14.730] [Lua:exec.lua] -   SaveContainer: none
+[19:07:14.731] [Lua:exec.lua] - SaveSingleton: <userdata: userdata: 000003E4>
+[19:07:14.731] [Lua:exec.lua] -   SaveSingleton: none
+[19:07:14.731] [Lua:exec.lua] - ScratchTextureType: <userdata: userdata: 00000230>
+[19:07:14.732] [Lua:exec.lua] -   ScratchTextureType: none
+[19:07:14.732] [Lua:exec.lua] - Shop: <userdata: userdata: 00000270>
+[19:07:14.733] [Lua:exec.lua] -   Shop: none
+[19:07:14.733] [Lua:exec.lua] - ShopItem: <userdata: userdata: 00000276>
+[19:07:14.733] [Lua:exec.lua] -   ShopItem: none
+[19:07:14.734] [Lua:exec.lua] - ShopManager: <userdata: userdata: 00000272>
+[19:07:14.734] [Lua:exec.lua] -   ShopManager: none
+[19:07:14.734] [Lua:exec.lua] - SimpleLocalizedString: <userdata: userdata: 000003DF>
+[19:07:14.735] [Lua:exec.lua] -   SimpleLocalizedString: none
+[19:07:14.735] [Lua:exec.lua] - SingleArgumentComparators: <userdata: userdata: 000003D6>
+[19:07:14.736] [Lua:exec.lua] -   SingleArgumentComparators: none
+[19:07:14.736] [Lua:exec.lua] - SlotEquipData: <userdata: userdata: 00000242>
+[19:07:14.737] [Lua:exec.lua] -   SlotEquipData: none
+[19:07:14.737] [Lua:exec.lua] - SlotManager: <userdata: userdata: 0000027C>
+[19:07:14.738] [Lua:exec.lua] -   SlotManager: none
+[19:07:14.738] [Lua:exec.lua] - SlotType: <userdata: userdata: 0000028C>
+[19:07:14.738] [Lua:exec.lua] -   SlotType: none
+[19:07:14.739] [Lua:exec.lua] - SoundSingleton: <userdata: Everything (SoundSingleton)>
+[19:07:14.739] [Lua:exec.lua] -   SoundSingleton: none
+[19:07:14.740] [Lua:exec.lua] - StoryAutoBranch: <userdata: userdata: 000003C8>
+[19:07:14.740] [Lua:exec.lua] -   StoryAutoBranch: none
+[19:07:14.740] [Lua:exec.lua] - StoryBlockTarget: <userdata: userdata: 000003CD>
+[19:07:14.741] [Lua:exec.lua] -   StoryBlockTarget: none
+[19:07:14.741] [Lua:exec.lua] - StoryBotContainerTypeEnum: <userdata: userdata: 000003C6>
+[19:07:14.742] [Lua:exec.lua] -   StoryBotContainerTypeEnum: none
+[19:07:14.745] [Lua:exec.lua] - StoryBotDialogueBranch: <userdata: userdata: 000003C7>
+[19:07:14.745] [Lua:exec.lua] -   StoryBotDialogueBranch: none
+[19:07:14.746] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 29
+[19:07:14.746] [Lua:exec.lua] - StoryBranchTarget: <userdata: userdata: 000003CA>
+[19:07:14.747] [Lua:exec.lua] -   StoryBranchTarget: none
+[19:07:14.747] [Lua:exec.lua] - StoryCondition: <userdata: userdata: 000003BF>
+[19:07:14.747] [Lua:exec.lua] -   StoryCondition: none
+[19:07:14.748] [Lua:exec.lua] - StoryEnumeratorTarget: <userdata: userdata: 000003CE>
+[19:07:14.748] [Lua:exec.lua] -   StoryEnumeratorTarget: none
+[19:07:14.749] [Lua:exec.lua] - StoryLocalizedConversationBranchTarget: <userdata: userdata: 000003CF>
+[19:07:14.749] [Lua:exec.lua] -   StoryLocalizedConversationBranchTarget: none
+[19:07:14.750] [Lua:exec.lua] - StoryMenuBranch: <userdata: userdata: 000003C9>
+[19:07:14.750] [Lua:exec.lua] -   StoryMenuBranch: none
+[19:07:14.750] [Lua:exec.lua] - StorySingleton: <userdata: userdata: 000003BD>
+[19:07:14.751] [Lua:exec.lua] -   StorySingleton: none
+[19:07:14.752] [Lua:exec.lua] - SusArea: <userdata: userdata: 0000023A>
+[19:07:14.753] [Lua:exec.lua] -   SusArea: none
+[19:07:14.753] [Lua:exec.lua] - SusModifier: <userdata: userdata: 0000023C>
+[19:07:14.753] [Lua:exec.lua] -   SusModifier: none
+[19:07:14.754] [Lua:exec.lua] - TextureOverriderManager: <userdata: userdata: 0000039E>
+[19:07:14.754] [Lua:exec.lua] -   TextureOverriderManager: none
+[19:07:14.755] [Lua:exec.lua] - TimeCheckType: <userdata: userdata: 000002D9>
+[19:07:14.755] [Lua:exec.lua] -   TimeCheckType: none
+[19:07:14.756] [Lua:exec.lua] - TwoArgumentComparators: <userdata: userdata: 000003DB>
+[19:07:14.756] [Lua:exec.lua] -   TwoArgumentComparators: none
+[19:07:14.756] [Lua:exec.lua] - UiOverlay: <userdata: Everything (UiOverlay)>
+[19:07:14.757] [Lua:exec.lua] -   UiOverlay: none
+[19:07:14.757] [Lua:exec.lua] - ViewSingleton: <userdata: Views (ViewSingleton)>
+[19:07:14.758] [Lua:exec.lua] -   ViewSingleton: none
+[19:07:14.761] [Lua:exec.lua] 
+[19:07:14.761] [Lua:exec.lua] ## MoonSharp Details
+[19:07:14.761] [Lua:exec.lua] --------------------
+[19:07:14.762] [Lua:exec.lua] _MOONSHARP = <table>
+[19:07:14.762] [Lua:exec.lua]   _MOONSHARP.banner = "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+[19:07:14.763] [Lua:exec.lua]   _MOONSHARP.is_aot = true
+[19:07:14.763] [Lua:exec.lua]   _MOONSHARP.is_clr4 = true
+[19:07:14.763] [Lua:exec.lua]   _MOONSHARP.is_mono = true
+[19:07:14.764] [Lua:exec.lua]   _MOONSHARP.is_pcl = false
+[19:07:14.764] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 30
+[19:07:14.765] [Lua:exec.lua]   _MOONSHARP.is_unity = true
+[19:07:14.765] [Lua:exec.lua]   _MOONSHARP.luacompat = "5.2"
+[19:07:14.766] [Lua:exec.lua]   _MOONSHARP.platform = "limited.unity.dll.mono.clr4.aot"
+[19:07:14.766] [Lua:exec.lua]   _MOONSHARP.version = "2.0.0.0"
+[19:07:14.767] [Lua:exec.lua] 
+[19:07:14.767] [Lua:exec.lua] ## Game/Unity Context
+[19:07:14.767] [Lua:exec.lua] ---------------------
+[19:07:14.768] [Lua:exec.lua] GameVariables: <missing>
+[19:07:14.768] [Lua:exec.lua] GameUtilities: userdata <userdata: Everything (GameUtilities)>
+[19:07:14.769] [Lua:exec.lua] ModUtilities: userdata <userdata: Everything (ModUtilities)>
+[19:07:14.769] [Lua:exec.lua] 
+[19:07:14.769] [Lua:exec.lua] ## Safe Validations
+[19:07:14.770] [Lua:exec.lua] -------------------
+[19:07:14.770] [Lua:exec.lua] Safe read validation:
+[19:07:14.771] [Lua:exec.lua] - OK _G._VERSION present (string)
+[19:07:14.771] [Lua:exec.lua] - OK _G._MOONSHARP present (table)
+[19:07:14.771] [Lua:exec.lua] - OK _G._MOONSHARP.version present (string)
+[19:07:14.772] [Lua:exec.lua] - OK _G._MOONSHARP.platform present (string)
+[19:07:14.772] [Lua:exec.lua] - MISS _G.CurrentModGuid missing
+[19:07:14.773] [Lua:exec.lua] - OK _G.json.parse present (function)
+[19:07:14.773] [Lua:exec.lua] - OK _G.json.serialize present (function)
+[19:07:14.777] [Lua:exec.lua] - OK _G.json.isnull present (function)
+[19:07:14.777] [Lua:exec.lua] - OK _G.string.startsWith present (function)
+[19:07:14.778] [Lua:exec.lua] - OK _G.string.endsWith present (function)
+[19:07:14.778] [Lua:exec.lua] - OK _G.string.contains present (function)
+[19:07:14.779] [Lua:exec.lua] - MISS _G.GameVariables missing
+[19:07:14.779] [Lua:exec.lua] - MISS _G.GameVariables missing
+[19:07:14.779] [Lua:exec.lua] - MISS _G.GameVariables missing
+[19:07:14.780] [Lua:exec.lua] - MISS _G.GameVariables missing
+[19:07:14.780] [Lua:exec.lua] - MISS _G.GameVariables missing
+[19:07:14.781] [Lua:exec.lua] - OK _G.GameUtilities.WaitForSecondsYield present (function)
+[19:07:14.781] [Lua:exec.lua] 
+[19:07:14.782] [Lua:exec.lua] Context-dependent validation:
+[19:07:14.782] [Lua:exec.lua] - GameVariables missing in this context.
+[19:07:14.782] [Lua:exec.lua] 
+[19:07:14.783] [Lua:exec.lua] MDRG_ENV_PROBE_CHUNK 31
+[19:07:14.783] [Lua:exec.lua] Skipped dangerous/context-dependent validation:
+[19:07:14.784] [Lua:exec.lua] - ModUtilities.CreateItemPrefab [not called]
+[19:07:14.784] [Lua:exec.lua] - ModUtilities.CreateNewItem [not called]
+[19:07:14.784] [Lua:exec.lua] - ModUtilities.CreateNewItemAutoAssignId [not called]
+[19:07:14.785] [Lua:exec.lua] - GameUtilities.AddItemToInventory [not called]
+[19:07:14.786] [Lua:exec.lua] - GameUtilities.RemoveItemFromInventory [not called]
+[19:07:14.786] [Lua:exec.lua] - SaveContainer.AddGlobalFlag [not called]
+[19:07:14.787] [Lua:exec.lua] - SaveContainer.Save [not called]
+[19:07:14.787] [Lua:exec.lua] - UiOverlay.OpenBrowser [not called]
+[19:07:14.787] [Lua:exec.lua] - BrowserPopup.ChangeWebsite [not called]
+[19:07:14.788] [Lua:exec.lua] - Item.Consume [not called]
+[19:07:14.788] [Lua:exec.lua] - Item.Equip [not called]
+[19:07:14.788] [Lua:exec.lua] 
+[19:07:14.789] [Lua:exec.lua] ## Errors / Access Failures
+[19:07:14.792] [Lua:exec.lua] ---------------------------
+[19:07:14.792] [Lua:exec.lua] No access failures recorded.
+[19:07:14.793] [Lua:exec.lua] 
+[19:07:14.793] [Lua:exec.lua] ## Notes
+[19:07:14.794] [Lua:exec.lua] --------
+[19:07:14.794] [Lua:exec.lua] - This probe does not call discovered functions.
+[19:07:14.795] [Lua:exec.lua] - Callable Inventory marks dangerous names by substring and never executes them.
+[19:07:14.795] [Lua:exec.lua] - API Safety Map is conservative and based only on name/path heuristics.
+[19:07:14.795] [Lua:exec.lua] - Enum-like tables are heuristic unless the name is already known from stubs.
+[19:07:14.796] [Lua:exec.lua] - Enum-like userdata is reported by presence/metatable only; fields are not brute-forced.
+[19:07:14.796] [Lua:exec.lua] - Console prefixes are added by the host/plugin log transport and are not part of this script.
+[19:07:14.797] [Lua:exec.lua] - Missing symbols can be normal when a save, scene or UI context is not loaded.
+[19:07:14.797] [Lua:exec.lua] - Reports should be reviewed before any stub or documentation update.
+[19:07:14.797] [Lua:exec.lua] 
+[19:07:14.798] [Lua:exec.lua] ## Output
+[19:07:14.798] [Lua:exec.lua] ---------
+[19:07:14.799] [Lua:exec.lua] Target filename: report-20260506-190713.txt
+[19:07:14.799] [Lua:exec.lua] Writer: io.open if available, print fallback otherwise.
+[19:07:14.800] [Lua:exec.lua] Result: printed to console fallback.
+[19:07:14.800] [Lua:exec.lua] Fallback reason: io table unavailable
+[19:07:14.800] [Lua:exec.lua] Console chunk target: 1800 chars or shorter line-safe prints.
+[19:07:14.801] [Lua:exec.lua] === MDRG ENV PROBE REPORT END ===

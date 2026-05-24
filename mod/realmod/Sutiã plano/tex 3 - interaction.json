@@ -1,0 +1,86 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 3 - interaction_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "BraLower",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 446,
+                        "height": 130
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "BrasUpperR",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 145,
+                        "width": 76,
+                        "height": 292
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "BrasUpperL",
+                    "RectInt": {
+                        "x": 91,
+                        "y": 145,
+                        "width": 78,
+                        "height": 290
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "BraFrontL",
+                    "RectInt": {
+                        "x": 179,
+                        "y": 145,
+                        "width": 250,
+                        "height": 263
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "BraFrontR",
+                    "RectInt": {
+                        "x": 179,
+                        "y": 418,
+                        "width": 248,
+                        "height": 260
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "BraMid",
+                    "RectInt": {
+                        "x": 439,
+                        "y": 145,
+                        "width": 130,
+                        "height": 78
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "interaction"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

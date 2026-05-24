@@ -1,0 +1,50 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 1 - doggy_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "StockingR_lower",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 419,
+                        "height": 158
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "StockingR_thigh",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 173,
+                        "width": 239,
+                        "height": 395
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "StockingR_foot",
+                    "RectInt": {
+                        "x": 254,
+                        "y": 173,
+                        "width": 287,
+                        "height": 158
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "doggy"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

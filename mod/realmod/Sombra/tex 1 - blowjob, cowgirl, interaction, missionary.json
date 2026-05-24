@@ -1,0 +1,41 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 1 - blowjob, cowgirl, interaction, missionary_texture0_layer10.png",
+            "Layer": 10,
+            "PackedDrawables": [
+                {
+                    "Name": "SkinEyelid2R",
+                    "RectInt": {
+                        "x": 10,
+                        "y": 10,
+                        "width": 194,
+                        "height": 109
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "SkinEyelid2L",
+                    "RectInt": {
+                        "x": 10,
+                        "y": 139,
+                        "width": 190,
+                        "height": 111
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "blowjob",
+                "cowgirl",
+                "interaction",
+                "missionary"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

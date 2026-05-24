@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MDRG PackedTextures asset",
+  "type": "object",
+  "required": [
+    "PackedTextures"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "PackedTextures": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "TextureName",
+          "Layer",
+          "PackedDrawables",
+          "Targets",
+          "DontIncludeVanillaLayers"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "TextureName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "Layer": {
+            "type": "integer"
+          },
+          "PackedDrawables": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "Name",
+                "RectInt",
+                "ColorIndex",
+                "DrawableType",
+                "BypassColorScaler"
+              ],
+              "additionalProperties": true,
+              "properties": {
+                "Name": {
+                  "type": "string"
+                },
+                "RectInt": {
+                  "type": "object",
+                  "required": [
+                    "x",
+                    "y",
+                    "width",
+                    "height"
+                  ],
+                  "properties": {
+                    "x": {
+                      "type": "integer"
+                    },
+                    "y": {
+                      "type": "integer"
+                    },
+                    "width": {
+                      "type": "integer",
+                      "exclusiveMinimum": 0
+                    },
+                    "height": {
+                      "type": "integer",
+                      "exclusiveMinimum": 0
+                    }
+                  }
+                },
+                "ColorIndex": {
+                  "type": "integer"
+                },
+                "DrawableType": {
+                  "type": "integer"
+                },
+                "BypassColorScaler": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "Targets": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "DontIncludeVanillaLayers": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

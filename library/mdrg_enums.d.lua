@@ -1,0 +1,1555 @@
+---@meta
+
+-- MDRG MoonSharp Lua API definitions for LuaLS.
+-- Generated from docs.txt and curated data/*.json.
+-- These files describe exposed types and signatures only; comments avoid undocumented runtime behavior.
+
+---@alias ArmLCuddleState
+---| '"Down"'
+---| '"Normal"'
+---| '"Up"'
+
+---@class ArmLCuddleStateTable
+---@field Down? ArmLCuddleState
+---@field Normal? ArmLCuddleState
+---@field Up? ArmLCuddleState
+---@type ArmLCuddleStateTable
+ArmLCuddleState = {}
+
+---@alias ArmSelection
+---| '"Left"'
+---| '"Right"'
+---| '"Both"'
+
+---@class ArmSelectionTable
+---@field Left? ArmSelection
+---@field Right? ArmSelection
+---@field Both? ArmSelection
+---@type ArmSelectionTable
+ArmSelection = {}
+
+---@alias ArmState
+---| '"UpPoint"'
+---| '"UpHi"'
+---| '"UpLecture"'
+---| '"DownNormal"'
+---| '"DownClenched"'
+
+---@class ArmStateTable
+---@field UpPoint? ArmState
+---@field UpHi? ArmState
+---@field UpLecture? ArmState
+---@field DownNormal? ArmState
+---@field DownClenched? ArmState
+---@type ArmStateTable
+ArmState = {}
+
+---@alias CharArrayPrintTypesEnum
+---| '"Raw"'
+---| '"Center"'
+
+---@class CharArrayPrintTypesEnumTable
+---@field Raw? CharArrayPrintTypesEnum
+---@field Center? CharArrayPrintTypesEnum
+---@type CharArrayPrintTypesEnumTable
+CharArrayPrintTypesEnum = {}
+
+---@alias CheckType
+---| '"Full"'
+---| '"Start"'
+---| '"End"'
+
+---@class CheckTypeTable
+---@field Full? CheckType
+---@field Start? CheckType
+---@field End? CheckType
+---@type CheckTypeTable
+CheckType = {}
+
+---@alias ColoringGroupEnum
+---| '"Hair0_Top"'
+---| '"Hair0_Back"'
+---| '"Hair0_Braid"'
+---| '"Hair0_BraidHairTieAccessory"'
+---| '"Hair0_Side"'
+---| '"Hair0_SideAlt"'
+---| '"Hair0_Front"'
+---| '"Hair1_Top"'
+---| '"Hair1_Front"'
+---| '"Hair1_Side"'
+---| '"Hair1_Back"'
+---| '"Hair2_Front"'
+---| '"Hair3_Front"'
+---| '"Hair3_Side"'
+---| '"Hair3_Top"'
+---| '"Hair3_Back"'
+---| '"Hair4_Ponytail"'
+---| '"Hair4_KnotAccessory"'
+---| '"Skirt"'
+---| '"Shirt"'
+---| '"ShirtShadow"'
+---| '"StockingL"'
+---| '"StockingR"'
+---| '"Panties"'
+---| '"Bra"'
+---| '"Hoodie"'
+---| '"HoodieStrings"'
+---| '"Pants"'
+---| '"PantsBelt"'
+---| '"Dress1"'
+---| '"Dress2Alt"'
+---| '"Dress2"'
+---| '"ShoeR"'
+---| '"ShoeL"'
+---| '"PointyEars"'
+---| '"WizardHat"'
+---| '"BellChoker"'
+---| '"CuteBow"'
+---| '"PumpkinHairPin"'
+---| '"Headband"'
+---| '"NipplePiercingL"'
+---| '"NipplePiercingR"'
+---| '"NavelPiercing"'
+---| '"IrisL"'
+---| '"IrisR"'
+---| '"PupilL"'
+---| '"PupilR"'
+---| '"Sclera"'
+---| '"HeartPupils"'
+---| '"EyeBrows"'
+---| '"Nipples"'
+---| '"Vagina"'
+---| '"Xray"'
+---| '"Anus"'
+---| '"Teeth"'
+---| '"Mouth"'
+---| '"Boobs"'
+---| '"Ass"'
+---| '"Pelvic"'
+---| '"Thigh"'
+---| '"Tummy"'
+---| '"Skin"'
+---| '"Blush"'
+---| '"SharpTeeth"'
+---| '"CatEarMain"'
+---| '"CatEarSecondary"'
+---| '"LegLFoot"'
+---| '"LegL"'
+---| '"LegRFoot"'
+---| '"LegR"'
+---| '"ArmL"'
+---| '"ArmR"'
+---| '"Tail"'
+---| '"TailPlug"'
+---| '"Hologram"'
+---| '"Moddable"'
+---| '"HitArea"'
+---| '"Cum"'
+---| '"Rest"'
+
+---@class ColoringGroupEnumTable
+---@field Hair0_Top? ColoringGroupEnum
+---@field Hair0_Back? ColoringGroupEnum
+---@field Hair0_Braid? ColoringGroupEnum
+---@field Hair0_BraidHairTieAccessory? ColoringGroupEnum
+---@field Hair0_Side? ColoringGroupEnum
+---@field Hair0_SideAlt? ColoringGroupEnum
+---@field Hair0_Front? ColoringGroupEnum
+---@field Hair1_Top? ColoringGroupEnum
+---@field Hair1_Front? ColoringGroupEnum
+---@field Hair1_Side? ColoringGroupEnum
+---@field Hair1_Back? ColoringGroupEnum
+---@field Hair2_Front? ColoringGroupEnum
+---@field Hair3_Front? ColoringGroupEnum
+---@field Hair3_Side? ColoringGroupEnum
+---@field Hair3_Top? ColoringGroupEnum
+---@field Hair3_Back? ColoringGroupEnum
+---@field Hair4_Ponytail? ColoringGroupEnum
+---@field Hair4_KnotAccessory? ColoringGroupEnum
+---@field Skirt? ColoringGroupEnum
+---@field Shirt? ColoringGroupEnum
+---@field ShirtShadow? ColoringGroupEnum
+---@field StockingL? ColoringGroupEnum
+---@field StockingR? ColoringGroupEnum
+---@field Panties? ColoringGroupEnum
+---@field Bra? ColoringGroupEnum
+---@field Hoodie? ColoringGroupEnum
+---@field HoodieStrings? ColoringGroupEnum
+---@field Pants? ColoringGroupEnum
+---@field PantsBelt? ColoringGroupEnum
+---@field Dress1? ColoringGroupEnum
+---@field Dress2Alt? ColoringGroupEnum
+---@field Dress2? ColoringGroupEnum
+---@field ShoeR? ColoringGroupEnum
+---@field ShoeL? ColoringGroupEnum
+---@field PointyEars? ColoringGroupEnum
+---@field WizardHat? ColoringGroupEnum
+---@field BellChoker? ColoringGroupEnum
+---@field CuteBow? ColoringGroupEnum
+---@field PumpkinHairPin? ColoringGroupEnum
+---@field Headband? ColoringGroupEnum
+---@field NipplePiercingL? ColoringGroupEnum
+---@field NipplePiercingR? ColoringGroupEnum
+---@field NavelPiercing? ColoringGroupEnum
+---@field IrisL? ColoringGroupEnum
+---@field IrisR? ColoringGroupEnum
+---@field PupilL? ColoringGroupEnum
+---@field PupilR? ColoringGroupEnum
+---@field Sclera? ColoringGroupEnum
+---@field HeartPupils? ColoringGroupEnum
+---@field EyeBrows? ColoringGroupEnum
+---@field Nipples? ColoringGroupEnum
+---@field Vagina? ColoringGroupEnum
+---@field Xray? ColoringGroupEnum
+---@field Anus? ColoringGroupEnum
+---@field Teeth? ColoringGroupEnum
+---@field Mouth? ColoringGroupEnum
+---@field Boobs? ColoringGroupEnum
+---@field Ass? ColoringGroupEnum
+---@field Pelvic? ColoringGroupEnum
+---@field Thigh? ColoringGroupEnum
+---@field Tummy? ColoringGroupEnum
+---@field Skin? ColoringGroupEnum
+---@field Blush? ColoringGroupEnum
+---@field SharpTeeth? ColoringGroupEnum
+---@field CatEarMain? ColoringGroupEnum
+---@field CatEarSecondary? ColoringGroupEnum
+---@field LegLFoot? ColoringGroupEnum
+---@field LegL? ColoringGroupEnum
+---@field LegRFoot? ColoringGroupEnum
+---@field LegR? ColoringGroupEnum
+---@field ArmL? ColoringGroupEnum
+---@field ArmR? ColoringGroupEnum
+---@field Tail? ColoringGroupEnum
+---@field TailPlug? ColoringGroupEnum
+---@field Hologram? ColoringGroupEnum
+---@field Moddable? ColoringGroupEnum
+---@field HitArea? ColoringGroupEnum
+---@field Cum? ColoringGroupEnum
+---@field Rest? ColoringGroupEnum
+---@type ColoringGroupEnumTable
+ColoringGroupEnum = {}
+
+---@alias CommonAllowedModifiersEnum
+---| '"None"'
+---| '"FishingRod"'
+
+---@class CommonAllowedModifiersEnumTable
+---@field None? CommonAllowedModifiersEnum
+---@field FishingRod? CommonAllowedModifiersEnum
+---@type CommonAllowedModifiersEnumTable
+CommonAllowedModifiersEnum = {}
+
+---@alias ControllerEnum
+---| '"NoScene"'
+---| '"Missionary"'
+---| '"Doggy"'
+---| '"Blowjob"'
+---| '"Cowgirl"'
+---| '"Interaction"'
+---| '"Shower"'
+
+---@class ControllerEnumTable
+---@field NoScene? ControllerEnum
+---@field Missionary? ControllerEnum
+---@field Doggy? ControllerEnum
+---@field Blowjob? ControllerEnum
+---@field Cowgirl? ControllerEnum
+---@field Interaction? ControllerEnum
+---@field Shower? ControllerEnum
+---@type ControllerEnumTable
+ControllerEnum = {}
+
+---@alias CustomShaderTypeEnum
+---| '"None"'
+---| '"RelatedDrawables"'
+---| '"Hair"'
+
+---@class CustomShaderTypeEnumTable
+---@field None? CustomShaderTypeEnum
+---@field RelatedDrawables? CustomShaderTypeEnum
+---@field Hair? CustomShaderTypeEnum
+---@type CustomShaderTypeEnumTable
+CustomShaderTypeEnum = {}
+
+---@alias DeliveryStatus
+---| '"ToBeCollected"'
+---| '"ToBeSorted"'
+---| '"ToBeDelivered"'
+---| '"Delivered"'
+
+---@class DeliveryStatusTable
+---@field ToBeCollected? DeliveryStatus
+---@field ToBeSorted? DeliveryStatus
+---@field ToBeDelivered? DeliveryStatus
+---@field Delivered? DeliveryStatus
+---@type DeliveryStatusTable
+DeliveryStatus = {}
+
+---@alias EatSound
+---| '"Crunch"'
+---| '"CrackOpenAColdOne"'
+
+---@class EatSoundTable
+---@field Crunch? EatSound
+---@field CrackOpenAColdOne? EatSound
+---@type EatSoundTable
+EatSound = {}
+
+---@alias EdibleTypeEnum
+---| '"Other"'
+---| '"Meat"'
+---| '"Fish"'
+---| '"MainVegetable"'
+---| '"FlavourVegetable"'
+---| '"Bean"'
+---| '"Pasta"'
+---| '"Bread"'
+---| '"Beverage"'
+---| '"Dish"'
+
+---@class EdibleTypeEnumTable
+---@field Other? EdibleTypeEnum
+---@field Meat? EdibleTypeEnum
+---@field Fish? EdibleTypeEnum
+---@field MainVegetable? EdibleTypeEnum
+---@field FlavourVegetable? EdibleTypeEnum
+---@field Bean? EdibleTypeEnum
+---@field Pasta? EdibleTypeEnum
+---@field Bread? EdibleTypeEnum
+---@field Beverage? EdibleTypeEnum
+---@field Dish? EdibleTypeEnum
+---@type EdibleTypeEnumTable
+EdibleTypeEnum = {}
+
+---@alias EquipResults
+---| '"Success"'
+---| '"FailedBlocked"'
+---| '"FailedMissingRequired"'
+---| '"FailedNonEquipable"'
+
+---@class EquipResultsTable
+---@field Success? EquipResults
+---@field FailedBlocked? EquipResults
+---@field FailedMissingRequired? EquipResults
+---@field FailedNonEquipable? EquipResults
+---@type EquipResultsTable
+EquipResults = {}
+
+---@alias EyeSelection
+---| '"LeftEye"'
+---| '"RightEye"'
+---| '"BothEyes"'
+---| '"BothEyesTarget"'
+
+---@class EyeSelectionTable
+---@field LeftEye? EyeSelection
+---@field RightEye? EyeSelection
+---@field BothEyes? EyeSelection
+---@field BothEyesTarget? EyeSelection
+---@type EyeSelectionTable
+EyeSelection = {}
+
+---@alias FinishedType
+---| '"Normal"'
+---| '"Stopped"'
+
+---@class FinishedTypeTable
+---@field Normal? FinishedType
+---@field Stopped? FinishedType
+---@type FinishedTypeTable
+FinishedType = {}
+
+---@alias FishingBaitType
+---| '"NoBait"'
+---| '"WormBait"'
+---| '"InsectBait"'
+---| '"MeatBait"'
+---| '"FishBait"'
+---| '"LiveFishBait"'
+---| '"PlantBait"'
+---| '"CrustaceanBait"'
+---| '"MolluskBait"'
+---| '"MagnetBait"'
+
+---@class FishingBaitTypeTable
+---@field NoBait? FishingBaitType
+---@field WormBait? FishingBaitType
+---@field InsectBait? FishingBaitType
+---@field MeatBait? FishingBaitType
+---@field FishBait? FishingBaitType
+---@field LiveFishBait? FishingBaitType
+---@field PlantBait? FishingBaitType
+---@field CrustaceanBait? FishingBaitType
+---@field MolluskBait? FishingBaitType
+---@field MagnetBait? FishingBaitType
+---@type FishingBaitTypeTable
+FishingBaitType = {}
+
+---@alias FishingCatchBehaviourType
+---| '"Normal"'
+---| '"Floater"'
+---| '"Fighter"'
+---| '"Rock"'
+---| '"Sinker"'
+
+---@class FishingCatchBehaviourTypeTable
+---@field Normal? FishingCatchBehaviourType
+---@field Floater? FishingCatchBehaviourType
+---@field Fighter? FishingCatchBehaviourType
+---@field Rock? FishingCatchBehaviourType
+---@field Sinker? FishingCatchBehaviourType
+---@type FishingCatchBehaviourTypeTable
+FishingCatchBehaviourType = {}
+
+---@alias FloatVariableTypeEnum
+---| '"Percentage01"'
+
+---@class FloatVariableTypeEnumTable
+---@field Percentage01? FloatVariableTypeEnum
+---@type FloatVariableTypeEnumTable
+FloatVariableTypeEnum = {}
+
+---@alias InteractionSceneTypeEnum
+---| '"Normal"'
+---| '"Cuddle"'
+
+---@class InteractionSceneTypeEnumTable
+---@field Normal? InteractionSceneTypeEnum
+---@field Cuddle? InteractionSceneTypeEnum
+---@type InteractionSceneTypeEnumTable
+InteractionSceneTypeEnum = {}
+
+---@alias ItemCategory
+---| '"Other"'
+---| '"Modules"'
+---| '"Clothing"'
+---| '"Food"'
+---| '"FoodCookedDish"'
+---| '"Usable"'
+---| '"Package"'
+---| '"Meds"'
+---| '"Room"'
+---| '"AnonEquip"'
+---| '"Fish"'
+---| '"CookingIngredient"'
+---| '"FishingTrash"'
+---| '"Soap"'
+
+---@class ItemCategoryTable
+---@field Other? ItemCategory
+---@field Modules? ItemCategory
+---@field Clothing? ItemCategory
+---@field Food? ItemCategory
+---@field FoodCookedDish? ItemCategory
+---@field Usable? ItemCategory
+---@field Package? ItemCategory
+---@field Meds? ItemCategory
+---@field Room? ItemCategory
+---@field AnonEquip? ItemCategory
+---@field Fish? ItemCategory
+---@field CookingIngredient? ItemCategory
+---@field FishingTrash? ItemCategory
+---@field Soap? ItemCategory
+---@type ItemCategoryTable
+ItemCategory = {}
+
+---@alias ItemChangeType
+---| '"Added"'
+---| '"Removed"'
+---| '"Unequip"'
+---| '"Equip"'
+---| '"OrderChange"'
+---| '"InnerDataChange"'
+
+---@class ItemChangeTypeTable
+---@field Added? ItemChangeType
+---@field Removed? ItemChangeType
+---@field Unequip? ItemChangeType
+---@field Equip? ItemChangeType
+---@field OrderChange? ItemChangeType
+---@field InnerDataChange? ItemChangeType
+---@type ItemChangeTypeTable
+ItemChangeType = {}
+
+---@alias ItemComparisonTypeEnum
+---| '"EquippedById"'
+---| '"InInventoryById"'
+
+---@class ItemComparisonTypeEnumTable
+---@field EquippedById? ItemComparisonTypeEnum
+---@field InInventoryById? ItemComparisonTypeEnum
+---@type ItemComparisonTypeEnumTable
+ItemComparisonTypeEnum = {}
+
+---@alias ItemEnum
+---| '"None"'
+---| '"CatEars"'
+---| '"BasicLegL"'
+---| '"BasicLegR"'
+---| '"BasicArmL"'
+---| '"BasicArmR"'
+---| '"CatTail"'
+---| '"CatTailDifferentEnd"'
+---| '"TailFluffy"'
+---| '"StripedTailFluffy"'
+---| '"HyperCamoCatTail"'
+---| '"HyperCamoCatTailDifferentEnd"'
+---| '"HyperCamoTailFluffy"'
+---| '"HyperCamoStripedTailFluffy"'
+---| '"VolksAutoBasicArmL"'
+---| '"VolksAutoBasicArmR"'
+---| '"VolksAutoBasicLegR"'
+---| '"VolksAutoBasicLegL"'
+---| '"ExperimentalArmL"'
+---| '"ExperimentalArmR"'
+---| '"ExperimentalLegR"'
+---| '"ExperimentalLegL"'
+---| '"HypercamoExperimentalArmL"'
+---| '"HypercamoExperimentalArmR"'
+---| '"HypercamoExperimentalLegR"'
+---| '"HypercamoExperimentalLegL"'
+---| '"HypercamoClothierHair"'
+---| '"HypercamoEyeCoveringBangHair"'
+---| '"HypercamoHimeCutHair"'
+---| '"HypercamoPonytailHair"'
+---| '"SharpTeeth"'
+---| '"HyperCamoSharpTeeth"'
+---| '"LibidoDestroyer"'
+---| '"LibidoAmplifier"'
+---| '"HyperCamoLegL"'
+---| '"HyperCamoLegR"'
+---| '"HyperCamoArmL"'
+---| '"HyperCamoArmR"'
+---| '"HyperCamoSkin"'
+---| '"HyperCamoHair"'
+---| '"HyperCamoEyes"'
+---| '"HyperCamoFlesh"'
+---| '"HyperCamoCatEars"'
+---| '"HyperCamoPointyEars"'
+---| '"HightechHyperCamoSkin"'
+---| '"RainbowHair"'
+---| '"RainbowSkin"'
+---| '"GalaxyHair"'
+---| '"FourthDimensionHair"'
+---| '"HologramDisable"'
+---| '"TsunTsunPersonalityModule"'
+---| '"CatgirlPersonalityModule"'
+---| '"DriverPersonalityModule"'
+---| '"RobotPersonalityModule"'
+---| '"YanderePersonalityModule"'
+---| '"SlutPersonalityModule"'
+---| '"FemcelPersonalityModule"'
+---| '"HimederePersonalityModule"'
+---| '"SillyCatPersonalityModule"'
+---| '"AraAraPersonalityModule"'
+---| '"ThighSizeModule"'
+---| '"CalfSizeModule"'
+---| '"FeetSizeModule"'
+---| '"BoobSizeModule"'
+---| '"AssSizeModule"'
+---| '"DefaultSkin"'
+---| '"DefaultHair"'
+---| '"DefaultEyes"'
+---| '"DefaultHeartPupils"'
+---| '"DefaultFlesh"'
+---| '"DefaultTeeth"'
+---| '"DefaultHologram"'
+---| '"CanOfBakedBeans"'
+---| '"PickledOnions"'
+---| '"Sausage"'
+---| '"InstantNoodles"'
+---| '"EnergyDrink"'
+---| '"ProteinBar"'
+---| '"Chips"'
+---| '"Soda"'
+---| '"Sweets"'
+---| '"TacoShell"'
+---| '"GmoVegetables"'
+---| '"Soyrent"'
+---| '"ChickenNuggets"'
+---| '"BreadFromDispenser"'
+---| '"SempillX"'
+---| '"Vinegara"'
+---| '"EndurancePlus"'
+---| '"VinegaraPremium"'
+---| '"DeathGrip"'
+---| '"Antidepressants"'
+---| '"PlainShirt"'
+---| '"FishShirt"'
+---| '"WithStupidShirt"'
+---| '"TempleShirt"'
+---| '"GamerShirt"'
+---| '"BotShirt"'
+---| '"DogeCoinShirt"'
+---| '"SheepShirt"'
+---| '"SylphyChibiShirt"'
+---| '"LuxeMerchShirt"'
+---| '"StilouMerchShirt"'
+---| '"VolksAutoMerchShirt"'
+---| '"MonizmedMerchShirt"'
+---| '"DiabeteMerchShirt"'
+---| '"CazinoMerchShirt"'
+---| '"DiabeteColaPowShirt"'
+---| '"DiabeteDrSugarShirt"'
+---| '"DiabeteSweetPotatoShirt"'
+---| '"HotPinkShirt"'
+---| '"InHeatShirt"'
+---| '"DestinationDeliriumShirt"'
+---| '"SilumanShirt"'
+---| '"SilumanAliceShirt"'
+---| '"FungusShirt"'
+---| '"YaranaikaShirt"'
+---| '"BakaShirt"'
+---| '"CIAShirt"'
+---| '"PolandBallShirt"'
+---| '"WyldspaceShirt"'
+---| '"PriestbotShirt"'
+---| '"MirthalShirt"'
+---| '"AGUIShirt"'
+---| '"BedabotsShirt"'
+---| '"ProjektMelodyShirt"'
+---| '"XoulionShirt"'
+---| '"UfoShirt"'
+---| '"PlainPanties"'
+---| '"LingeriePanties"'
+---| '"StripedPanties"'
+---| '"FishPanties"'
+---| '"LuxeRosePanties"'
+---| '"BananaPanties"'
+---| '"USBPanties"'
+---| '"YaranaikaPanties"'
+---| '"WyldspacePanties"'
+---| '"HikkeiruPanties"'
+---| '"RadioactivePanties"'
+---| '"StrawberryStripedPanties"'
+---| '"PeachStripedPanties"'
+---| '"AvocadoPanties"'
+---| '"CherryStripedPanties"'
+---| '"SpecialHaremClassPanties"'
+---| '"XoulionPanties"'
+---| '"LuxeLingeriePanties"'
+---| '"StockingL"'
+---| '"StockingR"'
+---| '"LingerieStockingL"'
+---| '"LingerieStockingR"'
+---| '"LongSockL"'
+---| '"LongSockR"'
+---| '"StripedSockL"'
+---| '"StripedSockR"'
+---| '"StirrupStockingL"'
+---| '"StirrupStockingR"'
+---| '"ShortSockL"'
+---| '"ShortSockR"'
+---| '"TwoStripedStockingL"'
+---| '"TwoStripedStockingR"'
+---| '"KneeHighSockL"'
+---| '"KneeHighSockR"'
+---| '"StockingPair"'
+---| '"LingerieStockingPair"'
+---| '"LongSockPair"'
+---| '"StripedSockPair"'
+---| '"StirrupStockingPair"'
+---| '"ShortSockPair"'
+---| '"TwoStripedStockingPair"'
+---| '"KneeHighSockPair"'
+---| '"CuteBow"'
+---| '"HeartChoker"'
+---| '"HeartGlasses"'
+---| '"EyeShadow"'
+---| '"GothEyeMakeup"'
+---| '"BellChoker"'
+---| '"TinyWizardHat"'
+---| '"PumpkinHairpin"'
+---| '"PointyEars"'
+---| '"SeptumPiercing"'
+---| '"SeptumPiercing2"'
+---| '"Lipstick"'
+---| '"OvalGlasses"'
+---| '"ColoredOvalGlasses"'
+---| '"EyePatch"'
+---| '"HairClip"'
+---| '"TonguePiercing"'
+---| '"ColoredHeartGlasses"'
+---| '"Manicure"'
+---| '"Pedicure"'
+---| '"BuckleCollar"'
+---| '"Eyeliner"'
+---| '"HeartEyeSticker"'
+---| '"NaturalEyelashes"'
+---| '"SimpleChoker"'
+---| '"ColoredBuckleCollar"'
+---| '"SpikedCollar"'
+---| '"Headband"'
+---| '"NavelPiercing"'
+---| '"NipplePiercingL"'
+---| '"NipplePiercingR"'
+---| '"NipplePiercingPair"'
+---| '"PlainBra"'
+---| '"LingerieBra"'
+---| '"PleatedSkirt"'
+---| '"BaggyPants"'
+---| '"MiniSkirt"'
+---| '"PlainSneakerL"'
+---| '"PlainSneakerR"'
+---| '"PlainSneakerPair"'
+---| '"ClassyShoeL"'
+---| '"ClassyShoeR"'
+---| '"ClassyShoePair"'
+---| '"BaggyHoodie"'
+---| '"DogeCoinHoodie"'
+---| '"WeebHoodie"'
+---| '"BloodyMoonHoodie"'
+---| '"CosplayHouseHoodie"'
+---| '"LuxeMerchHoodie"'
+---| '"StilouMerchHoodie"'
+---| '"VolksAutoMerchHoodie"'
+---| '"MonizmedMerchHoodie"'
+---| '"DiabeteMerchHoodie"'
+---| '"CazinoMerchHoodie"'
+---| '"DiabeteColaPowHoodie"'
+---| '"DiabeteDrSugarHoodie"'
+---| '"DiabeteSweetPotatoHoodie"'
+---| '"MilfHunterHoodie"'
+---| '"PolandBallHoodie"'
+---| '"AGUIHoodie"'
+---| '"SpecialHaremClassHoodie"'
+---| '"BedabotsHoodie"'
+---| '"ProjektMelodyHoodie"'
+---| '"WorldTamerHoodie"'
+---| '"XoulionHoodie"'
+---| '"CelestynHoodie"'
+---| '"FlowerKidVHoodie"'
+---| '"NutekuHoodie"'
+---| '"SkullHoodie"'
+---| '"ToniSHoodie"'
+---| '"MadHoodie"'
+---| '"SJ68Hoodie"'
+---| '"LightSonicHoodie"'
+---| '"RottingSteelHoodie"'
+---| '"NitroriHoodie"'
+---| '"ShadyCornerHoodie"'
+---| '"VintageDress"'
+---| '"SlipDress"'
+---| '"PixelGlasses"'
+---| '"SneakerL"'
+---| '"SneakerR"'
+---| '"SneakerPair"'
+---| '"BasicFishingRod"'
+---| '"ReinforcedFishingRod"'
+---| '"FiberGlassFishingRod"'
+---| '"CarbonFiberFishingRod"'
+---| '"HyperSteelFishingRod"'
+---| '"Bluegill"'
+---| '"LargemouthBass"'
+---| '"NorthernPike"'
+---| '"YellowPerch"'
+---| '"Walleye"'
+---| '"RainbowTrout"'
+---| '"SmallmouthBass"'
+---| '"Catfish"'
+---| '"BrownTrout"'
+---| '"Carp"'
+---| '"RedSnapper"'
+---| '"Mackerel"'
+---| '"Flounder"'
+---| '"BlackSeaBass"'
+---| '"Halibut"'
+---| '"Salmon"'
+---| '"GoldenSalmon"'
+---| '"Tilapia"'
+---| '"WormBait"'
+---| '"LarvaeBait"'
+---| '"MeatBait"'
+---| '"FishChunksBait"'
+---| '"CornBait"'
+---| '"ShrimpBait"'
+---| '"MusselsBait"'
+---| '"OldCan"'
+---| '"OldShoe"'
+---| '"OldSyringe"'
+---| '"OldGrenade"'
+---| '"RustedBucket"'
+---| '"OilDrumLid"'
+---| '"BoneFragments"'
+---| '"ShatteredSmartphone"'
+---| '"OldDrSugarCan"'
+---| '"PlasticGroceryBag"'
+---| '"OldFishingNet"'
+---| '"OldCarBattery"'
+---| '"Rice"'
+---| '"Potatoes"'
+---| '"Flour"'
+---| '"Tomato"'
+---| '"Carrot"'
+---| '"Steak"'
+---| '"ChickenMeat"'
+---| '"Onions"'
+---| '"Eggs"'
+---| '"Milk"'
+---| '"Garlic"'
+---| '"Ginger"'
+---| '"SoySauce"'
+---| '"Vinegar"'
+---| '"Pasta"'
+---| '"RawGroundBeef"'
+---| '"Sugar"'
+---| '"Butter"'
+---| '"Cheese"'
+---| '"Yoghurt"'
+---| '"BeansOnDispenserBread"'
+---| '"PickledOnionsWithSausage"'
+---| '"LandlordsTaco"'
+---| '"SmallSalad"'
+---| '"SimpleFriedFish"'
+---| '"PotatoEggSalad"'
+---| '"ChickenNoodleSoup"'
+---| '"AmericanChili"'
+---| '"CarrotSalad"'
+---| '"FriedRice"'
+---| '"CookedSteak"'
+---| '"Pancakes"'
+---| '"FancyFriedFish"'
+---| '"SpaghettiBolognese"'
+---| '"Gyros"'
+---| '"Omurice"'
+---| '"SpaghettiCarbonara"'
+---| '"BeefWelington"'
+---| '"Sushi"'
+---| '"SheepsCurry"'
+---| '"CarrotCake"'
+---| '"BasicSoap"'
+---| '"ColorfulSoap"'
+---| '"PumpkinMat"'
+---| '"SpiderPlush"'
+---| '"BatBanner"'
+---| '"GhostDecoration"'
+---| '"BingChillingMagazineBundle"'
+---| '"LingerieCatalogue"'
+---| '"LandlordsOldStove"'
+---| '"FixedLandlordsOldStove"'
+
+---@class ItemEnumTable
+---@field None? ItemEnum
+---@field CatEars? ItemEnum
+---@field BasicLegL? ItemEnum
+---@field BasicLegR? ItemEnum
+---@field BasicArmL? ItemEnum
+---@field BasicArmR? ItemEnum
+---@field CatTail? ItemEnum
+---@field CatTailDifferentEnd? ItemEnum
+---@field TailFluffy? ItemEnum
+---@field StripedTailFluffy? ItemEnum
+---@field HyperCamoCatTail? ItemEnum
+---@field HyperCamoCatTailDifferentEnd? ItemEnum
+---@field HyperCamoTailFluffy? ItemEnum
+---@field HyperCamoStripedTailFluffy? ItemEnum
+---@field VolksAutoBasicArmL? ItemEnum
+---@field VolksAutoBasicArmR? ItemEnum
+---@field VolksAutoBasicLegR? ItemEnum
+---@field VolksAutoBasicLegL? ItemEnum
+---@field ExperimentalArmL? ItemEnum
+---@field ExperimentalArmR? ItemEnum
+---@field ExperimentalLegR? ItemEnum
+---@field ExperimentalLegL? ItemEnum
+---@field HypercamoExperimentalArmL? ItemEnum
+---@field HypercamoExperimentalArmR? ItemEnum
+---@field HypercamoExperimentalLegR? ItemEnum
+---@field HypercamoExperimentalLegL? ItemEnum
+---@field HypercamoClothierHair? ItemEnum
+---@field HypercamoEyeCoveringBangHair? ItemEnum
+---@field HypercamoHimeCutHair? ItemEnum
+---@field HypercamoPonytailHair? ItemEnum
+---@field SharpTeeth? ItemEnum
+---@field HyperCamoSharpTeeth? ItemEnum
+---@field LibidoDestroyer? ItemEnum
+---@field LibidoAmplifier? ItemEnum
+---@field HyperCamoLegL? ItemEnum
+---@field HyperCamoLegR? ItemEnum
+---@field HyperCamoArmL? ItemEnum
+---@field HyperCamoArmR? ItemEnum
+---@field HyperCamoSkin? ItemEnum
+---@field HyperCamoHair? ItemEnum
+---@field HyperCamoEyes? ItemEnum
+---@field HyperCamoFlesh? ItemEnum
+---@field HyperCamoCatEars? ItemEnum
+---@field HyperCamoPointyEars? ItemEnum
+---@field HightechHyperCamoSkin? ItemEnum
+---@field RainbowHair? ItemEnum
+---@field RainbowSkin? ItemEnum
+---@field GalaxyHair? ItemEnum
+---@field FourthDimensionHair? ItemEnum
+---@field HologramDisable? ItemEnum
+---@field TsunTsunPersonalityModule? ItemEnum
+---@field CatgirlPersonalityModule? ItemEnum
+---@field DriverPersonalityModule? ItemEnum
+---@field RobotPersonalityModule? ItemEnum
+---@field YanderePersonalityModule? ItemEnum
+---@field SlutPersonalityModule? ItemEnum
+---@field FemcelPersonalityModule? ItemEnum
+---@field HimederePersonalityModule? ItemEnum
+---@field SillyCatPersonalityModule? ItemEnum
+---@field AraAraPersonalityModule? ItemEnum
+---@field ThighSizeModule? ItemEnum
+---@field CalfSizeModule? ItemEnum
+---@field FeetSizeModule? ItemEnum
+---@field BoobSizeModule? ItemEnum
+---@field AssSizeModule? ItemEnum
+---@field DefaultSkin? ItemEnum
+---@field DefaultHair? ItemEnum
+---@field DefaultEyes? ItemEnum
+---@field DefaultHeartPupils? ItemEnum
+---@field DefaultFlesh? ItemEnum
+---@field DefaultTeeth? ItemEnum
+---@field DefaultHologram? ItemEnum
+---@field CanOfBakedBeans? ItemEnum
+---@field PickledOnions? ItemEnum
+---@field Sausage? ItemEnum
+---@field InstantNoodles? ItemEnum
+---@field EnergyDrink? ItemEnum
+---@field ProteinBar? ItemEnum
+---@field Chips? ItemEnum
+---@field Soda? ItemEnum
+---@field Sweets? ItemEnum
+---@field TacoShell? ItemEnum
+---@field GmoVegetables? ItemEnum
+---@field Soyrent? ItemEnum
+---@field ChickenNuggets? ItemEnum
+---@field BreadFromDispenser? ItemEnum
+---@field SempillX? ItemEnum
+---@field Vinegara? ItemEnum
+---@field EndurancePlus? ItemEnum
+---@field VinegaraPremium? ItemEnum
+---@field DeathGrip? ItemEnum
+---@field Antidepressants? ItemEnum
+---@field PlainShirt? ItemEnum
+---@field FishShirt? ItemEnum
+---@field WithStupidShirt? ItemEnum
+---@field TempleShirt? ItemEnum
+---@field GamerShirt? ItemEnum
+---@field BotShirt? ItemEnum
+---@field DogeCoinShirt? ItemEnum
+---@field SheepShirt? ItemEnum
+---@field SylphyChibiShirt? ItemEnum
+---@field LuxeMerchShirt? ItemEnum
+---@field StilouMerchShirt? ItemEnum
+---@field VolksAutoMerchShirt? ItemEnum
+---@field MonizmedMerchShirt? ItemEnum
+---@field DiabeteMerchShirt? ItemEnum
+---@field CazinoMerchShirt? ItemEnum
+---@field DiabeteColaPowShirt? ItemEnum
+---@field DiabeteDrSugarShirt? ItemEnum
+---@field DiabeteSweetPotatoShirt? ItemEnum
+---@field HotPinkShirt? ItemEnum
+---@field InHeatShirt? ItemEnum
+---@field DestinationDeliriumShirt? ItemEnum
+---@field SilumanShirt? ItemEnum
+---@field SilumanAliceShirt? ItemEnum
+---@field FungusShirt? ItemEnum
+---@field YaranaikaShirt? ItemEnum
+---@field BakaShirt? ItemEnum
+---@field CIAShirt? ItemEnum
+---@field PolandBallShirt? ItemEnum
+---@field WyldspaceShirt? ItemEnum
+---@field PriestbotShirt? ItemEnum
+---@field MirthalShirt? ItemEnum
+---@field AGUIShirt? ItemEnum
+---@field BedabotsShirt? ItemEnum
+---@field ProjektMelodyShirt? ItemEnum
+---@field XoulionShirt? ItemEnum
+---@field UfoShirt? ItemEnum
+---@field PlainPanties? ItemEnum
+---@field LingeriePanties? ItemEnum
+---@field StripedPanties? ItemEnum
+---@field FishPanties? ItemEnum
+---@field LuxeRosePanties? ItemEnum
+---@field BananaPanties? ItemEnum
+---@field USBPanties? ItemEnum
+---@field YaranaikaPanties? ItemEnum
+---@field WyldspacePanties? ItemEnum
+---@field HikkeiruPanties? ItemEnum
+---@field RadioactivePanties? ItemEnum
+---@field StrawberryStripedPanties? ItemEnum
+---@field PeachStripedPanties? ItemEnum
+---@field AvocadoPanties? ItemEnum
+---@field CherryStripedPanties? ItemEnum
+---@field SpecialHaremClassPanties? ItemEnum
+---@field XoulionPanties? ItemEnum
+---@field LuxeLingeriePanties? ItemEnum
+---@field StockingL? ItemEnum
+---@field StockingR? ItemEnum
+---@field LingerieStockingL? ItemEnum
+---@field LingerieStockingR? ItemEnum
+---@field LongSockL? ItemEnum
+---@field LongSockR? ItemEnum
+---@field StripedSockL? ItemEnum
+---@field StripedSockR? ItemEnum
+---@field StirrupStockingL? ItemEnum
+---@field StirrupStockingR? ItemEnum
+---@field ShortSockL? ItemEnum
+---@field ShortSockR? ItemEnum
+---@field TwoStripedStockingL? ItemEnum
+---@field TwoStripedStockingR? ItemEnum
+---@field KneeHighSockL? ItemEnum
+---@field KneeHighSockR? ItemEnum
+---@field StockingPair? ItemEnum
+---@field LingerieStockingPair? ItemEnum
+---@field LongSockPair? ItemEnum
+---@field StripedSockPair? ItemEnum
+---@field StirrupStockingPair? ItemEnum
+---@field ShortSockPair? ItemEnum
+---@field TwoStripedStockingPair? ItemEnum
+---@field KneeHighSockPair? ItemEnum
+---@field CuteBow? ItemEnum
+---@field HeartChoker? ItemEnum
+---@field HeartGlasses? ItemEnum
+---@field EyeShadow? ItemEnum
+---@field GothEyeMakeup? ItemEnum
+---@field BellChoker? ItemEnum
+---@field TinyWizardHat? ItemEnum
+---@field PumpkinHairpin? ItemEnum
+---@field PointyEars? ItemEnum
+---@field SeptumPiercing? ItemEnum
+---@field SeptumPiercing2? ItemEnum
+---@field Lipstick? ItemEnum
+---@field OvalGlasses? ItemEnum
+---@field ColoredOvalGlasses? ItemEnum
+---@field EyePatch? ItemEnum
+---@field HairClip? ItemEnum
+---@field TonguePiercing? ItemEnum
+---@field ColoredHeartGlasses? ItemEnum
+---@field Manicure? ItemEnum
+---@field Pedicure? ItemEnum
+---@field BuckleCollar? ItemEnum
+---@field Eyeliner? ItemEnum
+---@field HeartEyeSticker? ItemEnum
+---@field NaturalEyelashes? ItemEnum
+---@field SimpleChoker? ItemEnum
+---@field ColoredBuckleCollar? ItemEnum
+---@field SpikedCollar? ItemEnum
+---@field Headband? ItemEnum
+---@field NavelPiercing? ItemEnum
+---@field NipplePiercingL? ItemEnum
+---@field NipplePiercingR? ItemEnum
+---@field NipplePiercingPair? ItemEnum
+---@field PlainBra? ItemEnum
+---@field LingerieBra? ItemEnum
+---@field PleatedSkirt? ItemEnum
+---@field BaggyPants? ItemEnum
+---@field MiniSkirt? ItemEnum
+---@field PlainSneakerL? ItemEnum
+---@field PlainSneakerR? ItemEnum
+---@field PlainSneakerPair? ItemEnum
+---@field ClassyShoeL? ItemEnum
+---@field ClassyShoeR? ItemEnum
+---@field ClassyShoePair? ItemEnum
+---@field BaggyHoodie? ItemEnum
+---@field DogeCoinHoodie? ItemEnum
+---@field WeebHoodie? ItemEnum
+---@field BloodyMoonHoodie? ItemEnum
+---@field CosplayHouseHoodie? ItemEnum
+---@field LuxeMerchHoodie? ItemEnum
+---@field StilouMerchHoodie? ItemEnum
+---@field VolksAutoMerchHoodie? ItemEnum
+---@field MonizmedMerchHoodie? ItemEnum
+---@field DiabeteMerchHoodie? ItemEnum
+---@field CazinoMerchHoodie? ItemEnum
+---@field DiabeteColaPowHoodie? ItemEnum
+---@field DiabeteDrSugarHoodie? ItemEnum
+---@field DiabeteSweetPotatoHoodie? ItemEnum
+---@field MilfHunterHoodie? ItemEnum
+---@field PolandBallHoodie? ItemEnum
+---@field AGUIHoodie? ItemEnum
+---@field SpecialHaremClassHoodie? ItemEnum
+---@field BedabotsHoodie? ItemEnum
+---@field ProjektMelodyHoodie? ItemEnum
+---@field WorldTamerHoodie? ItemEnum
+---@field XoulionHoodie? ItemEnum
+---@field CelestynHoodie? ItemEnum
+---@field FlowerKidVHoodie? ItemEnum
+---@field NutekuHoodie? ItemEnum
+---@field SkullHoodie? ItemEnum
+---@field ToniSHoodie? ItemEnum
+---@field MadHoodie? ItemEnum
+---@field SJ68Hoodie? ItemEnum
+---@field LightSonicHoodie? ItemEnum
+---@field RottingSteelHoodie? ItemEnum
+---@field NitroriHoodie? ItemEnum
+---@field ShadyCornerHoodie? ItemEnum
+---@field VintageDress? ItemEnum
+---@field SlipDress? ItemEnum
+---@field PixelGlasses? ItemEnum
+---@field SneakerL? ItemEnum
+---@field SneakerR? ItemEnum
+---@field SneakerPair? ItemEnum
+---@field BasicFishingRod? ItemEnum
+---@field ReinforcedFishingRod? ItemEnum
+---@field FiberGlassFishingRod? ItemEnum
+---@field CarbonFiberFishingRod? ItemEnum
+---@field HyperSteelFishingRod? ItemEnum
+---@field Bluegill? ItemEnum
+---@field LargemouthBass? ItemEnum
+---@field NorthernPike? ItemEnum
+---@field YellowPerch? ItemEnum
+---@field Walleye? ItemEnum
+---@field RainbowTrout? ItemEnum
+---@field SmallmouthBass? ItemEnum
+---@field Catfish? ItemEnum
+---@field BrownTrout? ItemEnum
+---@field Carp? ItemEnum
+---@field RedSnapper? ItemEnum
+---@field Mackerel? ItemEnum
+---@field Flounder? ItemEnum
+---@field BlackSeaBass? ItemEnum
+---@field Halibut? ItemEnum
+---@field Salmon? ItemEnum
+---@field GoldenSalmon? ItemEnum
+---@field Tilapia? ItemEnum
+---@field WormBait? ItemEnum
+---@field LarvaeBait? ItemEnum
+---@field MeatBait? ItemEnum
+---@field FishChunksBait? ItemEnum
+---@field CornBait? ItemEnum
+---@field ShrimpBait? ItemEnum
+---@field MusselsBait? ItemEnum
+---@field OldCan? ItemEnum
+---@field OldShoe? ItemEnum
+---@field OldSyringe? ItemEnum
+---@field OldGrenade? ItemEnum
+---@field RustedBucket? ItemEnum
+---@field OilDrumLid? ItemEnum
+---@field BoneFragments? ItemEnum
+---@field ShatteredSmartphone? ItemEnum
+---@field OldDrSugarCan? ItemEnum
+---@field PlasticGroceryBag? ItemEnum
+---@field OldFishingNet? ItemEnum
+---@field OldCarBattery? ItemEnum
+---@field Rice? ItemEnum
+---@field Potatoes? ItemEnum
+---@field Flour? ItemEnum
+---@field Tomato? ItemEnum
+---@field Carrot? ItemEnum
+---@field Steak? ItemEnum
+---@field ChickenMeat? ItemEnum
+---@field Onions? ItemEnum
+---@field Eggs? ItemEnum
+---@field Milk? ItemEnum
+---@field Garlic? ItemEnum
+---@field Ginger? ItemEnum
+---@field SoySauce? ItemEnum
+---@field Vinegar? ItemEnum
+---@field Pasta? ItemEnum
+---@field RawGroundBeef? ItemEnum
+---@field Sugar? ItemEnum
+---@field Butter? ItemEnum
+---@field Cheese? ItemEnum
+---@field Yoghurt? ItemEnum
+---@field BeansOnDispenserBread? ItemEnum
+---@field PickledOnionsWithSausage? ItemEnum
+---@field LandlordsTaco? ItemEnum
+---@field SmallSalad? ItemEnum
+---@field SimpleFriedFish? ItemEnum
+---@field PotatoEggSalad? ItemEnum
+---@field ChickenNoodleSoup? ItemEnum
+---@field AmericanChili? ItemEnum
+---@field CarrotSalad? ItemEnum
+---@field FriedRice? ItemEnum
+---@field CookedSteak? ItemEnum
+---@field Pancakes? ItemEnum
+---@field FancyFriedFish? ItemEnum
+---@field SpaghettiBolognese? ItemEnum
+---@field Gyros? ItemEnum
+---@field Omurice? ItemEnum
+---@field SpaghettiCarbonara? ItemEnum
+---@field BeefWelington? ItemEnum
+---@field Sushi? ItemEnum
+---@field SheepsCurry? ItemEnum
+---@field CarrotCake? ItemEnum
+---@field BasicSoap? ItemEnum
+---@field ColorfulSoap? ItemEnum
+---@field PumpkinMat? ItemEnum
+---@field SpiderPlush? ItemEnum
+---@field BatBanner? ItemEnum
+---@field GhostDecoration? ItemEnum
+---@field BingChillingMagazineBundle? ItemEnum
+---@field LingerieCatalogue? ItemEnum
+---@field LandlordsOldStove? ItemEnum
+---@field FixedLandlordsOldStove? ItemEnum
+---@type ItemEnumTable
+ItemEnum = {}
+
+---@alias ItemLocationEnum
+---| '"AtHome"'
+---| '"Carried"'
+---| '"BorrowedFromShop"'
+
+---@class ItemLocationEnumTable
+---@field AtHome? ItemLocationEnum
+---@field Carried? ItemLocationEnum
+---@field BorrowedFromShop? ItemLocationEnum
+---@type ItemLocationEnumTable
+ItemLocationEnum = {}
+
+---@alias ItemManagerCallbacks
+---| '"None"'
+---| '"UnequippedItemsModified"'
+---| '"EquippedItemsModified"'
+---| '"flagsAnd"'
+---| '"__flagsAnd"'
+---| '"flagsOr"'
+---| '"__flagsOr"'
+---| '"flagsXor"'
+---| '"__flagsXor"'
+---| '"flagsNot"'
+---| '"__flagsNot"'
+---| '"hasAll"'
+---| '"__hasAll"'
+---| '"hasAny"'
+---| '"__hasAny"'
+
+---@class ItemManagerCallbacksTable
+---@field None? ItemManagerCallbacks
+---@field UnequippedItemsModified? ItemManagerCallbacks
+---@field EquippedItemsModified? ItemManagerCallbacks
+---@field flagsAnd? ItemManagerCallbacks
+---@field __flagsAnd? ItemManagerCallbacks
+---@field flagsOr? ItemManagerCallbacks
+---@field __flagsOr? ItemManagerCallbacks
+---@field flagsXor? ItemManagerCallbacks
+---@field __flagsXor? ItemManagerCallbacks
+---@field flagsNot? ItemManagerCallbacks
+---@field __flagsNot? ItemManagerCallbacks
+---@field hasAll? ItemManagerCallbacks
+---@field __hasAll? ItemManagerCallbacks
+---@field hasAny? ItemManagerCallbacks
+---@field __hasAny? ItemManagerCallbacks
+---@type ItemManagerCallbacksTable
+ItemManagerCallbacks = {}
+
+---@alias ItemSubCategory
+---| '"Default"'
+---| '"Modules_CatEars"'
+---| '"Clothing_MakeUp"'
+---| '"Clothing_Piercing"'
+
+---@class ItemSubCategoryTable
+---@field Default? ItemSubCategory
+---@field Modules_CatEars? ItemSubCategory
+---@field Clothing_MakeUp? ItemSubCategory
+---@field Clothing_Piercing? ItemSubCategory
+---@type ItemSubCategoryTable
+ItemSubCategory = {}
+
+---@alias ItemUIAllowedButtons
+---| '"None"'
+---| '"EquipUnequip"'
+---| '"Eat"'
+---| '"Use"'
+---| '"Unpack"'
+---| '"Modify"'
+---| '"ThrowOut"'
+---| '"All"'
+---| '"flagsAnd"'
+---| '"__flagsAnd"'
+---| '"flagsOr"'
+---| '"__flagsOr"'
+---| '"flagsXor"'
+---| '"__flagsXor"'
+---| '"flagsNot"'
+---| '"__flagsNot"'
+---| '"hasAll"'
+---| '"__hasAll"'
+---| '"hasAny"'
+---| '"__hasAny"'
+
+---@class ItemUIAllowedButtonsTable
+---@field None? ItemUIAllowedButtons
+---@field EquipUnequip? ItemUIAllowedButtons
+---@field Eat? ItemUIAllowedButtons
+---@field Use? ItemUIAllowedButtons
+---@field Unpack? ItemUIAllowedButtons
+---@field Modify? ItemUIAllowedButtons
+---@field ThrowOut? ItemUIAllowedButtons
+---@field All? ItemUIAllowedButtons
+---@field flagsAnd? ItemUIAllowedButtons
+---@field __flagsAnd? ItemUIAllowedButtons
+---@field flagsOr? ItemUIAllowedButtons
+---@field __flagsOr? ItemUIAllowedButtons
+---@field flagsXor? ItemUIAllowedButtons
+---@field __flagsXor? ItemUIAllowedButtons
+---@field flagsNot? ItemUIAllowedButtons
+---@field __flagsNot? ItemUIAllowedButtons
+---@field hasAll? ItemUIAllowedButtons
+---@field __hasAll? ItemUIAllowedButtons
+---@field hasAny? ItemUIAllowedButtons
+---@field __hasAny? ItemUIAllowedButtons
+---@type ItemUIAllowedButtonsTable
+ItemUIAllowedButtons = {}
+
+---@alias KissStartPositionType
+---| '"MousePosition"'
+---| '"RendererCenter"'
+
+---@class KissStartPositionTypeTable
+---@field MousePosition? KissStartPositionType
+---@field RendererCenter? KissStartPositionType
+---@type KissStartPositionTypeTable
+KissStartPositionType = {}
+
+---@alias MusicGroupName
+---| '"Volume1"'
+---| '"Volume2"'
+---| '"Volume3"'
+---| '"Volume4"'
+---| '"Volume5"'
+---| '"Other"'
+
+---@class MusicGroupNameTable
+---@field Volume1? MusicGroupName
+---@field Volume2? MusicGroupName
+---@field Volume3? MusicGroupName
+---@field Volume4? MusicGroupName
+---@field Volume5? MusicGroupName
+---@field Other? MusicGroupName
+---@type MusicGroupNameTable
+MusicGroupName = {}
+
+---@alias MusicOptionLayer
+---| '"Base"'
+---| '"AboveBase"'
+---| '"Forced"'
+
+---@class MusicOptionLayerTable
+---@field Base? MusicOptionLayer
+---@field AboveBase? MusicOptionLayer
+---@field Forced? MusicOptionLayer
+---@type MusicOptionLayerTable
+MusicOptionLayer = {}
+
+---@alias NewsId
+---| '"MainNews"'
+---| '"SideNews1"'
+---| '"SideNews2"'
+---| '"SideNews3"'
+---| '"OpinionNews"'
+
+---@class NewsIdTable
+---@field MainNews? NewsId
+---@field SideNews1? NewsId
+---@field SideNews2? NewsId
+---@field SideNews3? NewsId
+---@field OpinionNews? NewsId
+---@type NewsIdTable
+NewsId = {}
+
+---@alias NoteButtonTypeEnum
+---| '"Left"'
+---| '"Right"'
+
+---@class NoteButtonTypeEnumTable
+---@field Left? NoteButtonTypeEnum
+---@field Right? NoteButtonTypeEnum
+---@type NoteButtonTypeEnumTable
+NoteButtonTypeEnum = {}
+
+---@alias PopupFinishTypesEnum
+---| '"Closed"'
+---| '"Cancelled"'
+---| '"Successful"'
+
+---@class PopupFinishTypesEnumTable
+---@field Closed? PopupFinishTypesEnum
+---@field Cancelled? PopupFinishTypesEnum
+---@field Successful? PopupFinishTypesEnum
+---@type PopupFinishTypesEnumTable
+PopupFinishTypesEnum = {}
+
+---@alias SaveContainerLoadResult
+---| '"Success"'
+---| '"FailedToParse"'
+---| '"FailedToValidate_LoadedSaveFromSaveFile"'
+
+---@class SaveContainerLoadResultTable
+---@field Success? SaveContainerLoadResult
+---@field FailedToParse? SaveContainerLoadResult
+---@field FailedToValidate_LoadedSaveFromSaveFile? SaveContainerLoadResult
+---@type SaveContainerLoadResultTable
+SaveContainerLoadResult = {}
+
+---@alias SaveType
+---| '"Manual"'
+---| '"Auto"'
+
+---@class SaveTypeTable
+---@field Manual? SaveType
+---@field Auto? SaveType
+---@type SaveTypeTable
+SaveType = {}
+
+---@alias ScratchTextureType
+---| '"Universal"'
+---| '"Hard"'
+
+---@class ScratchTextureTypeTable
+---@field Universal? ScratchTextureType
+---@field Hard? ScratchTextureType
+---@type ScratchTextureTypeTable
+ScratchTextureType = {}
+
+---@alias ShopItemType
+---| '"SingleBuy"'
+---| '"Generic"'
+
+---@class ShopItemTypeTable
+---@field SingleBuy? ShopItemType
+---@field Generic? ShopItemType
+---@type ShopItemTypeTable
+ShopItemType = {}
+
+---@alias SingleArgumentComparators
+---| '"Equal"'
+---| '"NotEqual"'
+---| '"AboveEqual"'
+---| '"BelowEqual"'
+---| '"Above"'
+---| '"Below"'
+
+---@class SingleArgumentComparatorsTable
+---@field Equal? SingleArgumentComparators
+---@field NotEqual? SingleArgumentComparators
+---@field AboveEqual? SingleArgumentComparators
+---@field BelowEqual? SingleArgumentComparators
+---@field Above? SingleArgumentComparators
+---@field Below? SingleArgumentComparators
+---@type SingleArgumentComparatorsTable
+SingleArgumentComparators = {}
+
+---@alias SlotType
+---| '"BotPart"'
+---| '"BotClothes"'
+---| '"BotHair"'
+---| '"BotSomething"'
+---| '"Other"'
+---| '"Unknown"'
+
+---@class SlotTypeTable
+---@field BotPart? SlotType
+---@field BotClothes? SlotType
+---@field BotHair? SlotType
+---@field BotSomething? SlotType
+---@field Other? SlotType
+---@field Unknown? SlotType
+---@type SlotTypeTable
+SlotType = {}
+
+---@alias StaminaSyncType
+---| '"Normal"'
+---| '"None"'
+---| '"Recovery"'
+
+---@class StaminaSyncTypeTable
+---@field Normal? StaminaSyncType
+---@field None? StaminaSyncType
+---@field Recovery? StaminaSyncType
+---@type StaminaSyncTypeTable
+StaminaSyncType = {}
+
+---@alias StoryBotContainerTypeEnum
+---| '"Prologue"'
+---| '"Default"'
+---| '"Override"'
+
+---@class StoryBotContainerTypeEnumTable
+---@field Prologue? StoryBotContainerTypeEnum
+---@field Default? StoryBotContainerTypeEnum
+---@field Override? StoryBotContainerTypeEnum
+---@type StoryBotContainerTypeEnumTable
+StoryBotContainerTypeEnum = {}
+
+---@alias StringPrintTypesEnum
+---| '"Normal"'
+---| '"Center"'
+---| '"DecorativeWrapCenter"'
+
+---@class StringPrintTypesEnumTable
+---@field Normal? StringPrintTypesEnum
+---@field Center? StringPrintTypesEnum
+---@field DecorativeWrapCenter? StringPrintTypesEnum
+---@type StringPrintTypesEnumTable
+StringPrintTypesEnum = {}
+
+---@alias SusArea
+---| '"ArmL"'
+---| '"ArmR"'
+---| '"LegL"'
+---| '"LegR"'
+---| '"UpperBody"'
+---| '"Boobs"'
+---| '"LowerBody"'
+---| '"Pussy"'
+---| '"Skin"'
+
+---@class SusAreaTable
+---@field ArmL? SusArea
+---@field ArmR? SusArea
+---@field LegL? SusArea
+---@field LegR? SusArea
+---@field UpperBody? SusArea
+---@field Boobs? SusArea
+---@field LowerBody? SusArea
+---@field Pussy? SusArea
+---@field Skin? SusArea
+---@type SusAreaTable
+SusArea = {}
+
+---@alias TimeCheckType
+---| '"None"'
+---| '"Before"'
+---| '"After"'
+---| '"BeforeRelative"'
+---| '"AfterRelative"'
+
+---@class TimeCheckTypeTable
+---@field None? TimeCheckType
+---@field Before? TimeCheckType
+---@field After? TimeCheckType
+---@field BeforeRelative? TimeCheckType
+---@field AfterRelative? TimeCheckType
+---@type TimeCheckTypeTable
+TimeCheckType = {}
+
+---@alias TimeOffsetType
+---| '"Relative"'
+---| '"Absolute"'
+---| '"Zero"'
+
+---@class TimeOffsetTypeTable
+---@field Relative? TimeOffsetType
+---@field Absolute? TimeOffsetType
+---@field Zero? TimeOffsetType
+---@type TimeOffsetTypeTable
+TimeOffsetType = {}
+
+---@alias TwoArgumentComparators
+---| '"BetweenEqual"'
+---| '"Between"'
+---| '"AroundEqual"'
+---| '"Around"'
+
+---@class TwoArgumentComparatorsTable
+---@field BetweenEqual? TwoArgumentComparators
+---@field Between? TwoArgumentComparators
+---@field AroundEqual? TwoArgumentComparators
+---@field Around? TwoArgumentComparators
+---@type TwoArgumentComparatorsTable
+TwoArgumentComparators = {}
+
+---@alias UpdateTexturesFromCurrentlyEquippedTypeEnum
+---| '"Reset"'
+---| '"Active"'
+
+---@class UpdateTexturesFromCurrentlyEquippedTypeEnumTable
+---@field Reset? UpdateTexturesFromCurrentlyEquippedTypeEnum
+---@field Active? UpdateTexturesFromCurrentlyEquippedTypeEnum
+---@type UpdateTexturesFromCurrentlyEquippedTypeEnumTable
+UpdateTexturesFromCurrentlyEquippedTypeEnum = {}

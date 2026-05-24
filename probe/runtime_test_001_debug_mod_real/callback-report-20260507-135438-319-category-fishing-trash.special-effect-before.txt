@@ -1,0 +1,156 @@
+table: 0000A4B8# MDRG Callback Context Report
+Generated at: 20260507-135438
+Callback probe version: 2026-05-07
+Report file: probe/runtime_test_001_debug_mod_real/callback-report-20260507-135438-319-category-fishing-trash.special-effect-before.txt
+
+## Callback Invocation
+----------------------
+callback id: category-fishing-trash.special-effect
+callback name: category-fishing-trash.special-effect
+callback kind: special-effect
+debug case id: category-fishing-trash
+source stub: ItemPrefab.SpecialEffectAction
+expected signature: fun(value: boolean, item: Item)
+trigger hint: Equip/use item when special effects are evaluated
+phase: before
+call count: 1
+
+## Callback Runtime / Injection Context
+---------------------------------------
+This is a callback/closure invocation context. Surrounding runtime signals are likely, not guaranteed.
+CurrentModGuid: true (userdata)
+GameVariables: false (nil)
+gv: true (userdata)
+flowchart: true (userdata)
+io: true (table)
+io.open: true (function)
+io.read: true (function)
+io.write: true (function)
+io.popen: true (function)
+io.tmpfile: true (function)
+ModUtilities: true (userdata)
+GameUtilities: true (userdata)
+effective GameVariables source: gv
+detected context: callback-invocation-with-safe-io
+surrounding context: unknown-plugin-context
+transport: file
+safe IO likely injected: yes
+io is present. If this came from LuaPatch/safe IO, treat it as an injected bridge API, not native MDRG.
+io.popen field is present but was not called. Presence does not prove process execution capability.
+
+## Callback Lifecycle Matrix
+----------------------------
+Callback:
+- name: category-fishing-trash.special-effect
+- phase: before
+
+Current runtime signals:
+- CurrentModGuid: true
+- GameVariables: false
+- gv: true
+- flowchart: true
+- io.open: true
+
+Likely phase:
+- callback invocation during gameplay or system evaluation
+- registered earlier by mod startup / OnGameStart-like script
+- exact caller is not guaranteed unless callback name identifies it
+
+## Arguments
+------------
+- #1 value: boolean false (metatable missing)
+- #2 item: userdata <userdata: callback probe FishingTrash> (metatable missing)
+
+## Item Context
+---------------
+item present: yes
+item tostring: <userdata: callback probe FishingTrash>
+item type: userdata
+item metatable: missing
+debug inferred name: callback probe FishingTrash
+debug case id: category-fishing-trash
+callback kind: special-effect
+source stub: ItemPrefab.SpecialEffectAction
+
+## Field Probe
+--------------
+- item.GetName: present function [index] <function: function: 0000A4C8>
+- item.GetDescription: present function [index] <function: function: 0000A4CD>
+- item.GetCount: present function [index] <function: function: 0000A4D2>
+- item.GetPrice: present function [index] <function: function: 0000A4D7>
+- item.GetItemPrefab: present function [index] <function: function: 0000A4DC>
+- item.IsEquipped: present function [index] <function: function: 0000A4E1>
+- item.CanBeUsed: present function [index] <function: function: 0000A4E6>
+- item.CanBeUnpacked: present function [index] <function: function: 0000A4EB>
+
+## Access Errors
+----------------
+Total access errors: 0
+
+## Machine Readable Summary
+---------------------------
+BEGIN_MDRG_RUNTIME_TEST_CONTEXT
+runtime_test|id|runtime_test_001_debug_mod_real
+runtime_test|label|debug_mod_real
+runtime_test|folder|probe/runtime_test_001_debug_mod_real
+runtime_test|notes_path|probe/runtime_test_001_debug_mod_real/notes.txt
+END_MDRG_RUNTIME_TEST_CONTEXT
+BEGIN_MDRG_CALLBACK_CONTEXT
+callback|callback_id|category-fishing-trash.special-effect
+callback|callback_name|category-fishing-trash.special-effect
+callback|phase|before
+callback|call_count|1
+callback|callback_kind|special-effect
+callback|expected_signature|fun(value: boolean, item: Item)
+callback|source_stub|ItemPrefab.SpecialEffectAction
+callback|debug_case_id|category-fishing-trash
+callback|trigger_hint|Equip/use item when special effects are evaluated
+callback|detected_context|callback-invocation-with-safe-io
+callback|surrounding_context|unknown-plugin-context
+callback|context_confidence|likely
+callback|current_mod_guid_present|true
+callback|gamevariables_present|false
+callback|gv_present|true
+callback|flowchart_present|true
+callback|io_present|true
+callback|io_open_present|true
+callback|io_read_present|true
+callback|io_write_present|true
+callback|io_popen_present|true
+callback|io_tmpfile_present|true
+callback|modutilities_present|true
+callback|gameutilities_present|true
+callback|effective_gamevariables_source|gv
+callback|transport|file
+callback|safe_io_likely_injected|yes
+END_MDRG_CALLBACK_CONTEXT
+BEGIN_MDRG_CALLBACK_ARGS
+arg|1|value|boolean|false|metatable:missing
+arg|2|item|userdata|<userdata: callback probe FishingTrash>|metatable:missing
+END_MDRG_CALLBACK_ARGS
+BEGIN_MDRG_CALLBACK_ITEM_CONTEXT
+item|callback_id|category-fishing-trash.special-effect
+item|phase|before
+item|arg_name|item
+item|type|userdata
+item|value|<userdata: callback probe FishingTrash>
+item|metatable|missing
+item|debug_case_id|category-fishing-trash
+item|callback_kind|special-effect
+item|source_stub|ItemPrefab.SpecialEffectAction
+item|expected_signature|fun(value: boolean, item: Item)
+item|inferred_item_label|callback probe FishingTrash
+item|present|true
+END_MDRG_CALLBACK_ITEM_CONTEXT
+BEGIN_MDRG_CALLBACK_FIELDS
+field|item|GetName|function|present|index|<function: function: 0000A4C8>
+field|item|GetDescription|function|present|index|<function: function: 0000A4CD>
+field|item|GetCount|function|present|index|<function: function: 0000A4D2>
+field|item|GetPrice|function|present|index|<function: function: 0000A4D7>
+field|item|GetItemPrefab|function|present|index|<function: function: 0000A4DC>
+field|item|IsEquipped|function|present|index|<function: function: 0000A4E1>
+field|item|CanBeUsed|function|present|index|<function: function: 0000A4E6>
+field|item|CanBeUnpacked|function|present|index|<function: function: 0000A4EB>
+END_MDRG_CALLBACK_FIELDS
+BEGIN_MDRG_CALLBACK_ERRORS
+END_MDRG_CALLBACK_ERRORS

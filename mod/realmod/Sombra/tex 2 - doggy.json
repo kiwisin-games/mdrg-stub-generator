@@ -1,0 +1,26 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 2 - doggy_texture0_layer10.png",
+            "Layer": 10,
+            "PackedDrawables": [
+                {
+                    "Name": "SkinLowerEyelid",
+                    "RectInt": {
+                        "x": 10,
+                        "y": 10,
+                        "width": 76,
+                        "height": 71
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "doggy"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 4 - blowjob_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "EyeBall",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 386,
+                        "height": 130
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "PupilL",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 145,
+                        "width": 120,
+                        "height": 120
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "PupilR",
+                    "RectInt": {
+                        "x": 135,
+                        "y": 145,
+                        "width": 120,
+                        "height": 120
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "Iris1L",
+                    "RectInt": {
+                        "x": 265,
+                        "y": 145,
+                        "width": 69,
+                        "height": 69
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "Iris1R",
+                    "RectInt": {
+                        "x": 265,
+                        "y": 224,
+                        "width": 68,
+                        "height": 68
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "blowjob"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

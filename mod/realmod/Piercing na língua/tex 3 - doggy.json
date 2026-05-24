@@ -1,0 +1,26 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 3 - doggy_texture0_layer1.png",
+            "Layer": 1,
+            "PackedDrawables": [
+                {
+                    "Name": "Tongue",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 40,
+                        "height": 24
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "doggy"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

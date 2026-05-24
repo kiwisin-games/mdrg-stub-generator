@@ -1,0 +1,74 @@
+{
+    "PackedTextures": [
+        {
+            "TextureName": "tex 3 - interaction_texture0_layer0.png",
+            "Layer": 0,
+            "PackedDrawables": [
+                {
+                    "Name": "EyeBall",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 5,
+                        "width": 387,
+                        "height": 130
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "PupilL",
+                    "RectInt": {
+                        "x": 5,
+                        "y": 145,
+                        "width": 121,
+                        "height": 121
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "PupilR",
+                    "RectInt": {
+                        "x": 136,
+                        "y": 145,
+                        "width": 121,
+                        "height": 121
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "Iris1L",
+                    "RectInt": {
+                        "x": 267,
+                        "y": 145,
+                        "width": 69,
+                        "height": 69
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                },
+                {
+                    "Name": "Iris1R",
+                    "RectInt": {
+                        "x": 267,
+                        "y": 224,
+                        "width": 68,
+                        "height": 68
+                    },
+                    "ColorIndex": 0,
+                    "DrawableType": 0,
+                    "BypassColorScaler": false
+                }
+            ],
+            "Targets": [
+                "interaction"
+            ],
+            "DontIncludeVanillaLayers": false
+        }
+    ]
+}

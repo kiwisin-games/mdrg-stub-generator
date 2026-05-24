@@ -1,0 +1,1078 @@
+[18:47:42.829] [LuaPatch] [Lua:exec.lua] Loaded exec!
+[18:47:43.026] [LuaPatch] [Lua:exec.lua] === MDRG ENV PROBE REPORT BEGIN ===
+[18:47:43.026] [LuaPatch] [Lua:exec.lua] # MDRG Lua Environment Report
+Generated at: 20260506-184742
+Script version: 2026-05-06
+
+## Runtime
+----------
+_VERSION: "MoonSharp 2.0.0.0"
+CurrentModGuid: <missing>
+_MOONSHARP: <table: table: 00000005>
+_MOONSHARP.banner: "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+_MOONSHARP.is_aot: true
+_MOONSHARP.is_clr4: true
+_MOONSHARP.is_mono: true
+_MOONSHARP.is_pcl: false
+_MOONSHARP.is_unity: true
+_MOONSHARP.luacompat: "5.2"
+_MOONSHARP.platform: "limited.unity.dll.mono.clr4.aot"
+_MOONSHARP.version: "2.0.0.0"
+
+## Globals Summary
+------------------
+Accessible globals sampled: 108
+Types: function=21, string=1, table=10, userdata=76
+
+## Known Stub Symbols Present/Missing
+-------------------------------------
+Runtime symbol expected - present:
+- _G: table <table: table: 00000004>
+- _VERSION: string "MoonSharp 2.0.0.0"
+- _MOONSHARP: table <table: table: 00000005>
+- assert: function <function: function: 0000000A>
+- collectgarbage: function <function: function: 0000000B>
+- coroutine: table <table: table: 00000055>
+- debug: table <table: table: 00000061>
+- error: function <function: function: 0000000C>
+- getmetatable: function <function: function: 00000012>
+- ipairs: function <function: function: 00000006>
+- json: table <table: table: 0000006D>
+- math: table <table: table: 00000038>
+- next: function <function: function: 00000008>
+- os: table <table: table: 0000005C>
+- package: table <table: table: 00000018>
+- pairs: function <function: function: 00000007>
+- pcall: function <function: function: 00000036>
+- print: function <function: function: 00000010>
+- rawequal: function <function: function: 00000015>
+- rawget: function <function: function: 00000013>
+- rawlen: function <function: function: 00000016>
+- rawset: function <function: function: 00000014>
+- select: function <function: function: 0000000E>
+- setmetatable: function <function: function: 00000011>
+- string: table <table: table: 00000017>
+- table: table <table: table: 0000002D>
+- tonumber: function <function: function: 0000000F>
+- tostring: function <function: function: 0000000D>
+- type: function <function: function: 00000009>
+- xpcall: function <function: function: 00000037>
+- ModUtilities: userdata <userdata: Everything (ModUtilities)>
+- GameUtilities: userdata <userdata: Everything (GameUtilities)>
+- Item: userdata <userdata: userdata: 000000AB>
+- ItemPrefab: userdata <userdata: userdata: 000000B5>
+- ItemPrefabManager: userdata <userdata: userdata: 000000B7>
+- GameId: userdata <userdata: userdata: 0000007B>
+- Guid: userdata <userdata: userdata: 0000007A>
+- ColorPalette: userdata <userdata: userdata: 0000027A>
+- ColorPaletteEntry: userdata <userdata: userdata: 0000027B>
+- ItemEnum: userdata <userdata: userdata: 00000219>
+- ControllerEnum: userdata <userdata: userdata: 00000079>
+- FishingBaitType: userdata <userdata: userdata: 00000269>
+- ItemCategory: userdata <userdata: userdata: 00000228>
+- ScratchTextureType: userdata <userdata: userdata: 00000230>
+- ItemSlot: userdata <userdata: userdata: 00000285>
+- SlotType: userdata <userdata: userdata: 0000028C>
+- CheckType: userdata <userdata: userdata: 000002DD>
+- UiOverlay: userdata <userdata: Everything (UiOverlay)>
+- SaveContainer: userdata <userdata: userdata: 000003E9>
+- SaveSingleton: userdata <userdata: userdata: 000003E4>
+- StoryCondition: userdata <userdata: userdata: 000003BF>
+- StoryBotDialogueBranch: userdata <userdata: userdata: 000003C7>
+- TextureOverriderManager: userdata <userdata: userdata: 0000039E>
+- ColorSlot: userdata <userdata: userdata: 0000023B>
+- ColorPaletteManager: userdata <userdata: userdata: 00000279>
+- SlotEquipData: userdata <userdata: userdata: 00000242>
+- EdibleItemPrefabData: userdata <userdata: userdata: 0000024D>
+- SimpleLocalizedString: userdata <userdata: userdata: 000003DF>
+
+Runtime symbol expected - missing in this context:
+- CurrentModGuid
+- GameVariables
+- ItemManager
+- Color
+- Vector2
+- Vector3
+- Quaternion
+- SceneEnumFlag
+- ColoringGroupEnum
+- CustomShaderTypeEnum
+- ItemLocationEnum
+- ItemSlotEnum
+- ShopItemType
+- UpdateTexturesFromCurrentlyEquippedTypeEnum
+- DeliveryStatus
+- EquipResults
+- EyeSelection
+- ArmState
+- BrowserPopup
+- BotStatusAppPopup
+- Flowchart
+- Save
+- StoryBotDialogueBranchContainer
+- LuaPersonalityModuleDefinition
+- PersonalityModuleDefinition
+- PackedTexturesContainer
+- EdibleData
+
+Stub-only alias expected - not a runtime error if missing:
+- MdrgKnownWebsiteId: stub-only alias, runtime symbol not expected
+- MdrgKnownStoryFlagId: stub-only alias, runtime symbol not expected
+- MdrgKnownPaletteName: stub-only alias, runtime symbol not expected
+- MdrgKnownShopId: stub-only alias, runtime symbol not expected
+- MdrgKnownControllerId: stub-only alias, runtime symbol not expected
+- MdrgKnownColorSlotName: stub-only alias, runtime symbol not expected
+- MdrgKnownEquipmentSlotId: stub-only alias, runtime symbol not expected
+- MdrgKnownDialogueContainerId: stub-only alias, runtime symbol not expected
+
+## Possibly Undocumented Globals
+--------------------------------
+- AllowedModifiers (userdata)
+- AtLeastOneBoolVariableTrueRequirement (userdata)
+- CommonAllowedModifiersEnum (userdata)
+- CookingSong (userdata)
+- CookingSongRuntimeData (userdata)
+- EdibleItemNutritionProfile (userdata)
+- EdibleTypeEnum (userdata)
+- FinishedType (userdata)
+- FishingBaitItemPrefabData (userdata)
+- FishingCatchBehaviourType (userdata)
+- FishingRodItemPrefabData (userdata)
+- FishItemPrefabData (userdata)
+- FishPreferences (userdata)
+- flowchart (userdata)
+- GlobalFlag (userdata)
+- gv (userdata)
+- ItemModifiableVariableFactory (userdata)
+- ItemModifiableVariablesRequirement (userdata)
+- ItemScopeCondition (userdata)
+- ItemScopeConditionAlwaysTrueCondition (userdata)
+- ItemScopeConditionCustom (userdata)
+- ItemScopeConditionSpecialVariable (userdata)
+- ItemSubCategory (userdata)
+- Live2DControllerSingleton (userdata)
+- NewsId (userdata)
+- NoteButtonTypeEnum (userdata)
+- pack (function)
+- R (userdata)
+- Recipe (userdata)
+- Result (userdata)
+- Shop (userdata)
+- ShopItem (userdata)
+- ShopManager (userdata)
+- SingleArgumentComparators (userdata)
+- SlotManager (userdata)
+- SoundSingleton (userdata)
+- StoryAutoBranch (userdata)
+- StoryBlockTarget (userdata)
+- StoryBotContainerTypeEnum (userdata)
+- StoryBranchTarget (userdata)
+- StoryEnumeratorTarget (userdata)
+- StoryLocalizedConversationBranchTarget (userdata)
+- StoryMenuBranch (userdata)
+- StorySingleton (userdata)
+- SusArea (userdata)
+- SusModifier (userdata)
+- TimeCheckType (userdata)
+- TwoArgumentComparators (userdata)
+- unpack (function)
+- ViewSingleton (userdata)
+
+## Top-level Tables Snapshot
+----------------------------
+- _G
+  accessible keys sampled: 108
+  functions ~= 21, tables ~= 10, userdata ~= 76, scalars ~= 1
+  value types: function=21, string=1, table=10, userdata=76
+  metatable: none
+  enum-like/constant-like: no
+  key sample: _G:table, _MOONSHARP:table, _VERSION:string, AllowedModifiers:userdata, assert:function, AtLeastOneBoolVariableTrueRequirement:userdata, CheckType:userdata, collectgarbage:function, ColorPalette:userdata, ColorPaletteEntry:userdata, ColorPaletteManager:userdata, ColorSlot:userdata, CommonAllowedModifiersEnum:userdata, ControllerEnum:userdata, CookingSong:userdata, CookingSongRuntimeData:userdata, coroutine:table, debug:table, EdibleItemNutritionProfile:userdata, EdibleItemPrefabData:userdata, EdibleTypeEnum:userdata, error:function, FinishedType:userdata, FishingBaitItemPrefabData:userdata, FishingBaitType:userdata, FishingCatchBehaviourType:userdata, FishingRodItemPrefabData:userdata, FishItemPrefabData:userdata, FishPreferences:userdata, flowchart:userdata, GameId:userdata, GameUtilities:userdata, getmetatable:function, GlobalFlag:userdata, Guid:userdata, gv:userdata, ipairs:function, Item:userdata, ItemCategory:userdata, ItemEnum:userdata, ItemModifiableVariableFactory:userdata, Ite...<truncated>
+- _MOONSHARP
+  accessible keys sampled: 9
+  functions ~= 0, tables ~= 0,
+[18:47:43.033] [LuaPatch] [Lua:exec.lua]  userdata ~= 0, scalars ~= 9
+  value types: boolean=5, string=4
+  metatable: none
+  enum-like/constant-like: constant-like
+  key sample: banner:string, is_aot:boolean, is_clr4:boolean, is_mono:boolean, is_pcl:boolean, is_unity:boolean, luacompat:string, platform:string, version:string
+- coroutine
+  accessible keys sampled: 6
+  functions ~= 6, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=6
+  metatable: none
+  enum-like/constant-like: no
+  key sample: create:function, resume:function, running:function, status:function, wrap:function, yield:function
+- debug
+  accessible keys sampled: 11
+  functions ~= 11, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=11
+  metatable: none
+  enum-like/constant-like: no
+  key sample: debug:function, getmetatable:function, getregistry:function, getupvalue:function, getuservalue:function, setmetatable:function, setupvalue:function, setuservalue:function, traceback:function, upvalueid:function, upvaluejoin:function
+- json
+  accessible keys sampled: 4
+  functions ~= 4, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=4
+  metatable: none
+  enum-like/constant-like: no
+  key sample: isnull:function, null:function, parse:function, serialize:function
+- math
+  accessible keys sampled: 29
+  functions ~= 27, tables ~= 0, userdata ~= 0, scalars ~= 2
+  value types: function=27, number=2
+  metatable: none
+  enum-like/constant-like: no
+  key sample: abs:function, acos:function, asin:function, atan:function, atan2:function, ceil:function, cos:function, cosh:function, deg:function, exp:function, floor:function, fmod:function, frexp:function, huge:number, ldexp:function, log:function, max:function, min:function, modf:function, pi:number, pow:function, rad:function, random:function, randomseed:function, sin:function, sinh:function, sqrt:function, tan:function, tanh:function
+- os
+  accessible keys sampled: 4
+  functions ~= 4, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=4
+  metatable: none
+  enum-like/constant-like: no
+  key sample: clock:function, date:function, difftime:function, time:function
+- package
+  accessible keys sampled: 1
+  functions ~= 0, tables ~= 1, userdata ~= 0, scalars ~= 0
+  value types: table=1
+  metatable: none
+  enum-like/constant-like: no
+  key sample: loaded:table
+- string
+  accessible keys sampled: 18
+  functions ~= 18, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=18
+  metatable: none
+  enum-like/constant-like: no
+  key sample: byte:function, char:function, contains:function, dump:function, endsWith:function, find:function, format:function, gmatch:function, gsub:function, len:function, lower:function, match:function, rep:function, reverse:function, startsWith:function, sub:function, unicode:function, upper:function
+- table
+  accessible keys sampled: 6
+  functions ~= 6, tables ~= 0, userdata ~= 0, scalars ~= 0
+  value types: function=6
+  metatable: none
+  enum-like/constant-like: no
+  key sample: concat:function, insert:function, pack:function, remove:function, sort:function, unpack:function
+
+## Callable Inventory
+---------------------
+- _G.assert : function [origin=global, safety=Unknown]
+- _G.collectgarbage : function [origin=global, safety=Unknown]
+- _G.error : function [origin=global, safety=Unknown]
+- _G.getmetatable : function [origin=global, safety=Read-only]
+- _G.ipairs : function [origin=global, safety=Unknown]
+- _G.next : function [origin=global, safety=Unknown]
+- _G.pack : function [origin=global, safety=Unknown]
+- _G.pairs : function [origin=global, safety=Unknown]
+- _G.pcall : function [origin=global, safety=Unknown]
+- _G.print : function [origin=global, safety=Unknown]
+- _G.rawequal : function [origin=global, safety=Unknown]
+- _G.rawget : function [origin=global, safety=Read-only]
+- _G.rawlen : function [origin=global, safety=Unknown]
+- _G.rawset : function [origin=global, safety=State-changing] [dangerous-name]
+- _G.select : function [origin=global, safety=Unknown]
+- _G.setmetatable : function [origin=global, safety=State-changing] [dangerous-name]
+- _G.tonumber : function [origin=global, safety=Unknown]
+- _G.tostring : function [origin=global, safety=Read-only]
+- _G.type : function [origin=global, safety=Unknown]
+- _G.unpack : function [origin=global, safety=Unknown]
+- _G.xpcall : function [origin=global, safety=Unknown]
+- assert : function [origin=global, safety=Unknown]
+- collectgarbage : function [origin=global, safety=Unknown]
+- coroutine.create : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- coroutine.resume : function [origin=known-stub-symbol, safety=Context-dependent]
+- coroutine.running : function [origin=known-stub-symbol, safety=Context-dependent]
+- coroutine.status : function [origin=known-stub-symbol, safety=Context-dependent]
+- coroutine.wrap : function [origin=known-stub-symbol, safety=Context-dependent]
+- coroutine.yield : function [origin=known-stub-symbol, safety=Context-dependent]
+- debug.debug : function [origin=known-stub-symbol, safety=Unknown]
+- debug.getmetatable : function [origin=known-stub-symbol, safety=Read-only]
+- debug.getregistry : function [origin=known-stub-symbol, safety=Read-only]
+- debug.getupvalue : function [origin=known-stub-symbol, safety=Read-only]
+- debug.getuservalue : function [origin=known-stub-symbol, safety=Read-only]
+- debug.setmetatable : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- debug.setupvalue : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- debug.setuservalue : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- debug.traceback : function [origin=known-stub-symbol, safety=Unknown]
+- debug.upvalueid : function [origin=known-stub-symbol, safety=Unknown]
+- debug.upvaluejoin : function [origin=known-stub-symbol, safety=State-changing] [dangerous-name]
+- error : function [origin=global, safety=Unknown]
+- getmetatable : function [origin=global, safety=Read-only]
+- ipairs : function [origin=global, safety=Unknown]
+- json.isnull : function [origin=known-stub-symbol, safety=Read-only]
+- json.null : function [origin=known-stub-symbol, safety=Unknown]
+- json.parse : function [origin=known-stub-symbol, safety=Unknown]
+- json.serialize : function [origin=known-stub-symbol, safety=Unknown]
+- math.abs : function [origin=known-stub-symbol, safety=Unknown]
+- math.acos : function [origin=known-stub-symbol, safety=Unknown]
+- math.asin : function [origin=known-stub-symbol, safety=Unknown]
+- math.atan : function [origin=known-stub-symbol, safety=Unknown]
+- math.atan2 : function [origin=known-stub-symbol, safety=Unknown]
+- math.ceil : function [origin=known-stub-symbol, safety=Unknown]
+- math.cos : function [origin=known-stub-symbol, safety=Unknown]
+- math.cosh : function [origin=known-stub-symbol, safety=Unknown]
+- math.deg : function [origin=known-stub-symbol, safety=Unknown]
+- math.exp : function [origin=known-stub-symbol, safety=Unknown]
+- math.floor : function [origin=known-stub-symbol, safety=Unknown]
+- math.fmod : function [origin=known-stub-symbol, safety=Unknown]
+- math.frexp : function [origin=known-stub-symbol, safety=Unknown]
+- math.ldexp : function [origin=known-stub-symbol, safety=Unknown]
+- math.log : function [origin=known-stub-symbol, safety=Unknown]
+- math.max : function [origin=known-stub-symbol, safety=Unknown]
+- math.min : function [origin=known-stub-symbol, safety=Unknown]
+- math.modf : function [origin=known-stub-symbol, safety=Unknown]
+- math.pow : function [origin=known-stub-symbol, safety=Unknown]
+- math.rad : function [origin=known-stub-symbol, safety=Unknown]
+- math.random : function [origin=known-stub-symbol, safety=Unknown]
+- math.randomseed : function [origin=known-stub-symbol, safety=Unknown]
+- math.sin : function [origin=known-stub-symbol, safety=Unknown]
+- math.sinh : function [origin=known-stub-symbol, safety=Unknown]
+- math.sqrt : function [origin=known-stub-symbol, safety=Unknown]
+- math.tan : function [origin=known-st
+[18:47:43.037] [LuaPatch] [Lua:exec.lua] ub-symbol, safety=Unknown]
+- math.tanh : function [origin=known-stub-symbol, safety=Unknown]
+- next : function [origin=global, safety=Unknown]
+- os.clock : function [origin=known-stub-symbol, safety=Unknown]
+- os.date : function [origin=known-stub-symbol, safety=Unknown]
+- os.difftime : function [origin=known-stub-symbol, safety=Unknown]
+- os.time : function [origin=known-stub-symbol, safety=Unknown]
+- pack : function [origin=global, safety=Unknown]
+- package.loaded.string.byte : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.char : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.contains : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.dump : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.endsWith : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.find : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.format : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.gmatch : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.gsub : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.len : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.lower : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.match : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.rep : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.reverse : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.startsWith : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.sub : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.unicode : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.string.upper : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.table.concat : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.table.insert : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.table.pack : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.table.remove : function [origin=table-field, safety=Dangerous/Destructive] [dangerous-name]
+- package.loaded.table.sort : function [origin=table-field, safety=State-changing] [dangerous-name]
+- package.loaded.table.unpack : function [origin=table-field, safety=State-changing] [dangerous-name]
+- pairs : function [origin=global, safety=Unknown]
+- pcall : function [origin=global, safety=Unknown]
+- print : function [origin=global, safety=Unknown]
+- rawequal : function [origin=global, safety=Unknown]
+- rawget : function [origin=global, safety=Read-only]
+- rawlen : function [origin=global, safety=Unknown]
+- rawset : function [origin=global, safety=State-changing] [dangerous-name]
+- select : function [origin=global, safety=Unknown]
+- setmetatable : function [origin=global, safety=State-changing] [dangerous-name]
+- tonumber : function [origin=global, safety=Unknown]
+- tostring : function [origin=global, safety=Read-only]
+- type : function [origin=global, safety=Unknown]
+- unpack : function [origin=global, safety=Unknown]
+- xpcall : function [origin=global, safety=Unknown]
+
+## API Safety Map
+-----------------
+Read-only:
+- _G.getmetatable [origin=global]
+- _G.rawget [origin=global]
+- _G.tostring [origin=global]
+- debug.getmetatable [origin=known-stub-symbol]
+- debug.getregistry [origin=known-stub-symbol]
+- debug.getupvalue [origin=known-stub-symbol]
+- debug.getuservalue [origin=known-stub-symbol]
+- getmetatable [origin=global]
+- json.isnull [origin=known-stub-symbol]
+- rawget [origin=global]
+- tostring [origin=global]
+
+Context-dependent:
+- coroutine.resume [origin=known-stub-symbol]
+- coroutine.running [origin=known-stub-symbol]
+- coroutine.status [origin=known-stub-symbol]
+- coroutine.wrap [origin=known-stub-symbol]
+- coroutine.yield [origin=known-stub-symbol]
+
+State-changing:
+- _G.rawset [origin=global]
+- _G.setmetatable [origin=global]
+- coroutine.create [origin=known-stub-symbol]
+- debug.setmetatable [origin=known-stub-symbol]
+- debug.setupvalue [origin=known-stub-symbol]
+- debug.setuservalue [origin=known-stub-symbol]
+- debug.upvaluejoin [origin=known-stub-symbol]
+- package.loaded.string.byte [origin=table-field]
+- package.loaded.string.char [origin=table-field]
+- package.loaded.string.contains [origin=table-field]
+- package.loaded.string.dump [origin=table-field]
+- package.loaded.string.endsWith [origin=table-field]
+- package.loaded.string.find [origin=table-field]
+- package.loaded.string.format [origin=table-field]
+- package.loaded.string.gmatch [origin=table-field]
+- package.loaded.string.gsub [origin=table-field]
+- package.loaded.string.len [origin=table-field]
+- package.loaded.string.lower [origin=table-field]
+- package.loaded.string.match [origin=table-field]
+- package.loaded.string.rep [origin=table-field]
+- package.loaded.string.reverse [origin=table-field]
+- package.loaded.string.startsWith [origin=table-field]
+- package.loaded.string.sub [origin=table-field]
+- package.loaded.string.unicode [origin=table-field]
+- package.loaded.string.upper [origin=table-field]
+- package.loaded.table.concat [origin=table-field]
+- package.loaded.table.insert [origin=table-field]
+- package.loaded.table.pack [origin=table-field]
+- package.loaded.table.sort [origin=table-field]
+- package.loaded.table.unpack [origin=table-field]
+- rawset [origin=global]
+- setmetatable [origin=global]
+
+UI-changing:
+- none
+
+Save-changing:
+- none
+
+Dangerous/Destructive:
+- package.loaded.table.remove [origin=table-field]
+
+Unknown:
+- _G.assert [origin=global]
+- _G.collectgarbage [origin=global]
+- _G.error [origin=global]
+- _G.ipairs [origin=global]
+- _G.next [origin=global]
+- _G.pack [origin=global]
+- _G.pairs [origin=global]
+- _G.pcall [origin=global]
+- _G.print [origin=global]
+- _G.rawequal [origin=global]
+- _G.rawlen [origin=global]
+- _G.select [origin=global]
+- _G.tonumber [origin=global]
+- _G.type [origin=global]
+- _G.unpack [origin=global]
+- _G.xpcall [origin=global]
+- assert [origin=global]
+- collectgarbage [origin=global]
+- debug.debug [origin=known-stub-symbol]
+- debug.traceback [origin=known-stub-symbol]
+- debug.upvalueid [origin=known-stub-symbol]
+- error [origin=global]
+- ipairs [origin=global]
+- json.null [origin=known-stub-symbol]
+- json.parse [origin=known-stub-symbol]
+- json.serialize [origin=known-stub-symbol]
+- math.abs [origin=known-stub-symbol]
+- math.acos [origin=known-stub-symbol]
+- math.asin [origin=known-stub-symbol]
+- math.atan [origin=known-stub-symbol]
+- math.atan2 [origin=known-stub-symbol]
+- math.ceil [origin=known-stub-symbol]
+- math.cos [origin=known-stub-symbol]
+- math.cosh [origin=known-stub-symbol]
+- math.deg [origin=known-stub-symbol]
+- math.exp [origin=known-stub-symbol]
+- math.floor [origin=known-stub-symbol]
+- math.fmod [origin=known-stub-symbol]
+- math.frexp [origin=known-stub-symbol]
+- math.ldexp [origin=known-stub-symbol]
+- math.log [origin=known-stub-symbol]
+- math.max [origin=known-stub-symbol]
+- math.min [origin=known-stub-symbol]
+- math.modf [origin=known-stub-symbol]
+- math.pow [origin=known-stub-symbol]
+- math.rad [origin=known-stub-symbol]
+- math.random [origin=known-stub-symbol]
+- math.randomseed [origin=known-stub-symbol]
+- math.sin [origin=known-stub-symbol]
+- math.sinh [origin=known-stub-symbol]
+- math.sqrt [origin=known-stub-symbol]
+- math.tan [origin=known-stub-symbol]
+- math.tanh [origin=known-stub-symbol]
+- next [origin=global]
+- os.clock [origin=known-stub-symbol]
+-
+[18:47:43.041] [LuaPatch] [Lua:exec.lua]  os.date [origin=known-stub-symbol]
+- os.difftime [origin=known-stub-symbol]
+- os.time [origin=known-stub-symbol]
+- pack [origin=global]
+- pairs [origin=global]
+- pcall [origin=global]
+- print [origin=global]
+- rawequal [origin=global]
+- rawlen [origin=global]
+- select [origin=global]
+- tonumber [origin=global]
+- type [origin=global]
+- unpack [origin=global]
+- xpcall [origin=global]
+
+Classification is name/path based only. No callable listed here was executed.
+
+## Enum-like Tables / Constants
+-------------------------------
+- _MOONSHARP (constant-like)
+  keys sampled: 9
+  composition: scalar=9, function=0, table=0, userdata=0
+  banner = "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+  is_aot = true
+  is_clr4 = true
+  is_mono = true
+  is_pcl = false
+  is_unity = true
+  luacompat = "5.2"
+  platform = "limited.unity.dll.mono.clr4.aot"
+  version = "2.0.0.0"
+
+## Global Dump
+--------------
+_MOONSHARP = <table>
+  _MOONSHARP.banner = "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+  _MOONSHARP.is_aot = true
+  _MOONSHARP.is_clr4 = true
+  _MOONSHARP.is_mono = true
+  _MOONSHARP.is_pcl = false
+  _MOONSHARP.is_unity = true
+  _MOONSHARP.luacompat = "5.2"
+  _MOONSHARP.platform = "limited.unity.dll.mono.clr4.aot"
+  _MOONSHARP.version = "2.0.0.0"
+json = <table>
+  json.isnull = <function: function: 00000070>
+  json.null = <function: function: 00000071>
+  json.parse = <function: function: 0000006E>
+  json.serialize = <function: function: 0000006F>
+string = <table>
+  string.byte = <function: function: 0000001D>
+  string.char = <function: function: 0000001C>
+  string.contains = <function: function: 0000002C>
+  string.dump = <function: function: 0000001B>
+  string.endsWith = <function: function: 0000002B>
+  string.find = <function: function: 00000023>
+  string.format = <function: function: 00000027>
+  string.gmatch = <function: function: 00000021>
+  string.gsub = <function: function: 00000022>
+  string.len = <function: function: 0000001F>
+  string.lower = <function: function: 00000024>
+  string.match = <function: function: 00000020>
+  string.rep = <function: function: 00000026>
+  string.reverse = <function: function: 00000028>
+  string.startsWith = <function: function: 0000002A>
+  string.sub = <function: function: 00000029>
+  string.unicode = <function: function: 0000001E>
+  string.upper = <function: function: 00000025>
+table = <table>
+  table.concat = <function: function: 00000033>
+  table.insert = <function: function: 00000031>
+  table.pack = <function: function: 0000002F>
+  table.remove = <function: function: 00000032>
+  table.sort = <function: function: 00000030>
+  table.unpack = <function: function: 0000002E>
+math = <table>
+  math.abs = <function: function: 0000003A>
+  math.acos = <function: function: 0000003B>
+  math.asin = <function: function: 0000003C>
+  math.atan = <function: function: 0000003D>
+  math.atan2 = <function: function: 0000003E>
+  math.ceil = <function: function: 0000003F>
+  math.cos = <function: function: 00000040>
+  math.cosh = <function: function: 00000041>
+  math.deg = <function: function: 00000042>
+  math.exp = <function: function: 00000043>
+  math.floor = <function: function: 00000044>
+  math.fmod = <function: function: 00000045>
+  math.frexp = <function: function: 00000046>
+  math.huge = 1.79769313486232E+308
+  math.ldexp = <function: function: 00000047>
+  math.log = <function: function: 00000048>
+  math.max = <function: function: 00000049>
+  math.min = <function: function: 0000004A>
+  math.modf = <function: function: 0000004B>
+  math.pi = 3.14159265358979
+  math.pow = <function: function: 0000004C>
+  math.rad = <function: function: 0000004D>
+  math.random = <function: function: 0000004E>
+  math.randomseed = <function: function: 0000004F>
+  math.sin = <function: function: 00000050>
+  math.sinh = <function: function: 00000051>
+  math.sqrt = <function: function: 00000052>
+  math.tan = <function: function: 00000053>
+  math.tanh = <function: function: 00000054>
+coroutine = <table>
+  coroutine.create = <function: function: 00000056>
+  coroutine.resume = <function: function: 00000058>
+  coroutine.running = <function: function: 0000005A>
+  coroutine.status = <function: function: 0000005B>
+  coroutine.wrap = <function: function: 00000057>
+  coroutine.yield = <function: function: 00000059>
+os = <table>
+  os.clock = <function: function: 0000005D>
+  os.date = <function: function: 00000060>
+  os.difftime = <function: function: 0000005E>
+  os.time = <function: function: 0000005F>
+debug = <table>
+  debug.debug = <function: function: 00000062>
+  debug.getmetatable = <function: function: 00000066>
+  debug.getregistry = <function: function: 00000065>
+  debug.getupvalue = <function: function: 00000068>
+  debug.getuservalue = <function: function: 00000063>
+  debug.setmetatable = <function: function: 00000067>
+  debug.setupvalue = <function: function: 0000006A>
+  debug.setuservalue = <function: function: 00000064>
+  debug.traceback = <function: function: 0000006C>
+  debug.upvalueid = <function: function: 00000069>
+  debug.upvaluejoin = <function: function: 0000006B>
+package = <table>
+  package.loaded = <table>
+    package.loaded.coroutine = <table>
+      package.loaded.coroutine.create = <function: function: 00000056>
+      package.loaded.coroutine.resume = <function: function: 00000058>
+      package.loaded.coroutine.running = <function: function: 0000005A>
+      package.loaded.coroutine.status = <function: function: 0000005B>
+      package.loaded.coroutine.wrap = <function: function: 00000057>
+      package.loaded.coroutine.yield = <function: function: 00000059>
+    package.loaded.debug = <table>
+      package.loaded.debug.debug = <function: function: 00000062>
+      package.loaded.debug.getmetatable = <function: function: 00000066>
+      package.loaded.debug.getregistry = <function: function: 00000065>
+      package.loaded.debug.getupvalue = <function: function: 00000068>
+      package.loaded.debug.getuservalue = <function: function: 00000063>
+      package.loaded.debug.setmetatable = <function: function: 00000067>
+      package.loaded.debug.setupvalue = <function: function: 0000006A>
+      package.loaded.debug.setuservalue = <function: function: 00000064>
+      package.loaded.debug.traceback = <function: function: 0000006C>
+      package.loaded.debug.upvalueid = <function: function: 00000069>
+      package.loaded.debug.upvaluejoin = <function: function: 0000006B>
+    package.loaded.json = <table>
+      package.loaded.json.isnull = <function: function: 00000070>
+      package.loaded.json.null = <function: function: 00000071>
+      package.loaded.json.parse = <function: function: 0000006E>
+      package.loaded.json.serialize = <function: function: 0000006F>
+    package.loaded.math = <table>
+      package.loaded.math.abs = <function: function: 0000003A>
+      package.loaded.math.acos = <function: function: 0000003B>
+      package.loaded.math.asin = <function: function: 0000003C>
+      package.loaded.math.atan = <function: function: 0000003D>
+      package.loaded.math.atan2 = <function: function: 0000003E>
+      package.loaded.math.ceil = <function: function: 0000003F>
+      package.loaded.math.cos = <function: function: 00000040>
+      package.loaded.math.cosh = <function: function: 00000041>
+      package.loaded.math.deg = <function: function: 00000042>
+      package.loaded.math.exp = <function: function: 00000043>
+      package.loaded.math.floor = <function: function: 00000044>
+      package.loaded.math.fmod = <function: function: 00000045>
+      package.loaded.math.frexp = <function: function: 00000046>
+      package.loaded.math.huge = 1.79769313486232E+308
+      package.loaded.math.ldexp = <function: function: 00000047>
+      package.loaded.math.log = <function: function: 00000048>
+      package.loaded.math.max = <function: function: 00000049>
+      package.loaded.math.min = <function: functio
+[18:47:43.046] [LuaPatch] [Lua:exec.lua] n: 0000004A>
+      package.loaded.math.modf = <function: function: 0000004B>
+      package.loaded.math.pi = 3.14159265358979
+      package.loaded.math.pow = <function: function: 0000004C>
+      package.loaded.math.rad = <function: function: 0000004D>
+      package.loaded.math.random = <function: function: 0000004E>
+      package.loaded.math.randomseed = <function: function: 0000004F>
+      package.loaded.math.sin = <function: function: 00000050>
+      package.loaded.math.sinh = <function: function: 00000051>
+      package.loaded.math.sqrt = <function: function: 00000052>
+      package.loaded.math.tan = <function: function: 00000053>
+      package.loaded.math.tanh = <function: function: 00000054>
+    package.loaded.os = <table>
+      package.loaded.os.clock = <function: function: 0000005D>
+      package.loaded.os.date = <function: function: 00000060>
+      package.loaded.os.difftime = <function: function: 0000005E>
+      package.loaded.os.time = <function: function: 0000005F>
+    package.loaded.string = <table>
+      package.loaded.string.byte = <function: function: 0000001D>
+      package.loaded.string.char = <function: function: 0000001C>
+      package.loaded.string.contains = <function: function: 0000002C>
+      package.loaded.string.dump = <function: function: 0000001B>
+      package.loaded.string.endsWith = <function: function: 0000002B>
+      package.loaded.string.find = <function: function: 00000023>
+      package.loaded.string.format = <function: function: 00000027>
+      package.loaded.string.gmatch = <function: function: 00000021>
+      package.loaded.string.gsub = <function: function: 00000022>
+      package.loaded.string.len = <function: function: 0000001F>
+      package.loaded.string.lower = <function: function: 00000024>
+      package.loaded.string.match = <function: function: 00000020>
+      package.loaded.string.rep = <function: function: 00000026>
+      package.loaded.string.reverse = <function: function: 00000028>
+      package.loaded.string.startsWith = <function: function: 0000002A>
+      package.loaded.string.sub = <function: function: 00000029>
+      package.loaded.string.unicode = <function: function: 0000001E>
+      package.loaded.string.upper = <function: function: 00000025>
+    package.loaded.table = <table>
+      package.loaded.table.concat = <function: function: 00000033>
+      package.loaded.table.insert = <function: function: 00000031>
+      package.loaded.table.pack = <function: function: 0000002F>
+      package.loaded.table.remove = <function: function: 00000032>
+      package.loaded.table.sort = <function: function: 00000030>
+      package.loaded.table.unpack = <function: function: 0000002E>
+ModUtilities = <userdata: Everything (ModUtilities)>
+GameUtilities = <userdata: Everything (GameUtilities)>
+GameVariables = <missing>
+ItemPrefab = <userdata: userdata: 000000B5>
+ItemPrefabManager = <userdata: userdata: 000000B7>
+GameId = <userdata: userdata: 0000007B>
+UiOverlay = <userdata: Everything (UiOverlay)>
+
+## Metatables
+-------------
+- _G: none
+- _VERSION: table <table: table: 0000001A>
+  __index = <table: table: 00000017>
+- _MOONSHARP: none
+- assert: none
+- collectgarbage: none
+- coroutine: none
+- debug: none
+- error: none
+- getmetatable: none
+- ipairs: none
+- json: none
+- math: none
+- next: none
+- os: none
+- package: none
+- pairs: none
+- pcall: none
+- print: none
+- rawequal: none
+- rawget: none
+- rawlen: none
+- rawset: none
+- select: none
+- setmetatable: none
+- string: none
+- table: none
+- tonumber: none
+- tostring: none
+- type: none
+- xpcall: none
+- ModUtilities: none
+- GameUtilities: none
+- Item: none
+- ItemPrefab: none
+- ItemPrefabManager: none
+- GameId: none
+- Guid: none
+- ColorPalette: none
+- ColorPaletteEntry: none
+- ItemEnum: none
+- ControllerEnum: none
+- FishingBaitType: none
+- ItemCategory: none
+- ScratchTextureType: none
+- ItemSlot: none
+- SlotType: none
+- CheckType: none
+- UiOverlay: none
+- SaveContainer: none
+- SaveSingleton: none
+- StoryCondition: none
+- StoryBotDialogueBranch: none
+- TextureOverriderManager: none
+- ColorSlot: none
+- ColorPaletteManager: none
+- SlotEquipData: none
+- EdibleItemPrefabData: none
+- SimpleLocalizedString: none
+- AllowedModifiers: none
+- AtLeastOneBoolVariableTrueRequirement: none
+- CheckType: none
+- ColorPalette: none
+- ColorPaletteEntry: none
+- ColorPaletteManager: none
+- ColorSlot: none
+- CommonAllowedModifiersEnum: none
+- ControllerEnum: none
+- CookingSong: none
+- CookingSongRuntimeData: none
+- EdibleItemNutritionProfile: none
+- EdibleItemPrefabData: none
+- EdibleTypeEnum: none
+- FinishedType: none
+- FishingBaitItemPrefabData: none
+- FishingBaitType: none
+- FishingCatchBehaviourType: none
+- FishingRodItemPrefabData: none
+- FishItemPrefabData: none
+- FishPreferences: none
+- flowchart: none
+- GameId: none
+- GameUtilities: none
+- GlobalFlag: none
+- Guid: none
+- gv: none
+- Item: none
+- ItemCategory: none
+- ItemEnum: none
+- ItemModifiableVariableFactory: none
+- ItemModifiableVariablesRequirement: none
+- ItemPrefab: none
+- ItemPrefabManager: none
+- ItemScopeCondition: none
+- ItemScopeConditionAlwaysTrueCondition: none
+- ItemScopeConditionCustom: none
+- ItemScopeConditionSpecialVariable: none
+- ItemSlot: none
+- ItemSubCategory: none
+- Live2DControllerSingleton: none
+- ModUtilities: none
+- NewsId: none
+- NoteButtonTypeEnum: none
+- R: none
+- Recipe: none
+- Result: none
+- SaveContainer: none
+- SaveSingleton: none
+- ScratchTextureType: none
+- Shop: none
+- ShopItem: none
+- ShopManager: none
+- SimpleLocalizedString: none
+- SingleArgumentComparators: none
+- SlotEquipData: none
+- SlotManager: none
+- SlotType: none
+- SoundSingleton: none
+- StoryAutoBranch: none
+- StoryBlockTarget: none
+- StoryBotContainerTypeEnum: none
+<metatable limit reached>
+
+## Userdata Globals
+-------------------
+- AllowedModifiers: <userdata: userdata: 0000023E>
+-   AllowedModifiers: none
+- AtLeastOneBoolVariableTrueRequirement: <userdata: userdata: 0000024C>
+-   AtLeastOneBoolVariableTrueRequirement: none
+- CheckType: <userdata: userdata: 000002DD>
+-   CheckType: none
+- ColorPalette: <userdata: userdata: 0000027A>
+-   ColorPalette: none
+- ColorPaletteEntry: <userdata: userdata: 0000027B>
+-   ColorPaletteEntry: none
+- ColorPaletteManager: <userdata: userdata: 00000279>
+-   ColorPaletteManager: none
+- ColorSlot: <userdata: userdata: 0000023B>
+-   ColorSlot: none
+- CommonAllowedModifiersEnum: <userdata: userdata: 00000241>
+-   CommonAllowedModifiersEnum: none
+- ControllerEnum: <userdata: userdata: 00000079>
+-   ControllerEnum: none
+- CookingSong: <userdata: userdata: 0000036C>
+-   CookingSong: none
+- CookingSongRuntimeData: <userdata: userdata: 00000372>
+-   CookingSongRuntimeData: none
+- EdibleItemNutritionProfile: <userdata: userdata: 0000024F>
+-   EdibleItemNutritionProfile: none
+- EdibleItemPrefabData: <userdata: userdata: 0000024D>
+-   EdibleItemPrefabData: none
+- EdibleTypeEnum: <userdata: userdata: 0000025A>
+-   EdibleTypeEnum: none
+- FinishedType: <userdata: userdata: 000003DE>
+-   FinishedType: none
+- FishingBaitItemPrefabData: <userdata: userdata: 0000025E>
+-   FishingBaitItemPrefabData: none
+- FishingBaitType: <userdata: userdata: 00000269>
+-   FishingBaitType: none
+- FishingCatchBehaviourType: <userdata: userdata: 0000026F>
+-   FishingCatchBehaviourType: none
+- FishingRodItemPrefabData: <userdata: userdata: 0000025D>
+-   FishingRodItemPrefabData: none
+- FishItemPrefabData: <userdata: userdata: 0000025B>
+-   FishItemPrefabData: none
+- FishPreferences: <userdata: userdata: 0000025C>
+-   FishPreferences: none
+- flowchart: <userdata: Main Flowchart (Fungus.Flowchart)>
+-   flowchart: none
+- GameId: <userdata: userdata: 0000007B>
+-   GameId: none
+- GameUtilities: <userdata: Everything (GameUtilities)>
+-   GameUtilities: none
+- GlobalFlag: <userdata: userdata: 000003EA>
+-   GlobalFlag: none
+- Guid: <userdata: userdata: 0000007A>
+-   Guid: none
+- gv: <userdata: GameVariables>
+-   gv: none
+- Item: <userdata: userdata: 000000AB>
+-   Item: none
+- ItemCategory: <userdata: userdata: 00000228>
+-   ItemCategory: none
+- Ite
+[18:47:43.050] [LuaPatch] [Lua:exec.lua] mEnum: <userdata: userdata: 00000219>
+-   ItemEnum: none
+- ItemModifiableVariableFactory: <userdata: userdata: 00000247>
+-   ItemModifiableVariableFactory: none
+- ItemModifiableVariablesRequirement: <userdata: userdata: 0000024B>
+-   ItemModifiableVariablesRequirement: none
+- ItemPrefab: <userdata: userdata: 000000B5>
+-   ItemPrefab: none
+- ItemPrefabManager: <userdata: userdata: 000000B7>
+-   ItemPrefabManager: none
+- ItemScopeCondition: <userdata: userdata: 00000243>
+-   ItemScopeCondition: none
+- ItemScopeConditionAlwaysTrueCondition: <userdata: userdata: 00000246>
+-   ItemScopeConditionAlwaysTrueCondition: none
+- ItemScopeConditionCustom: <userdata: userdata: 00000244>
+-   ItemScopeConditionCustom: none
+- ItemScopeConditionSpecialVariable: <userdata: userdata: 00000245>
+-   ItemScopeConditionSpecialVariable: none
+- ItemSlot: <userdata: userdata: 00000285>
+-   ItemSlot: none
+- ItemSubCategory: <userdata: userdata: 0000022D>
+-   ItemSubCategory: none
+- Live2DControllerSingleton: <userdata: userdata: 0000036B>
+-   Live2DControllerSingleton: none
+- ModUtilities: <userdata: Everything (ModUtilities)>
+-   ModUtilities: none
+- NewsId: <userdata: userdata: 000002D3>
+-   NewsId: none
+- NoteButtonTypeEnum: <userdata: userdata: 00000370>
+-   NoteButtonTypeEnum: none
+- R: <userdata: userdata: 00000373>
+-   R: none
+- Recipe: <userdata: userdata: 0000036D>
+-   Recipe: none
+- Result: <userdata: userdata: 0000039F>
+-   Result: none
+- SaveContainer: <userdata: userdata: 000003E9>
+-   SaveContainer: none
+- SaveSingleton: <userdata: userdata: 000003E4>
+-   SaveSingleton: none
+- ScratchTextureType: <userdata: userdata: 00000230>
+-   ScratchTextureType: none
+- Shop: <userdata: userdata: 00000270>
+-   Shop: none
+- ShopItem: <userdata: userdata: 00000276>
+-   ShopItem: none
+- ShopManager: <userdata: userdata: 00000272>
+-   ShopManager: none
+- SimpleLocalizedString: <userdata: userdata: 000003DF>
+-   SimpleLocalizedString: none
+- SingleArgumentComparators: <userdata: userdata: 000003D6>
+-   SingleArgumentComparators: none
+- SlotEquipData: <userdata: userdata: 00000242>
+-   SlotEquipData: none
+- SlotManager: <userdata: userdata: 0000027C>
+-   SlotManager: none
+- SlotType: <userdata: userdata: 0000028C>
+-   SlotType: none
+- SoundSingleton: <userdata: Everything (SoundSingleton)>
+-   SoundSingleton: none
+- StoryAutoBranch: <userdata: userdata: 000003C8>
+-   StoryAutoBranch: none
+- StoryBlockTarget: <userdata: userdata: 000003CD>
+-   StoryBlockTarget: none
+- StoryBotContainerTypeEnum: <userdata: userdata: 000003C6>
+-   StoryBotContainerTypeEnum: none
+- StoryBotDialogueBranch: <userdata: userdata: 000003C7>
+-   StoryBotDialogueBranch: none
+- StoryBranchTarget: <userdata: userdata: 000003CA>
+-   StoryBranchTarget: none
+- StoryCondition: <userdata: userdata: 000003BF>
+-   StoryCondition: none
+- StoryEnumeratorTarget: <userdata: userdata: 000003CE>
+-   StoryEnumeratorTarget: none
+- StoryLocalizedConversationBranchTarget: <userdata: userdata: 000003CF>
+-   StoryLocalizedConversationBranchTarget: none
+- StoryMenuBranch: <userdata: userdata: 000003C9>
+-   StoryMenuBranch: none
+- StorySingleton: <userdata: userdata: 000003BD>
+-   StorySingleton: none
+- SusArea: <userdata: userdata: 0000023A>
+-   SusArea: none
+- SusModifier: <userdata: userdata: 0000023C>
+-   SusModifier: none
+- TextureOverriderManager: <userdata: userdata: 0000039E>
+-   TextureOverriderManager: none
+- TimeCheckType: <userdata: userdata: 000002D9>
+-   TimeCheckType: none
+- TwoArgumentComparators: <userdata: userdata: 000003DB>
+-   TwoArgumentComparators: none
+- UiOverlay: <userdata: Everything (UiOverlay)>
+-   UiOverlay: none
+- ViewSingleton: <userdata: Views (ViewSingleton)>
+-   ViewSingleton: none
+
+## MoonSharp Details
+--------------------
+_MOONSHARP = <table>
+  _MOONSHARP.banner = "MoonSharp 2.0.0.0 [limited.unity.dll.mono.clr4.aot]\r\nCopyright (C) 2014-2016 Marco Mastropaolo\r\nhttp://www.moonsharp.org\r\n"
+  _MOONSHARP.is_aot = true
+  _MOONSHARP.is_clr4 = true
+  _MOONSHARP.is_mono = true
+  _MOONSHARP.is_pcl = false
+  _MOONSHARP.is_unity = true
+  _MOONSHARP.luacompat = "5.2"
+  _MOONSHARP.platform = "limited.unity.dll.mono.clr4.aot"
+  _MOONSHARP.version = "2.0.0.0"
+
+## Game/Unity Context
+---------------------
+GameVariables: <missing>
+GameUtilities: userdata <userdata: Everything (GameUtilities)>
+ModUtilities: userdata <userdata: Everything (ModUtilities)>
+
+## Safe Validations
+-------------------
+Safe read validation:
+- OK _G._VERSION present (string)
+- OK _G._MOONSHARP present (table)
+- OK _G._MOONSHARP.version present (string)
+- OK _G._MOONSHARP.platform present (string)
+- MISS _G.CurrentModGuid missing
+- OK _G.json.parse present (function)
+- OK _G.json.serialize present (function)
+- OK _G.json.isnull present (function)
+- OK _G.string.startsWith present (function)
+- OK _G.string.endsWith present (function)
+- OK _G.string.contains present (function)
+- MISS _G.GameVariables missing
+- MISS _G.GameVariables missing
+- MISS _G.GameVariables missing
+- MISS _G.GameVariables missing
+- MISS _G.GameVariables missing
+- OK _G.GameUtilities.WaitForSecondsYield present (function)
+
+Context-dependent validation:
+- GameVariables missing in this context.
+
+Skipped dangerous/context-dependent validation:
+- ModUtilities.CreateItemPrefab [not called]
+- ModUtilities.CreateNewItem [not called]
+- ModUtilities.CreateNewItemAutoAssignId [not called]
+- GameUtilities.AddItemToInventory [not called]
+- GameUtilities.RemoveItemFromInventory [not called]
+- SaveContainer.AddGlobalFlag [not called]
+- SaveContainer.Save [not called]
+- UiOverlay.OpenBrowser [not called]
+- BrowserPopup.ChangeWebsite [not called]
+- Item.Consume [not called]
+- Item.Equip [not called]
+
+## Errors / Access Failures
+---------------------------
+No access failures recorded.
+
+## Notes
+--------
+- This probe does not call discovered functions.
+- Callable Inventory marks dangerous names by substring and never executes them.
+- API Safety Map is conservative and based only on name/path heuristics.
+- Enum-like tables are heuristic unless the name is already known from stubs.
+- Missing symbols can be normal when a save, scene or UI context is not loaded.
+- Reports should be reviewed before any stub or documentation update.
+
+## Output
+---------
+Target filename: report-20260506-184742.txt
+Writer: io.open if available, print fallback otherwise.
+[18:47:43.056] [LuaPatch] [Lua:exec.lua] === MDRG ENV PROBE REPORT END ===
