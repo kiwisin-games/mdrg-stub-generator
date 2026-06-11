@@ -4,9 +4,9 @@ Generated from MDRG runtime probe report. This report is evidence only; docs.txt
 
 ## Source
 
-- Report: `probe/report-20260506-190713.txt`
-- Timestamp: `20260506-190713`
-- SHA256: `45a3a7f599780a077999c832d5b7012fa33567fac42c1a88a8f91bfe2f2410e7`
+- Report: `probe/report-20260506-194845.txt`
+- Timestamp: `20260506-194845`
+- SHA256: `34f135113521e01aa87630793fd3235cae79bab25c17dcc110b22db5ec258faa`
 
 ## Runtime
 
@@ -14,71 +14,31 @@ Generated from MDRG runtime probe report. This report is evidence only; docs.txt
 - MoonSharp version: `2.0.0.0`
 - MoonSharp platform: `limited.unity.dll.mono.clr4.aot`
 - Unity: `True`
-- Safe IO / `io` present: `False` (None)
-- `io.open` present: `None`
-- `io.popen` present: `None`
-- Safe IO likely injected: `None`
+- Safe IO / `io` present: `True` (table)
+- `io.open` present: `True`
+- `io.popen` present: `False`
+- Safe IO likely injected: `unknown`
+
+## Environment
+
+- Detected context: `luaexec-with-safe-io-scene-context`
+- Confidence: `low`
+- Effective GameVariables source: `gv`
+- Transport: `file`
 
 ## Runtime aliases
 
-- `flowchart` -> `Flowchart` (userdata, Userdata Globals)
-- `gv` -> `GameVariables` (userdata, Userdata Globals)
+- `gv` -> `GameVariables` (userdata, Machine Readable Summary)
+- `flowchart` -> `Flowchart` (userdata, Machine Readable Summary)
 
 ## Present symbols not already listed as normal runtime stubs
 
 Known in docs.txt:
-- `AllowedModifiers` (userdata)
-- `AtLeastOneBoolVariableTrueRequirement` (userdata)
-- `CommonAllowedModifiersEnum` (userdata)
-- `CookingSong` (userdata)
-- `CookingSongRuntimeData` (userdata)
-- `EdibleItemNutritionProfile` (userdata)
-- `EdibleTypeEnum` (userdata)
-- `FinishedType` (userdata)
-- `FishingBaitItemPrefabData` (userdata)
-- `FishingCatchBehaviourType` (userdata)
-- `FishingRodItemPrefabData` (userdata)
-- `FishItemPrefabData` (userdata)
-- `FishPreferences` (userdata)
-- `GlobalFlag` (userdata)
-- `ItemModifiableVariableFactory` (userdata)
-- `ItemModifiableVariablesRequirement` (userdata)
-- `ItemScopeCondition` (userdata)
-- `ItemScopeConditionAlwaysTrueCondition` (userdata)
-- `ItemScopeConditionCustom` (userdata)
-- `ItemScopeConditionSpecialVariable` (userdata)
-- `ItemSubCategory` (userdata)
-- `Live2DControllerSingleton` (userdata)
-- `NewsId` (userdata)
-- `NoteButtonTypeEnum` (userdata)
 - `pack` (function)
-- `R` (userdata)
-- `Recipe` (userdata)
-- `Result` (userdata)
-- `Shop` (userdata)
-- `ShopItem` (userdata)
-- `ShopManager` (userdata)
-- `SingleArgumentComparators` (userdata)
-- `SlotManager` (userdata)
-- `SoundSingleton` (userdata)
-- `StoryAutoBranch` (userdata)
-- `StoryBlockTarget` (userdata)
-- `StoryBotContainerTypeEnum` (userdata)
-- `StoryBranchTarget` (userdata)
-- `StoryEnumeratorTarget` (userdata)
-- `StoryLocalizedConversationBranchTarget` (userdata)
-- `StoryMenuBranch` (userdata)
-- `StorySingleton` (userdata)
-- `SusArea` (userdata)
-- `SusModifier` (userdata)
-- `TimeCheckType` (userdata)
-- `TwoArgumentComparators` (userdata)
 - `unpack` (function)
-- `ViewSingleton` (userdata)
 
 Not in docs.txt:
-- `flowchart` (userdata)
-- `gv` (userdata)
+- None
 
 ## Enum-like userdata
 
@@ -105,19 +65,20 @@ Not in docs.txt:
 
 - `Context-dependent`: 6
 - `Dangerous/Destructive`: 1
-- `Read-only`: 71
-- `State-changing`: 9
-- `Unknown`: 10
+- `Read-only`: 72
+- `State-changing`: 11
+- `Unknown`: 16
 
 ## Probe field/value checks
 
-- Known field probes: `0`
-- Enum value probes: `0`
+- Known field probes: `113`
+- Enum value probes: `34`
 - Unconfirmed enum candidates: `0`
 - Callback context rows: `0`
 - Callback args: `0`
 - Callback fields: `0`
 - Callback access errors: `0`
+- Callback item contexts: `0`
 
 ## Rejected automatic changes
 

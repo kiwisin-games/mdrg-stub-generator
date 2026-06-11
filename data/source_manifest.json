@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-05-07T05:42:29+00:00",
+  "generated_at_utc": "2026-06-11T15:59:32+00:00",
   "policy": "curated reproducible indexes; raw dumps remain local/ignored",
   "inputs": {
     "docs.txt": {
-      "sha256": "645f2b5a7c0db8d97f6c34b7102df9cafffbf4aa949825febab4a2d0ed586cc8",
-      "bytes": 429115
+      "sha256": "567cbb103ef2ebdf176dd967cb55cd1ec8347da2d3dfa4c0a37e7d4f649a1f9a",
+      "bytes": 429173
     },
     "documented_functions.md": {
       "sha256": "a9e25499578f850111c09e7c8c240e5b76f1911c6767c947951f1e893a34098a",
       "bytes": 674400
     },
     "dump": {
-      "files": 1684
+      "files": 0
     },
     "rawdump": {
-      "files": 2866
+      "files": 0
     },
     "luas": {
       "files": 13
@@ -36,9 +36,9 @@
   },
   "outputs": {
     "csharp_index.json": {
-      "field_docs": 10,
-      "inheritance_edges": 824,
-      "method_entries": 5153
+      "field_docs": 0,
+      "inheritance_edges": 0,
+      "method_entries": 0
     },
     "lua_usage_index.json": {
       "aliases": 9

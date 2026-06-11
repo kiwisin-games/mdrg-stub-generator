@@ -3074,17 +3074,14 @@ function ModUtilities.StopCoroutine(coroutine) end
 ---@return GameVariables
 function ModUtilities.GetGameVariables() end
 
----Retorna missionary controller.
 ---@overload fun(self: ModUtilities): ControllerEnum
 ---@return ControllerEnum
 function ModUtilities.GetMissionaryController() end
 
----Retorna doggy controller.
 ---@overload fun(self: ModUtilities): ControllerEnum
 ---@return ControllerEnum
 function ModUtilities.GetDoggyController() end
 
----Retorna interact controller.
 ---@overload fun(self: ModUtilities): ControllerEnum
 ---@return ControllerEnum
 function ModUtilities.GetInteractController() end

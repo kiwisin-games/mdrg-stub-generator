@@ -152,7 +152,6 @@ ColorPaletteEntry = {}
 ---@return ColorPaletteEntry
 function ColorPaletteEntry.CreateInstance(name, color) end
 
----Cria instance from string e retorna ColorPaletteEntry.
 ---@param str string
 ---@return ColorPaletteEntry
 function ColorPaletteEntry.CreateInstanceFromString(str) end
@@ -1727,14 +1726,14 @@ function ItemPrefab.MakeSet(id) end
 function ItemPrefab.AddSusModifier(area, cover) end
 
 ---Anexa uma textura empacotada ao prefab; o overload com controller limita a textura a uma cena/controller.
----@overload fun(packed: PackedTexturesContainer): ItemPrefab
+---@overload fun(holder: SpecialTextureHolder): ItemPrefab
 ---@overload fun(target: ControllerEnum, packed: PackedTexturesContainer): ItemPrefab
----@overload fun(self: ItemPrefab, holder: SpecialTextureHolder): ItemPrefab
 ---@overload fun(self: ItemPrefab, packed: PackedTexturesContainer): ItemPrefab
+---@overload fun(self: ItemPrefab, holder: SpecialTextureHolder): ItemPrefab
 ---@overload fun(self: ItemPrefab, target: ControllerEnum, packed: PackedTexturesContainer): ItemPrefab
----@param holder SpecialTextureHolder
+---@param packed PackedTexturesContainer
 ---@return ItemPrefab
-function ItemPrefab.AddTexture(holder) end
+function ItemPrefab.AddTexture(packed) end
 
 ---Adiciona configuracoes de logos modificaveis ao prefab.
 ---@overload fun(self: ItemPrefab, drawables: table[], spriteReference: IReference, colorIndex: integer, layer: integer): ItemPrefab
