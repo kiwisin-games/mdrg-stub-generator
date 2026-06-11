@@ -2,7 +2,7 @@
   "include": [
     "config.json",
     "info.json",
-    "README.md",
+    "dist/README.md",
     "library/**/*.d.lua",
     "examples/test.lua"
   ],

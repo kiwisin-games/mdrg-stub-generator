@@ -26,7 +26,7 @@ REQUIRED_DATA_FILES = [
 RAW_TRACKING_DENYLIST = [
     "dump",
     "rawdump",
-    "examples/mods_mixed.lua",
+    # "examples/mods_mixed.lua",
 ]
 TRACKED_RESEARCH_CORPUS = [
     "luas",
