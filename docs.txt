@@ -315,6 +315,7 @@ All values in the global table:
 "UiOverlay" - (Userdata Type:UiOverlay)(UserData)
 "GameUtilities" - (Userdata Type:GameUtilities)(UserData)
 "ViewSingleton" - (Userdata Type:ViewSingleton)(UserData)
+"CurrentModGuid" - (Userdata Type:System.Guid)(UserData)
 -------------------
 
 Parameter names are in the following format: name_type
@@ -763,9 +764,9 @@ ItemPrefab MakePair(i1__GameId, i2__GameId)
 ItemPrefab MakePair(i1__GameId, i2__GameId, registerAsMatching__System.Boolean)
 ItemPrefab MakeSet(id__GameId[])
 ItemPrefab AddSusModifier(area__SusArea, cover__System.Single)
-ItemPrefab AddTexture(holder__SpecialTextureHolder)
 ItemPrefab AddTexture(target__ControllerEnum, packed__PackedTexturesContainer)
 ItemPrefab AddTexture(packed__PackedTexturesContainer)
+ItemPrefab AddTexture(holder__SpecialTextureHolder)
 ItemPrefab AddModdableLogos(drawables__System.Collections.Generic.IEnumerable`1[System.ValueTuple`2[System.String,DrawableTypeEnum]], spriteReference__IC.AutomaticReference.IReference`1[UnityEngine.Sprite], colorIndex__System.Int32, layer__System.Int32)
 ItemPrefab AddPantiesLogoTexture(textureReference__IC.AutomaticReference.IReference`1[UnityEngine.Sprite], colorIndex__System.Int32, layer__System.Int32)
 ItemPrefab AddHoodieLogoTexture(textureReference__IC.AutomaticReference.IReference`1[UnityEngine.Sprite], colorIndex__System.Int32, layer__System.Int32)
@@ -1745,7 +1746,7 @@ System.Single DefaultMultiply
 System.Single Value
 System.Single Multiply
 
-Shop inherits from IKey`1, ISerializedPart`2, IWithPrefab`1, SerializedPart`2, Object
+Shop inherits from ISerializedPart`2, IWithPrefab`1, IKey`1, SerializedPart`2, Object
 Defined members: 
 __new()
 __new(id__System.String, prefab__ShopPrefab)
