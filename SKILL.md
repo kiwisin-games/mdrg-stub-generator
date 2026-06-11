@@ -1,5 +1,5 @@
 ---
-name: mdrg-luals-addon-maintenance
+name: mdrg-stub-generator
 description: Maintain the MDRG LuaLS addon by updating generators, curated indexes, LuaCATS documentation, aliases, and validation without manually editing generated stubs.
 ---
 
