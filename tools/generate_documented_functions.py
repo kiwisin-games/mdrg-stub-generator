@@ -34,17 +34,17 @@ BOILERPLATE_FORBIDDEN = [
 GENERIC_DOCUMENTATION_PATTERNS = tuple(
     re.compile(pattern)
     for pattern in [
-        r"^Tipo C# exposto ao Lua/MoonSharp\b",
-        r"^Tipo de .* exposto ao Lua/MoonSharp\b",
-        r"^Tipo do sistema de .* exposto ao Lua/MoonSharp\b",
-        r"^Executa a operacao runtime exposta por ",
-        r"^Retorna dados\.$",
-        r"^Configura dados\.$",
-        r"^Cria uma nova instancia de [A-Za-z_][\w.]*\.$",
-        r"^Cria uma instancia de [A-Za-z_][\w.]*\.$",
-        r"^Retorna uma representacao textual desta instancia\.$",
-        r"^Compara esta instancia com outro valor ou instancia compativel\.$",
-        r"^Retorna o hash desta instancia\.$",
+        r"^C# type exposed to Lua/MoonSharp\b",
+        r"^.* type exposed to Lua/MoonSharpp\b",
+        r"^.* system type exposed to Lua/MoonSharp\b",
+        r"^Executes the runtime operation exposed by ",
+        r"^Returns\.$",
+        r"^Set\.$",
+        r"^Creates a new instance of [A-Za-z_][\w.]*\.$",
+        r"^Creates an instance of [A-Za-z_][\w.]*\.$",
+        r"^Returns a textual representation of this instance\.$",
+        r"^Compares this instance with another value or compatible instance\.$",
+        r"^Returns the hash code of this instance\.$",
     ]
 )
 
@@ -59,145 +59,145 @@ STRONG_DOCUMENTED_EVIDENCE = {
 
 
 CLASS_DOCS: dict[str, str] = {
-    "ModUtilities": "Helper exposto a scripts Lua de mods para criar e registrar itens, carregar assets, adicionar itens a lojas, preparar personality modules, acessar controllers e controlar coroutines do runtime.",
-    "ItemPrefab": "Modelo configuravel de item antes/depois do registro no jogo; scripts normalmente preenchem campos, anexam texturas/dados opcionais e registram o item via ModUtilities.",
-    "Item": "Instancia runtime de um item no inventario/equipamento, usada em callbacks como OnUse e SpecialEffectAction.",
-    "StoryCondition": "Base de condicoes usadas pelo sistema de historia/eventos para verificar requisitos, combinar condicoes e gerar representacoes textuais ou de codigo.",
-    "LuaStoryCondition": "Condicao de historia baseada em codigo Lua/MoonSharp informado por script.",
-    "LuaPersonalityModuleDefinition": "Definicao Lua de personality module; agrupa containers de dialogo e depois e ligada a um item registrado.",
-    "StoryBotDialogueBranch": "Ramo de dialogo do bot usado por personality modules e containers de fala.",
-    "StoryBotDialogueBranchContainer": "Container de ramos de dialogo associados a um identificador de fala/evento.",
-    "TextureOverriderManager": "Gerenciador de override/restauracao de sprites/texturas por alvo visual, usado por efeitos de item e room overrides.",
-    "UiOverlay": "Utilitarios de overlay e popups de UI expostos ao Lua.",
-    "GameUtilities": "Utilitarios gerais do jogo expostos ao Lua, incluindo transicoes de view, inventario e esperas para coroutine.",
-    "GameVariables": "Estado global do jogo exposto para leitura, escrita e condicoes.",
-    "GameId": "Identificador de item ou recurso do jogo, incluindo itens vanilla e itens registrados por mods.",
-    "ColorSlot": "Define um slot de cor editavel de item, normalmente associado a uma paleta.",
-    "ColorPalette": "Colecao de cores configuraveis usada por slots de cor.",
-    "ColorPaletteManager": "Acesso a paletas de cor registradas pelo jogo.",
-    "SlotEquipData": "Dados modernos de equipamento/slot para ItemPrefab, incluindo slots possiveis, obrigatorios e proibidos.",
-    "SusModifier": "Modificador de cobertura/suspeita associado a areas visuais de um item.",
-    "EdibleItemPrefabData": "Dados especificos de comida/consumivel associados a ItemPrefab.EdibleData.",
-    "FishItemPrefabData": "Dados especificos de peixe associados a ItemPrefab.FishData.",
-    "ItemModifiableVariableFactory": "Factory de variaveis modificaveis associadas a itens e condicoes de elementos visuais.",
-    "ItemScopeCondition": "Base de condicoes de escopo de item usadas por requisitos e elementos dependentes de variaveis.",
-    "ItemScopeConditionSpecialVariable": "Condicao de escopo de item baseada em variavel especial/modificavel.",
+    "ModUtilities": "Helper exposed to Lua mod scripts for creating and registering items, loading assets, adding items to shops, preparing personality modules, accessing controllers, and controlling runtime coroutines.",
+    "ItemPrefab": "Configurable item model before/after registration in the game; scripts usually populate fields, attach optional textures/data, and register the item through ModUtilities.",
+    "Item": "Runtime instance of an item in inventory/equipment, used in callbacks such as OnUse and SpecialEffectAction.",
+    "StoryCondition": "Base class for conditions used by the story/event system to verify requirements, combine conditions, and generate textual or code representations.",
+    "LuaStoryCondition": "Story condition based on Lua/MoonSharp code provided by a script.",
+    "LuaPersonalityModuleDefinition": "Lua definition of a personality module; groups dialogue containers and is later linked to a registered item.",
+    "StoryBotDialogueBranch": "Bot dialogue branch used by personality modules and dialogue containers.",
+    "StoryBotDialogueBranchContainer": "Container of dialogue branches associated with a dialogue/event identifier.",
+    "TextureOverriderManager": "Manager for overriding/restoring sprites/textures by visual target, used by item effects and room overrides.",
+    "UiOverlay": "UI overlay and popup utilities exposed to Lua.",
+    "GameUtilities": "General game utilities exposed to Lua, including view transitions, inventory operations, and coroutine wait helpers.",
+    "GameVariables": "Global game state exposed for reading, writing, and conditions.",
+    "GameId": "Identifier of a game item or resource, including vanilla items and mod-registered items.",
+    "ColorSlot": "Defines an editable item color slot, usually associated with a palette.",
+    "ColorPalette": "Collection of configurable colors used by color slots.",
+    "ColorPaletteManager": "Access to color palettes registered by the game.",
+    "SlotEquipData": "Modern equipment/slot data for ItemPrefab, including possible, required, and forbidden slots.",
+    "SusModifier": "Coverage/suspicion modifier associated with an item's visual areas.",
+    "EdibleItemPrefabData": "Food/consumable-specific data associated with ItemPrefab.EdibleData.",
+    "FishItemPrefabData": "Fish-specific data associated with ItemPrefab.FishData.",
+    "ItemModifiableVariableFactory": "Factory for modifiable variables associated with items and visual element conditions.",
+    "ItemScopeCondition": "Base class for item scope conditions used by requirements and variable-dependent elements.",
+    "ItemScopeConditionSpecialVariable": "Item scope condition based on a special/modifiable variable.",
 }
 
 
 METHOD_DOCS: dict[tuple[str, str], str] = {
-    ("ModUtilities", "CreateItemPrefab"): "Cria um ItemPrefab configuravel por scripts Lua antes do registro do item.",
-    ("ModUtilities", "CreateNewItemAutoAssignId"): "Registra um ItemPrefab para um mod e retorna um GameId gerado automaticamente.",
-    ("ModUtilities", "CreateNewItem"): "Registra um ItemPrefab para um mod e retorna o GameId do item registrado.",
-    ("ModUtilities", "AddSingleBuyItemToShop"): "Adiciona um item registrado a uma loja como compra unica.",
-    ("ModUtilities", "AddGenericItemToShop"): "Adiciona um item registrado a uma loja como item generico/recompravel.",
-    ("ModUtilities", "GetModFile"): "Retorna um arquivo do pacote do mod pelo Guid do mod e caminho interno.",
-    ("ModUtilities", "GetPackedTexture"): "Carrega um container de textura empacotada do pacote do mod.",
-    ("ModUtilities", "GetTexture"): "Carrega uma Texture2D do pacote do mod.",
-    ("ModUtilities", "GetTextureReference"): "Cria uma referencia automatica para uma Texture2D do pacote do mod.",
-    ("ModUtilities", "GetSprite"): "Carrega uma Sprite a partir de um asset do pacote do mod.",
-    ("ModUtilities", "GetSpriteReference"): "Cria uma referencia automatica para uma Sprite do pacote do mod.",
-    ("ModUtilities", "GetAsSprite"): "Cria uma referencia de Sprite convertida a partir de uma textura do pacote do mod.",
-    ("ModUtilities", "PrepareNewPersonalityDefinition"): "Cria uma definicao de personality module para receber containers e ramos de dialogo.",
-    ("ModUtilities", "StartCoroutine"): "Inicia uma closure MoonSharp como coroutine gerenciada pelo runtime de mods.",
-    ("ModUtilities", "StopCoroutine"): "Para uma coroutine iniciada pelo runtime de mods.",
-    ("ModUtilities", "WaitForSeconds"): "Cria um objeto de espera para ser usado com coroutine.yield em scripts Lua.",
-    ("ModUtilities", "GetController"): "Retorna o ControllerEnum associado a um identificador textual de controller/cena.",
-    ("GameUtilities", "WaitForSecondsYield"): "Cria um objeto de espera para atrasar uma coroutine Lua pelo numero de segundos informado.",
-    ("ItemPrefab", "AddTexture"): "Anexa uma textura empacotada ao prefab, opcionalmente limitada a um controller/cena.",
-    ("ItemPrefab", "AddAtLeastOneEnabledAllModifiableVariablesRequirement"): "Adiciona requisito para que pelo menos uma variavel modificavel do item esteja habilitada.",
-    ("ItemPrefab", "AddAtLeastOneEnabledModifiableVariablesRequirement"): "Adiciona requisito para que pelo menos uma das variaveis modificaveis indicadas esteja habilitada.",
-    ("ItemPrefab", "AddBoolModifiableVariable"): "Adiciona uma variavel modificavel booleana ao prefab.",
-    ("ItemPrefab", "AddFloatModifiableVariable"): "Adiciona uma variavel modificavel numerica ao prefab.",
-    ("ItemPrefab", "AddItemModifiableVariablesRequirement"): "Adiciona um requisito baseado nas variaveis modificaveis do item.",
-    ("ItemPrefab", "AddHoodieLogoTexture"): "Adiciona uma textura de logo modificavel para hoodie/roupa compativel.",
-    ("ItemPrefab", "AddModdableLogos"): "Adiciona configuracoes de logos modificaveis ao prefab.",
-    ("ItemPrefab", "TurnIntoPersonalityModule"): "Configura o item registrado como personality module usando uma definicao Lua.",
-    ("ItemPrefab", "MakeSet"): "Marca ou cria associacao de conjunto entre itens relacionados.",
-    ("ItemPrefab", "MakePair"): "Marca dois itens como par/conjunto relacionado.",
-    ("Item", "GetCount"): "Retorna a quantidade empilhada da instancia runtime do item.",
-    ("Item", "GetUniqueGuid"): "Retorna o Guid unico da instancia runtime do item.",
-    ("Item", "IsEquipped"): "Retorna se a instancia runtime do item esta equipada.",
-    ("Item", "GetItemPrefab"): "Retorna o ItemPrefab associado a esta instancia runtime do item.",
-    ("Item", "GetMainColorFromAdditionalData"): "Le a cor principal armazenada nos dados adicionais da instancia do item.",
-    ("Item", "SetColorIntoAdditionalData"): "Grava uma cor em um slot dos dados adicionais da instancia do item.",
-    ("StoryCondition", "Lua"): "Cria uma condicao de historia avaliada por codigo Lua.",
-    ("StoryCondition", "Delegate"): "Cria uma condicao de historia avaliada por callback booleano.",
-    ("StoryCondition", "And"): "Combina condicoes e exige que todas sejam verdadeiras.",
-    ("StoryCondition", "Or"): "Combina condicoes e exige que pelo menos uma seja verdadeira.",
-    ("StoryCondition", "NotAnd"): "Combina condicoes com negacao do resultado de And.",
-    ("StoryCondition", "NotOr"): "Combina condicoes com negacao do resultado de Or.",
-    ("LuaPersonalityModuleDefinition", "PrepareContainer"): "Retorna ou prepara um container de dialogo identificado por tag/stage.",
-    ("StoryBotDialogueBranchContainer", "AddBranch"): "Adiciona um ramo de dialogo ao container.",
-    ("TextureOverriderManager", "SetSprite"): "Aplica override de sprite em um alvo visual, opcionalmente escopado por Guid unico.",
-    ("TextureOverriderManager", "RestoreSprite"): "Restaura o sprite original de um alvo visual previamente alterado.",
-    ("TextureOverriderManager", "GetSpecialEffectsAction"): "Cria um callback compativel com SpecialEffectAction para aplicar/restaurar sprite de alvo visual.",
-    ("UiOverlay", "OkPopup"): "Mostra um popup simples com titulo, texto e acao opcional de OK.",
-    ("UiOverlay", "CloseUiOverlay"): "Fecha o overlay de UI atualmente aberto.",
+    ("ModUtilities", "CreateItemPrefab"): "Creates a configurable ItemPrefab for Lua scripts before item registration.",
+    ("ModUtilities", "CreateNewItemAutoAssignId"): "Registers an ItemPrefab for a mod and returns an automatically generated GameId.",
+    ("ModUtilities", "CreateNewItem"): "Registers an ItemPrefab for a mod and returns the GameId of the registered item.",
+    ("ModUtilities", "AddSingleBuyItemToShop"): "Adds a registered item to a shop as a one-time purchase.",
+    ("ModUtilities", "AddGenericItemToShop"): "Adds a registered item to a shop as a generic/repurchaseable item.",
+    ("ModUtilities", "GetModFile"): "Returns a file from the mod package by mod Guid and internal path.",
+    ("ModUtilities", "GetPackedTexture"): "Loads a packed texture container from the mod package.",
+    ("ModUtilities", "GetTexture"): "Loads a Texture2D from the mod package.",
+    ("ModUtilities", "GetTextureReference"): "Creates an automatic reference for a Texture2D from the mod package.",
+    ("ModUtilities", "GetSprite"): "Loads a Sprite from an asset in the mod package.",
+    ("ModUtilities", "GetSpriteReference"): "Creates an automatic reference for a Sprite from the mod package.",
+    ("ModUtilities", "GetAsSprite"): "Creates a Sprite reference converted from a texture in the mod package.",
+    ("ModUtilities", "PrepareNewPersonalityDefinition"): "Creates a personality module definition to receive dialogue containers and dialogue branches.",
+    ("ModUtilities", "StartCoroutine"): "Starts a MoonSharp closure as a coroutine managed by the mod runtime.",
+    ("ModUtilities", "StopCoroutine"): "Stops a coroutine started by the mod runtime.",
+    ("ModUtilities", "WaitForSeconds"): "Creates a wait object to be used with coroutine.yield in Lua scripts.",
+    ("ModUtilities", "GetController"): "Returns the ControllerEnum associated with a controller/scene textual identifier.",
+    ("GameUtilities", "WaitForSecondsYield"): "Creates a wait object to delay a Lua coroutine by the specified number of seconds.",
+    ("ItemPrefab", "AddTexture"): "Attaches a packed texture to the prefab, optionally limited to a specific controller/scene.",
+    ("ItemPrefab", "AddAtLeastOneEnabledAllModifiableVariablesRequirement"): "Adds a requirement that at least one modifiable variable of the item is enabled.",
+    ("ItemPrefab", "AddAtLeastOneEnabledModifiableVariablesRequirement"): "Adds a requirement that at least one of the specified modifiable variables is enabled.",
+    ("ItemPrefab", "AddBoolModifiableVariable"): "Adds a boolean modifiable variable to the prefab.",
+    ("ItemPrefab", "AddFloatModifiableVariable"): "Adds a numeric modifiable variable to the prefab.",
+    ("ItemPrefab", "AddItemModifiableVariablesRequirement"): "Adds a requirement based on the item's modifiable variables.",
+    ("ItemPrefab", "AddHoodieLogoTexture"): "Adds a modifiable logo texture for a compatible hoodie/clothing item.",
+    ("ItemPrefab", "AddModdableLogos"): "Adds moddable logo configurations to the prefab.",
+    ("ItemPrefab", "TurnIntoPersonalityModule"): "Configures the registered item as a personality module using a Lua definition.",
+    ("ItemPrefab", "MakeSet"): "Marks or creates a set association between related items.",
+    ("ItemPrefab", "MakePair"): "Marks two items as a related pair/set.",
+    ("Item", "GetCount"): "Returns the stacked quantity of the item's runtime instance.",
+    ("Item", "GetUniqueGuid"): "Returns the unique Guid of the item's runtime instance.",
+    ("Item", "IsEquipped"): "Returns whether the item's runtime instance is equipped.",
+    ("Item", "GetItemPrefab"): "Returns the ItemPrefab associated with this item's runtime instance.",
+    ("Item", "GetMainColorFromAdditionalData"): "Reads the primary color stored in the item's runtime instance additional data.",
+    ("Item", "SetColorIntoAdditionalData"): "Stores a color in a slot of the item's runtime instance additional data.",
+    ("StoryCondition", "Lua"): "Creates a story condition evaluated by Lua code.",
+    ("StoryCondition", "Delegate"): "Creates a story condition evaluated by a boolean callback.",
+    ("StoryCondition", "And"): "Combines conditions and requires all of them to be true.",
+    ("StoryCondition", "Or"): "Combines conditions and requires at least one of them to be true.",
+    ("StoryCondition", "NotAnd"): "Combines conditions with negation of the And result.",
+    ("StoryCondition", "NotOr"): "Combines conditions with negation of the Or result.",
+    ("LuaPersonalityModuleDefinition", "PrepareContainer"): "Returns or prepares a dialogue container identified by tag/stage.",
+    ("StoryBotDialogueBranchContainer", "AddBranch"): "Adds a dialogue branch to the container.",
+    ("TextureOverriderManager", "SetSprite"): "Applies a sprite override to a visual target, optionally scoped by a unique Guid.",
+    ("TextureOverriderManager", "RestoreSprite"): "Restores the original sprite of a previously modified visual target.",
+    ("TextureOverriderManager", "GetSpecialEffectsAction"): "Creates a callback compatible with SpecialEffectAction to apply/restore a visual target sprite.",
+    ("UiOverlay", "OkPopup"): "Displays a simple popup with title, text, and an optional OK action.",
+    ("UiOverlay", "CloseUiOverlay"): "Closes the currently open UI overlay.",
 }
 
 
 WORD_TRANSLATIONS = {
-    "action": "acao",
-    "actions": "acoes",
-    "active": "ativo",
-    "all": "todos",
+    "action": "action",
+    "actions": "actions",
+    "active": "active",
+    "all": "all",
     "audio": "audio",
-    "bool": "booleana",
-    "boolean": "booleana",
-    "branch": "ramo",
-    "branches": "ramos",
+    "bool": "boolean",
+    "boolean": "boolean",
+    "branch": "branch",
+    "branches": "branches",
     "callback": "callback",
     "clip": "clip",
-    "color": "cor",
-    "condition": "condicao",
-    "conditions": "condicoes",
+    "color": "color",
+    "condition": "condition",
+    "conditions": "conditions",
     "container": "container",
     "controller": "controller",
-    "current": "atual",
-    "data": "dados",
-    "default": "padrao",
-    "description": "descricao",
-    "enabled": "habilitado",
-    "file": "arquivo",
+    "current": "current",
+    "data": "data",
+    "default": "default",
+    "description": "description",
+    "enabled": "enabled",
+    "file": "file",
     "guid": "guid",
     "id": "id",
-    "identifier": "identificador",
+    "identifier": "identifier",
     "item": "item",
-    "items": "itens",
-    "localizable": "localizavel",
-    "manager": "gerenciador",
-    "modifiable": "modificavel",
-    "module": "modulo",
-    "music": "musica",
-    "name": "nome",
-    "new": "novo",
-    "pair": "par",
-    "palette": "paleta",
+    "items": "items",
+    "localizable": "localizable",
+    "manager": "manager",
+    "modifiable": "modifiable",
+    "module": "module",
+    "music": "music",
+    "name": "name",
+    "new": "new",
+    "pair": "pair",
+    "palette": "palette",
     "popup": "popup",
     "prefab": "prefab",
-    "price": "preco",
-    "reference": "referencia",
-    "requirement": "requisito",
-    "requirements": "requisitos",
-    "resource": "recurso",
-    "result": "resultado",
-    "scene": "cena",
+    "price": "price",
+    "reference": "reference",
+    "requirement": "requirement",
+    "requirements": "requirements",
+    "resource": "resource",
+    "result": "result",
+    "scene": "scene",
     "slot": "slot",
     "slots": "slots",
-    "song": "musica",
-    "special": "especial",
+    "song": "song",
+    "special": "special",
     "sprite": "sprite",
-    "stat": "estatistica",
+    "stat": "stat",
     "string": "string",
-    "summary": "resumo",
-    "target": "alvo",
-    "text": "texto",
-    "texture": "textura",
-    "time": "tempo",
-    "value": "valor",
-    "variable": "variavel",
-    "variables": "variaveis",
+    "summary": "summary",
+    "target": "target",
+    "text": "text",
+    "texture": "texture",
+    "time": "time",
+    "value": "value",
+    "variable": "variable",
+    "variables": "variables",
     "view": "view",
 }
 
@@ -491,34 +491,34 @@ def infer_class_doc(section: ClassSection, raw_info: DumpInfo | None, dump_info:
     source = simplify_source_type(section.source_type)
     searchable = f"{source} {section.name} {name}".lower()
     if "condition" in searchable:
-        desc = "Tipo de condicao exposto ao Lua/MoonSharp para verificar requisitos, explicar a condicao e/ou gerar representacao de codigo."
+        desc = "Condition type exposed to Lua/MoonSharp for validating requirements, explaining the condition, and/or generating a code representation."
         confidence = "medium" if raw_info or dump_info else "low"
         evidence = ["rawdump" if raw_info else "dump" if dump_info else "fallback", "name-pattern"]
     elif "item" in searchable:
-        desc = "Tipo do sistema de itens exposto ao Lua/MoonSharp para criar, consultar ou configurar dados relacionados a itens."
+        desc = "Item system type exposed to Lua/MoonSharp for creating, querying, or configuring item-related data."
         confidence = "medium" if raw_info or dump_info else "low"
         evidence = ["rawdump" if raw_info else "dump" if dump_info else "fallback", "name-pattern"]
     elif "reference" in searchable or "resource" in searchable:
-        desc = "Tipo de referencia/recurso serializavel exposto ao Lua/MoonSharp para localizar ou carregar assets do jogo/mod."
+        desc = "Serializable reference/resource type exposed to Lua/MoonSharp for locating or loading game/mod assets."
         confidence = "medium" if raw_info or dump_info else "low"
         evidence = ["rawdump" if raw_info else "dump" if dump_info else "fallback", "name-pattern"]
     elif "result" in searchable:
-        desc = "Tipo de resultado exposto ao Lua/MoonSharp para representar a saida ou estado de uma operacao."
+        desc = "Result type exposed to Lua/MoonSharp for representing the output or state of an operation."
         confidence = "medium" if raw_info or dump_info else "low"
         evidence = ["rawdump" if raw_info else "dump" if dump_info else "fallback", "name-pattern"]
     elif "view" in searchable or "scene" in searchable or "controller" in searchable:
-        desc = "Tipo do sistema de view/cena/controller exposto ao Lua/MoonSharp para interagir com estado visual do jogo."
+        desc = "View/scene/controller system type exposed to Lua/MoonSharp for interacting with the game's visual state."
         confidence = "medium" if raw_info or dump_info else "low"
         evidence = ["rawdump" if raw_info else "dump" if dump_info else "fallback", "name-pattern"]
     elif "stat" in searchable or "variable" in searchable:
-        desc = "Tipo de estatistica/variavel do jogo exposto ao Lua/MoonSharp para ler, alterar ou representar valores de estado."
+        desc = "Game stat/variable type exposed to Lua/MoonSharp for reading, modifying, or representing state values."
         confidence = "medium" if raw_info or dump_info else "low"
         evidence = ["rawdump" if raw_info else "dump" if dump_info else "fallback", "name-pattern"]
     else:
         fields = len(raw_info.fields) if raw_info else len(dump_info.fields) if dump_info else 0
         methods = len(raw_info.methods) if raw_info else len(dump_info.methods) if dump_info else 0
-        suffix = f" Possui {fields} campos e {methods} metodos identificados no dump." if fields or methods else ""
-        desc = f"Tipo C# exposto ao Lua/MoonSharp para uso em scripts do jogo.{suffix}"
+        suffix = f" Contains {fields} fields and {methods} methods identified in the dump." if fields or methods else ""
+        desc = f"C# type exposed to Lua/MoonSharp for use in game scripts.{suffix}"
         confidence = "medium" if raw_info or dump_info else "low"
         evidence = ["rawdump" if raw_info else "dump" if dump_info else "fallback"]
     return DocDecision(desc, confidence, evidence)
@@ -559,87 +559,87 @@ def infer_method_doc(
     ret = type_phrase(entry.return_type)
 
     if method == "__new":
-        desc = f"Cria uma nova instancia de {entry.section}."
+        desc = f"Creates a new instance of {entry.section}."
         evidence.append("name-pattern")
         confidence = "medium" if dump_has_method or raw_info or dump_info else "low"
     elif method == "ToString":
-        desc = "Retorna uma representacao textual desta instancia."
+        desc = "Returns a textual representation of this instance."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method == "Equals":
-        desc = "Compara esta instancia com outro valor ou instancia compativel."
+        desc = "Compares this instance with another value or compatible instance."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method == "GetHashCode":
-        desc = "Retorna o hash desta instancia."
+        desc = "Returns the hash code of this instance."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method == "ResetStat":
-        desc = "Restaura esta estatistica para seu valor padrao."
+        desc = "Restores this stat to its default value."
         evidence.append("name-pattern")
         confidence = "medium" if "Stat" in class_simple or "Stat" in section.source_type else "low"
     elif method == "SetValue":
-        desc = "Configura o valor armazenado nesta instancia."
+        desc = "Sets the value stored in this instance."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method == "GetValue":
-        desc = "Retorna o valor armazenado nesta instancia."
+        desc = "Returns the value stored in this instance."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method == "GetIdentifier":
-        desc = "Retorna o identificador associado a esta referencia ou recurso."
+        desc = "Returns the identifier associated with this reference or resource."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method == "IsNull":
-        desc = "Retorna se esta referencia ou valor esta nulo."
+        desc = "Returns whether this reference or value is null."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method == "GetResource":
-        desc = "Retorna o recurso associado a esta referencia."
+        desc = "Returns the resource associated with this reference."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method == "Explain":
-        desc = "Retorna uma descricao textual desta condicao ou objeto."
+        desc = "Returns a textual description of this condition or object."
         evidence.append("name-pattern")
         confidence = "medium" if "Condition" in class_simple or "Result" in class_simple else "low"
     elif method == "GenerateCode":
-        desc = "Gera uma representacao em codigo/script para esta instancia."
+        desc = "Generates a code/script representation for this instance."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method == "GenerateVariableName":
-        desc = "Gera um nome de variavel textual para esta instancia."
+        desc = "Generates a textual variable name for this instance."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method in {"ConditionMet", "InnerConditionMet"}:
-        desc = "Avalia se a condicao esta satisfeita no estado atual."
+        desc = "Evaluates whether the condition is satisfied in the current state."
         evidence.append("name-pattern")
         confidence = "medium"
     elif method.startswith("Create"):
         target = subject_from_method(method, "Create")
         if method == "CreateInstance":
-            desc = f"Cria uma instancia de {ret if ret != 'nil' else entry.section}."
+            desc = f"Creates an instance of {ret if ret != 'nil' else entry.section}."
         else:
-            desc = f"Cria {target} e retorna {ret}." if ret != "nil" else f"Cria {target}."
+            desc = f"Create {target} and returns {ret}." if ret != "nil" else f"Create {target}."
         evidence.append("name-pattern")
         confidence = "medium" if dump_has_method or usage_hits else "low"
     elif method.startswith("Prepare"):
         target = subject_from_method(method, "Prepare")
-        desc = f"Prepara {target} e retorna {ret}." if ret != "nil" else f"Prepara {target}."
+        desc = f"Prepares {target} and returns {ret}." if ret != "nil" else f"Prepara {target}."
         evidence.append("name-pattern")
         confidence = "medium" if dump_has_method or usage_hits else "low"
     elif method.startswith("Get"):
         target = subject_from_method(method, "Get")
-        desc = f"Retorna {target}."
+        desc = f"Returns {target}."
         evidence.append("name-pattern")
         confidence = "medium" if dump_has_method or usage_hits else "low"
     elif method.startswith("Set"):
         target = subject_from_method(method, "Set")
-        desc = f"Configura {target}."
+        desc = f"Set {target}."
         evidence.append("name-pattern")
         confidence = "medium" if dump_has_method or usage_hits else "low"
     elif method.startswith("Add"):
         target = subject_from_method(method, "Add")
-        desc = f"Adiciona {target}."
+        desc = f"Add {target}."
         evidence.append("name-pattern")
         confidence = "medium" if dump_has_method or usage_hits else "low"
     elif method.startswith("Remove"):
@@ -649,21 +649,21 @@ def infer_method_doc(
         confidence = "medium" if dump_has_method or usage_hits else "low"
     elif method.startswith("Is"):
         target = subject_from_method(method, "Is")
-        desc = f"Retorna se {target}."
+        desc = f"Returns if {target}."
         evidence.append("name-pattern")
         confidence = "medium" if dump_has_method or usage_hits else "low"
     elif method.startswith("Has"):
         target = subject_from_method(method, "Has")
-        desc = f"Retorna se possui {target}."
+        desc = f"Return if has {target}."
         evidence.append("name-pattern")
         confidence = "medium" if dump_has_method or usage_hits else "low"
     elif method.startswith("Make"):
         target = subject_from_method(method, "Make")
-        desc = f"Configura ou cria a relacao de {target}."
+        desc = f"Configures or creates the relationship of {target}."
         evidence.append("name-pattern")
         confidence = "medium" if dump_has_method or usage_hits else "low"
     else:
-        desc = f"Executa a operacao runtime exposta por {entry.section}.{method}."
+        desc = f"Executes the runtime operation exposed by {entry.section}.{method}."
         evidence.append("fallback")
         confidence = "low" if not usage_hits else "medium"
 
@@ -724,12 +724,12 @@ def generate() -> tuple[list[str], Counter[str]]:
         "",
         f"Generated: {_dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         "",
-        "Fonte gerada para revisar e copiar LuaDoc para os stubs MDRG. Cada entrada vem de `undocumented_functions.md` e recebe uma descricao balanceada com `Confidence` e `Evidence`.",
+        "Generated source to review and copy LuaDoc to MDRG stubs. Each entry comes from `undocumented_functions.md` and receives a balanced description with `Confidence` and `Evidence`.",
         "",
         "Notas:",
-        "- `rawdump/` e `dump/` sao usados como evidencias de assinatura/contexto; wrappers Il2CppInterop nao sao descritos como comportamento.",
-        "- Descricoes de baixa confianca sao intencionalmente conservadoras.",
-        "- Este arquivo nao altera `library/` nem o gerador dos stubs.",
+        "- `rawdump/` and `dump/` are used as signature/context evidence; Il2CppInterop wrappers are not described as behavior.",
+        "- Low-confidence descriptions are intentionally conservative.",
+        "- This file does not alter library/ nor the stub generator.",
         "",
     ]
 
