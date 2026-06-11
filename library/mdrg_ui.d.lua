@@ -390,7 +390,7 @@ function SimplePopup.Open(title, text, choices) end
 ---@overload fun(self: SimplePopup)
 function SimplePopup.OnDestroy() end
 
----@class TextMeshProUGUI
+---@class TextMeshProUGUI: TMP_Text
 ---@field materialForRendering Material
 ---@field autoSizeTextContainer boolean
 ---@field mesh Mesh
@@ -549,8 +549,10 @@ function TextMeshProUGUI.Cull(clipRect, validRect) end
 function TextMeshProUGUI.UpdateMeshPadding() end
 
 ---@overload fun(self: TextMeshProUGUI, ignoreActiveState: boolean, forceTextReparsing: boolean)
----@param ignoreActiveState boolean
----@param forceTextReparsing boolean
+---@overload fun(self: TextMeshProUGUI, ignoreActiveState: boolean)
+---@overload fun(self: TextMeshProUGUI)
+---@param ignoreActiveState? boolean
+---@param forceTextReparsing? boolean
 function TextMeshProUGUI.ForceMeshUpdate(ignoreActiveState, forceTextReparsing) end
 
 ---@overload fun(self: TextMeshProUGUI, text: string): TMP_TextInfo

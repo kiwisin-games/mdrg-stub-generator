@@ -73,8 +73,10 @@ function ManagedCoroutineWithTarget.__new() end
 function ManagedCoroutineWithTarget.SetTarget(target) end
 
 ---@overload fun(enumerator: IEnumerator, onFinished: fun(arg1: FinishedType))
+---@overload fun(enumerator: IEnumerator)
 ---@overload fun(self: ManagedCoroutineWithTarget, enumerator: IEnumerator, onFinished: fun())
 ---@overload fun(self: ManagedCoroutineWithTarget, enumerator: IEnumerator, onFinished: fun(arg1: FinishedType))
+---@overload fun(self: ManagedCoroutineWithTarget, enumerator: IEnumerator)
 ---@param enumerator IEnumerator
 ---@param onFinished fun()
 function ManagedCoroutineWithTarget.Start(enumerator, onFinished) end

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-06-11T15:59:32+00:00",
+  "generated_at_utc": "2026-06-11T16:54:40+00:00",
   "policy": "curated reproducible indexes; raw dumps remain local/ignored",
   "inputs": {
     "docs.txt": {
@@ -12,10 +12,10 @@
       "bytes": 674400
     },
     "dump": {
-      "files": 0
+      "files": 9778
     },
     "rawdump": {
-      "files": 0
+      "files": 9779
     },
     "luas": {
       "files": 13
@@ -36,9 +36,9 @@
   },
   "outputs": {
     "csharp_index.json": {
-      "field_docs": 0,
-      "inheritance_edges": 0,
-      "method_entries": 0
+      "field_docs": 10,
+      "inheritance_edges": 4293,
+      "method_entries": 4664
     },
     "lua_usage_index.json": {
       "aliases": 9

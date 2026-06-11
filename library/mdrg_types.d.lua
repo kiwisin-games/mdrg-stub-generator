@@ -906,7 +906,7 @@ function FlagConditionWithTime.Equals(other) end
 function FlagConditionWithTime.GetHashCode() end
 
 ---Fungus flowchart object exposed through the game API.
----@class Flowchart
+---@class Flowchart: MonoBehaviour
 ---@field CachedFlowcharts Flowchart[]
 ---@field ScrollPos Vector2
 ---@field VariablesScrollPos Vector2
@@ -965,8 +965,9 @@ function Flowchart.GetName() end
 function Flowchart.NextItemId() end
 
 ---@overload fun(self: Flowchart, position: Vector2, blockName: string): Block
+---@overload fun(self: Flowchart, position: Vector2): Block
 ---@param position Vector2
----@param blockName string
+---@param blockName? string
 ---@return Block
 function Flowchart.CreateBlock(position, blockName) end
 
@@ -987,8 +988,12 @@ function Flowchart.HasBlock(blockName) end
 function Flowchart.ExecuteIfHasBlock(blockName) end
 
 ---@overload fun(block: Block, commandIndex: integer, onComplete: fun()): boolean
+---@overload fun(block: Block, commandIndex: integer): boolean
+---@overload fun(block: Block): boolean
 ---@overload fun(self: Flowchart, blockName: string)
 ---@overload fun(self: Flowchart, block: Block, commandIndex: integer, onComplete: fun()): boolean
+---@overload fun(self: Flowchart, block: Block, commandIndex: integer): boolean
+---@overload fun(self: Flowchart, block: Block): boolean
 ---@param blockName string
 function Flowchart.ExecuteBlock(blockName) end
 
@@ -1000,14 +1005,16 @@ function Flowchart.StopBlock(blockName) end
 function Flowchart.StopAllBlocks() end
 
 ---@overload fun(self: Flowchart, originalKey: string, ignoreVariable: Variable): string
+---@overload fun(self: Flowchart, originalKey: string): string
 ---@param originalKey string
----@param ignoreVariable Variable
+---@param ignoreVariable? Variable
 ---@return string
 function Flowchart.GetUniqueVariableKey(originalKey, ignoreVariable) end
 
 ---@overload fun(self: Flowchart, originalKey: string, ignoreBlock: Block): string
+---@overload fun(self: Flowchart, originalKey: string): string
 ---@param originalKey string
----@param ignoreBlock Block
+---@param ignoreBlock? Block
 ---@return string
 function Flowchart.GetUniqueBlockKey(originalKey, ignoreBlock) end
 
@@ -1237,9 +1244,10 @@ function Guid.op_Equality(a, b) end
 function Guid.op_Inequality(a, b) end
 
 ---@overload fun(self: Guid, destination: string[], charsWritten: integer, format: string[]): boolean
+---@overload fun(self: Guid, destination: string[], charsWritten: integer): boolean
 ---@param destination string[]
 ---@param charsWritten integer
----@param format string[]
+---@param format? string[]
 ---@return boolean
 function Guid.TryFormat(destination, charsWritten, format) end
 
@@ -1340,7 +1348,6 @@ JsonNull = {}
 ---@return JsonNull
 function JsonNull.__new() end
 
----@overload fun(self: JsonNull): boolean
 ---@return boolean
 function JsonNull.isNull() end
 
@@ -1414,9 +1421,8 @@ MidiFile = {}
 ---@return MidiFile
 function MidiFile.__new() end
 
----@overload fun(self: MidiFile, stream: Stream, settings: ReadingSettings): MidiFile
 ---@param stream Stream
----@param settings ReadingSettings
+---@param settings? ReadingSettings
 ---@return MidiFile
 function MidiFile.Read(stream, settings) end
 
@@ -2233,7 +2239,7 @@ function TargetComparer.Equals(a, b) end
 ---@return integer
 function TargetComparer.GetHashCode(t) end
 
----@class TextAsset
+---@class TextAsset: ScriptableObject
 ---@field bytes integer[]
 ---@field text string
 ---@field name string
@@ -2604,16 +2610,19 @@ function _0_0_0__Culture_neutral__PublicKeyToken_null__9.IsNull() end
 ---@return ValueTuple
 function _0_0_0__Culture_neutral__PublicKeyToken_null__9.GetIdentifier() end
 
----@class AdvancedItemListPrefab
+---@class AdvancedItemListPrefab: MonoBehaviour
 AdvancedItemListPrefab = {}
 
 ---@class AnimationCurve
 AnimationCurve = {}
 
----@class AssetReferenceT
+---@class AssetReference
+AssetReference = {}
+
+---@class AssetReferenceT: AssetReference
 AssetReferenceT = {}
 
----@class AsyncCallback
+---@class AsyncCallback: MulticastDelegate
 AsyncCallback = {}
 
 ---@class Attribute
@@ -2637,11 +2646,17 @@ AudioSource = {}
 ---@class AudioSourceUsage
 AudioSourceUsage = {}
 
----@class AutomaticReference_TResource__ModFileBase_
+---@class AutomaticReference_TResource__ModFileBase_: Reference_TResource_
 AutomaticReference_TResource__ModFileBase_ = {}
+
+---@class AutomaticReference_TResource__ValueTuple_String__Int64__: Reference_TResource_
+AutomaticReference_TResource__ValueTuple_String__Int64__ = {}
 
 ---@class BarBeatFractionTimeSpan
 BarBeatFractionTimeSpan = {}
+
+---@class BaseMeshEffect: UIBehaviour
+BaseMeshEffect = {}
 
 ---@class BasicInsertionHandleFuckAxis: InsertionHandlerFuckAxis
 BasicInsertionHandleFuckAxis = {}
@@ -2652,7 +2667,7 @@ Behaviour = {}
 ---@class BetterObjectPool_EdibleItemNutritionProfile_
 BetterObjectPool_EdibleItemNutritionProfile_ = {}
 
----@class Block
+---@class Block: Node
 Block = {}
 
 ---@class BotStatusAppManager
@@ -2676,10 +2691,10 @@ Camera = {}
 ---@class CancellationToken
 CancellationToken = {}
 
----@class Canvas
+---@class Canvas: Behaviour
 Canvas = {}
 
----@class CanvasRenderer
+---@class CanvasRenderer: Component
 CanvasRenderer = {}
 
 ---@class CanvasUpdate
@@ -2706,10 +2721,10 @@ Color = {}
 ---@class Color32
 Color32 = {}
 
----@class Command
+---@class Command: MonoBehaviour
 Command = {}
 
----@class CommandInfoAttribute
+---@class CommandInfoAttribute: Attribute
 CommandInfoAttribute = {}
 
 ---@class CommonButtonColorType
@@ -2718,7 +2733,7 @@ CommonButtonColorType = {}
 ---@class CommonButtonHandler: MonoBehaviour
 CommonButtonHandler = {}
 
----@class Component
+---@class Component: MarshalByRefObject
 Component = {}
 
 ---@class CompoundResult: Result
@@ -2726,6 +2741,9 @@ CompoundResult = {}
 
 ---@class ComputeBuffer
 ComputeBuffer = {}
+
+---@class Condition: Command
+Condition = {}
 
 ---@class ConsoleStyleStruct
 ConsoleStyleStruct = {}
@@ -2787,19 +2805,19 @@ CookingSongNoteEvent = {}
 ---@class CookingSongSave
 CookingSongSave = {}
 
----@class CubismDrawable
+---@class CubismDrawable: MonoBehaviour
 CubismDrawable = {}
 
----@class CubismModel
+---@class CubismModel: MonoBehaviour
 CubismModel = {}
 
----@class CubismRenderer
+---@class CubismRenderer: MonoBehaviour
 CubismRenderer = {}
 
 ---@class CuddleScene: ViewScene
 CuddleScene = {}
 
----@class CullStateChangedEvent
+---@class CullStateChangedEvent: UnityEvent_Boolean_
 CullStateChangedEvent = {}
 
 ---@class CumOutsideManager
@@ -2819,6 +2837,9 @@ DataConditionValue = {}
 
 ---@class DateTime
 DateTime = {}
+
+---@class Delegate
+Delegate = {}
 
 ---@class DeveloperViewScene: ViewScene
 DeveloperViewScene = {}
@@ -2928,8 +2949,11 @@ GameVariablesSubClass = {}
 ---@class GlobalKeyword
 GlobalKeyword = {}
 
----@class Gradient
+---@class Gradient: BaseMeshEffect
 Gradient = {}
+
+---@class Graphic: UIBehaviour
+Graphic = {}
 
 ---@class GraphicsBuffer
 GraphicsBuffer = {}
@@ -3123,11 +3147,11 @@ LocalizedStringReferenceContainer = {}
 ---@class LocalizedStringReferenceStory: LocalizedStringReference
 LocalizedStringReferenceStory = {}
 
----@class LuaCondition
+---@class LuaCondition: Condition
 LuaCondition = {}
 
 ---Fungus LuaEnvironment used by flowcharts and the mod loader. docs.txt exposes the type but not its Lua-callable members.
----@class LuaEnvironment
+---@class LuaEnvironment: MonoBehaviour
 LuaEnvironment = {}
 
 ---@class MainMenuScene: ViewScene
@@ -3136,11 +3160,20 @@ MainMenuScene = {}
 ---@class ManagedCoroutine
 ManagedCoroutine = {}
 
+---@class MarshalByRefObject
+MarshalByRefObject = {}
+
+---@class MaskableGraphic: Graphic
+MaskableGraphic = {}
+
 ---@class Material
 Material = {}
 
 ---@class Matrix4x4
 Matrix4x4 = {}
+
+---@class MemberInfo
+MemberInfo = {}
 
 ---@class Mesh
 Mesh = {}
@@ -3148,7 +3181,10 @@ Mesh = {}
 ---@class MeshRenderer: Renderer
 MeshRenderer = {}
 
----@class MethodInfo
+---@class MethodBase: MemberInfo
+MethodBase = {}
+
+---@class MethodInfo: MethodBase
 MethodInfo = {}
 
 ---@class MidiChunk
@@ -3182,11 +3218,14 @@ MonoBehaviour = {}
 ---@class MouthManagerDefaultMouth
 MouthManagerDefaultMouth = {}
 
----@class MulticastDelegate
+---@class MulticastDelegate: Delegate
 MulticastDelegate = {}
 
 ---@class NewEmail: EmailBase
 NewEmail = {}
+
+---@class Node: MonoBehaviour
+Node = {}
 
 ---@class NonJitClassDescription_GameVariables_
 NonJitClassDescription_GameVariables_ = {}
@@ -3293,6 +3332,12 @@ RectInt = {}
 ---@class RectTransform: Transform
 RectTransform = {}
 
+---@class RefIdObject
+RefIdObject = {}
+
+---@class Reference_TResource_
+Reference_TResource_ = {}
+
 ---@class Regex
 Regex = {}
 
@@ -3326,8 +3371,11 @@ ScriptableObject = {}
 ---@class SecondarySpriteTexture
 SecondarySpriteTexture = {}
 
----@class SerializableAutomaticReference
+---@class SerializableAutomaticReference: AutomaticReference_TResource__ValueTuple_String__Int64__
 SerializableAutomaticReference = {}
+
+---@class SerializableAutomaticReference_Texture2D_: AutomaticReference_TResource__ValueTuple_String__Int64__
+SerializableAutomaticReference_Texture2D_ = {}
 
 ---@class SerializedLocalizedConversation: LocalizedConversation
 SerializedLocalizedConversation = {}
@@ -3476,7 +3524,7 @@ StoryEntryPointGenericFlagBase_StoryMenuBranch_ = {}
 ---@class StoryMenuEntryPoint: StoryEntryPointGenericFlagBase_StoryMenuBranch_
 StoryMenuEntryPoint = {}
 
----@class Stream
+---@class Stream: MarshalByRefObject
 Stream = {}
 
 ---@class Streamer
@@ -3497,22 +3545,25 @@ SubViews = {}
 ---@class TBranch
 TBranch = {}
 
----@class TMP_ColorGradient
+---@class TMP_Asset: ScriptableObject
+TMP_Asset = {}
+
+---@class TMP_ColorGradient: ScriptableObject
 TMP_ColorGradient = {}
 
----@class TMP_FontAsset
+---@class TMP_FontAsset: TMP_Asset
 TMP_FontAsset = {}
 
----@class TMP_SpriteAsset
+---@class TMP_SpriteAsset: TMP_Asset
 TMP_SpriteAsset = {}
 
 ---@class TMP_Style
 TMP_Style = {}
 
----@class TMP_StyleSheet
+---@class TMP_StyleSheet: ScriptableObject
 TMP_StyleSheet = {}
 
----@class TMP_Text
+---@class TMP_Text: MaskableGraphic
 TMP_Text = {}
 
 ---@class TMP_TextInfo
@@ -3524,7 +3575,7 @@ TMP_VertexDataUpdateFlags = {}
 ---@class TResource
 TResource = {}
 
----@class Table
+---@class Table: RefIdObject
 Table = {}
 
 ---@class TempoMap
@@ -3551,7 +3602,7 @@ Texture2D = {}
 ---@class Texture2DModFileAutomaticReference: ModFileAutomaticReference_Texture2D_
 Texture2DModFileAutomaticReference = {}
 
----@class Texture2DSerializableAutomaticReference
+---@class Texture2DSerializableAutomaticReference: SerializableAutomaticReference_Texture2D_
 Texture2DSerializableAutomaticReference = {}
 
 ---@class TextureDimension
@@ -3581,13 +3632,16 @@ TransformHandle = {}
 ---@class TupleReference
 TupleReference = {}
 
----@class Type
+---@class Type: MemberInfo
 Type = {}
 
----@class UIManager
+---@class UIBehaviour: MonoBehaviour
+UIBehaviour = {}
+
+---@class UIManager: MonoBehaviour
 UIManager = {}
 
----@class UIPopup
+---@class UIPopup: MonoBehaviour
 UIPopup = {}
 
 ---@class UVChannelFlags
@@ -3595,6 +3649,12 @@ UVChannelFlags = {}
 
 ---@class UniTask
 UniTask = {}
+
+---@class UnityEventBase
+UnityEventBase = {}
+
+---@class UnityEvent_Boolean_: UnityEventBase
+UnityEvent_Boolean_ = {}
 
 ---@class UpdatableStateMachineState_ModelBrainState__ModelBrain_
 UpdatableStateMachineState_ModelBrainState__ModelBrain_ = {}
@@ -3626,13 +3686,13 @@ VertexSortingOrder = {}
 ---@class VerticalAlignmentOptions
 VerticalAlignmentOptions = {}
 
----@class View
+---@class View: MonoBehaviour
 View = {}
 
 ---@class ViewScene: ViewSceneBase
 ViewScene = {}
 
----@class ViewSceneBase
+---@class ViewSceneBase: MonoBehaviour
 ViewSceneBase = {}
 
 ---@class ViewWithSpriteRenderer: View
